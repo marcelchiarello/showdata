@@ -7,6 +7,9 @@
 [Project 1 Title](showdata/test.html)
 <img src="images/dummy_thumbnail.jpg?raw=true"/>
 
+[Project 1 asdasd](showdata/sample_page.md)
+<img src="images/dummy_thumbnail.jpg?raw=true"/>
+
 ---
 [Project 2 Title](/pdf/sample_presentation.pdf)
 <img src="images/dummy_thumbnail.jpg?raw=true"/>

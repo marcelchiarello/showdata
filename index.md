@@ -17,7 +17,6 @@
 
 ---
 
----
 ### ANALISI E COMMENTI
 
 - [del 26 Marzo](/DES_26_03.md)

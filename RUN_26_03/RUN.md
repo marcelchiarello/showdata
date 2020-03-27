@@ -1,72 +1,4 @@
-
-<!DOCTYPE html
-  PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
-<html><head>
-      <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
-   <!--
-This HTML was auto-generated from MATLAB code.
-To make changes, update the MATLAB code and republish this document.
-      --><title>RUN</title><meta name="generator" content="MATLAB 9.4"><link rel="schema.DC" href="http://purl.org/dc/elements/1.1/"><meta name="DC.date" content="2020-03-26"><meta name="DC.source" content="RUN.m"><style type="text/css">
-html,body,div,span,applet,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,a,abbr,acronym,address,big,cite,code,del,dfn,em,font,img,ins,kbd,q,s,samp,small,strike,strong,sub,sup,tt,var,b,u,i,center,dl,dt,dd,ol,ul,li,fieldset,form,label,legend,table,caption,tbody,tfoot,thead,tr,th,td{margin:0;padding:0;border:0;outline:0;font-size:100%;vertical-align:baseline;background:transparent}body{line-height:1}ol,ul{list-style:none}blockquote,q{quotes:none}blockquote:before,blockquote:after,q:before,q:after{content:'';content:none}:focus{outine:0}ins{text-decoration:none}del{text-decoration:line-through}table{border-collapse:collapse;border-spacing:0}
-
-html { min-height:100%; margin-bottom:1px; }
-html body { height:100%; margin:0px; font-family:Arial, Helvetica, sans-serif; font-size:10px; color:#000; line-height:140%; background:#fff none; overflow-y:scroll; }
-html body td { vertical-align:top; text-align:left; }
-
-h1 { padding:0px; margin:0px 0px 25px; font-family:Arial, Helvetica, sans-serif; font-size:1.5em; color:#d55000; line-height:100%; font-weight:normal; }
-h2 { padding:0px; margin:0px 0px 8px; font-family:Arial, Helvetica, sans-serif; font-size:1.2em; color:#000; font-weight:bold; line-height:140%; border-bottom:1px solid #d6d4d4; display:block; }
-h3 { padding:0px; margin:0px 0px 5px; font-family:Arial, Helvetica, sans-serif; font-size:1.1em; color:#000; font-weight:bold; line-height:140%; }
-
-a { color:#005fce; text-decoration:none; }
-a:hover { color:#005fce; text-decoration:underline; }
-a:visited { color:#004aa0; text-decoration:none; }
-
-p { padding:0px; margin:0px 0px 20px; }
-img { padding:0px; margin:0px 0px 20px; border:none; }
-p img, pre img, tt img, li img, h1 img, h2 img { margin-bottom:0px; } 
-
-ul { padding:0px; margin:0px 0px 20px 23px; list-style:square; }
-ul li { padding:0px; margin:0px 0px 7px 0px; }
-ul li ul { padding:5px 0px 0px; margin:0px 0px 7px 23px; }
-ul li ol li { list-style:decimal; }
-ol { padding:0px; margin:0px 0px 20px 0px; list-style:decimal; }
-ol li { padding:0px; margin:0px 0px 7px 23px; list-style-type:decimal; }
-ol li ol { padding:5px 0px 0px; margin:0px 0px 7px 0px; }
-ol li ol li { list-style-type:lower-alpha; }
-ol li ul { padding-top:7px; }
-ol li ul li { list-style:square; }
-
-.content { font-size:1.2em; line-height:140%; padding: 20px; }
-
-pre, code { font-size:12px; }
-tt { font-size: 1.2em; }
-pre { margin:0px 0px 20px; }
-pre.codeinput { padding:10px; border:1px solid #d3d3d3; background:#f7f7f7; }
-pre.codeoutput { padding:10px 11px; margin:0px 0px 20px; color:#4c4c4c; }
-pre.error { color:red; }
-
-@media print { pre.codeinput, pre.codeoutput { word-wrap:break-word; width:100%; } }
-
-span.keyword { color:#0000FF }
-span.comment { color:#228B22 }
-span.string { color:#A020F0 }
-span.untermstring { color:#B20000 }
-span.syscmd { color:#B28C00 }
-
-.footer { width:auto; padding:10px 0px; margin:25px 0px 0px; border-top:1px dotted #878787; font-size:0.8em; line-height:140%; font-style:italic; color:#878787; text-align:left; float:none; }
-.footer p { margin:0px; }
-.footer a { color:#878787; }
-.footer a:hover { color:#878787; text-decoration:underline; }
-.footer a:visited { color:#878787; }
-
-table th { padding:7px 5px; text-align:left; vertical-align:middle; border: 1px solid #d6d4d4; font-weight:bold; }
-table td { padding:7px 5px; text-align:left; vertical-align:top; border:1px solid #d6d4d4; }
-
-
-
-
-
-  </style></head><body><div class="content"><h1></h1><!--introduction--><p><b>COVID19 Output analysis data updated to March 26, 2020</b>.</p><p>DRAFT</p><p>EDIT: - Removed the graphs for the individual provinces.       - English version, work in progress</p><p>Questo report &egrave; relativo all' elaborazione dei dati sulla diffusione del COVID-19 in Italia e nelle singole regioni/province. I dati sono forniti dalla protezione civile Italiana, consultabili al segunte link:</p><p>"https://github.com/pcm-dpc/COVID-19"</p><p>Tale report non &egrave; da intendersi come ufficiale o come definitivo nei termini delle previsioni incluse. I modelli non sono di tipo predittivo, bens&igrave; equazioni che descrivono i dati disponibili fino a questo momento. Il loro scopo &egrave; quello di valutare l andamento attuale, in modo da poter dedurre una eventuale accelerazione o decelerazione del contagio. In generale per ogni campione di dati viene selezionata una prima finestra temporale e la si utilizza per elaborare il modello (fitting) per poi confrontarlo con i giorni successivi.</p><p>I valori reali che non sono stati utilizzati per la stima del modello possono sia riferirsi a giorni passati, sia a giorni futuri, per una mera valutazione qualitativa.</p><p>-Per quanto concerne i dati regionali e provinciali, il fit &egrave; di tipo esponenziale/lineare. Una stima della funzione logistica/sigmoide viene effettuata per alcune regioni e/o province. Tale andamento viene stimato sulla base di una finestra temporale precedente con il fine di verificare che il punto/i punti futuri si collochino al di sopra o al di sotto della curva esponenziale, nell'assunzione che tale scostamento indichi un accelerazione o decelerazione del contagio.</p><p>-Per quanto concerne i dati nazionali, viene anche effettuata una stima qualitativa sulla base della funzione logistica/sigmoide, nell'assunzione che il giorno previsto di azzeramento dei contagi, sia conservativo verso il limite inferiore, ossia la minima data che occorre aspettare.</p><p>-Le stime vengono effettuate minimizzando la distanza quadratica media dalle curve ed i casi reali (Non Linear Least Square). Ogni modello non tiene conto dei punti iniziali secondo l'ipotesi di una sottostima dei contagi nei giorni che vanno da fine Febbraio/inizio Marzo.</p><p>Models and reports are under continuous review.</p><p>Source: https://github.com/marcelchiarello/C19dataAnalysis</p><p>Site: https://marcelchiarello.github.io/C19dataAnalysis/</p><p>Author: Marcello Chiarello</p><p><a href="mailto:marcello.chiarello@outlook.com">marcello.chiarello@outlook.com</a></p><!--/introduction--><h2>Contents</h2><div><ul><li><a href="#2">GRAFICI ITALIA</a></li><li><a href="#3">GRAFICI PUGLIA</a></li><li><a href="#4">GRAFICI LOMBARDIA</a></li><li><a href="#5">GRAFICI VENETO</a></li><li><a href="#6">GRAFICI PIEMONTE</a></li><li><a href="#7">GRAFICI EMILIA ROMAGNA</a></li><li><a href="#8">GRAFICI CAMPANIA</a></li><li><a href="#9">GRAFICI SICILIA (Non presente)</a></li><li><a href="#10">GRAFICI ABRUZZO</a></li><li><a href="#11">GRAFICI BASILICATA</a></li><li><a href="#12">GRAFICI CALABRIA</a></li><li><a href="#13">GRAFICI CAMPANIA</a></li><li><a href="#14">GRAFICI FRIULI VENEZIA GIULIA</a></li><li><a href="#15">GRAFICI LAZIO</a></li><li><a href="#16">GRAFICI LIGURIA</a></li><li><a href="#17">GRAFICI MARCHE</a></li><li><a href="#18">GRAFICI MOLISE</a></li><li><a href="#19">GRAFICI P.A. Bolzano</a></li><li><a href="#20">GRAFICI P.A. Trento</a></li><li><a href="#21">GRAFICI SARDEGNA (Non presente)</a></li><li><a href="#22">GRAFICI TOSCANA</a></li><li><a href="#23">GRAFICI UMBRIA</a></li><li><a href="#24">GRAFICI VALLE D' AOSTA</a></li><li><a href="#25">DATI PUGLIA</a></li><li><a href="#26">DATI LOMBARDIA</a></li><li><a href="#27">DATI VENETO</a></li><li><a href="#28">DATI PIEMONTE</a></li><li><a href="#29">DATI EMILIA ROMAGNA</a></li><li><a href="#30">DATI CAMPANIA</a></li><li><a href="#31">DATI SICILIA</a></li><li><a href="#32">DATI ABRUZZO</a></li><li><a href="#33">DATI BASILICATA</a></li><li><a href="#34">DATI CALABRIA</a></li><li><a href="#35">DATI CAMPANIA</a></li><li><a href="#36">DATI VENEZIA GIULIA</a></li><li><a href="#37">DATI LAZIO</a></li><li><a href="#38">DATI LIGURIA</a></li><li><a href="#39">DATI MARCHE</a></li><li><a href="#40">DATI MOLISE</a></li><li><a href="#41">DATI P.A. Bolzano</a></li><li><a href="#42">DATI P.A. Trento</a></li><li><a href="#43">DATI SARDEGNA</a></li><li><a href="#44">DATI TOSCANA</a></li><li><a href="#45">DATI UMBRIA</a></li><li><a href="#46">DATI VALLE D' AOSTA</a></li></ul></div><h2 id="2">GRAFICI ITALIA</h2><pre class="codeoutput">RUN DATA: 26-Mar-2020
+</style></head><body><div class="content"><h1></h1><!--introduction--><p><b>COVID19 Output analysis data updated to March 26, 2020</b>.</p><p>DRAFT</p><p>EDIT: - Removed the graphs for the individual provinces.       - English version, work in progress</p><p>Questo report &egrave; relativo all' elaborazione dei dati sulla diffusione del COVID-19 in Italia e nelle singole regioni/province. I dati sono forniti dalla protezione civile Italiana, consultabili al segunte link:</p><p>"https://github.com/pcm-dpc/COVID-19"</p><p>Tale report non &egrave; da intendersi come ufficiale o come definitivo nei termini delle previsioni incluse. I modelli non sono di tipo predittivo, bens&igrave; equazioni che descrivono i dati disponibili fino a questo momento. Il loro scopo &egrave; quello di valutare l andamento attuale, in modo da poter dedurre una eventuale accelerazione o decelerazione del contagio. In generale per ogni campione di dati viene selezionata una prima finestra temporale e la si utilizza per elaborare il modello (fitting) per poi confrontarlo con i giorni successivi.</p><p>I valori reali che non sono stati utilizzati per la stima del modello possono sia riferirsi a giorni passati, sia a giorni futuri, per una mera valutazione qualitativa.</p><p>-Per quanto concerne i dati regionali e provinciali, il fit &egrave; di tipo esponenziale/lineare. Una stima della funzione logistica/sigmoide viene effettuata per alcune regioni e/o province. Tale andamento viene stimato sulla base di una finestra temporale precedente con il fine di verificare che il punto/i punti futuri si collochino al di sopra o al di sotto della curva esponenziale, nell'assunzione che tale scostamento indichi un accelerazione o decelerazione del contagio.</p><p>-Per quanto concerne i dati nazionali, viene anche effettuata una stima qualitativa sulla base della funzione logistica/sigmoide, nell'assunzione che il giorno previsto di azzeramento dei contagi, sia conservativo verso il limite inferiore, ossia la minima data che occorre aspettare.</p><p>-Le stime vengono effettuate minimizzando la distanza quadratica media dalle curve ed i casi reali (Non Linear Least Square). Ogni modello non tiene conto dei punti iniziali secondo l'ipotesi di una sottostima dei contagi nei giorni che vanno da fine Febbraio/inizio Marzo.</p><p>Models and reports are under continuous review.</p><p>Source: https://github.com/marcelchiarello/C19dataAnalysis</p><p>Site: https://marcelchiarello.github.io/C19dataAnalysis/</p><p>Author: Marcello Chiarello</p><p><a href="mailto:marcello.chiarello@outlook.com">marcello.chiarello@outlook.com</a></p><!--/introduction--><h2>Contents</h2><div><ul><li><a href="#2">GRAFICI ITALIA</a></li><li><a href="#3">GRAFICI PUGLIA</a></li><li><a href="#4">GRAFICI LOMBARDIA</a></li><li><a href="#5">GRAFICI VENETO</a></li><li><a href="#6">GRAFICI PIEMONTE</a></li><li><a href="#7">GRAFICI EMILIA ROMAGNA</a></li><li><a href="#8">GRAFICI CAMPANIA</a></li><li><a href="#9">GRAFICI SICILIA (Non presente)</a></li><li><a href="#10">GRAFICI ABRUZZO</a></li><li><a href="#11">GRAFICI BASILICATA</a></li><li><a href="#12">GRAFICI CALABRIA</a></li><li><a href="#13">GRAFICI CAMPANIA</a></li><li><a href="#14">GRAFICI FRIULI VENEZIA GIULIA</a></li><li><a href="#15">GRAFICI LAZIO</a></li><li><a href="#16">GRAFICI LIGURIA</a></li><li><a href="#17">GRAFICI MARCHE</a></li><li><a href="#18">GRAFICI MOLISE</a></li><li><a href="#19">GRAFICI P.A. Bolzano</a></li><li><a href="#20">GRAFICI P.A. Trento</a></li><li><a href="#21">GRAFICI SARDEGNA (Non presente)</a></li><li><a href="#22">GRAFICI TOSCANA</a></li><li><a href="#23">GRAFICI UMBRIA</a></li><li><a href="#24">GRAFICI VALLE D' AOSTA</a></li><li><a href="#25">DATI PUGLIA</a></li><li><a href="#26">DATI LOMBARDIA</a></li><li><a href="#27">DATI VENETO</a></li><li><a href="#28">DATI PIEMONTE</a></li><li><a href="#29">DATI EMILIA ROMAGNA</a></li><li><a href="#30">DATI CAMPANIA</a></li><li><a href="#31">DATI SICILIA</a></li><li><a href="#32">DATI ABRUZZO</a></li><li><a href="#33">DATI BASILICATA</a></li><li><a href="#34">DATI CALABRIA</a></li><li><a href="#35">DATI CAMPANIA</a></li><li><a href="#36">DATI VENEZIA GIULIA</a></li><li><a href="#37">DATI LAZIO</a></li><li><a href="#38">DATI LIGURIA</a></li><li><a href="#39">DATI MARCHE</a></li><li><a href="#40">DATI MOLISE</a></li><li><a href="#41">DATI P.A. Bolzano</a></li><li><a href="#42">DATI P.A. Trento</a></li><li><a href="#43">DATI SARDEGNA</a></li><li><a href="#44">DATI TOSCANA</a></li><li><a href="#45">DATI UMBRIA</a></li><li><a href="#46">DATI VALLE D' AOSTA</a></li></ul></div><h2 id="2">GRAFICI ITALIA</h2><pre class="codeoutput">RUN DATA: 26-Mar-2020
 Total cases summary
 
 TABLE =
@@ -1027,4 +959,3 @@ RUN_REGIONE(ALLDATA,'Umbria',0);
 RUN_REGIONE(ALLDATA,"Valle d'Aosta",0);
 
 ##### SOURCE END #####
---></body></html>

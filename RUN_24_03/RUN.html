@@ -1,0 +1,1489 @@
+
+<!DOCTYPE html
+  PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html><head>
+      <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+   <!--
+This HTML was auto-generated from MATLAB code.
+To make changes, update the MATLAB code and republish this document.
+      --><title>RUN</title><meta name="generator" content="MATLAB 9.4"><link rel="schema.DC" href="http://purl.org/dc/elements/1.1/"><meta name="DC.date" content="2020-03-24"><meta name="DC.source" content="RUN.m"><style type="text/css">
+html,body,div,span,applet,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,a,abbr,acronym,address,big,cite,code,del,dfn,em,font,img,ins,kbd,q,s,samp,small,strike,strong,sub,sup,tt,var,b,u,i,center,dl,dt,dd,ol,ul,li,fieldset,form,label,legend,table,caption,tbody,tfoot,thead,tr,th,td{margin:0;padding:0;border:0;outline:0;font-size:100%;vertical-align:baseline;background:transparent}body{line-height:1}ol,ul{list-style:none}blockquote,q{quotes:none}blockquote:before,blockquote:after,q:before,q:after{content:'';content:none}:focus{outine:0}ins{text-decoration:none}del{text-decoration:line-through}table{border-collapse:collapse;border-spacing:0}
+
+html { min-height:100%; margin-bottom:1px; }
+html body { height:100%; margin:0px; font-family:Arial, Helvetica, sans-serif; font-size:10px; color:#000; line-height:140%; background:#fff none; overflow-y:scroll; }
+html body td { vertical-align:top; text-align:left; }
+
+h1 { padding:0px; margin:0px 0px 25px; font-family:Arial, Helvetica, sans-serif; font-size:1.5em; color:#d55000; line-height:100%; font-weight:normal; }
+h2 { padding:0px; margin:0px 0px 8px; font-family:Arial, Helvetica, sans-serif; font-size:1.2em; color:#000; font-weight:bold; line-height:140%; border-bottom:1px solid #d6d4d4; display:block; }
+h3 { padding:0px; margin:0px 0px 5px; font-family:Arial, Helvetica, sans-serif; font-size:1.1em; color:#000; font-weight:bold; line-height:140%; }
+
+a { color:#005fce; text-decoration:none; }
+a:hover { color:#005fce; text-decoration:underline; }
+a:visited { color:#004aa0; text-decoration:none; }
+
+p { padding:0px; margin:0px 0px 20px; }
+img { padding:0px; margin:0px 0px 20px; border:none; }
+p img, pre img, tt img, li img, h1 img, h2 img { margin-bottom:0px; } 
+
+ul { padding:0px; margin:0px 0px 20px 23px; list-style:square; }
+ul li { padding:0px; margin:0px 0px 7px 0px; }
+ul li ul { padding:5px 0px 0px; margin:0px 0px 7px 23px; }
+ul li ol li { list-style:decimal; }
+ol { padding:0px; margin:0px 0px 20px 0px; list-style:decimal; }
+ol li { padding:0px; margin:0px 0px 7px 23px; list-style-type:decimal; }
+ol li ol { padding:5px 0px 0px; margin:0px 0px 7px 0px; }
+ol li ol li { list-style-type:lower-alpha; }
+ol li ul { padding-top:7px; }
+ol li ul li { list-style:square; }
+
+.content { font-size:1.2em; line-height:140%; padding: 20px; }
+
+pre, code { font-size:12px; }
+tt { font-size: 1.2em; }
+pre { margin:0px 0px 20px; }
+pre.codeinput { padding:10px; border:1px solid #d3d3d3; background:#f7f7f7; }
+pre.codeoutput { padding:10px 11px; margin:0px 0px 20px; color:#4c4c4c; }
+pre.error { color:red; }
+
+@media print { pre.codeinput, pre.codeoutput { word-wrap:break-word; width:100%; } }
+
+span.keyword { color:#0000FF }
+span.comment { color:#228B22 }
+span.string { color:#A020F0 }
+span.untermstring { color:#B20000 }
+span.syscmd { color:#B28C00 }
+
+.footer { width:auto; padding:10px 0px; margin:25px 0px 0px; border-top:1px dotted #878787; font-size:0.8em; line-height:140%; font-style:italic; color:#878787; text-align:left; float:none; }
+.footer p { margin:0px; }
+.footer a { color:#878787; }
+.footer a:hover { color:#878787; text-decoration:underline; }
+.footer a:visited { color:#878787; }
+
+table th { padding:7px 5px; text-align:left; vertical-align:middle; border: 1px solid #d6d4d4; font-weight:bold; }
+table td { padding:7px 5px; text-align:left; vertical-align:top; border:1px solid #d6d4d4; }
+
+
+
+
+
+  </style></head><body><div class="content"><h1></h1><!--introduction--><p><b>COVID19 Output analisi dati aggiornati al 24 Marzo 2020</b> DRAFT - Work in Progress EDIT: - Rimossi i grafici relativi alle singole province. Verrano aggiunti in seguito</p><p>Software utilizzato: Matlab 2018a</p><p>Questo report &egrave; relativo all' elaborazione dei dati sulla diffusione del COVID-19 in Italia e nelle singole regioni/province. I dati sono forniti dalla protezione civile Italiana, consultabili al segunte link:</p><p>"https://github.com/pcm-dpc/COVID-19"</p><p>Tale report non &egrave; da intendersi come ufficiale o come definitivo nei termini delle previsioni incluse. I modelli non sono di tipo predittivo, bens&igrave; equazioni che descrivono i dati disponibili fino a questo momento. Il loro scopo &egrave; quello di valutare l andamento attuale, in modo da poter dedurre una eventuale accelerazione o decelerazione del contagio. In generale per ogni campione di dati viene selezionata una prima finestra temporale e la si utilizza per elaborare il modello (fitting) per poi confrontarlo con i giorni successivi.</p><p>I valori reali che non sono stati utilizzati per la stima del modello possono sia riferirsi a giorni passati, sia a giorni futuri, per una mera valutazione qualitativa.</p><p>-Per quanto concerne i dati regionali e provinciali, il fit &egrave; di tipo esponenziale/lineare. Una stima della funzione logistica/sigmoide viene effettuata per alcune regioni e/o province. Tale andamento viene stimato sulla base di una finestra temporale precedente con il fine di verificare che il punto/i punti futuri si collochino al di sopra o al di sotto della curva esponenziale, nell'assunzione che tale scostamento indichi un accelerazione o decelerazione del contagio.</p><p>-Per quanto concerne i dati nazionali, viene anche effettuata una stima qualitativa sulla base della funzione logistica/sigmoide, nell'assunzione che il giorno previsto di azzeramento dei contagi, sia conservativo verso il limite inferiore, ossia la minima data che occorre aspettare.</p><p>-Le stime vengono effettuate minimizzando la distanza quadratica media dalle curve ed i casi reali (Non Linear Least Square). Gli algoritmi, le funzioni i parametri ed i risultati (della stima) dono riportati per ogni fit. Ogni modello non tiene conto dei punti iniziali secondo l'ipotesi di una sottostima dei contagi nei giorni che vanno da fine Febbraio/inizio Marzo.</p><p>Modelli e report sono oggetto di continua revisione.</p><p>Source: https://github.com/marcelchiarello/C19dataAnalysis</p><p>Site: https://marcelchiarello.github.io/C19dataAnalysis/</p><p>Author: Marcello Chiarello</p><p><a href="mailto:marcello.chiarello@outlook.com">marcello.chiarello@outlook.com</a></p><!--/introduction--><h2>Contents</h2><div><ul><li><a href="#2">GRAFICI ITALIA</a></li><li><a href="#3">GRAFICI PUGLIA</a></li><li><a href="#4">GRAFICI LOMBARDIA</a></li><li><a href="#5">GRAFICI VENETO</a></li><li><a href="#6">GRAFICI PIEMONTE</a></li><li><a href="#7">GRAFICI EMILIA ROMAGNA</a></li><li><a href="#8">GRAFICI CAMPANIA</a></li><li><a href="#9">GRAFICI SICILIA (Non presente)</a></li><li><a href="#10">GRAFICI ABRUZZO</a></li><li><a href="#11">GRAFICI BASILICATA</a></li><li><a href="#12">GRAFICI CALABRIA</a></li><li><a href="#13">GRAFICI CAMPANIA</a></li><li><a href="#14">GRAFICI FRIULI VENEZIA GIULIA</a></li><li><a href="#15">GRAFICI LAZIO</a></li><li><a href="#16">GRAFICI LIGURIA</a></li><li><a href="#17">GRAFICI MARCHE</a></li><li><a href="#18">GRAFICI MOLISE</a></li><li><a href="#19">GRAFICI P.A. Bolzano</a></li><li><a href="#20">GRAFICI P.A. Trento</a></li><li><a href="#21">GRAFICI SARDEGNA (Non presente)</a></li><li><a href="#22">GRAFICI TOSCANA</a></li><li><a href="#23">GRAFICI UMBRIA</a></li><li><a href="#24">GRAFICI VALLE D' AOSTA</a></li><li><a href="#25">DATI ITALIA</a></li><li><a href="#26">DATI PUGLIA</a></li><li><a href="#27">DATI LOMBARDIA</a></li><li><a href="#28">DATI VENETO</a></li><li><a href="#29">DATI PIEMONTE</a></li><li><a href="#30">DATI EMILIA ROMAGNA</a></li><li><a href="#31">DATI CAMPANIA</a></li><li><a href="#32">DATI SICILIA</a></li><li><a href="#33">DATI ABRUZZO</a></li><li><a href="#34">DATI BASILICATA</a></li><li><a href="#35">DATI CALABRIA</a></li><li><a href="#36">DATI CAMPANIA</a></li><li><a href="#37">DATI VENEZIA GIULIA</a></li><li><a href="#38">DATI LAZIO</a></li><li><a href="#39">DATI LIGURIA</a></li><li><a href="#40">DATI MARCHE</a></li><li><a href="#41">DATI MOLISE</a></li><li><a href="#42">DATI P.A. Bolzano</a></li><li><a href="#43">DATI P.A. Trento</a></li><li><a href="#44">DATI SARDEGNA</a></li><li><a href="#45">DATI TOSCANA</a></li><li><a href="#46">DATI UMBRIA</a></li><li><a href="#47">DATI VALLE D' AOSTA</a></li></ul></div><h2 id="2">GRAFICI ITALIA</h2><pre class="codeoutput">RUN DATA: 24-Mar-2020
+***********************
+Stima e previsione dati nazionali
+Model Data
+ 
+Intervallo dati utilizzati per la stima del modello: 10-Mar :: 23-Mar
+</pre><img vspace="5" hspace="5" src="RUN_01.png" alt=""> <img vspace="5" hspace="5" src="RUN_02.png" alt=""> <h2 id="3">GRAFICI PUGLIA</h2><pre class="codeoutput">RUN DATA: 24-Mar-2020
+***********************
+Stima e previsione dati regionali
+ 
+Intervallo dati utilizzati per la stima del modello: 12-Mar :: 23-Mar
+ 
+</pre><img vspace="5" hspace="5" src="RUN_03.png" alt=""> <img vspace="5" hspace="5" src="RUN_04.png" alt=""> <h2 id="4">GRAFICI LOMBARDIA</h2><pre class="codeoutput">RUN DATA: 24-Mar-2020
+***********************
+Stima e previsione dati regionali
+ 
+Intervallo dati utilizzati per la stima del modello: 12-Mar :: 23-Mar
+ 
+</pre><img vspace="5" hspace="5" src="RUN_05.png" alt=""> <img vspace="5" hspace="5" src="RUN_06.png" alt=""> <h2 id="5">GRAFICI VENETO</h2><pre class="codeoutput">RUN DATA: 24-Mar-2020
+***********************
+Stima e previsione dati regionali
+ 
+Intervallo dati utilizzati per la stima del modello: 12-Mar :: 23-Mar
+ 
+</pre><img vspace="5" hspace="5" src="RUN_07.png" alt=""> <img vspace="5" hspace="5" src="RUN_08.png" alt=""> <h2 id="6">GRAFICI PIEMONTE</h2><pre class="codeoutput">RUN DATA: 24-Mar-2020
+***********************
+Stima e previsione dati regionali
+ 
+Intervallo dati utilizzati per la stima del modello: 12-Mar :: 23-Mar
+ 
+</pre><img vspace="5" hspace="5" src="RUN_09.png" alt=""> <img vspace="5" hspace="5" src="RUN_10.png" alt=""> <h2 id="7">GRAFICI EMILIA ROMAGNA</h2><pre class="codeoutput">RUN DATA: 24-Mar-2020
+***********************
+Stima e previsione dati regionali
+ 
+Intervallo dati utilizzati per la stima del modello: 12-Mar :: 23-Mar
+ 
+</pre><img vspace="5" hspace="5" src="RUN_11.png" alt=""> <img vspace="5" hspace="5" src="RUN_12.png" alt=""> <h2 id="8">GRAFICI CAMPANIA</h2><pre class="codeoutput">RUN DATA: 24-Mar-2020
+***********************
+Stima e previsione dati regionali
+ 
+Intervallo dati utilizzati per la stima del modello: 12-Mar :: 23-Mar
+ 
+</pre><img vspace="5" hspace="5" src="RUN_13.png" alt=""> <img vspace="5" hspace="5" src="RUN_14.png" alt=""> <h2 id="9">GRAFICI SICILIA (Non presente)</h2><h2 id="10">GRAFICI ABRUZZO</h2><pre class="codeoutput">RUN DATA: 24-Mar-2020
+***********************
+Stima e previsione dati regionali
+ 
+Intervallo dati utilizzati per la stima del modello: 12-Mar :: 23-Mar
+ 
+</pre><img vspace="5" hspace="5" src="RUN_15.png" alt=""> <img vspace="5" hspace="5" src="RUN_16.png" alt=""> <h2 id="11">GRAFICI BASILICATA</h2><pre class="codeoutput">RUN DATA: 24-Mar-2020
+***********************
+Stima e previsione dati regionali
+ 
+Intervallo dati utilizzati per la stima del modello: 12-Mar :: 23-Mar
+ 
+</pre><img vspace="5" hspace="5" src="RUN_17.png" alt=""> <img vspace="5" hspace="5" src="RUN_18.png" alt=""> <h2 id="12">GRAFICI CALABRIA</h2><pre class="codeoutput">RUN DATA: 24-Mar-2020
+***********************
+Stima e previsione dati regionali
+ 
+Intervallo dati utilizzati per la stima del modello: 12-Mar :: 23-Mar
+ 
+</pre><img vspace="5" hspace="5" src="RUN_19.png" alt=""> <img vspace="5" hspace="5" src="RUN_20.png" alt=""> <h2 id="13">GRAFICI CAMPANIA</h2><pre class="codeoutput">RUN DATA: 24-Mar-2020
+***********************
+Stima e previsione dati regionali
+ 
+Intervallo dati utilizzati per la stima del modello: 12-Mar :: 23-Mar
+ 
+</pre><img vspace="5" hspace="5" src="RUN_21.png" alt=""> <img vspace="5" hspace="5" src="RUN_22.png" alt=""> <h2 id="14">GRAFICI FRIULI VENEZIA GIULIA</h2><pre class="codeoutput">RUN DATA: 24-Mar-2020
+***********************
+Stima e previsione dati regionali
+ 
+Intervallo dati utilizzati per la stima del modello: 12-Mar :: 23-Mar
+ 
+</pre><img vspace="5" hspace="5" src="RUN_23.png" alt=""> <img vspace="5" hspace="5" src="RUN_24.png" alt=""> <h2 id="15">GRAFICI LAZIO</h2><pre class="codeoutput">RUN DATA: 24-Mar-2020
+***********************
+Stima e previsione dati regionali
+ 
+Intervallo dati utilizzati per la stima del modello: 12-Mar :: 23-Mar
+ 
+</pre><img vspace="5" hspace="5" src="RUN_25.png" alt=""> <img vspace="5" hspace="5" src="RUN_26.png" alt=""> <h2 id="16">GRAFICI LIGURIA</h2><pre class="codeoutput">RUN DATA: 24-Mar-2020
+***********************
+Stima e previsione dati regionali
+ 
+Intervallo dati utilizzati per la stima del modello: 12-Mar :: 23-Mar
+ 
+</pre><img vspace="5" hspace="5" src="RUN_27.png" alt=""> <img vspace="5" hspace="5" src="RUN_28.png" alt=""> <h2 id="17">GRAFICI MARCHE</h2><pre class="codeoutput">RUN DATA: 24-Mar-2020
+***********************
+Stima e previsione dati regionali
+ 
+Intervallo dati utilizzati per la stima del modello: 12-Mar :: 23-Mar
+ 
+</pre><img vspace="5" hspace="5" src="RUN_29.png" alt=""> <img vspace="5" hspace="5" src="RUN_30.png" alt=""> <h2 id="18">GRAFICI MOLISE</h2><pre class="codeoutput">RUN DATA: 24-Mar-2020
+***********************
+Stima e previsione dati regionali
+ 
+Intervallo dati utilizzati per la stima del modello: 12-Mar :: 23-Mar
+ 
+</pre><img vspace="5" hspace="5" src="RUN_31.png" alt=""> <img vspace="5" hspace="5" src="RUN_32.png" alt=""> <h2 id="19">GRAFICI P.A. Bolzano</h2><pre class="codeoutput">RUN DATA: 24-Mar-2020
+***********************
+Stima e previsione dati regionali
+ 
+Intervallo dati utilizzati per la stima del modello: 12-Mar :: 23-Mar
+ 
+</pre><img vspace="5" hspace="5" src="RUN_33.png" alt=""> <img vspace="5" hspace="5" src="RUN_34.png" alt=""> <h2 id="20">GRAFICI P.A. Trento</h2><pre class="codeoutput">RUN DATA: 24-Mar-2020
+***********************
+Stima e previsione dati regionali
+ 
+Intervallo dati utilizzati per la stima del modello: 12-Mar :: 23-Mar
+ 
+</pre><img vspace="5" hspace="5" src="RUN_35.png" alt=""> <img vspace="5" hspace="5" src="RUN_36.png" alt=""> <h2 id="21">GRAFICI SARDEGNA (Non presente)</h2><pre class="codeoutput">RUN DATA: 24-Mar-2020
+***********************
+Stima e previsione dati regionali
+ 
+Intervallo dati utilizzati per la stima del modello: 12-Mar :: 23-Mar
+ 
+</pre><img vspace="5" hspace="5" src="RUN_37.png" alt=""> <img vspace="5" hspace="5" src="RUN_38.png" alt=""> <h2 id="22">GRAFICI TOSCANA</h2><pre class="codeoutput">RUN DATA: 24-Mar-2020
+***********************
+Stima e previsione dati regionali
+ 
+Intervallo dati utilizzati per la stima del modello: 12-Mar :: 23-Mar
+ 
+</pre><img vspace="5" hspace="5" src="RUN_39.png" alt=""> <img vspace="5" hspace="5" src="RUN_40.png" alt=""> <h2 id="23">GRAFICI UMBRIA</h2><pre class="codeoutput">RUN DATA: 24-Mar-2020
+***********************
+Stima e previsione dati regionali
+ 
+Intervallo dati utilizzati per la stima del modello: 12-Mar :: 23-Mar
+ 
+</pre><img vspace="5" hspace="5" src="RUN_41.png" alt=""> <img vspace="5" hspace="5" src="RUN_42.png" alt=""> <h2 id="24">GRAFICI VALLE D' AOSTA</h2><pre class="codeoutput">RUN DATA: 24-Mar-2020
+***********************
+Stima e previsione dati regionali
+ 
+Intervallo dati utilizzati per la stima del modello: 12-Mar :: 23-Mar
+ 
+</pre><img vspace="5" hspace="5" src="RUN_43.png" alt=""> <img vspace="5" hspace="5" src="RUN_44.png" alt=""> <h2 id="25">DATI ITALIA</h2><pre class="codeoutput">RUN DATA: 24-Mar-2020
+***********************
+Stima e previsione dati nazionali
+Model Data
+ 
+Intervallo dati utilizzati per la stima del modello: 10-Mar :: 23-Mar
+
+FIT_model1 = 
+
+     General model:
+     FIT_model1(x) = a*exp(b*x) + c
+     Coefficients (with 95% confidence bounds):
+       a =   1.982e+04  (1.542e+04, 2.422e+04)
+       b =     0.09817  (0.08648, 0.1099)
+       c =  -1.156e+04  (-1.681e+04, -6313)
+
+Results1 = 
+
+  struct with fields:
+
+           sse: 3.8576e+06
+       rsquare: 0.9991
+           dfe: 11
+    adjrsquare: 0.9989
+          rmse: 592.1923
+
+
+FIT_model2 = 
+
+     General model:
+     FIT_model2(x) = a/(exp(b*(x+c))+d)
+     Coefficients (with 95% confidence bounds):
+       a =   3.292e+04  (-4.778e+10, 4.778e+10)
+       b =     -0.1868  (-0.2057, -0.1678)
+       c =      -6.501  (-7.771e+06, 7.771e+06)
+       d =      0.2685  (-3.898e+05, 3.898e+05)
+
+Results2 = 
+
+  struct with fields:
+
+           sse: 5.0397e+06
+       rsquare: 0.9988
+           dfe: 10
+    adjrsquare: 0.9984
+          rmse: 709.9118
+
+</pre><h2 id="26">DATI PUGLIA</h2><pre class="codeoutput">RUN DATA: 24-Mar-2020
+TAbella casi giornalieri per la regione Puglia
+ 
+
+TABLE =
+
+  6&times;2 table
+
+           province            casiGiornalieri
+    _______________________    _______________
+
+    "Bari"                           36       
+    "Barletta-Andria-Trani"           3       
+    "Brindisi"                        1       
+    "Foggia"                         29       
+    "Lecce"                          12       
+    "Taranto"                         5       
+
+    "Casi giornalieri totali:"    "86"
+
+    "Casi regione totali:"    "936"
+
+fonte: elaborazione dei dati della protezione civile
+***********************
+Stima e previsione dati regionali
+ 
+Intervallo dati utilizzati per la stima del modello: 12-Mar :: 23-Mar
+ 
+
+FIT_model1 = 
+
+     General model:
+     FIT_model1(x) = a*exp(b*x) + c
+     Coefficients (with 95% confidence bounds):
+       a =       262.3  (121.2, 403.4)
+       b =      0.1166  (0.08344, 0.1498)
+       c =      -200.4  (-370.4, -30.51)
+
+Results1 = 
+
+  struct with fields:
+
+           sse: 2.8471e+03
+       rsquare: 0.9959
+           dfe: 9
+    adjrsquare: 0.9950
+          rmse: 17.7862
+
+</pre><h2 id="27">DATI LOMBARDIA</h2><pre class="codeoutput">RUN DATA: 24-Mar-2020
+TAbella casi giornalieri per la regione Lombardia
+ 
+
+TABLE =
+
+  12&times;2 table
+
+           province            casiGiornalieri
+    _______________________    _______________
+
+    "Bergamo"                        257      
+    "Brescia"                        393      
+    "Como"                            54      
+    "Cremona"                        136      
+    "Lecco"                           81      
+    "Lodi"                            43      
+    "Mantova"                        108      
+    "Milano"                         375      
+    "Monza e della Brianza"          324      
+    "Pavia"                           55      
+    "Sondrio"                         45      
+    "Varese"                          29      
+
+    "Casi giornalieri totali:"    "1900"
+
+    "Casi regione totali:"    "30047"
+
+fonte: elaborazione dei dati della protezione civile
+***********************
+Stima e previsione dati regionali
+ 
+Intervallo dati utilizzati per la stima del modello: 12-Mar :: 23-Mar
+ 
+
+FIT_model1 = 
+
+     General model:
+     FIT_model1(x) = a*exp(b*x) + c
+     Coefficients (with 95% confidence bounds):
+       a =   2.024e+04  (4226, 3.626e+04)
+       b =     0.06086  (0.02726, 0.09447)
+       c =  -1.323e+04  (-3.012e+04, 3659)
+
+Results1 = 
+
+  struct with fields:
+
+           sse: 2.2382e+06
+       rsquare: 0.9955
+           dfe: 9
+    adjrsquare: 0.9945
+          rmse: 498.6866
+
+</pre><h2 id="28">DATI VENETO</h2><pre class="codeoutput">RUN DATA: 24-Mar-2020
+TAbella casi giornalieri per la regione Veneto
+ 
+
+TABLE =
+
+  7&times;2 table
+
+    province     casiGiornalieri
+    _________    _______________
+
+    "Belluno"           19      
+    "Padova"            93      
+    "Rovigo"             2      
+    "Treviso"           92      
+    "Venezia"           38      
+    "Verona"           129      
+    "Vicenza"           53      
+
+    "Casi giornalieri totali:"    "426"
+
+    "Casi regione totali:"    "5719"
+
+fonte: elaborazione dei dati della protezione civile
+***********************
+Stima e previsione dati regionali
+ 
+Intervallo dati utilizzati per la stima del modello: 12-Mar :: 23-Mar
+ 
+
+FIT_model1 = 
+
+     General model:
+     FIT_model1(x) = a*exp(b*x) + c
+     Coefficients (with 95% confidence bounds):
+       a =        2537  (1214, 3860)
+       b =     0.08307  (0.05615, 0.11)
+       c =       -1482  (-2939, -24.59)
+
+Results1 = 
+
+  struct with fields:
+
+           sse: 5.6540e+04
+       rsquare: 0.9972
+           dfe: 9
+    adjrsquare: 0.9965
+          rmse: 79.2602
+
+</pre><h2 id="29">DATI PIEMONTE</h2><pre class="codeoutput">RUN DATA: 24-Mar-2020
+TAbella casi giornalieri per la regione Piemonte
+ 
+
+TABLE =
+
+  8&times;2 table
+
+           province           casiGiornalieri
+    ______________________    _______________
+
+    "Alessandria"                   129      
+    "Asti"                           26      
+    "Biella"                         27      
+    "Cuneo"                          42      
+    "Novara"                         51      
+    "Torino"                        298      
+    "Verbano-Cusio-Ossola"           39      
+    "Vercelli"                       27      
+
+    "Casi giornalieri totali:"    "639"
+
+    "Casi regione totali:"    "5356"
+
+fonte: elaborazione dei dati della protezione civile
+***********************
+Stima e previsione dati regionali
+ 
+Intervallo dati utilizzati per la stima del modello: 12-Mar :: 23-Mar
+ 
+
+FIT_model1 = 
+
+     General model:
+     FIT_model1(x) = a*exp(b*x) + c
+     Coefficients (with 95% confidence bounds):
+       a =        1310  (-88.77, 2710)
+       b =      0.1262  (0.05793, 0.1944)
+       c =       -1064  (-2800, 672.8)
+
+Results1 = 
+
+  struct with fields:
+
+           sse: 4.0033e+05
+       rsquare: 0.9830
+           dfe: 9
+    adjrsquare: 0.9792
+          rmse: 210.9051
+
+</pre><h2 id="30">DATI EMILIA ROMAGNA</h2><pre class="codeoutput">RUN DATA: 24-Mar-2020
+TAbella casi giornalieri per la regione Emilia Romagna
+ 
+
+TABLE =
+
+  9&times;2 table
+
+          province          casiGiornalieri
+    ____________________    _______________
+
+    "Bologna"                     135      
+    "Ferrara"                      18      
+    "Forl&Atilde;&not;-Cesena"                57      
+    "Modena"                      199      
+    "Parma"                        71      
+    "Piacenza"                     96      
+    "Ravenna"                      26      
+    "Reggio nell'Emilia"           68      
+    "Rimini"                       49      
+
+    "Casi giornalieri totali:"    "719"
+
+    "Casi regione totali:"    "9254"
+
+fonte: elaborazione dei dati della protezione civile
+***********************
+Stima e previsione dati regionali
+ 
+Intervallo dati utilizzati per la stima del modello: 12-Mar :: 23-Mar
+ 
+
+FIT_model1 = 
+
+     General model:
+     FIT_model1(x) = a*exp(b*x) + c
+     Coefficients (with 95% confidence bounds):
+       a =        2703  (2340, 3065)
+       b =      0.1055  (0.09767, 0.1134)
+       c =       -1060  (-1483, -638.2)
+
+Results1 = 
+
+  struct with fields:
+
+           sse: 1.2001e+04
+       rsquare: 0.9998
+           dfe: 9
+    adjrsquare: 0.9997
+          rmse: 36.5169
+
+</pre><h2 id="31">DATI CAMPANIA</h2><pre class="codeoutput">RUN DATA: 24-Mar-2020
+TAbella casi giornalieri per la regione Campania
+ 
+
+TABLE =
+
+  5&times;2 table
+
+     province      casiGiornalieri
+    ___________    _______________
+
+    "Avellino"           10       
+    "Benevento"           1       
+    "Caserta"            28       
+    "Napoli"             45       
+    "Salerno"             3       
+
+    "Casi giornalieri totali:"    "87"
+
+    "Casi regione totali:"    "1091"
+
+fonte: elaborazione dei dati della protezione civile
+***********************
+Stima e previsione dati regionali
+ 
+Intervallo dati utilizzati per la stima del modello: 12-Mar :: 23-Mar
+ 
+
+FIT_model1 = 
+
+     General model:
+     FIT_model1(x) = a*exp(b*x) + c
+     Coefficients (with 95% confidence bounds):
+       a =       677.2  (87.9, 1266)
+       b =     0.07149  (0.03046, 0.1125)
+       c =      -569.9  (-1203, 63.62)
+
+Results1 = 
+
+  struct with fields:
+
+           sse: 5.9347e+03
+       rsquare: 0.9934
+           dfe: 9
+    adjrsquare: 0.9919
+          rmse: 25.6791
+
+</pre><h2 id="32">DATI SICILIA</h2><pre class="codeoutput">RUN DATA: 24-Mar-2020
+TAbella casi giornalieri per la regione Sicilia
+ 
+
+TABLE =
+
+  9&times;2 table
+
+       province        casiGiornalieri
+    _______________    _______________
+
+    "Agrigento"               2       
+    "Caltanissetta"          11       
+    "Catania"                12       
+    "Enna"                   19       
+    "Messina"                19       
+    "Palermo"                61       
+    "Ragusa"                  0       
+    "Siracusa"                0       
+    "Trapani"                 1       
+
+    "Casi giornalieri totali:"    "125"
+
+    "Casi regione totali:"    "846"
+
+fonte: elaborazione dei dati della protezione civile
+***********************
+Stima e previsione dati regionali
+ 
+Intervallo dati utilizzati per la stima del modello: 12-Mar :: 23-Mar
+ 
+
+FIT_model1 = 
+
+     General model:
+     FIT_model1(x) = a*exp(b*x) + c
+     Coefficients (with 95% confidence bounds):
+       a =       63.35  (25.57, 101.1)
+       b =      0.2005  (0.1557, 0.2453)
+       c =        27.9  (-35.6, 91.4)
+
+Results1 = 
+
+  struct with fields:
+
+           sse: 2.8523e+03
+       rsquare: 0.9938
+           dfe: 9
+    adjrsquare: 0.9924
+          rmse: 17.8022
+
+</pre><h2 id="33">DATI ABRUZZO</h2><pre class="codeoutput">RUN DATA: 24-Mar-2020
+TAbella casi giornalieri per la regione Abruzzo
+ 
+
+TABLE =
+
+  4&times;2 table
+
+     province     casiGiornalieri
+    __________    _______________
+
+    "Chieti"             4       
+    "L'Aquila"           7       
+    "Pescara"           -1       
+    "Teramo"            16       
+
+    "Casi giornalieri totali:"    "26"
+
+    "Casi regione totali:"    "689"
+
+fonte: elaborazione dei dati della protezione civile
+***********************
+Stima e previsione dati regionali
+ 
+Intervallo dati utilizzati per la stima del modello: 12-Mar :: 23-Mar
+ 
+
+FIT_model1 = 
+
+     General model:
+     FIT_model1(x) = a*exp(b*x) + c
+     Coefficients (with 95% confidence bounds):
+       a =         195  (5.248, 384.7)
+       b =      0.1228  (0.06137, 0.1843)
+       c =      -164.6  (-397.6, 68.26)
+
+Results1 = 
+
+  struct with fields:
+
+           sse: 6.5084e+03
+       rsquare: 0.9862
+           dfe: 9
+    adjrsquare: 0.9831
+          rmse: 26.8915
+
+</pre><h2 id="34">DATI BASILICATA</h2><pre class="codeoutput">RUN DATA: 24-Mar-2020
+TAbella casi giornalieri per la regione Basilicata
+ 
+
+TABLE =
+
+  2&times;2 table
+
+    province     casiGiornalieri
+    _________    _______________
+
+    "Matera"            7       
+    "Potenza"          -5       
+
+    "Casi giornalieri totali:"    "2"
+
+    "Casi regione totali:"    "92"
+
+fonte: elaborazione dei dati della protezione civile
+***********************
+Stima e previsione dati regionali
+ 
+Intervallo dati utilizzati per la stima del modello: 12-Mar :: 23-Mar
+ 
+
+FIT_model1 = 
+
+     General model:
+     FIT_model1(x) = a*exp(b*x) + c
+     Coefficients (with 95% confidence bounds):
+       a =       3.847  (0.8299, 6.864)
+       b =       0.279  (0.216, 0.342)
+       c =      0.8988  (-6.979, 8.777)
+
+Results1 = 
+
+  struct with fields:
+
+           sse: 124.6815
+       rsquare: 0.9872
+           dfe: 9
+    adjrsquare: 0.9844
+          rmse: 3.7220
+
+</pre><h2 id="35">DATI CALABRIA</h2><pre class="codeoutput">RUN DATA: 24-Mar-2020
+TAbella casi giornalieri per la regione Calabria
+ 
+
+TABLE =
+
+  5&times;2 table
+
+          province          casiGiornalieri
+    ____________________    _______________
+
+    "Catanzaro"                    3       
+    "Cosenza"                     16       
+    "Crotone"                      4       
+    "Reggio di Calabria"           3       
+    "Vibo Valentia"                1       
+
+    "Casi giornalieri totali:"    "27"
+
+    "Casi regione totali:"    "317"
+
+fonte: elaborazione dei dati della protezione civile
+***********************
+Stima e previsione dati regionali
+ 
+Intervallo dati utilizzati per la stima del modello: 12-Mar :: 23-Mar
+ 
+
+FIT_model1 = 
+
+     General model:
+     FIT_model1(x) = a*exp(b*x) + c
+     Coefficients (with 95% confidence bounds):
+       a =       71.23  (16.59, 125.9)
+       b =      0.1391  (0.08806, 0.1902)
+       c =      -53.49  (-124.4, 17.39)
+
+Results1 = 
+
+  struct with fields:
+
+           sse: 961.9221
+       rsquare: 0.9896
+           dfe: 9
+    adjrsquare: 0.9873
+          rmse: 10.3383
+
+</pre><h2 id="36">DATI CAMPANIA</h2><pre class="codeoutput">RUN DATA: 24-Mar-2020
+TAbella casi giornalieri per la regione Campania
+ 
+
+TABLE =
+
+  5&times;2 table
+
+     province      casiGiornalieri
+    ___________    _______________
+
+    "Avellino"           10       
+    "Benevento"           1       
+    "Caserta"            28       
+    "Napoli"             45       
+    "Salerno"             3       
+
+    "Casi giornalieri totali:"    "87"
+
+    "Casi regione totali:"    "1091"
+
+fonte: elaborazione dei dati della protezione civile
+***********************
+Stima e previsione dati regionali
+ 
+Intervallo dati utilizzati per la stima del modello: 12-Mar :: 23-Mar
+ 
+
+FIT_model1 = 
+
+     General model:
+     FIT_model1(x) = a*exp(b*x) + c
+     Coefficients (with 95% confidence bounds):
+       a =       677.2  (87.9, 1266)
+       b =     0.07149  (0.03046, 0.1125)
+       c =      -569.9  (-1203, 63.62)
+
+Results1 = 
+
+  struct with fields:
+
+           sse: 5.9347e+03
+       rsquare: 0.9934
+           dfe: 9
+    adjrsquare: 0.9919
+          rmse: 25.6791
+
+</pre><h2 id="37">DATI VENEZIA GIULIA</h2><pre class="codeoutput">RUN DATA: 24-Mar-2020
+TAbella casi giornalieri per la regione Friuli Venezia Giulia
+ 
+
+TABLE =
+
+  4&times;2 table
+
+     province      casiGiornalieri
+    ___________    _______________
+
+    "Gorizia"             2       
+    "Pordenone"          31       
+    "Trieste"             9       
+    "Udine"              20       
+
+    "Casi giornalieri totali:"    "62"
+
+    "Casi regione totali:"    "992"
+
+fonte: elaborazione dei dati della protezione civile
+***********************
+Stima e previsione dati regionali
+ 
+Intervallo dati utilizzati per la stima del modello: 12-Mar :: 23-Mar
+ 
+
+FIT_model1 = 
+
+     General model:
+     FIT_model1(x) = a*exp(b*x) + c
+     Coefficients (with 95% confidence bounds):
+       a =       445.1  (-167.3, 1057)
+       b =      0.0869  (0.014, 0.1598)
+       c =      -308.8  (-989.4, 371.8)
+
+Results1 = 
+
+  struct with fields:
+
+           sse: 1.4703e+04
+       rsquare: 0.9797
+           dfe: 9
+    adjrsquare: 0.9752
+          rmse: 40.4183
+
+</pre><h2 id="38">DATI LAZIO</h2><pre class="codeoutput">RUN DATA: 24-Mar-2020
+TAbella casi giornalieri per la regione Lazio
+ 
+
+TABLE =
+
+  5&times;2 table
+
+     province      casiGiornalieri
+    ___________    _______________
+
+    "Frosinone"           15      
+    "Latina"              23      
+    "Rieti"                2      
+    "Roma"               116      
+    "Viterbo"             28      
+
+    "Casi giornalieri totali:"    "184"
+
+    "Casi regione totali:"    "1720"
+
+fonte: elaborazione dei dati della protezione civile
+***********************
+Stima e previsione dati regionali
+ 
+Intervallo dati utilizzati per la stima del modello: 12-Mar :: 23-Mar
+ 
+
+FIT_model1 = 
+
+     General model:
+     FIT_model1(x) = a*exp(b*x) + c
+     Coefficients (with 95% confidence bounds):
+       a =       339.3  (240.3, 438.2)
+       b =      0.1381  (0.1187, 0.1574)
+       c =      -172.4  (-300.3, -44.62)
+
+Results1 = 
+
+  struct with fields:
+
+           sse: 3.0402e+03
+       rsquare: 0.9986
+           dfe: 9
+    adjrsquare: 0.9983
+          rmse: 18.3793
+
+</pre><h2 id="39">DATI LIGURIA</h2><pre class="codeoutput">RUN DATA: 24-Mar-2020
+TAbella casi giornalieri per la regione Liguria
+ 
+
+TABLE =
+
+  4&times;2 table
+
+     province      casiGiornalieri
+    ___________    _______________
+
+    "Genova"              7       
+    "Imperia"            26       
+    "La Spezia"          -6       
+    "Savona"             19       
+
+    "Casi giornalieri totali:"    "46"
+
+    "Casi regione totali:"    "1190"
+
+fonte: elaborazione dei dati della protezione civile
+***********************
+Stima e previsione dati regionali
+ 
+Intervallo dati utilizzati per la stima del modello: 12-Mar :: 23-Mar
+ 
+
+FIT_model1 = 
+
+     General model:
+     FIT_model1(x) = a*exp(b*x) + c
+     Coefficients (with 95% confidence bounds):
+       a =        4646  (-1.525e+04, 2.454e+04)
+       b =     0.01688  (-0.04807, 0.08183)
+       c =       -4513  (-2.449e+04, 1.546e+04)
+
+Results1 = 
+
+  struct with fields:
+
+           sse: 1.8973e+04
+       rsquare: 0.9829
+           dfe: 9
+    adjrsquare: 0.9791
+          rmse: 45.9148
+
+</pre><h2 id="40">DATI MARCHE</h2><pre class="codeoutput">RUN DATA: 24-Mar-2020
+TAbella casi giornalieri per la regione Marche
+ 
+
+TABLE =
+
+  5&times;2 table
+
+        province         casiGiornalieri
+    _________________    _______________
+
+    "Ancona"                   49       
+    "Ascoli Piceno"             3       
+    "Fermo"                     6       
+    "Macerata"                 42       
+    "Pesaro e Urbino"          59       
+
+    "Casi giornalieri totali:"    "159"
+
+    "Casi regione totali:"    "2693"
+
+fonte: elaborazione dei dati della protezione civile
+***********************
+Stima e previsione dati regionali
+ 
+Intervallo dati utilizzati per la stima del modello: 12-Mar :: 23-Mar
+ 
+
+FIT_model1 = 
+
+     General model:
+     FIT_model1(x) = a*exp(b*x) + c
+     Coefficients (with 95% confidence bounds):
+       a =        3539  (551.9, 6527)
+       b =      0.0388  (0.01297, 0.06464)
+       c =       -3085  (-6139, -31.31)
+
+Results1 = 
+
+  struct with fields:
+
+           sse: 1.2276e+04
+       rsquare: 0.9973
+           dfe: 9
+    adjrsquare: 0.9967
+          rmse: 36.9318
+
+</pre><h2 id="41">DATI MOLISE</h2><pre class="codeoutput">RUN DATA: 24-Mar-2020
+TAbella casi giornalieri per la regione Molise
+ 
+
+TABLE =
+
+  2&times;2 table
+
+      province      casiGiornalieri
+    ____________    _______________
+
+    "Campobasso"           6       
+    "Isernia"              0       
+
+    "Casi giornalieri totali:"    "6"
+
+    "Casi regione totali:"    "64"
+
+fonte: elaborazione dei dati della protezione civile
+***********************
+Stima e previsione dati regionali
+ 
+Intervallo dati utilizzati per la stima del modello: 12-Mar :: 23-Mar
+ 
+
+FIT_model1 = 
+
+     General model:
+     FIT_model1(x) = a*exp(b*x) + c
+     Coefficients (with 95% confidence bounds):
+       a =       4.092  (-0.9835, 9.168)
+       b =      0.2291  (0.1329, 0.3252)
+       c =       9.093  (-0.7896, 18.98)
+
+Results1 = 
+
+  struct with fields:
+
+           sse: 107.4783
+       rsquare: 0.9646
+           dfe: 9
+    adjrsquare: 0.9568
+          rmse: 3.4557
+
+</pre><h2 id="42">DATI P.A. Bolzano</h2><pre class="codeoutput">RUN DATA: 24-Mar-2020
+TAbella casi giornalieri per la regione P.A. Bolzano
+ 
+
+TABLE =
+
+  1&times;2 table
+
+    province     casiGiornalieri
+    _________    _______________
+
+    "Bolzano"          57       
+
+    "Casi giornalieri totali:"    "57"
+
+    "Casi regione totali:"    "781"
+
+fonte: elaborazione dei dati della protezione civile
+***********************
+Stima e previsione dati regionali
+ 
+Intervallo dati utilizzati per la stima del modello: 12-Mar :: 23-Mar
+ 
+
+FIT_model1 = 
+
+     General model:
+     FIT_model1(x) = a*exp(b*x) + c
+     Coefficients (with 95% confidence bounds):
+       a =       412.2  (-27.49, 851.9)
+       b =     0.08362  (0.02833, 0.1389)
+       c =      -362.7  (-847.7, 122.3)
+
+Results1 = 
+
+  struct with fields:
+
+           sse: 6.4247e+03
+       rsquare: 0.9881
+           dfe: 9
+    adjrsquare: 0.9854
+          rmse: 26.7181
+
+</pre><h2 id="43">DATI P.A. Trento</h2><pre class="codeoutput">RUN DATA: 24-Mar-2020
+TAbella casi giornalieri per la regione P.A. Trento
+ 
+
+TABLE =
+
+  1&times;2 table
+
+    province    casiGiornalieri
+    ________    _______________
+
+    "Trento"          87       
+
+    "Casi giornalieri totali:"    "87"
+
+    "Casi regione totali:"    "1110"
+
+fonte: elaborazione dei dati della protezione civile
+***********************
+Stima e previsione dati regionali
+ 
+Intervallo dati utilizzati per la stima del modello: 12-Mar :: 23-Mar
+ 
+
+FIT_model1 = 
+
+     General model:
+     FIT_model1(x) = a*exp(b*x) + c
+     Coefficients (with 95% confidence bounds):
+       a =       276.4  (-51.33, 604.1)
+       b =      0.1242  (0.04891, 0.1994)
+       c =      -182.6  (-586.6, 221.5)
+
+Results1 = 
+
+  struct with fields:
+
+           sse: 2.0402e+04
+       rsquare: 0.9792
+           dfe: 9
+    adjrsquare: 0.9745
+          rmse: 47.6114
+
+</pre><h2 id="44">DATI SARDEGNA</h2><pre class="codeoutput">RUN DATA: 24-Mar-2020
+TAbella casi giornalieri per la regione Sardegna
+ 
+
+TABLE =
+
+  5&times;2 table
+
+       province       casiGiornalieri
+    ______________    _______________
+
+    "Cagliari"               3       
+    "Nuoro"                  4       
+    "Oristano"               0       
+    "Sassari"               49       
+    "Sud Sardegna"           6       
+
+    "Casi giornalieri totali:"    "62"
+
+    "Casi regione totali:"    "421"
+
+fonte: elaborazione dei dati della protezione civile
+***********************
+Stima e previsione dati regionali
+ 
+Intervallo dati utilizzati per la stima del modello: 12-Mar :: 23-Mar
+ 
+
+FIT_model1 = 
+
+     General model:
+     FIT_model1(x) = a*exp(b*x) + c
+     Coefficients (with 95% confidence bounds):
+       a =       166.3  (-175.6, 508.1)
+       b =      0.1009  (-0.01721, 0.2191)
+       c =      -166.2  (-559.7, 227.3)
+
+Results1 = 
+
+  struct with fields:
+
+           sse: 8.7777e+03
+       rsquare: 0.9487
+           dfe: 9
+    adjrsquare: 0.9373
+          rmse: 31.2298
+
+</pre><h2 id="45">DATI TOSCANA</h2><pre class="codeoutput">RUN DATA: 24-Mar-2020
+TAbella casi giornalieri per la regione Toscana
+ 
+
+TABLE =
+
+  10&times;2 table
+
+       province        casiGiornalieri
+    _______________    _______________
+
+    "Arezzo"                 10       
+    "Firenze"                74       
+    "Grosseto"               12       
+    "Livorno"                22       
+    "Lucca"                  24       
+    "Massa Carrara"          25       
+    "Pisa"                   19       
+    "Pistoia"                14       
+    "Prato"                  22       
+    "Siena"                  16       
+
+    "Casi giornalieri totali:"    "238"
+
+    "Casi regione totali:"    "2699"
+
+fonte: elaborazione dei dati della protezione civile
+***********************
+Stima e previsione dati regionali
+ 
+Intervallo dati utilizzati per la stima del modello: 12-Mar :: 23-Mar
+ 
+
+FIT_model1 = 
+
+     General model:
+     FIT_model1(x) = a*exp(b*x) + c
+     Coefficients (with 95% confidence bounds):
+       a =        1044  (542.9, 1545)
+       b =     0.09865  (0.0714, 0.1259)
+       c =      -793.1  (-1366, -219.7)
+
+Results1 = 
+
+  struct with fields:
+
+           sse: 1.7063e+04
+       rsquare: 0.9970
+           dfe: 9
+    adjrsquare: 0.9963
+          rmse: 43.5420
+
+</pre><h2 id="46">DATI UMBRIA</h2><pre class="codeoutput">RUN DATA: 24-Mar-2020
+TAbella casi giornalieri per la regione Umbria
+ 
+
+TABLE =
+
+  2&times;2 table
+
+    province     casiGiornalieri
+    _________    _______________
+
+    "Perugia"          48       
+    "Terni"            21       
+
+    "Casi giornalieri totali:"    "69"
+
+    "Casi regione totali:"    "627"
+
+fonte: elaborazione dei dati della protezione civile
+***********************
+Stima e previsione dati regionali
+ 
+Intervallo dati utilizzati per la stima del modello: 12-Mar :: 23-Mar
+ 
+
+FIT_model1 = 
+
+     General model:
+     FIT_model1(x) = a*exp(b*x) + c
+     Coefficients (with 95% confidence bounds):
+       a =       200.5  (29.69, 371.3)
+       b =      0.1106  (0.05939, 0.1619)
+       c =      -179.2  (-381.2, 22.89)
+
+Results1 = 
+
+  struct with fields:
+
+           sse: 3.2931e+03
+       rsquare: 0.9901
+           dfe: 9
+    adjrsquare: 0.9880
+          rmse: 19.1287
+
+</pre><h2 id="47">DATI VALLE D' AOSTA</h2><pre class="codeoutput">RUN DATA: 24-Mar-2020
+    "TAbella casi giornalieri per la&#8230;"    "Valle d'Aosta"
+
+ 
+
+TABLE =
+
+  1&times;2 table
+
+    province    casiGiornalieri
+    ________    _______________
+
+    "Aosta"            7       
+
+    "Casi giornalieri totali:"    "7"
+
+    "Casi regione totali:"    "400"
+
+fonte: elaborazione dei dati della protezione civile
+***********************
+Stima e previsione dati regionali
+ 
+Intervallo dati utilizzati per la stima del modello: 12-Mar :: 23-Mar
+ 
+
+FIT_model1 = 
+
+     General model:
+     FIT_model1(x) = a*exp(b*x) + c
+     Coefficients (with 95% confidence bounds):
+       a =       116.8  (42.29, 191.3)
+       b =      0.1311  (0.08965, 0.1725)
+       c =      -123.2  (-217.2, -29.24)
+
+Results1 = 
+
+  struct with fields:
+
+           sse: 1.3547e+03
+       rsquare: 0.9930
+           dfe: 9
+    adjrsquare: 0.9914
+          rmse: 12.2688
+
+</pre><p class="footer"><br><a href="https://www.mathworks.com/products/matlab/">Published with MATLAB&reg; R2018a</a><br></p></div><!--
+##### SOURCE BEGIN #####
+%%
+% *COVID19 Output analisi dati aggiornati al 24 Marzo 2020*
+% DRAFT - Work in Progress
+% EDIT: - Rimossi i grafici relativi alle singole province.
+% Verrano aggiunti in seguito
+%
+% Software utilizzato: Matlab 2018a
+% 
+% Questo report è relativo all' elaborazione dei dati sulla diffusione del COVID-19 in Italia e nelle singole regioni/province. 
+% I dati sono forniti dalla protezione civile Italiana, consultabili al segunte link:
+%
+% "https://github.com/pcm-dpc/COVID-19"
+%
+% Tale report non è da intendersi come ufficiale o come definitivo nei termini delle previsioni incluse. I modelli non sono 
+% di tipo predittivo, bensì equazioni che descrivono i dati disponibili fino a questo momento. Il loro scopo è quello di valutare l andamento attuale,
+% in modo da poter dedurre una eventuale accelerazione o decelerazione del contagio. In generale per ogni campione di dati
+% viene selezionata una prima finestra temporale e la si utilizza per elaborare il modello (fitting) per poi confrontarlo con i giorni successivi. 
+%
+% I valori reali che non sono stati utilizzati per la stima del modello possono sia riferirsi a giorni passati,
+% sia a giorni futuri, per una mera valutazione qualitativa. 
+%
+% -Per quanto concerne i dati regionali e provinciali, il fit è di tipo
+% esponenziale/lineare. Una stima della funzione logistica/sigmoide viene
+% effettuata per alcune regioni e/o province. Tale andamento viene stimato sulla base di una finestra
+% temporale precedente con il fine di verificare che il punto/i punti futuri si
+% collochino al di sopra o al di sotto della curva esponenziale, nell'assunzione che
+% tale scostamento indichi un accelerazione o decelerazione del contagio.
+%
+% -Per quanto concerne i dati nazionali, viene anche effettuata una stima
+% qualitativa sulla base della funzione logistica/sigmoide, nell'assunzione
+% che il giorno previsto di azzeramento dei contagi, sia conservativo verso
+% il limite inferiore, ossia la minima data che occorre aspettare.
+%
+% -Le stime vengono effettuate minimizzando la distanza quadratica media
+% dalle curve ed i casi reali (Non Linear Least Square). Gli algoritmi, le funzioni
+% i parametri ed i risultati (della stima) dono riportati per ogni fit.
+% Ogni modello non tiene conto dei punti iniziali secondo l'ipotesi di una
+% sottostima dei contagi nei giorni che vanno da fine Febbraio/inizio
+% Marzo.
+% 
+%
+% Modelli e report sono oggetto di continua revisione.
+%
+% Source: https://github.com/marcelchiarello/C19dataAnalysis
+%
+% Site: https://marcelchiarello.github.io/C19dataAnalysis/
+%
+% Author: Marcello Chiarello
+%
+% marcello.chiarello@outlook.com
+
+%%
+
+%Read data
+clear 
+close 
+clc
+
+evalc('NATIONALDATA = readItalia');
+evalc('ALLDATA = readCovidData');
+
+%% GRAFICI ITALIA
+RUN_ITALIA(NATIONALDATA,1);
+
+%% GRAFICI PUGLIA
+RUN_REGIONE(ALLDATA,'Puglia',1,1);
+
+%% GRAFICI LOMBARDIA
+RUN_REGIONE(ALLDATA,'Lombardia',1,1);
+
+%% GRAFICI VENETO
+RUN_REGIONE(ALLDATA,'Veneto',1,1);
+
+%% GRAFICI PIEMONTE
+RUN_REGIONE(ALLDATA,'Piemonte',1,1);
+
+%% GRAFICI EMILIA ROMAGNA
+RUN_REGIONE(ALLDATA,'Emilia Romagna',1,1);
+
+%% GRAFICI CAMPANIA
+RUN_REGIONE(ALLDATA,'Campania',1,1);
+
+%% GRAFICI SICILIA (Non presente)
+%RUN_REGIONE(ALLDATA,'Sicilia',1,1);
+
+%% GRAFICI ABRUZZO
+RUN_REGIONE(ALLDATA,'Abruzzo',1,1);
+
+%% GRAFICI BASILICATA
+RUN_REGIONE(ALLDATA,'Basilicata',1,1);
+
+%% GRAFICI CALABRIA
+RUN_REGIONE(ALLDATA,'Calabria',1,1);
+
+%% GRAFICI CAMPANIA
+RUN_REGIONE(ALLDATA,'Campania',1,1);
+
+%% GRAFICI FRIULI VENEZIA GIULIA
+RUN_REGIONE(ALLDATA,'Friuli Venezia Giulia',1,1);
+
+%% GRAFICI LAZIO
+RUN_REGIONE(ALLDATA,'Lazio',1,1);
+
+%% GRAFICI LIGURIA
+RUN_REGIONE(ALLDATA,'Liguria',1,1);
+
+%% GRAFICI MARCHE
+RUN_REGIONE(ALLDATA,'Marche',1,1);
+
+%% GRAFICI MOLISE
+RUN_REGIONE(ALLDATA,'Molise',1);
+
+%% GRAFICI P.A. Bolzano
+RUN_REGIONE(ALLDATA,'P.A. Bolzano',1,1);
+
+%% GRAFICI P.A. Trento
+RUN_REGIONE(ALLDATA,'P.A. Trento',1,1);
+
+%% GRAFICI SARDEGNA (Non presente)
+RUN_REGIONE(ALLDATA,'Sardegna',1);
+
+%% GRAFICI TOSCANA
+RUN_REGIONE(ALLDATA,'Toscana',1,1);
+
+%% GRAFICI UMBRIA
+RUN_REGIONE(ALLDATA,'Umbria',1,1);
+
+%% GRAFICI VALLE D' AOSTA
+RUN_REGIONE(ALLDATA,"Valle d'Aosta",1,1);
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%% DATI ITALIA
+RUN_ITALIA(NATIONALDATA,0);
+
+%% DATI PUGLIA
+RUN_REGIONE(ALLDATA,'Puglia',0);
+
+%% DATI LOMBARDIA
+RUN_REGIONE(ALLDATA,'Lombardia',0);
+
+%% DATI VENETO
+RUN_REGIONE(ALLDATA,'Veneto',0);
+
+%% DATI PIEMONTE
+RUN_REGIONE(ALLDATA,'Piemonte',0);
+
+%% DATI EMILIA ROMAGNA
+RUN_REGIONE(ALLDATA,'Emilia Romagna',0);
+
+%% DATI CAMPANIA
+RUN_REGIONE(ALLDATA,'Campania',0);
+
+%% DATI SICILIA
+RUN_REGIONE(ALLDATA,'Sicilia',0);
+
+%% DATI ABRUZZO
+RUN_REGIONE(ALLDATA,'Abruzzo',0);
+
+%% DATI BASILICATA
+RUN_REGIONE(ALLDATA,'Basilicata',0);
+
+%% DATI CALABRIA
+RUN_REGIONE(ALLDATA,'Calabria',0);
+
+%% DATI CAMPANIA
+RUN_REGIONE(ALLDATA,'Campania',0);
+
+%% DATI VENEZIA GIULIA
+RUN_REGIONE(ALLDATA,'Friuli Venezia Giulia',0);
+
+%% DATI LAZIO
+RUN_REGIONE(ALLDATA,'Lazio',0);
+
+%% DATI LIGURIA
+RUN_REGIONE(ALLDATA,'Liguria',0);
+
+%% DATI MARCHE
+RUN_REGIONE(ALLDATA,'Marche',0);
+
+%% DATI MOLISE
+RUN_REGIONE(ALLDATA,'Molise',0);
+
+%% DATI P.A. Bolzano
+RUN_REGIONE(ALLDATA,'P.A. Bolzano',0);
+
+%% DATI P.A. Trento
+RUN_REGIONE(ALLDATA,'P.A. Trento',0);
+
+%% DATI SARDEGNA
+RUN_REGIONE(ALLDATA,'Sardegna',0);
+
+%% DATI TOSCANA
+RUN_REGIONE(ALLDATA,'Toscana',0);
+
+%% DATI UMBRIA
+RUN_REGIONE(ALLDATA,'Umbria',0);
+
+%% DATI VALLE D' AOSTA
+RUN_REGIONE(ALLDATA,"Valle d'Aosta",0);
+
+##### SOURCE END #####
+--></body></html>

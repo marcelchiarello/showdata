@@ -4,28 +4,23 @@
 
 ### Simulation Outputs 
 
-[26/03/2020 Output](/RUN_26_03/RUN.html)
+[26/03/2020 ITA: Andamenti nazionali e regionali](/RUN_26_03/RUN.html)
 <!-- <img src="images/dummy_thumbnail.jpg?raw=true"/> -->
-
----
-[25/03/2020 Output](/RUN_25_03/RUN.html)
-
----
-[24/03/2020 Output](/RUN_24_03/RUN.html)
-
----
-[Project test](/sample_page.md)
-
+[Commenti](/DES_26_03.md)
 ---
 
-
+[25/03/2020 ITA: Andamenti nazionali e regionali](/RUN_25_03/RUN.html)
+[Commenti](/DES_25_03.md)
 ---
 
-### Category Name 2
+[24/03/2020 ITA: Andamenti nazionali e regionali](/RUN_24_03/RUN.html)
+[Commenti](/DES_24_03.md)
+---
 
-- [Project 1 Title](http://example.com/)
-- [Project 2 Title](http://example.com/)
+---
+### Source Data
 
+- [PROTEZIONE CIVILE ITALIANA, GITHUB DATASET](https://github.com/pcm-dpc/COVID-19)
 
 ---
 

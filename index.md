@@ -12,7 +12,7 @@
 
 
 ---
-[26/03/2020 ITA: Andamenti nazionali e regionali](/RUN_26_03/RUN.html)
+[26/03/2020 ITA: Andamenti nazionali e regionali](/RUN_26_03/RUN.md)
 <!-- <img src="images/dummy_thumbnail.jpg?raw=true"/> -->
 
 ---
@@ -38,8 +38,6 @@
 ### Source Data
 
 - [PROTEZIONE CIVILE ITALIANA, GITHUB DATASET](https://github.com/pcm-dpc/COVID-19)
-
----
 
 
 

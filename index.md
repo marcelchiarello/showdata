@@ -34,12 +34,8 @@
 
 ---
 
-
 ### Source Data
 
 - [PROTEZIONE CIVILE ITALIANA, GITHUB DATASET](https://github.com/pcm-dpc/COVID-19)
-
-
-
 
 ---

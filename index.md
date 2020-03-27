@@ -6,9 +6,9 @@
 
 [NEW! 27/03/2020 ITA: Andamenti nazionali e regionali](/RUN_27_03/RUN1/RUN.html)
 
-[ongoing! 27/03/2020 ITA: Dati Provinciali](/)
+[ongoing 27/03/2020 ITA: Dati Provinciali](/)
 
-[ongoing! 27/03/2020 ITA: Andamenti regionali e provinciali](/)
+[ongoing 27/03/2020 ITA: Andamenti regionali e provinciali](/)
 
 
 ---

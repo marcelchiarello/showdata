@@ -21,10 +21,7 @@
 
 - [del 26 Marzo](/DES_26_03.md)
 ---
-- [del 25 Marzo](/DES_25_03.md)
----
-- [del 24 Marzo](/DES_24_03.md)
----
+
 
 ### Source Data
 

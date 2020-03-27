@@ -12,7 +12,7 @@
 
 
 ---
-[26/03/2020 ITA: Andamenti nazionali e regionali](/RUN_26_03/RUN.md)
+[26/03/2020 ITA: Andamenti nazionali e regionali](/RUN_26_03/RUN.html)
 <!-- <img src="images/dummy_thumbnail.jpg?raw=true"/> -->
 
 ---

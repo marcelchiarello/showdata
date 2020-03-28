@@ -1,7 +1,7 @@
 ## COVID-19 DIFFUSION TRENDS IN ITALY AND REGIONS/PROVINCES
 ## DATA PROCESSING AND ESTIMATION REPORTS
 
-### 28/03/2020 (IN CORSO - ora include dati approfonditi per ogni regione)
+### 28/03/2020
 
 -[NEW - Dati nazionali & andamenti nazionali/regionali (National and regional trends)](/RUN_28_03/RUN1/RUN.html)
 ---
@@ -18,13 +18,6 @@
 
 ---
 
-### 26/03/2020
-
-- [26/03/2020 ITA: Andamenti nazionali e regionali](/RUN_26_03/RUN.html)
-<!-- <img src="images/dummy_thumbnail.jpg?raw=true"/> -->
-
----
-
 ## ANALISI E COMMENTI
 
 - [del 27 Marzo](/ARTICLES/DES_27_03.md)
@@ -34,6 +27,7 @@
 
 ### OLD
 
+- [REPORT 26/03/2020: Andamenti nazionali e regionali](/RUN_26_03/RUN.html)
 - [REPORT 25/03/2020: Andamenti nazionali e regionali](/RUN_25_03/RUN.html)
 - [REPORT 24/03/2020: Andamenti nazionali e regionali](/RUN_24_03/RUN.html)
 

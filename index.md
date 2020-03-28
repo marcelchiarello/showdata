@@ -1,8 +1,4 @@
-## COVID19 IN ITALIA
-
----
-
-### REPORTS (DATA AND PLOTS)
+## REPORTS (DATA AND PLOTS)
 
 - [NEW 27/03/2020 ITA: Andamenti nazionali e regionali](/RUN_27_03/RUN1/RUN.html)
 
@@ -21,16 +17,18 @@
 
 ---
 
-[24/03/2020 ITA: Andamenti nazionali e regionali](/RUN_24_03/RUN.html)
-
----
-
-### ANALISI E COMMENTI
+## ANALISI E COMMENTI
 
 - [NEW del 27 Marzo](/ARTICLES/DES_27_03.md)
 ---
 
 [del 26 Marzo](/ARTICLES/DES_26_03.md)
+
+---
+
+### OLD
+
+[REPORT 24/03/2020 ITA: Andamenti nazionali e regionali](/RUN_24_03/RUN.html)
 
 ---
 

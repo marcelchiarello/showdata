@@ -26,8 +26,8 @@
 
 ### OLD
 
-- [REPORT 25/03/2020 ITA: Andamenti nazionali e regionali](/RUN_25_03/RUN.html)
-- [REPORT 24/03/2020 ITA: Andamenti nazionali e regionali](/RUN_24_03/RUN.html)
+- [REPORT 25/03/2020: Andamenti nazionali e regionali](/RUN_25_03/RUN.html)
+- [REPORT 24/03/2020: Andamenti nazionali e regionali](/RUN_24_03/RUN.html)
 
 ---
 

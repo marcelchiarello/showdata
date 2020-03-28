@@ -10,4 +10,4 @@ logo: "/images/logo.png?raw=true" # your photo (or logo) here
 #theme: jekyll-theme-slate
 #google_analytics: UA-000000-0 # your Google Analytics tracking ID here
 
-theme: jekyll-theme-slate
+theme: jekyll-theme-cayman

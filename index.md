@@ -3,16 +3,18 @@
 
 ### 28/03/2020 (IN CORSO - ora include dati approfonditi per ogni regione)
 
--[NEW - Dati Regionali e Provinciali (Regional and Provincial Data)](/RUN_28_03/RUN2/RUN.html)
+-[NEW - Dati nazionali & andamenti nazionali/regionali (National and regional trends)](/RUN_28_03/RUN1/RUN.html)
 ---
+-[NEW - Dati Regionali e Provinciali (Regional and Provincial Data)](/RUN_28_03/RUN2/RUN.html)
+---include dati approfonditi per ogni regione
 
 ### 27/03/2020
 
-- [Andamenti nazionali e regionali (National and regional trends)](/RUN_27_03/RUN1/RUN.html)
+- [Andamenti nazionali e regionali (national and regional trends)](/RUN_27_03/RUN1/RUN.html)
 
-- [Dati Provinciali (Provincial Data)](/RUN_27_03/RUN2/RUN.html)
+- [Dati provinciali (provincial pata)](/RUN_27_03/RUN2/RUN.html)
 
-- [Andamenti regionali e provinciali (Regional and provincial trends)](/RUN_27_03/RUN3/RUN.html)
+- [Andamenti regionali e provinciali (regional and provincial trends)](/RUN_27_03/RUN3/RUN.html)
 
 ---
 

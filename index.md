@@ -4,8 +4,6 @@
 
 - [Andamenti nazionali e regionali (National and regional trends)](/RUN_27_03/RUN1/RUN.html)
 
--- test
-
 - [Dati Provinciali (Provincial Data)](/RUN_27_03/RUN2/RUN.html)
 
 - [Andamenti regionali e provinciali (Regional and provincial trends)](/RUN_27_03/RUN3/RUN.html)

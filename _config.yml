@@ -9,3 +9,5 @@ logo: "/images/logo.png?raw=true" # your photo (or logo) here
   #<a href="https://www.linkedin.com/in/example/">View My LinkedIn Profile</a> 
 #theme: jekyll-theme-slate
 #google_analytics: UA-000000-0 # your Google Analytics tracking ID here
+
+theme: jekyll-theme-cayman

@@ -17,21 +17,16 @@
 
 ---
 
-[25/03/2020 ITA: Andamenti nazionali e regionali](/RUN_25_03/RUN.html)
-
----
-
 ## ANALISI E COMMENTI
 
 - [del 27 Marzo](/ARTICLES/DES_27_03.md)
----
-
 - [del 26 Marzo](/ARTICLES/DES_26_03.md)
 
 ---
 
 ### OLD
 
+- [REPORT 25/03/2020 ITA: Andamenti nazionali e regionali](/RUN_25_03/RUN.html)
 - [REPORT 24/03/2020 ITA: Andamenti nazionali e regionali](/RUN_24_03/RUN.html)
 
 ---

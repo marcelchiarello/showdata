@@ -1,4 +1,4 @@
-title: COVID-19 IN ITALIA: DATI, STIME E ANDAMENTI # your name (or website title) here
+title: COVID-19 IN ITALIA # your name (or website title) here
 logo: "/images/logo.png?raw=true" # your photo (or logo) here
 #description: > # your text below (remove <br> elements if you don't need line breaks)
  # First description 
@@ -8,5 +8,4 @@ logo: "/images/logo.png?raw=true" # your photo (or logo) here
   #<a href="https://www.linkedin.com/in/example/">View My LinkedIn Profile</a> 
 #theme: jekyll-theme-slate
 #google_analytics: UA-000000-0 # your Google Analytics tracking ID here
-
 theme: jekyll-theme-cayman

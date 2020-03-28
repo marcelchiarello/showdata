@@ -1,13 +1,17 @@
 ## REPORTS (DATA AND PLOTS)
 
-- [27/03/2020 ITA: Andamenti nazionali e regionali](/RUN_27_03/RUN1/RUN.html)
+### 27/03/2020
 
-- [27/03/2020 ITA: Dati Provinciali](/RUN_27_03/RUN2/RUN.html)
+- [Andamenti nazionali e regionali](/RUN_27_03/RUN1/RUN.html)
 
-- [27/03/2020 ITA: Andamenti regionali e provinciali](/RUN_27_03/RUN3/RUN.html)
+- [Dati Provinciali](/RUN_27_03/RUN2/RUN.html)
 
+- [Andamenti regionali e provinciali](/RUN_27_03/RUN3/RUN.html)
 
 ---
+
+### 26/03/2020
+
 - [26/03/2020 ITA: Andamenti nazionali e regionali](/RUN_26_03/RUN.html)
 <!-- <img src="images/dummy_thumbnail.jpg?raw=true"/> -->
 

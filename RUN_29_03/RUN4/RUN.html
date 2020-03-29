@@ -66,7 +66,7 @@ table td { padding:7px 5px; text-align:left; vertical-align:top; border:1px soli
 
 
 
-  </style></head><body><div class="content"><h1></h1><!--introduction--><p><a href="https://marcelchiarello.github.io/showdata/">GO BACK</a></p><p><b>COVID19 REPORT CONFRONTO INTERREGIONALE AGGIORNATO AL 29 MARZO 2020</b>.</p><p>Questo report &egrave; relativo all' elaborazione dei dati sulla diffusione del COVID-19 nelle varie regioni. I dati sono forniti dalla protezione civile Italiana.</p><p>Consulta tutti i report e gli articoli: <a href="https://marcelchiarello.github.io/showdata/">marcelchiarello.github.io/showdata</a></p><p>Author: Marcello Chiarello</p><p><a href="mailto:marcello.chiarello@outlook.com">marcello.chiarello@outlook.com</a></p><!--/introduction--><h2>Contents</h2><div><ul><li><a href="#2">BAR plot</a></li></ul></div><h2 id="2">BAR plot</h2><img vspace="5" hspace="5" src="RUN_INTEREGION_01.png" alt=""> <img vspace="5" hspace="5" src="RUN_INTEREGION_02.png" alt=""> <img vspace="5" hspace="5" src="RUN_INTEREGION_03.png" alt=""> <img vspace="5" hspace="5" src="RUN_INTEREGION_04.png" alt=""> <img vspace="5" hspace="5" src="RUN_INTEREGION_05.png" alt=""> <img vspace="5" hspace="5" src="RUN_INTEREGION_06.png" alt=""> <img vspace="5" hspace="5" src="RUN_INTEREGION_07.png" alt=""> <img vspace="5" hspace="5" src="RUN_INTEREGION_08.png" alt=""> <img vspace="5" hspace="5" src="RUN_INTEREGION_09.png" alt=""> <img vspace="5" hspace="5" src="RUN_INTEREGION_10.png" alt=""> <p class="footer"><br><a href="https://www.mathworks.com/products/matlab/">Published with MATLAB&reg; R2018a</a><br></p></div><!--
+  </style></head><body><div class="content"><h1></h1><!--introduction--><p><a href="https://marcelchiarello.github.io/showdata/">GO BACK</a></p><p><b>COVID19 REPORT CONFRONTO INTERREGIONALE AGGIORNATO AL 29 MARZO 2020</b>.</p><p>Questo report &egrave; relativo all' elaborazione dei dati sulla diffusione del COVID-19 nelle varie regioni. I dati sono forniti dalla protezione civile Italiana.</p><p>Consulta tutti i report e gli articoli: <a href="https://marcelchiarello.github.io/showdata/">marcelchiarello.github.io/showdata</a></p><p>Author: Marcello Chiarello</p><p><a href="mailto:marcello.chiarello@outlook.com">marcello.chiarello@outlook.com</a></p><!--/introduction--><img vspace="5" hspace="5" src="RUN_INTEREGION_01.png" alt=""> <img vspace="5" hspace="5" src="RUN_INTEREGION_02.png" alt=""> <img vspace="5" hspace="5" src="RUN_INTEREGION_03.png" alt=""> <img vspace="5" hspace="5" src="RUN_INTEREGION_04.png" alt=""> <img vspace="5" hspace="5" src="RUN_INTEREGION_05.png" alt=""> <img vspace="5" hspace="5" src="RUN_INTEREGION_06.png" alt=""> <img vspace="5" hspace="5" src="RUN_INTEREGION_07.png" alt=""> <img vspace="5" hspace="5" src="RUN_INTEREGION_08.png" alt=""> <img vspace="5" hspace="5" src="RUN_INTEREGION_09.png" alt=""> <img vspace="5" hspace="5" src="RUN_INTEREGION_10.png" alt=""> <p class="footer"><br><a href="https://www.mathworks.com/products/matlab/">Published with MATLAB&reg; R2018a</a><br></p></div><!--
 ##### SOURCE BEGIN #####
 %%
 % <https://marcelchiarello.github.io/showdata/ GO BACK>
@@ -113,7 +113,7 @@ percCasiTotaliTamponiTotali = round(totaleCasi./tamponiTotali*100);
 percGuaritiTotaliCasiTotali = round(guaritiTotali./totaleCasi*100);
 percDecedutiCasiTotali = round(decedutiTotali./totaleCasi*100);
 
-%% BAR plot
+
 bar2(regionsList,totaleCasi,'Casi totali');
 
 bar2(regionsList,tamponiTotali,'Tamponi totali');

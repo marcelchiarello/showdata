@@ -1,39 +1,34 @@
-## COVID-19 DIFFUSION TRENDS IN ITALY AND REGIONS/PROVINCES
+# COVID-19 DIFFUSION IN ITALY AND REGIONS/PROVINCES
+
+## ARTICOLI E ANALISI
+
+- [del 28 Marzo](/ARTICLES/DES_28_03.md)
+- [del 27 Marzo](/ARTICLES/DES_27_03.md)
+
 ## DATA PROCESSING AND ESTIMATION REPORTS
 
-### 28/03/2020 (IN CORSO - ora include dati approfonditi per ogni regione)
+### 28/03/2020
 
--[NEW - Dati Regionali e Provinciali (Regional and Provincial Data)](/RUN_28_03/RUN2/RUN.html)
----
+- [Dati nazionali & andamenti nazionali/regionali (National and regional trends)](/RUN_28_03/RUN1/RUN.html)
+
+- [Dati Regionali e Provinciali (Regional and Provincial Data)](/RUN_28_03/RUN2/RUN.html)
 
 ### 27/03/2020
 
-- [Andamenti nazionali e regionali (National and regional trends)](/RUN_27_03/RUN1/RUN.html)
+- [Andamenti nazionali e regionali (national and regional trends)](/RUN_27_03/RUN1/RUN.html)
 
-- [Dati Provinciali (Provincial Data)](/RUN_27_03/RUN2/RUN.html)
+- [Dati provinciali (provincial pata)](/RUN_27_03/RUN2/RUN.html)
 
-- [Andamenti regionali e provinciali (Regional and provincial trends)](/RUN_27_03/RUN3/RUN.html)
-
----
-
-### 26/03/2020
-
-- [26/03/2020 ITA: Andamenti nazionali e regionali](/RUN_26_03/RUN.html)
-<!-- <img src="images/dummy_thumbnail.jpg?raw=true"/> -->
-
----
-
-## ANALISI E COMMENTI
-
-- [del 27 Marzo](/ARTICLES/DES_27_03.md)
-- [del 26 Marzo](/ARTICLES/DES_26_03.md)
+- [Andamenti regionali e provinciali (regional and provincial trends)](/RUN_27_03/RUN3/RUN.html)
 
 ---
 
 ### OLD
 
-- [REPORT 25/03/2020: Andamenti nazionali e regionali](/RUN_25_03/RUN.html)
-- [REPORT 24/03/2020: Andamenti nazionali e regionali](/RUN_24_03/RUN.html)
+- [Articolo del 26 Marzo](/ARTICLES/DES_26_03.md)
+- [REPORT del 26/03/2020: Andamenti nazionali e regionali](/RUN_26_03/RUN.html)
+- [REPORT del 25/03/2020: Andamenti nazionali e regionali](/RUN_25_03/RUN.html)
+- [REPORT del 24/03/2020: Andamenti nazionali e regionali](/RUN_24_03/RUN.html)
 
 ---
 

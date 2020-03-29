@@ -2,7 +2,7 @@
 
 ## ARTICOLI E ANALISI
 
-- [del 28 Marzo - Mancano gli standard nella comunicazione dei dati in Italia.](/ARTICLES/DES_28_03.md)
+- [del 28 Marzo - Mancano gli standard nella comunicazione dei dati in Italia](/ARTICLES/DES_28_03.md)
 - [del 27 Marzo - La giornata di oggi è di difficile valutazione ma ci sono dei lati positivi](/ARTICLES/DES_27_03.md)
 
 ## DATA PROCESSING AND ESTIMATION REPORTS

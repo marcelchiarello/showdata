@@ -2,7 +2,7 @@
 
 ## ARTICOLI E ANALISI
 
-- [del 28 Marzo](/ARTICLES/DES_28_03.md)
+- [del 28 Marzo - Si superano le stime ma i tamponi aumentano e gli ospedalizzati diminuiscono](/ARTICLES/DES_28_03.md)
 - [del 27 Marzo](/ARTICLES/DES_27_03.md)
 
 ## DATA PROCESSING AND ESTIMATION REPORTS

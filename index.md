@@ -9,12 +9,15 @@
 
 ### 29/03/2020
 
-- [(NEW) Confronti interregionali (interregional comparisons)](/RUN_29_03/RUN4/RUN.html)
+- [Confronti interregionali (interregional comparisons)](/RUN_29_03/RUN4/RUN.html)
 
-- [(NEW) Dati nazionali & andamenti nazionali/regionali (National and regional trends)](/RUN_29_03/RUN1/RUN.html)
+- [Dati nazionali & andamenti nazionali/regionali (National and regional trends)](/RUN_29_03/RUN1/RUN.html)
 --- Aggiornati parameteri modello
 
-- [(NEW) Dati Regionali e Provinciali (Regional and Provincial Data)](/RUN_29_03/RUN2/RUN.html)
+- [Dati Regionali e Provinciali (Regional and Provincial Data)](/RUN_29_03/RUN2/RUN.html)
+
+-[(NEW) Andamenti Settimanali regioni NORD/SUD - rallenta il NORD (WEEKLY TRENDS)](/RUN_29_03/RUN5/RUN.html)
+---
 
 ### 28/03/2020
 

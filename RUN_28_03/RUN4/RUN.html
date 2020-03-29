@@ -1,3 +1,4 @@
+
 <!DOCTYPE html
   PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
 <html><head>
@@ -61,30 +62,29 @@ span.syscmd { color:#B28C00 }
 table th { padding:7px 5px; text-align:left; vertical-align:middle; border: 1px solid #d6d4d4; font-weight:bold; }
 table td { padding:7px 5px; text-align:left; vertical-align:top; border:1px solid #d6d4d4; }
 
-[HOME PAGE](https://marcelchiarello.github.io/showdata)
 
 
 
-  </style></head><body><div class="content"><h1></h1><!--introduction--><p><b>COVID19 REPORT CONFRONTO INTERREGIONALE AGGIORNATO AL 28 MARZO 2020</b>.</p><p>Questo report &egrave; relativo all' elaborazione dei dati sulla diffusione del COVID-19 nelle varie regioni. I dati sono forniti dalla protezione civile Italiana, consultabili al segunte link:</p><p>"https://github.com/pcm-dpc/COVID-19"</p><p>Source: https://github.com/marcelchiarello/showdata</p><p>Site: https://marcelchiarello.github.io/showdata</p><p>Author: Marcello Chiarello</p><p><a href="mailto:marcello.chiarello@outlook.com">marcello.chiarello@outlook.com</a></p><!--/introduction--><img vspace="5" hspace="5" src="RUN_INTEREGION_01.png" alt=""> <img vspace="5" hspace="5" src="RUN_INTEREGION_02.png" alt=""> <img vspace="5" hspace="5" src="RUN_INTEREGION_03.png" alt=""> <img vspace="5" hspace="5" src="RUN_INTEREGION_04.png" alt=""> <img vspace="5" hspace="5" src="RUN_INTEREGION_05.png" alt=""> <img vspace="5" hspace="5" src="RUN_INTEREGION_06.png" alt=""> <img vspace="5" hspace="5" src="RUN_INTEREGION_07.png" alt=""> <img vspace="5" hspace="5" src="RUN_INTEREGION_08.png" alt=""> <img vspace="5" hspace="5" src="RUN_INTEREGION_09.png" alt=""> <img vspace="5" hspace="5" src="RUN_INTEREGION_10.png" alt=""> <p class="footer"><br><a href="https://www.mathworks.com/products/matlab/">Published with MATLAB&reg; R2018a</a><br></p></div><!--
+
+  </style></head><body><div class="content"><h1></h1><!--introduction--><p><a href="https://marcelchiarello.github.io/showdata/">GO BACK</a></p><p><b>COVID19 REPORT CONFRONTO INTERREGIONALE AGGIORNATO AL 28 MARZO 2020</b>.</p><p>Questo report &egrave; relativo all' elaborazione dei dati sulla diffusione del COVID-19 nelle varie regioni. I dati sono forniti dalla protezione civile Italiana.</p><p>Consulta tutti i report e gli articoli: <a href="https://marcelchiarello.github.io/showdata/">marcelchiarello.github.io/showdata</a></p><p>Author: Marcello Chiarello</p><p><a href="mailto:marcello.chiarello@outlook.com">marcello.chiarello@outlook.com</a></p><!--/introduction--><img vspace="5" hspace="5" src="RUN_INTEREGION_01.png" alt=""> <img vspace="5" hspace="5" src="RUN_INTEREGION_02.png" alt=""> <img vspace="5" hspace="5" src="RUN_INTEREGION_03.png" alt=""> <img vspace="5" hspace="5" src="RUN_INTEREGION_04.png" alt=""> <img vspace="5" hspace="5" src="RUN_INTEREGION_05.png" alt=""> <img vspace="5" hspace="5" src="RUN_INTEREGION_06.png" alt=""> <img vspace="5" hspace="5" src="RUN_INTEREGION_07.png" alt=""> <img vspace="5" hspace="5" src="RUN_INTEREGION_08.png" alt=""> <img vspace="5" hspace="5" src="RUN_INTEREGION_09.png" alt=""> <img vspace="5" hspace="5" src="RUN_INTEREGION_10.png" alt=""> <p class="footer"><br><a href="https://www.mathworks.com/products/matlab/">Published with MATLAB&reg; R2018a</a><br></p></div><!--
 ##### SOURCE BEGIN #####
 %%
+% <https://marcelchiarello.github.io/showdata/ GO BACK>
+%
 % *COVID19 REPORT CONFRONTO INTERREGIONALE AGGIORNATO AL 28 MARZO 2020*.
 %
 %       
 % Questo report è relativo all' elaborazione dei dati sulla diffusione del COVID-19 nelle varie regioni. 
-% I dati sono forniti dalla protezione civile Italiana, consultabili al segunte link:
+% I dati sono forniti dalla protezione civile Italiana.
 %
-% "https://github.com/pcm-dpc/COVID-19"
-%
-%
-% Source: https://github.com/marcelchiarello/showdata
-%
-% Site: https://marcelchiarello.github.io/showdata
+% Consulta tutti i report e gli articoli:
+% <https://marcelchiarello.github.io/showdata/ marcelchiarello.github.io/showdata>
 %
 % Author: Marcello Chiarello
 %
 % marcello.chiarello@outlook.com
 %%
+
 OUT = readRegions;
 regionsList = string(unique(OUT.denominazione_regione));
 

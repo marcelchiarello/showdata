@@ -9,7 +9,7 @@
 
 ### 28/03/2020
 
--[NEW Confronti interregionali (interregional comparisons)](/RUN_28_03/RUN4/RUN.html)
+-[NEW Confronti interregionali (interregional comparisons)](showdata/RUN_28_03/RUN4/RUN.html)
 ---
 
 - [Dati nazionali & andamenti nazionali/regionali (National and regional trends)](/RUN_28_03/RUN1/RUN.html)

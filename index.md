@@ -14,7 +14,7 @@
 - [Dati nazionali & andamenti nazionali/regionali (National and regional trends)](/RUN_29_03/RUN1/RUN.html)
 --- Aggiornati parameteri modello
 
-- [(Dati Regionali e Provinciali (Regional and Provincial Data)](/RUN_29_03/RUN2/RUN.html)
+- [Dati Regionali e Provinciali (Regional and Provincial Data)](/RUN_29_03/RUN2/RUN.html)
 
 -[(NEW) Andamenti Settimanali regioni NORD/SUD - rallenta il NORD (WEEKLY TRENDS)](/RUN_29_03/RUN5/RUN.html)
 ---

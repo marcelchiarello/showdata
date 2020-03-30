@@ -9,7 +9,7 @@
 
 - [(NEW!) Dati nazionali, previsioni e andamenti nazionali/regionali (National and regional trends)](/RUN_30_03/RUN1/RUN.html)
 
-- [(NEW!) Confronti interregionali (interregional comparisons)](/RUN_30_03/RUN4/RUN.html)
+- [(NEW!) Confronti interregionali (Interregional comparisons)](/RUN_30_03/RUN4/RUN.html)
 
 - [(NEW!) Dati regionali e provinciali (Regional and Provincial Data)](/RUN_30_03/RUN2/RUN.html)
 
@@ -17,7 +17,7 @@
 
 - [Andamenti Settimanali regioni NORD/SUD - rallenta il NORD (WEEKLY TRENDS)](/RUN_29_03/RUN5/RUN.html)
 
-- [Confronti interregionali (interregional comparisons)](/RUN_29_03/RUN4/RUN.html)
+- [Confronti interregionali (Interregional comparisons)](/RUN_29_03/RUN4/RUN.html)
 
 - [Dati nazionali & andamenti nazionali/regionali (National and regional trends)](/RUN_29_03/RUN1/RUN.html)
 --- Aggiornati parameteri modello

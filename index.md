@@ -5,7 +5,7 @@
 
 ### 30/03/2020
 
-- [(IN CORSO) Dati nazionali, previsioni e andamenti nazionali/regionali (National and regional trends)](/RUN_30_03/RUN1/RUN.html)
+- [(NEW!) Dati nazionali, previsioni e andamenti nazionali/regionali (National and regional trends)](/RUN_30_03/RUN1/RUN.html)
 
 - [(NEW!)Confronti interregionali (interregional comparisons)](/RUN_30_03/RUN4/RUN.html)
 

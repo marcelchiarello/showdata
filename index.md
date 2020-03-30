@@ -5,13 +5,13 @@
 
 ### 30/03/2020
 
+- [(NEW!) Andamenti settimanali regioni NORD/SUD (WEEKLY TRENDS)](/RUN_30_03/RUN5/RUN.html)
+
 - [(NEW!) Dati nazionali, previsioni e andamenti nazionali/regionali (National and regional trends)](/RUN_30_03/RUN1/RUN.html)
 
 - [(NEW!) Confronti interregionali (interregional comparisons)](/RUN_30_03/RUN4/RUN.html)
 
 - [(NEW!) Dati regionali e provinciali (Regional and Provincial Data)](/RUN_30_03/RUN2/RUN.html)
-
-- [(NEW!) Andamenti settimanali regioni NORD/SUD (WEEKLY TRENDS)](/RUN_30_03/RUN5/RUN.html)
 
 ### 29/03/2020
 

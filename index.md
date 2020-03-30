@@ -1,5 +1,6 @@
 # COVID-19 DIFFUSION IN ITALY AND REGIONS/PROVINCES
-
+### Aggiornato ogni giorno dopo la pubblicazione dei dati della protezione civile (18-19)
+---
 ## DATA PROCESSING AND ESTIMATION REPORTS
 
 ### 30/03/2020

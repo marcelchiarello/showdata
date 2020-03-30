@@ -1,13 +1,16 @@
 # COVID-19 DIFFUSION IN ITALY AND REGIONS/PROVINCES
 
-## ARTICOLI E ANALISI
-
--[(NEW) del 29 Marzo - Il picco in Lombardia. Ecco perchè serve analizzare e confrontare i dati regione per regione.](/ARTICLES/DES_29_03.md)
----
-- [del 28 Marzo - Mancano gli standard nella comunicazione dei dati in Italia](/ARTICLES/DES_28_03.md)
-- [del 27 Marzo - La giornata di oggi è di difficile valutazione ma ci sono dei lati positivi](/ARTICLES/DES_27_03.md)
-
 ## DATA PROCESSING AND ESTIMATION REPORTS
+
+### 30/03/2020
+
+- [(IN CORSO) Dati nazionali, previsioni e andamenti nazionali/regionali (National and regional trends)](/RUN_30_03/RUN1/RUN.html)
+
+- [(IN CORSO) Confronti interregionali (interregional comparisons)](/RUN_30_03/RUN4/RUN.html)
+
+- [(IN CORSO) Dati regionali e provinciali (Regional and Provincial Data)](/RUN_30_03/RUN2/RUN.html)
+
+- [(IN CORSO) Andamenti settimanali regioni NORD/SUD (WEEKLY TRENDS)](/RUN_30_03/RUN5/RUN.html)
 
 ### 29/03/2020
 
@@ -18,8 +21,20 @@
 
 - [Dati Regionali e Provinciali (Regional and Provincial Data)](/RUN_29_03/RUN2/RUN.html)
 
--[(NEW) Andamenti Settimanali regioni NORD/SUD - rallenta il NORD (WEEKLY TRENDS)](/RUN_29_03/RUN5/RUN.html)
+- [Andamenti Settimanali regioni NORD/SUD - rallenta il NORD (WEEKLY TRENDS)](/RUN_29_03/RUN5/RUN.html)
+
 ---
+
+## ARTICOLI E ANALISI
+
+-[(NEW) del 29 Marzo - Il picco in Lombardia. Ecco perchè serve analizzare e confrontare i dati regione per regione.](/ARTICLES/DES_29_03.md)
+---
+- [del 28 Marzo - Mancano gli standard nella comunicazione dei dati in Italia](/ARTICLES/DES_28_03.md)
+- [del 27 Marzo - La giornata di oggi è di difficile valutazione ma ci sono dei lati positivi](/ARTICLES/DES_27_03.md)
+
+---
+
+### OLD
 
 ### 28/03/2020
 
@@ -29,9 +44,6 @@
 
 - [Dati Regionali e Provinciali (Regional and Provincial Data)](/RUN_28_03/RUN2/RUN.html)
 
----
-
-### OLD
 
 #### 27/03/2020
 

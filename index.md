@@ -10,13 +10,13 @@
 
 ### 02/04/2020
 
-- [(IN CORSO) Andamenti settimanali regioni NORD/SUD (WEEKLY TRENDS)](/RUN_02_04/RUN5/RUN.html)
+- [(NEW!) Andamenti settimanali regioni NORD/SUD (WEEKLY TRENDS)](/RUN_02_04/RUN5/RUN.html)
 
-- [(IN CORSO) Dati nazionali, previsioni e andamenti nazionali/regionali (National and regional trends)](/RUN_02_04/RUN1/RUN.html)
+- [(NEW!) Dati nazionali, previsioni e andamenti nazionali/regionali (National and regional trends)](/RUN_02_04/RUN1/RUN.html)
 
-- [(IN CORSO) Confronti interregionali (Interregional comparisons)](/RUN_02_04/RUN4/RUN.html)
+- [(NEW!) Confronti interregionali (Interregional comparisons)](/RUN_02_04/RUN4/RUN.html)
 
-- [(IN CORSO) Dati regionali e provinciali (Regional and Provincial Data)](/RUN_02_04/RUN2/RUN.html)
+- [(NEW!) Dati regionali e provinciali (Regional and Provincial Data)](/RUN_02_04/RUN2/RUN.html)
 
 ### 01/04/2020
 

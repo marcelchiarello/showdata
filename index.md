@@ -1,23 +1,50 @@
 # COVID-19 DIFFUSION IN ITALY AND REGIONS/PROVINCES
 ### Aggiornato ogni giorno dopo la pubblicazione dei dati della protezione civile (ore: 18-19)
+### Source Data
+
+- [PROTEZIONE CIVILE ITALIANA, GITHUB DATASET](https://github.com/pcm-dpc/COVID-19)
+
 ---
+
 ## DATA PROCESSING AND ESTIMATION REPORTS
 
-### (NEW!) 01/04/2020
+### 02/04/2020
 
-- [(NEW!) Andamenti settimanali regioni NORD/SUD (WEEKLY TRENDS)](/RUN_01_04/RUN5/RUN.html)
+- [(IN CORSO) Andamenti settimanali regioni NORD/SUD (WEEKLY TRENDS)](/RUN_02_04/RUN5/RUN.html)
 
-- [(NEW!) Dati nazionali, previsioni e andamenti nazionali/regionali (National and regional trends)](/RUN_01_04/RUN1/RUN.html)
+- [(IN CORSO) Dati nazionali, previsioni e andamenti nazionali/regionali (National and regional trends)](/RUN_02_04/RUN1/RUN.html)
 
-- [(NEW!) Confronti interregionali (Interregional comparisons)](/RUN_01_04/RUN4/RUN.html)
+- [(IN CORSO) Confronti interregionali (Interregional comparisons)](/RUN_02_04/RUN4/RUN.html)
 
-- [(NEW!) Dati regionali e provinciali (Regional and Provincial Data)](/RUN_01_04/RUN2/RUN.html)
+- [(IN CORSO) Dati regionali e provinciali (Regional and Provincial Data)](/RUN_02_04/RUN2/RUN.html)
+
+### 01/04/2020
+
+- [(Andamenti settimanali regioni NORD/SUD (WEEKLY TRENDS)](/RUN_01_04/RUN5/RUN.html)
+
+- [Dati nazionali, previsioni e andamenti nazionali/regionali (National and regional trends)](/RUN_01_04/RUN1/RUN.html)
+
+- [Confronti interregionali (Interregional comparisons)](/RUN_01_04/RUN4/RUN.html)
+
+- [Dati regionali e provinciali (Regional and Provincial Data)](/RUN_01_04/RUN2/RUN.html)
+
+---
+
+## ARTICOLI E ANALISI
+
+- [(NEW) del 29 Marzo - Il picco in Lombardia. Ecco perchè serve analizzare e confrontare i dati regione per regione.](/ARTICLES/DES_29_03.md)
+- [del 28 Marzo - Mancano gli standard nella comunicazione dei dati in Italia](/ARTICLES/DES_28_03.md)
+- [del 27 Marzo - La giornata di oggi è di difficile valutazione ma ci sono dei lati positivi](/ARTICLES/DES_27_03.md)
+
+---
+
+### OLD
 
 ### 31/03/2020
 
 - [Andamenti settimanali regioni NORD/SUD (WEEKLY TRENDS)](/RUN_31_03/RUN5/RUN.html)
 
-- [Dati nazionali, previsioni e andamenti nazionali/regionali (National and regional trends)](/RUN_31_03/RUN1/RUN.html)
+- [Dati nazionali, stime e andamenti nazionali/regionali (National and regional trends)](/RUN_31_03/RUN1/RUN.html)
 
 - [Confronti interregionali (Interregional comparisons)](/RUN_31_03/RUN4/RUN.html)
 
@@ -27,24 +54,11 @@
 
 - [Andamenti settimanali regioni NORD/SUD (WEEKLY TRENDS)](/RUN_30_03/RUN5/RUN.html)
 
-- [Dati nazionali, previsioni e andamenti nazionali/regionali (National and regional trends)](/RUN_30_03/RUN1/RUN.html)
+- [Dati nazionali, stime e andamenti nazionali/regionali (National and regional trends)](/RUN_30_03/RUN1/RUN.html)
 
 - [Confronti interregionali (Interregional comparisons)](/RUN_30_03/RUN4/RUN.html)
 
 - [Dati regionali e provinciali (Regional and Provincial Data)](/RUN_30_03/RUN2/RUN.html)
-
----
-
-## ARTICOLI E ANALISI
-
--[(NEW) del 29 Marzo - Il picco in Lombardia. Ecco perchè serve analizzare e confrontare i dati regione per regione.](/ARTICLES/DES_29_03.md)
----
-- [del 28 Marzo - Mancano gli standard nella comunicazione dei dati in Italia](/ARTICLES/DES_28_03.md)
-- [del 27 Marzo - La giornata di oggi è di difficile valutazione ma ci sono dei lati positivi](/ARTICLES/DES_27_03.md)
-
----
-
-### OLD
 
 ### 29/03/2020
 
@@ -67,7 +81,7 @@
 - [Dati Regionali e Provinciali (Regional and Provincial Data)](/RUN_28_03/RUN2/RUN.html)
 
 
-#### 27/03/2020
+### 27/03/2020
 
 - [Andamenti nazionali e regionali (national and regional trends)](/RUN_27_03/RUN1/RUN.html)
 
@@ -83,7 +97,3 @@
 - [REPORT del 24/03/2020: Andamenti nazionali e regionali](/RUN_24_03/RUN.html)
 
 ---
-
-### Source Data
-
-- [PROTEZIONE CIVILE ITALIANA, GITHUB DATASET](https://github.com/pcm-dpc/COVID-19)

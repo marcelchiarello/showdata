@@ -12,7 +12,7 @@
 
 - [(NEW!) Andamenti settimanali regioni NORD/SUD (WEEKLY TRENDS)](/RUN_02_04/RUN5/RUN.html)
 
-- [(NEW!) Dati nazionali, previsioni e andamenti nazionali/regionali (National and regional trends)](/RUN_02_04/RUN1/RUN.html)
+- [(NEW!) Dati nazionali, stime e andamenti nazionali/regionali (National and regional trends)](/RUN_02_04/RUN1/RUN.html)
 
 - [(NEW!) Confronti interregionali (Interregional comparisons)](/RUN_02_04/RUN4/RUN.html)
 
@@ -22,7 +22,7 @@
 
 - [(Andamenti settimanali regioni NORD/SUD (WEEKLY TRENDS)](/RUN_01_04/RUN5/RUN.html)
 
-- [Dati nazionali, previsioni e andamenti nazionali/regionali (National and regional trends)](/RUN_01_04/RUN1/RUN.html)
+- [Dati nazionali, stime e andamenti nazionali/regionali (National and regional trends)](/RUN_01_04/RUN1/RUN.html)
 
 - [Confronti interregionali (Interregional comparisons)](/RUN_01_04/RUN4/RUN.html)
 

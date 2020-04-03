@@ -8,7 +8,7 @@
 
 ## DATA PROCESSING AND ESTIMATION REPORTS
 
-### 03/04/2020 - English update
+### 03/04/2020 - Update: Italian/English
 
 - [(NEW!) Andamenti settimanali regioni NORD/SUD (WEEKLY TRENDS)](/RUN_03_04/RUN5/RUN.html)
 

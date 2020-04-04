@@ -4,7 +4,7 @@
 
 ## TUTTI I GRAFICI E LE STIME NAZIONALI E REGIONALI (ALL NATIONAL AND RAGIONAL DATA & PLOTS)
 
-### 04/04/2020 - Update: Italian/English
+### 04/04/2020
 
 - [Andamenti settimanali regioni NORD/SUD (WEEKLY TRENDS)](/RUN_04_04/RUN5/RUN.html)
 

@@ -1,4 +1,4 @@
-<img src="https://marcelchiarello.github.io/showdata/RUN_03_04/RUN1/RUN_DATA_FIT_ITALIA_REGIONI_01.png"/>
+<!-- <img src="https://marcelchiarello.github.io/showdata/RUN_03_04/RUN1/RUN_DATA_FIT_ITALIA_REGIONI_01.png"/> -->
 
 ---
 

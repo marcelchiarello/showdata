@@ -8,22 +8,23 @@
 
 - [Andamenti settimanali regioni NORD/SUD (WEEKLY TRENDS)](/RUN_04_04/RUN5/RUN.html)
 
-- [Dati nazionali, stime e andamenti nazionali/regionali (National and regional trends)](/RUN_04_04/RUN1/RUN.html)
-
 - [Confronti interregionali (Interregional comparisons)](/RUN_04_04/RUN4/RUN.html)
 
 - [Dati regionali e provinciali (Regional and Provincial Data)](/RUN_04_04/RUN2/RUN.html)
+
+- [Dati nazionali, stime e andamenti nazionali/regionali (National and regional trends)](/RUN_04_04/RUN1/RUN.html)
+
 
 
 ### 03/04/2020 - Update: Italian/English
 
 - [Andamenti settimanali regioni NORD/SUD (WEEKLY TRENDS)](/RUN_03_04/RUN5/RUN.html)
 
-- [Dati nazionali, stime e andamenti nazionali/regionali (National and regional trends)](/RUN_03_04/RUN1/RUN.html)
-
 - [Confronti interregionali (Interregional comparisons)](/RUN_03_04/RUN4/RUN.html)
 
 - [Dati regionali e provinciali (Regional and Provincial Data)](/RUN_03_04/RUN2/RUN.html)
+
+- [Dati nazionali, stime e andamenti nazionali/regionali (National and regional trends)](/RUN_03_04/RUN1/RUN.html)
 
 ---
 

@@ -4,7 +4,7 @@
 
 UPDATE 04/04: Sono stati corretti i plot con i valori giornalieri di terapie intensive ed ospedalizzati che non scendevano sotto il valore 0. Ora i dati indicano i Delta con il giorno precedente. Ad esempio, oggi: -74 terapie intesive rispetto a ieri.
 
-## TUTTI I GRAFICI E LE STIME NAZIONALI E REGIONALI (ALL NATIONAL AND RAGIONAL DATA & PLOTS)
+## DATI & GRAFICI NAZIONALI E REGIONALI (NATIONAL AND RAGIONAL DATA & PLOTS)
 
 ### 04/04/2020
 

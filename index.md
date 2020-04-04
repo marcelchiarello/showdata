@@ -1,6 +1,3 @@
-# COVID-19 DIFFUSION IN ITALY AND REGIONS/PROVINCES
-### Aggiornato ogni giorno dopo la pubblicazione dei dati della protezione civile (ore: 18-19)
-
 <img src="https://marcelchiarello.github.io/showdata/RUN_03_04/RUN1/RUN_DATA_FIT_ITALIA_REGIONI_01.png"/>
 
 ---

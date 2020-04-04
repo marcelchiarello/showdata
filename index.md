@@ -3,10 +3,6 @@
 
 <img src="https://marcelchiarello.github.io/showdata/RUN_03_04/RUN1/RUN_DATA_FIT_ITALIA_REGIONI_01.png"/>
 
-### Data Source
-
-- [PROTEZIONE CIVILE ITALIANA, GITHUB DATASET](https://github.com/pcm-dpc/COVID-19)
-
 ---
 
 ## TUTTI I GRAFICI E LE STIME NAZIONALI E REGIONALI (ALL NATIONAL AND RAGIONAL DATA & PLOTS)
@@ -39,6 +35,12 @@
 - [(NEW) del 29 Marzo - Il picco in Lombardia. Ecco perchè serve analizzare e confrontare i dati regione per regione.](/ARTICLES/DES_29_03.md)
 - [del 28 Marzo - Mancano gli standard nella comunicazione dei dati in Italia](/ARTICLES/DES_28_03.md)
 - [del 27 Marzo - La giornata di oggi è di difficile valutazione ma ci sono dei lati positivi](/ARTICLES/DES_27_03.md)
+
+---
+
+### Data Source
+
+- [PROTEZIONE CIVILE ITALIANA, GITHUB DATASET](https://github.com/pcm-dpc/COVID-19)
 
 ---
 

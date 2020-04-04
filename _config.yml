@@ -1,5 +1,6 @@
 title: COVID-19 IN ITALY: Data, Plots and Estimations # your name (or website title) here
 logo: "/images/logo.png?raw=true" # your photo (or logo) here
 description: > # your text below (remove <br> elements if you don't need line breaks)
-  Updated every day at 7 pm<br><br>
+  Updated every day at 7 pm 
+  <br><br>
 theme: jekyll-theme-cayman

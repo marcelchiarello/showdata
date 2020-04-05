@@ -7,7 +7,7 @@
     Total                    128948                    3977                     15887              21815                    32926                  691461    
     Giornalieri (Daily)        4316                     -17                       525                819                      -78                   34237  
    
-UPDATE: Sono stati corretti i plot con i valori giornalieri di terapie intensive ed ospedalizzati che non scendevano sotto il valore 0. Ora i dati indicano i Delta con il giorno precedente. Ad esempio, oggi: -74 terapie intesive rispetto a ieri.
+UPDATE: Il report dei grafici nazionali (1) è ora scorpato dal report delle stime dei trends (5).
 
 ---
 

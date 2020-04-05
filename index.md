@@ -1,5 +1,3 @@
-<!-- <img src="https://marcelchiarello.github.io/showdata/RUN_03_04/RUN1/RUN_DATA_FIT_ITALIA_REGIONI_01.png"/> -->
-
 ---
 
 ### 4/04/2020
@@ -14,6 +12,8 @@ UPDATE: Sono stati corretti i plot con i valori giornalieri di terapie intensive
 
 ---
 
+#### Detailed Reports:
+
 - [1 -Dati nazionali (National Data)](/RUN_04_04/RUN0/RUN.html)
 
 - [2 -Dati regionali e provinciali (Regional and Provincial Data)](/RUN_04_04/RUN2/RUN.html)
@@ -25,6 +25,10 @@ UPDATE: Sono stati corretti i plot con i valori giornalieri di terapie intensive
 - [5 -Stime degli andamenti andamenti nazionali/regionali (National and regional trends estimation)](/RUN_04_04/RUN1/RUN.html)
 
 ---
+
+#### Main Plots:
+
+<!-- <img src="https://marcelchiarello.github.io/showdata/RUN_03_04/RUN1/RUN_DATA_FIT_ITALIA_REGIONI_01.png"/> -->
 
 ## ARTICOLI E ANALISI (ARTICLES & ANALYSIS)
 

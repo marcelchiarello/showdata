@@ -15,13 +15,13 @@ UPDATE: Il report dei grafici nazionali (1) è ora scorpato dal report delle sti
 
 - [1 -Dati nazionali (National Data)](/RUN_05_04/RUN0/RUN.html)
 
-- [in corso -Dati regionali e provinciali (Regional and Provincial Data)](/RUN_05_04/RUN2/RUN.html)
+- [2 -Dati regionali e provinciali (Regional and Provincial Data)](/RUN_05_04/RUN2/RUN.html)
 
-- [in corso -Andamenti settimanali regioni NORD/SUD (WEEKLY TRENDS)](/RUN_05_04/RUN5/RUN.html)
+- [3 -Andamenti settimanali regioni NORD/SUD (WEEKLY TRENDS)](/RUN_05_04/RUN5/RUN.html)
 
-- [in corso -Confronti interregionali (Interregional comparisons)](/RUN_05_04/RUN4/RUN.html)
+- [4 -Confronti interregionali (Interregional comparisons)](/RUN_05_04/RUN4/RUN.html)
 
-- [in corso -Stime degli andamenti nazionali/regionali (National and regional trends estimation)](/RUN_05_04/RUN1/RUN.html)
+- [5 -Stime degli andamenti nazionali/regionali (National and regional trends estimation)](/RUN_05_04/RUN1/RUN.html)
 
 ---
 

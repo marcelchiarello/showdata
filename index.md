@@ -1,13 +1,13 @@
 ---
-
-### 4/04/2020
+## UPDTATED TO 4/04/2020
+---
 
                            Casi_Cases    Terapia_intensiva_Intensive_case    Morti_Deaths    Guariti_Recovered    Ospedalizzati_Hospitalized    Tamponi_Tests
                            __________    ________________________________    ____________    _________________    __________________________    _____________
 
     Total                    124632                    3994                     15362              20996                    33004                  657224    
     Giornalieri (Daily)        4805                     -74                       681               1238                      195                   37375   
-    
+   
 UPDATE: Sono stati corretti i plot con i valori giornalieri di terapie intensive ed ospedalizzati che non scendevano sotto il valore 0. Ora i dati indicano i Delta con il giorno precedente. Ad esempio, oggi: -74 terapie intesive rispetto a ieri.
 
 ---

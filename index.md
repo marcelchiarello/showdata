@@ -7,7 +7,7 @@
     Totali         128948           91246            15887     21815           3977               32926                28949              691461 
     Giorn.(Daily)    4316            2972              525       819            -17                 -78                  -61               34237 
     
-                    Cases     Currently_positives    Deaths    Recovered    Intensive_care    Hospitalized    Hospitalized_with_symptoms   Tests                
+                    Cases     Currently_positives    Deaths   Recovered    Intensive_care    Hospitalized    Hospitalized_with_symptoms   Tests                
     
 Cases = Currently_positives + Recovered + Deaths
 

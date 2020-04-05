@@ -29,9 +29,7 @@ UPDATE: Il report dei grafici nazionali (1) è ora scorpato dal report delle sti
 
 <img src="https://marcelchiarello.github.io/showdata/RUN_05_04/RUN4/RUN_INTEREGION_01.png">
 
-<img src="https://marcelchiarello.github.io/showdata/RUN_05_04/RUN4/RUN_INTEREGION_01.png">
-
-<img src=https://marcelchiarello.github.io/showdata/RUN_05_04/RUN4/RUN_INTEREGION_05.png>
+<img src="https://marcelchiarello.github.io/showdata/RUN_05_04/RUN4/RUN_INTEREGION_05.png>
 
 <img src="https://marcelchiarello.github.io/showdata/RUN_05_04/RUN0/RUN_DATA_ITALIA_01.png">
 

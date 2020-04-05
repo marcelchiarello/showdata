@@ -1,7 +1,7 @@
 <!-- start -->
-### UPDTATED TO 5/04/2020
+### UPDATED TO 5/04/2020
 
-                           Casi_Cases    Terapia_intensiva_Intensive_case    Morti_Deaths    Guariti_Recovered    Ospedalizzati_Hospitalized    Tamponi_Tests
+                           Casi_Cases    Terapia_intensiva_Intensive_care    Morti_Deaths    Guariti_Recovered    Ospedalizzati_Hospitalized    Tamponi_Tests
                            __________    ________________________________    ____________    _________________    __________________________    _____________
 
     Total                    128948                    3977                     15887              21815                    32926                  691461    

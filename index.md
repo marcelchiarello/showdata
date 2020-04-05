@@ -9,8 +9,7 @@
     
                     Cases     Currently_positives    Deaths    Recovered    Intensive_care    Hospitalized    Hospitalized_with_symptoms   Tests                
     
-UPDATE: Il report dei grafici nazionali (1) è ora scorpato dal report delle stime dei trends (5).
-
+Cases = Currently_positives + Recovered + Deaths
 ---
 
 #### Detailed Reports:

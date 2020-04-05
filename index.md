@@ -4,8 +4,8 @@
                            Casi_Cases    Terapia_intensiva_Intensive_case    Morti_Deaths    Guariti_Recovered    Ospedalizzati_Hospitalized    Tamponi_Tests
                            __________    ________________________________    ____________    _________________    __________________________    _____________
 
-    Total                    124632                    3994                     15362              20996                    33004                  657224    
-    Giornalieri (Daily)        4805                     -74                       681               1238                      195                   37375   
+    Total                    128948                    3977                     15887              21815                    32926                  691461    
+    Giornalieri (Daily)        4316                     -17                       525                819                      -78                   34237  
    
 UPDATE: Sono stati corretti i plot con i valori giornalieri di terapie intensive ed ospedalizzati che non scendevano sotto il valore 0. Ora i dati indicano i Delta con il giorno precedente. Ad esempio, oggi: -74 terapie intesive rispetto a ieri.
 
@@ -13,28 +13,28 @@ UPDATE: Sono stati corretti i plot con i valori giornalieri di terapie intensive
 
 #### Detailed Reports:
 
-- [1 -Dati nazionali (National Data)](/RUN_04_04/RUN0/RUN.html)
+- [1 -Dati nazionali (National Data)](/RUN_05_04/RUN0/RUN.html)
 
-- [2 -Dati regionali e provinciali (Regional and Provincial Data)](/RUN_04_04/RUN2/RUN.html)
+- [in corso -Dati regionali e provinciali (Regional and Provincial Data)](/RUN_05_04/RUN2/RUN.html)
 
-- [3 -Andamenti settimanali regioni NORD/SUD (WEEKLY TRENDS)](/RUN_04_04/RUN5/RUN.html)
+- [in corso -Andamenti settimanali regioni NORD/SUD (WEEKLY TRENDS)](/RUN_05_04/RUN5/RUN.html)
 
-- [4 -Confronti interregionali (Interregional comparisons)](/RUN_04_04/RUN4/RUN.html)
+- [in corso -Confronti interregionali (Interregional comparisons)](/RUN_05_04/RUN4/RUN.html)
 
-- [5 -Stime degli andamenti nazionali/regionali (National and regional trends estimation)](/RUN_04_04/RUN1/RUN.html)
+- [in corso -Stime degli andamenti nazionali/regionali (National and regional trends estimation)](/RUN_05_04/RUN1/RUN.html)
 
 ---
 
 #### The general situation (see detailed reports for all charts):
 Zoom in for a better visualization.
 
-<img src="https://marcelchiarello.github.io/showdata/RUN_04_04/RUN0/RUN_DATA_ITALIA_01.png">
+<img src="https://marcelchiarello.github.io/showdata/RUN_05_04/RUN0/RUN_DATA_ITALIA_01.png">
 
-<img src="https://marcelchiarello.github.io/showdata/RUN_04_04/RUN0/RUN_DATA_ITALIA_04.png">
+<img src="https://marcelchiarello.github.io/showdata/RUN_05_04/RUN0/RUN_DATA_ITALIA_04.png">
 
-<img src="https://marcelchiarello.github.io/showdata/RUN_04_04/RUN5/RUN_NEWTRENDS_01.png">
+<img src="https://marcelchiarello.github.io/showdata/RUN_05_04/RUN5/RUN_NEWTRENDS_01.png">
 
-<img src="https://marcelchiarello.github.io/showdata/RUN_04_04/RUN5/RUN_NEWTRENDS_03.png">
+<img src="https://marcelchiarello.github.io/showdata/RUN_05_04/RUN5/RUN_NEWTRENDS_03.png">
 
 
 ## ARTICOLI E ANALISI (ARTICLES & ANALYSIS)
@@ -53,6 +53,17 @@ Zoom in for a better visualization.
 
 ### OLD
 
+### 04/04/2020:
+
+- [1 -Dati nazionali (National Data)](/RUN_04_04/RUN0/RUN.html)
+
+- [2 -Dati regionali e provinciali (Regional and Provincial Data)](/RUN_04_04/RUN2/RUN.html)
+
+- [3 -Andamenti settimanali regioni NORD/SUD (WEEKLY TRENDS)](/RUN_04_04/RUN5/RUN.html)
+
+- [4 -Confronti interregionali (Interregional comparisons)](/RUN_04_04/RUN4/RUN.html)
+
+- [5 -Stime degli andamenti nazionali/regionali (National and regional trends estimation)](/RUN_04_04/RUN1/RUN.html)
 
 ### 03/04/2020
 

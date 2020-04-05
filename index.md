@@ -1,6 +1,7 @@
 <!-- <img src="https://marcelchiarello.github.io/showdata/RUN_03_04/RUN1/RUN_DATA_FIT_ITALIA_REGIONI_01.png"/> -->
 
 ---
+
 ### 4/04/2020
 
                            Casi_Cases    Terapia_intensiva_Intensive_case    Morti_Deaths    Guariti_Recovered    Ospedalizzati_Hospitalized    Tamponi_Tests
@@ -11,9 +12,7 @@
     
 UPDATE 04/04: Sono stati corretti i plot con i valori giornalieri di terapie intensive ed ospedalizzati che non scendevano sotto il valore 0. Ora i dati indicano i Delta con il giorno precedente. Ad esempio, oggi: -74 terapie intesive rispetto a ieri.
 
-## TUTTI DATI & GRAFICI NAZIONALI E REGIONALI (ALL NATIONAL AND RAGIONAL DATA & PLOTS)
-
-### 04/04/2020
+---
 
 - [1 -Dati nazionali (National Data)](/RUN_04_04/RUN0/RUN.html)
 
@@ -24,17 +23,6 @@ UPDATE 04/04: Sono stati corretti i plot con i valori giornalieri di terapie int
 - [4 -Confronti interregionali (Interregional comparisons)](/RUN_04_04/RUN4/RUN.html)
 
 - [5 -Stime degli andamenti andamenti nazionali/regionali (National and regional trends estimation)](/RUN_04_04/RUN1/RUN.html)
-
-
-### 03/04/2020
-
-- [Andamenti settimanali regioni NORD/SUD (WEEKLY TRENDS)](/RUN_03_04/RUN5/RUN.html)
-
-- [Confronti interregionali (Interregional comparisons)](/RUN_03_04/RUN4/RUN.html)
-
-- [Dati regionali e provinciali (Regional and Provincial Data)](/RUN_03_04/RUN2/RUN.html)
-
-- [Dati nazionali, stime e andamenti nazionali/regionali (National and regional trends)](/RUN_03_04/RUN1/RUN.html)
 
 ---
 
@@ -54,6 +42,16 @@ UPDATE 04/04: Sono stati corretti i plot con i valori giornalieri di terapie int
 
 ### OLD
 
+
+### 03/04/2020
+
+- [Andamenti settimanali regioni NORD/SUD (WEEKLY TRENDS)](/RUN_03_04/RUN5/RUN.html)
+
+- [Confronti interregionali (Interregional comparisons)](/RUN_03_04/RUN4/RUN.html)
+
+- [Dati regionali e provinciali (Regional and Provincial Data)](/RUN_03_04/RUN2/RUN.html)
+
+- [Dati nazionali, stime e andamenti nazionali/regionali (National and regional trends)](/RUN_03_04/RUN1/RUN.html)
 
 ### 02/04/2020
 

@@ -2,6 +2,12 @@
 
 ---
 
+             Cases     Intensive_care    Deaths    Recovered
+             ______    ______________    ______    _________
+
+    Total    124632         3994         15362       20996  
+    Daily      4805          -74           681        1238  
+
 UPDATE 04/04: Sono stati corretti i plot con i valori giornalieri di terapie intensive ed ospedalizzati che non scendevano sotto il valore 0. Ora i dati indicano i Delta con il giorno precedente. Ad esempio, oggi: -74 terapie intesive rispetto a ieri.
 
 ## DATI & GRAFICI NAZIONALI E REGIONALI (NATIONAL AND RAGIONAL DATA & PLOTS)

@@ -25,7 +25,7 @@ UPDATE: Sono stati corretti i plot con i valori giornalieri di terapie intensive
 
 ---
 
-#### Main Plots:
+#### The general situation (see detailed reports for all charts):
 
 <img src="https://marcelchiarello.github.io/showdata/RUN_04_04/RUN0/RUN_DATA_ITALIA_01.png">
 

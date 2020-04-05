@@ -27,7 +27,14 @@ UPDATE: Sono stati corretti i plot con i valori giornalieri di terapie intensive
 
 #### Main Plots:
 
-<!-- <img src="https://marcelchiarello.github.io/showdata/RUN_03_04/RUN1/RUN_DATA_FIT_ITALIA_REGIONI_01.png"/> -->
+<img src="https://marcelchiarello.github.io/showdata/RUN_04_04/RUN0/RUN_DATA_ITALIA_01.png"
+
+<img src="https://marcelchiarello.github.io/showdata/RUN_04_04/RUN0/RUN_DATA_ITALIA_04.png"
+
+<img src="https://marcelchiarello.github.io/showdata/RUN_04_04/RUN5/RUN_NEWTRENDS_01.png"
+
+<img src="https://marcelchiarello.github.io/showdata/RUN_04_04/RUN5/RUN_NEWTRENDS_03.png"
+
 
 ## ARTICOLI E ANALISI (ARTICLES & ANALYSIS)
 

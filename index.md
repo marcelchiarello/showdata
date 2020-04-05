@@ -21,7 +21,7 @@ UPDATE: Sono stati corretti i plot con i valori giornalieri di terapie intensive
 
 - [4 -Confronti interregionali (Interregional comparisons)](/RUN_04_04/RUN4/RUN.html)
 
-- [5 -Stime degli andamenti andamenti nazionali/regionali (National and regional trends estimation)](/RUN_04_04/RUN1/RUN.html)
+- [5 -Stime degli andamenti nazionali/regionali (National and regional trends estimation)](/RUN_04_04/RUN1/RUN.html)
 
 ---
 

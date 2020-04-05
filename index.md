@@ -10,6 +10,7 @@
                     Cases     Currently_positives    Deaths    Recovered    Intensive_care    Hospitalized    Hospitalized_with_symptoms   Tests                
     
 Cases = Currently_positives + Recovered + Deaths
+
 ---
 
 #### Detailed Reports:

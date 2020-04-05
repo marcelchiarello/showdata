@@ -1,7 +1,7 @@
 <!-- start -->
 ### UPDATED TO 5/04/2020
 
-                           Casi_Cases    Terapia_intensiva_Intensive_care    Morti_Deaths    Guariti_Recovered    Ospedalizzati_Hospitalized    Tamponi_Tests
+                           Casi(Cases)    Terapia_intensiva_Intensive_care    Morti_Deaths    Guariti_Recovered    Ospedalizzati(Hospitalized)    Tamponi_Tests
                            __________    ________________________________    ____________    _________________    __________________________    _____________
 
     Total                    128948                    3977                     15887              21815                    32926                  691461    
@@ -26,7 +26,6 @@ UPDATE: Il report dei grafici nazionali (1) è ora scorpato dal report delle sti
 ---
 
 #### The general situation (see detailed reports for all charts):
-Zoom in for a better visualization.
 
 <img src="https://marcelchiarello.github.io/showdata/RUN_05_04/RUN0/RUN_DATA_ITALIA_01.png">
 

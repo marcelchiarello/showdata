@@ -1,12 +1,14 @@
 <!-- start -->
 ### UPDATED TO 5/04/2020
 
-                           Casi(Cases)   Terapia intensiva(Intensive care)   Morti(Deaths)   Guariti(Recovered)   Ospedalizzati(Hospitalized)   Tamponi(Tests)
-                           __________    ________________________________    ____________    _________________    __________________________    _____________
+                    Casi     Attualmente_positivi    Morti    Guariti    Terapia_intensiva    Ospedalizzati    Ricoverati_con_sintomi    Tamponi
+                   ______    ____________________    _____    _______    _________________    _____________    ______________________    _______
 
-    Total                    128948                    3977                     15887              21815                    32926                  691461    
-    Giornalieri (Daily)        4316                     -17                       525                819                      -78                   34237  
-   
+    Totali         128948           91246            15887     21815           3977               32926                28949              691461 
+    Giorn.(Daily)    4316            2972              525       819            -17                 -78                  -61               34237 
+    
+                    Cases     Currently_positives    Deaths    Recovered    Intensive_care    Hospitalized    Hospitalized_with_symptoms   Tests                
+    
 UPDATE: Il report dei grafici nazionali (1) è ora scorpato dal report delle stime dei trends (5).
 
 ---

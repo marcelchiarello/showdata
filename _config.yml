@@ -6,3 +6,7 @@ description: > # your text below (remove <br> elements if you don't need line br
   For any question or clarification regarding the data or graphs reported, send me an email to: marcello.chiarello@outlook.com <br><br>
 
 theme: jekyll-theme-cayman
+
+.inner {
+  max-width: 85%;
+}

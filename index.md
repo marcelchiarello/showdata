@@ -5,7 +5,7 @@
                    ______    ____________________    _____    _______    _________________    _____________    ______________________    _______
 
     Totali         132547           93187            16523     22837           3898               32874                28976             721732 
-    Giorn.(Daily)    3599            1941              636      1022            -79                 -52                   27              30271 
+    Giorn.(Daily)   +3599           +1941             +636     +1022            -79                 -52                  +27             +30271 
     
                     Cases     Currently_positives    Deaths   Recovered    Intensive_care    Hospitalized    Hospitalized_with_symptoms   Tests                
     

@@ -32,6 +32,8 @@ Cases = Currently_positives + Recovered + Deaths
 
 #### The general situation (see detailed reports for all charts):
 
+<img src="https://marcelchiarello.github.io/showdata/RUN_05_04/RUN6/RUN_FACTORS_01.png">
+
 <img src="https://marcelchiarello.github.io/showdata/RUN_05_04/RUN4/RUN_INTEREGION_01.png">
 
 <img src="https://marcelchiarello.github.io/showdata/RUN_05_04/RUN4/RUN_INTEREGION_05.png">

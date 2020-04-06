@@ -25,6 +25,9 @@ Cases = Currently_positives + Recovered + Deaths
 
 - [5 -Stime degli andamenti nazionali/regionali (National and regional trends estimation)](/RUN_05_04/RUN1/RUN.html)
 
+- [6 -Fattori di crescita e letalità nazionali/regionali (National and regional growth factor an ethality)](/RUN_05_04/RUN6/RUN.html)
+
+
 ---
 
 #### The general situation (see detailed reports for all charts):

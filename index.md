@@ -1,5 +1,5 @@
 <!-- start -->
-### UPDATED TO 7/04/2020 - 18:07
+### UPDATED TO 7/04/2020 - 18:15
 
                     Casi     Attualmente_positivi    Morti    Guariti    Terapia_intensiva    Ospedalizzati    Ricoverati_con_sintomi    Tamponi
                    ______    ____________________    _____    _______    _________________    _____________    ______________________    _______

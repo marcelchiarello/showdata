@@ -13,7 +13,7 @@ Cases = Currently_positives + Recovered + Deaths
 
 ---
 
-#### Detailed Reports (IN CORSO):
+#### Detailed Reports:
 
 - [1 -Dati nazionali (National Data)](/RUN_08_04/RUN0/RUN.html)
 

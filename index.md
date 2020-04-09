@@ -1,11 +1,12 @@
 <!-- start -->
-### UPDATED TO 8/04/2020 - 18:15
+### UPDATED TO 9/04/2020 - 18:15
 
                     Casi     Attualmente_positivi    Morti    Guariti    Terapia_intensiva    Ospedalizzati    Ricoverati_con_sintomi    Tamponi
                    ______    ____________________    _____    _______    _________________    _____________    ______________________    _______
 
-    Total          139422           95262            17669     26491           3693               32178                28485             807125 
-    Giorn.(Daily)   +3836           +1195             +542     +2099            -99                -332                 -233             +51680 
+    Totali         143626           96877            18279     28470           3605               32004                28399             853369 
+    Giornalieri     +4204           +1615             +610     +1979            -88                -174                  -86             +46244 
+
     
                     Cases     Currently_positives    Deaths   Recovered    Intensive_care    Hospitalized    Hospitalized_with_symptoms   Tests                
     
@@ -15,36 +16,35 @@ Cases = Currently_positives + Recovered + Deaths
 
 #### Detailed Reports:
 
-- [1 -Dati nazionali (National Data)](/RUN_08_04/RUN0/RUN.html)
+- [1 -Dati nazionali (National Data)](/RUN_09_04/RUN0/RUN.html)
 
-- [2 -(NEW) Fattori di crescita e letalità nazionali/regionali (National and regional growth factor and lethality)](/RUN_08_04/RUN6/RUN.html)
+- [2 -(NEW) Fattori di crescita e letalità nazionali/regionali (National and regional growth factor and lethality)](/RUN_09_04/RUN6/RUN.html)
 
-- [3 -Dati regionali e provinciali (Regional and Provincial Data)](/RUN_08_04/RUN2/RUN.html)
+- [3 -Dati regionali e provinciali (Regional and Provincial Data)](/RUN_09_04/RUN2/RUN.html)
 
-- [4 -Andamenti settimanali regioni NORD/SUD (WEEKLY TRENDS)](/RUN_08_04/RUN5/RUN.html)
+- [4 -Andamenti settimanali regioni NORD/SUD (WEEKLY TRENDS)](/RUN_09_04/RUN5/RUN.html)
 
-- [5 -Confronti interregionali (Interregional comparisons)](/RUN_08_04/RUN4/RUN.html)
+- [5 -Confronti interregionali (Interregional comparisons)](/RUN_09_04/RUN4/RUN.html)
 
-- [6 -Stime degli andamenti nazionali/regionali (National and regional trends estimation)](/RUN_08_04/RUN1/RUN.html)
-
+- [6 -Stime degli andamenti nazionali/regionali (National and regional trends estimation)](/RUN_09_04/RUN1/RUN.html)
 
 ---
 
 #### The general situation (preview - see detailed reports for all charts):
 
-<img src="https://marcelchiarello.github.io/showdata/RUN_08_04/RUN6/RUN_FACTORS_01.png">
+<img src="https://marcelchiarello.github.io/showdata/RUN_09_04/RUN6/RUN_FACTORS_01.png">
 
-<img src="https://marcelchiarello.github.io/showdata/RUN_08_04/RUN4/RUN_INTEREGION_01.png">
+<img src="https://marcelchiarello.github.io/showdata/RUN_09_04/RUN4/RUN_INTEREGION_01.png">
 
-<img src="https://marcelchiarello.github.io/showdata/RUN_08_04/RUN4/RUN_INTEREGION_05.png">
+<img src="https://marcelchiarello.github.io/showdata/RUN_09_04/RUN4/RUN_INTEREGION_05.png">
 
-<img src="https://marcelchiarello.github.io/showdata/RUN_08_04/RUN0/RUN_DATA_ITALIA_01.png">
+<img src="https://marcelchiarello.github.io/showdata/RUN_09_04/RUN0/RUN_DATA_ITALIA_01.png">
 
-<img src="https://marcelchiarello.github.io/showdata/RUN_08_04/RUN0/RUN_DATA_ITALIA_04.png">
+<img src="https://marcelchiarello.github.io/showdata/RUN_09_04/RUN0/RUN_DATA_ITALIA_04.png">
 
-<img src="https://marcelchiarello.github.io/showdata/RUN_08_04/RUN5/RUN_NEWTRENDS_01.png">
+<img src="https://marcelchiarello.github.io/showdata/RUN_09_04/RUN5/RUN_NEWTRENDS_01.png">
 
-<img src="https://marcelchiarello.github.io/showdata/RUN_08_04/RUN5/RUN_NEWTRENDS_03.png">
+<img src="https://marcelchiarello.github.io/showdata/RUN_09_04/RUN5/RUN_NEWTRENDS_03.png">
 
 
 ## ARTICOLI E ANALISI (ARTICLES & ANALYSIS)
@@ -62,6 +62,20 @@ Cases = Currently_positives + Recovered + Deaths
 ---
 
 ### ARCHIVE
+
+### 08/04/2020:
+
+- [1 -Dati nazionali (National Data)](/RUN_08_04/RUN0/RUN.html)
+
+- [2 -(NEW) Fattori di crescita e letalità nazionali/regionali (National and regional growth factor and lethality)](/RUN_08_04/RUN6/RUN.html)
+
+- [3 -Dati regionali e provinciali (Regional and Provincial Data)](/RUN_08_04/RUN2/RUN.html)
+
+- [4 -Andamenti settimanali regioni NORD/SUD (WEEKLY TRENDS)](/RUN_08_04/RUN5/RUN.html)
+
+- [5 -Confronti interregionali (Interregional comparisons)](/RUN_08_04/RUN4/RUN.html)
+
+- [6 -Stime degli andamenti nazionali/regionali (National and regional trends estimation)](/RUN_08_04/RUN1/RUN.html)
 
 ### 07/04/2020:
 

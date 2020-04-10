@@ -14,11 +14,11 @@ Cases = Currently_positives + Recovered + Deaths
 
 ---
 
-#### Detailed Reports (IN CORSO):
+#### Detailed Reports (NEW):
 
 - [1 -Dati nazionali (National Data)](/RUN_10_04/RUN0/RUN.html)
 
-- [2 -(NEW) Fattori di crescita e letalità nazionali/regionali (National and regional growth factor and lethality)](/RUN_10_04/RUN6/RUN.html)
+- [2 -Fattori di crescita e letalità nazionali/regionali (National and regional growth factor and lethality)](/RUN_10_04/RUN6/RUN.html)
 
 - [3 -Dati regionali e provinciali (Regional and Provincial Data)](/RUN_10_04/RUN2/RUN.html)
 
@@ -26,7 +26,7 @@ Cases = Currently_positives + Recovered + Deaths
 
 - [5 -Confronti interregionali (Interregional comparisons)](/RUN_10_04/RUN4/RUN.html)
 
-- [6 -Stime degli andamenti nazionali/regionali (National and regional trends estimation)](/RUN_10_04/RUN1/RUN.html)
+- [6 -IN CORSO-Stime degli andamenti nazionali/regionali (National and regional trends estimation)](/RUN_10_04/RUN1/RUN.html)
 
 ---
 

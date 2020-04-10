@@ -13,7 +13,7 @@
 Cases = Currently_positives + Recovered + Deaths
 
 NOTE: Estimation fitting is changed. 
-Data under consideration are now the "total currently postives" istead of "total cases". Exponential/linear esitmation is not 
+Data under consideration are now the "total currently postives" instead of "total cases". Exponential/linear esitmation is not 
 performed anymore. The fitting equation is a double sigmoid which takes into account the non-linearities around the old linear trend.
 Details will be reported later.
 

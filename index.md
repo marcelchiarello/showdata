@@ -71,11 +71,25 @@ Weekly Trends:
 
 ### ARCHIVE
 
+### 09/04/2020:
+
+- [1 -Dati nazionali (National Data)](/RUN_09_04/RUN0/RUN.html)
+
+- [2 -Fattori di crescita e letalità nazionali/regionali (National and regional growth factor and lethality)](/RUN_09_04/RUN6/RUN.html)
+
+- [3 -Dati regionali e provinciali (Regional and Provincial Data)](/RUN_09_04/RUN2/RUN.html)
+
+- [4 -Andamenti settimanali regioni NORD/SUD (WEEKLY TRENDS)](/RUN_09_04/RUN5/RUN.html)
+
+- [5 -Confronti interregionali (Interregional comparisons)](/RUN_09_04/RUN4/RUN.html)
+
+- [6 -Stime degli andamenti nazionali/regionali (National and regional trends estimation)](/RUN_09_04/RUN1/RUN.html)
+
 ### 08/04/2020:
 
 - [1 -Dati nazionali (National Data)](/RUN_08_04/RUN0/RUN.html)
 
-- [2 -(NEW) Fattori di crescita e letalità nazionali/regionali (National and regional growth factor and lethality)](/RUN_08_04/RUN6/RUN.html)
+- [2 -Fattori di crescita e letalità nazionali/regionali (National and regional growth factor and lethality)](/RUN_08_04/RUN6/RUN.html)
 
 - [3 -Dati regionali e provinciali (Regional and Provincial Data)](/RUN_08_04/RUN2/RUN.html)
 
@@ -89,7 +103,7 @@ Weekly Trends:
 
 - [1 -Dati nazionali (National Data)](/RUN_07_04/RUN0/RUN.html)
 
-- [2 -(NEW) Fattori di crescita e letalità nazionali/regionali (National and regional growth factor and lethality)](/RUN_07_04/RUN6/RUN.html)
+- [2 -Fattori di crescita e letalità nazionali/regionali (National and regional growth factor and lethality)](/RUN_07_04/RUN6/RUN.html)
 
 - [3 -Dati regionali e provinciali (Regional and Provincial Data)](/RUN_07_04/RUN2/RUN.html)
 
@@ -103,7 +117,7 @@ Weekly Trends:
 
 - [1 -Dati nazionali (National Data)](/RUN_06_04/RUN0/RUN.html)
 
-- [2 -(NEW) Fattori di crescita e letalità nazionali/regionali (National and regional growth factor and lethality)](/RUN_06_04/RUN6/RUN.html)
+- [2 -Fattori di crescita e letalità nazionali/regionali (National and regional growth factor and lethality)](/RUN_06_04/RUN6/RUN.html)
 
 - [3 -Dati regionali e provinciali (Regional and Provincial Data)](/RUN_06_04/RUN2/RUN.html)
 

@@ -12,6 +12,11 @@
     
 Cases = Currently_positives + Recovered + Deaths
 
+NOTE: Estimation fitting is changed. 
+Data under consideration are now the "total currently postives" istead of "total cases". Exponential/linear esitmation is not 
+performed anymore. The equation fitting is a double sigmoid which takes into account the non-linearities around the old linear trend.
+Details will be reported later.
+
 ---
 
 #### Detailed Reports (NEW):
@@ -26,11 +31,13 @@ Cases = Currently_positives + Recovered + Deaths
 
 - [5 -Confronti interregionali (Interregional comparisons)](/RUN_10_04/RUN4/RUN.html)
 
-- [6 -IN CORSO-Stime degli andamenti nazionali/regionali (National and regional trends estimation)](/RUN_10_04/RUN1/RUN.html)
+- [6 -UPDATE-Stime degli andamenti nazionali/regionali (National and regional trends estimation)](/RUN_10_04/RUN1/RUN.html)
 
 ---
 
 #### The general situation (preview - see detailed reports for all charts):
+
+<img src="https://marcelchiarello.github.io/showdata/RUN_10_04/RUN1/RUN_DATA_FIT_ITALIA_REGIONI_01.png">
 
 <img src="https://marcelchiarello.github.io/showdata/RUN_10_04/RUN6/RUN_FACTORS_01.png">
 

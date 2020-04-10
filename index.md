@@ -19,7 +19,7 @@ Details will be reported later.
 
 ---
 
-#### Detailed Reports (NEW):
+#### Detailed Reports:
 
 - [1 -Dati nazionali (National Data)](/RUN_10_04/RUN0/RUN.html)
 

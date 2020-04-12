@@ -1,5 +1,5 @@
 <!-- start -->
-## LAST UPDATE 12/04/2020 - 18:10
+## LAST UPDATE 12/04/2020 -18:10
 ### LAST DATA: 12/04/2020
 
                     Casi     Attualmente_positivi    Morti    Guariti    Terapia_intensiva    Ospedalizzati    Ricoverati_con_sintomi    Tamponi

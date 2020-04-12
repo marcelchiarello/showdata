@@ -1,12 +1,12 @@
 <!-- start -->
-## LAST UPDATE 12/04/2020 - 16:45
-### LAST DATA: 11/04/2020
+## LAST UPDATE 12/04/2020 - 18:10
+### LAST DATA: 12/04/2020
 
                     Casi     Attualmente_positivi    Morti    Guariti    Terapia_intensiva    Ospedalizzati    Ricoverati_con_sintomi    Tamponi
                    ______    ____________________    _____    _______    _________________    _____________    ______________________    _______
 
-       Totali      152271           100269           19468      32534           3381               31525                28144             963473 
-    Giornalieri     +4694            +1996            +619      +2079           -116                -214                  -98             +56609 
+    Totali         156363           102253           19899     34211           3343               31190                27847             1010193
+    Giornalieri     +4092            +1984            +431     +1677            -38                -335                 -297              +46720
     
                     Cases     Currently_positives    Deaths   Recovered    Intensive_care    Hospitalized    Hospitalized_with_symptoms   Tests                
     
@@ -16,44 +16,50 @@ Cases = Currently_positives + Recovered + Deaths
 
 ### Detailed Reports:
 
-CHANGES: DATA FITTING - Now there are two distinghuished fitting chart reports for Total Cases and Currently positives.
+CHANGES: 
+1 - DATA FITTING - Now there are two distinghuished fitting chart reports for Total Cases and Currently positives.
+2 - Re-added Provinces fitting report.
 
-- [1 -Dati nazionali (National Data)](/RUN_11_04/RUN0/RUN.html)
+NOTE: New sigmoid-like equation used for data fitting: <img src="http://latex.codecogs.com/svg.latex?\frac{a}{((exp(b*(c+x))) + a1*exp(b1*(c1 + x)) - d)}" border="0"/>
 
-- [2 -Fattori di crescita e letalità nazionali/regionali (National and regional growth factor and lethality)](/RUN_11_04/RUN6/RUN.html)
+- [1 -Dati nazionali (National Data)](/RUN_12_04/RUN0/RUN.html)
 
-- [3 -Dati regionali e provinciali (Regional and Provincial Data)](/RUN_11_04/RUN2/RUN.html)
+- [2 -Fattori di crescita e letalità nazionali/regionali (National and regional growth factor and lethality)](/RUN_12_04/RUN6/RUN.html)
 
-- [4 -Andamenti settimanali regioni NORD/SUD (WEEKLY TRENDS)](/RUN_11_04/RUN5/RUN.html)
+- [3 -Dati regionali e provinciali (Regional and Provincial Data)](/RUN_12_04/RUN2/RUN.html)
 
-- [5 -Confronti interregionali (Interregional comparisons)](/RUN_11_04/RUN4/RUN.html)
+- [4 -Andamenti settimanali regioni NORD/SUD (WEEKLY TRENDS)](/RUN_12_04/RUN5/RUN.html)
 
-#### DATA FITTING - NATIONAL/REGIONAL TRENDS
+- [5 -Confronti interregionali (Interregional comparisons)](/RUN_12_04/RUN4/RUN.html)
 
-- [6 -TOTAL CASES - Italy and Regions](/RUN_11_04/RUN1/RUN.html)
+#### DATA FITTING - NATIONAL/REGIONAL TRENDS (WORK IN PROGRESS)
 
-- [7 -NEW POSITIVES - Italy and Regions](/RUN_11_04/RUN12/RUN.html)
+- [6 -TOTAL CASES - Italy and Regions](/RUN_12_04/RUN1/RUN.html)
+
+- [7 -NEW POSITIVES - Italy and Regions](/RUN_12_04/RUN12/RUN.html)
+
+- [8 -NEW POSITIVES - Provinces](/RUN_12_04/RUN12/RUN.html)
 
 ---
 
 ### The general situation (preview - see detailed reports for all charts):
 
 Total Cases Trend:
-<img src="https://marcelchiarello.github.io/showdata/RUN_11_04/RUN1/RUN_DATA_FIT_TOTAL_CASES_ITALY_REGIONS_01.png">
+<img src="https://marcelchiarello.github.io/showdata/RUN_12_04/RUN1/RUN_DATA_FIT_TOTAL_CASES_ITALY_REGIONS_01.png">
 Daily Growth Factor:
-<img src="https://marcelchiarello.github.io/showdata/RUN_11_04/RUN6/RUN_FACTORS_01.png">
+<img src="https://marcelchiarello.github.io/showdata/RUN_12_04/RUN6/RUN_FACTORS_01.png">
 Total cases by region:
-<img src="https://marcelchiarello.github.io/showdata/RUN_11_04/RUN4/RUN_INTEREGION_01.png">
+<img src="https://marcelchiarello.github.io/showdata/RUN_12_04/RUN4/RUN_INTEREGION_01.png">
 Total hospitalized with symptoms:
-<img src="https://marcelchiarello.github.io/showdata/RUN_11_04/RUN4/RUN_INTEREGION_05.png">
+<img src="https://marcelchiarello.github.io/showdata/RUN_12_04/RUN4/RUN_INTEREGION_05.png">
 Total Cases vs Hospitalized, Recovered, Deaths:
-<img src="https://marcelchiarello.github.io/showdata/RUN_11_04/RUN0/RUN_DATA_ITALIA_01.png">
+<img src="https://marcelchiarello.github.io/showdata/RUN_12_04/RUN0/RUN_DATA_ITALIA_01.png">
 
-<img src="https://marcelchiarello.github.io/showdata/RUN_11_04/RUN0/RUN_DATA_ITALIA_04.png">
+<img src="https://marcelchiarello.github.io/showdata/RUN_12_04/RUN0/RUN_DATA_ITALIA_04.png">
 Weekly Trends:
-<img src="https://marcelchiarello.github.io/showdata/RUN_11_04/RUN5/RUN_NEWTRENDS_01.png">
+<img src="https://marcelchiarello.github.io/showdata/RUN_12_04/RUN5/RUN_NEWTRENDS_01.png">
 
-<img src="https://marcelchiarello.github.io/showdata/RUN_11_04/RUN5/RUN_NEWTRENDS_03.png">
+<img src="https://marcelchiarello.github.io/showdata/RUN_12_04/RUN5/RUN_NEWTRENDS_03.png">
 
 
 ## ARTICOLI E ANALISI (ARTICLES & ANALYSIS)
@@ -71,6 +77,26 @@ Weekly Trends:
 ---
 
 ### ARCHIVE
+
+### 11/04/2020:
+
+CHANGES: DATA FITTING - Now there are two distinghuished fitting chart reports for Total Cases and Currently positives.
+
+- [1 -Dati nazionali (National Data)](/RUN_11_04/RUN0/RUN.html)
+
+- [2 -Fattori di crescita e letalità nazionali/regionali (National and regional growth factor and lethality)](/RUN_12_04/RUN6/RUN.html)
+
+- [3 -Dati regionali e provinciali (Regional and Provincial Data)](/RUN_11_04/RUN2/RUN.html)
+
+- [4 -Andamenti settimanali regioni NORD/SUD (WEEKLY TRENDS)](/RUN_11_04/RUN5/RUN.html)
+
+- [5 -Confronti interregionali (Interregional comparisons)](/RUN_11_04/RUN4/RUN.html)
+
+#### DATA FITTING - NATIONAL/REGIONAL TRENDS
+
+- [6 -TOTAL CASES - Italy and Regions](/RUN_11_04/RUN1/RUN.html)
+
+- [7 -NEW POSITIVES - Italy and Regions](/RUN_11_04/RUN12/RUN.html)
 
 ### 09/04/2020:
 

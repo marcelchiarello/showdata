@@ -1,58 +1,50 @@
 <!-- start -->
-### UPDATED TO 10/04/2020 - 18:10
+### UPDATED TO 11/04/2020 - 18:25
 
                     Casi     Attualmente_positivi    Morti    Guariti    Terapia_intensiva    Ospedalizzati    Ricoverati_con_sintomi    Tamponi
                    ______    ____________________    _____    _______    _________________    _____________    ______________________    _______
 
-        Totali     147577           98273            18849     30455           3497               31739                28242              906864 
-    Giornalieri     +3951           +1396             +570     +1985           -108                -265                 -157              +53495 
-
+       Totali      152271           100269           19468      32534           3381               31525                28144             963473 
+    Giornalieri     +4694            +1996            +619      +2079           -116                -214                  -98             +56609 
     
                     Cases     Currently_positives    Deaths   Recovered    Intensive_care    Hospitalized    Hospitalized_with_symptoms   Tests                
     
 Cases = Currently_positives + Recovered + Deaths
 
-NOTE: Estimation fitting is changed. 
-Data under consideration are now the "total currently postives" instead of "total cases". Exponential/linear esitmation is not 
-performed anymore. The fitting equation is a double sigmoid which takes into account the non-linearities around the old linear trend.
-Details will be reported later.
-
 ---
 
 #### Detailed Reports:
 
-- [1 -Dati nazionali (National Data)](/RUN_10_04/RUN0/RUN.html)
+- [1 -Dati nazionali (National Data)](/RUN_11_04/RUN0/RUN.html)
 
-- [2 -Fattori di crescita e letalità nazionali/regionali (National and regional growth factor and lethality)](/RUN_10_04/RUN6/RUN.html)
+- [2 -Fattori di crescita e letalità nazionali/regionali (National and regional growth factor and lethality)](/RUN_11_04/RUN6/RUN.html)
 
-- [3 -Dati regionali e provinciali (Regional and Provincial Data)](/RUN_10_04/RUN2/RUN.html)
+- [3 -Dati regionali e provinciali (Regional and Provincial Data)](/RUN_11_04/RUN2/RUN.html)
 
-- [4 -Andamenti settimanali regioni NORD/SUD (WEEKLY TRENDS)](/RUN_10_04/RUN5/RUN.html)
+- [4 -Andamenti settimanali regioni NORD/SUD (WEEKLY TRENDS)](/RUN_11_04/RUN5/RUN.html)
 
-- [5 -Confronti interregionali (Interregional comparisons)](/RUN_10_04/RUN4/RUN.html)
-
-- [6 -UPDATE-Stime degli andamenti nazionali/regionali (National and regional trends estimation)](/RUN_10_04/RUN1/RUN.html)
+- [5 -Confronti interregionali (Interregional comparisons)](/RUN_11_04/RUN4/RUN.html)
 
 ---
 
 #### The general situation (preview - see detailed reports for all charts):
 
 Currently Positives Trend:
-<img src="https://marcelchiarello.github.io/showdata/RUN_10_04/RUN1/RUN_DATA_FIT_ITALIA_REGIONI_01.png">
+<img src="https://marcelchiarello.github.io/showdata/RUN_11_04/RUN1/RUN_DATA_FIT_ITALIA_REGIONI_01.png">
 Daily Growth Factor:
-<img src="https://marcelchiarello.github.io/showdata/RUN_10_04/RUN6/RUN_FACTORS_01.png">
+<img src="https://marcelchiarello.github.io/showdata/RUN_11_04/RUN6/RUN_FACTORS_01.png">
 Total cases by region:
-<img src="https://marcelchiarello.github.io/showdata/RUN_10_04/RUN4/RUN_INTEREGION_01.png">
+<img src="https://marcelchiarello.github.io/showdata/RUN_11_04/RUN4/RUN_INTEREGION_01.png">
 Total hospitalized with symptoms:
-<img src="https://marcelchiarello.github.io/showdata/RUN_10_04/RUN4/RUN_INTEREGION_05.png">
+<img src="https://marcelchiarello.github.io/showdata/RUN_11_04/RUN4/RUN_INTEREGION_05.png">
 Total Cases vs Hospitalized, Recovered, Deaths:
-<img src="https://marcelchiarello.github.io/showdata/RUN_10_04/RUN0/RUN_DATA_ITALIA_01.png">
+<img src="https://marcelchiarello.github.io/showdata/RUN_11_04/RUN0/RUN_DATA_ITALIA_01.png">
 
-<img src="https://marcelchiarello.github.io/showdata/RUN_10_04/RUN0/RUN_DATA_ITALIA_04.png">
+<img src="https://marcelchiarello.github.io/showdata/RUN_11_04/RUN0/RUN_DATA_ITALIA_04.png">
 Weekly Trends:
-<img src="https://marcelchiarello.github.io/showdata/RUN_10_04/RUN5/RUN_NEWTRENDS_01.png">
+<img src="https://marcelchiarello.github.io/showdata/RUN_11_04/RUN5/RUN_NEWTRENDS_01.png">
 
-<img src="https://marcelchiarello.github.io/showdata/RUN_10_04/RUN5/RUN_NEWTRENDS_03.png">
+<img src="https://marcelchiarello.github.io/showdata/RUN_11_04/RUN5/RUN_NEWTRENDS_03.png">
 
 
 ## ARTICOLI E ANALISI (ARTICLES & ANALYSIS)

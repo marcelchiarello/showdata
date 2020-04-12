@@ -38,7 +38,7 @@ CHANGES: DATA FITTING - Now there are two distinghuished fitting chart reports f
 ### The general situation (preview - see detailed reports for all charts):
 
 Total Cases Trend:
-<img src="https://marcelchiarello.github.io/showdata/RUN_DATA_FIT_TOTAL_CASES_ITALY_REGIONS_01.png">
+<img src="https://marcelchiarello.github.io/showdata/RUN_11_04/RUN_DATA_FIT_TOTAL_CASES_ITALY_REGIONS_01.png">
 Daily Growth Factor:
 <img src="https://marcelchiarello.github.io/showdata/RUN_11_04/RUN6/RUN_FACTORS_01.png">
 Total cases by region:

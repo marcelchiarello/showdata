@@ -30,7 +30,7 @@ CHANGES:
 
 - [5 -Confronti interregionali (Interregional comparisons)](/RUN_12_04/RUN4/RUN.html)
 
-#### DATA FITTING - NATIONAL/REGIONAL TRENDS (WORK IN PROGRESS)
+#### DATA FITTING - NATIONAL/REGIONAL TRENDS
 
 - [6 -TOTAL CASES - Italy and Regions](/RUN_12_04/RUN1/RUN.html)
 

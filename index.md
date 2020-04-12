@@ -20,7 +20,7 @@ CHANGES:
 1 - DATA FITTING - Now there are two distinghuished fitting chart reports for Total Cases and Currently positives.
 2 - Re-added Provinces fitting report.
 
-NOTE: New sigmoid-like equation used for data fitting: <img src="http://latex.codecogs.com/svg.latex?\frac{a}{(exp(b*(c+x)) + a1*exp(b1*(c1 + x)) - d)}" border="0"/>
+NOTE: New sigmoid-like equation used for data fitting: <img src="http://latex.codecogs.com/svg.latex?\frac{a}{exp(b*(c+x)) + a1*exp(b1*(c1 + x)) - d}" border="0"/>
 
 - [1 -Dati nazionali (National Data)](/RUN_12_04/RUN0/RUN.html)
 

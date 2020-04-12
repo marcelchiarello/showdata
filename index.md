@@ -20,8 +20,6 @@ CHANGES:
 1 - DATA FITTING - Now there are two distinghuished fitting chart reports for Total Cases and Currently positives.
 2 - Re-added Provinces fitting report.
 
-NOTE: New sigmoid-like equation used for data fitting: <img src="http://latex.codecogs.com/svg.latex?\frac{a}{exp(b*(c+x)) + a1*exp(b1*(c1 + x)) - d}" border="0"/>
-
 - [1 -Dati nazionali (National Data)](/RUN_12_04/RUN0/RUN.html)
 
 - [2 -Fattori di crescita e letalità nazionali/regionali (National and regional growth factor and lethality)](/RUN_12_04/RUN6/RUN.html)
@@ -39,6 +37,8 @@ NOTE: New sigmoid-like equation used for data fitting: <img src="http://latex.co
 - [7 -NEW POSITIVES - Italy and Regions](/RUN_12_04/RUN12/RUN.html)
 
 - [8 -NEW POSITIVES - Provinces](/RUN_12_04/RUN12/RUN.html)
+
+NOTE: New sigmoid-like equation used for data fitting: <img src="http://latex.codecogs.com/svg.latex?\frac{a}{exp(b*(c+x)) + a1*exp(b1*(c1 + x)) - d}" border="0"/>
 
 ---
 

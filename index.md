@@ -38,7 +38,8 @@ CHANGES:
 
 - [8 -NEW POSITIVES - Provinces](/RUN_12_04/RUN13/RUN.html)
 
-NOTE: New sigmoid-like equation used for data fitting: <img src="http://latex.codecogs.com/svg.latex?\frac{a}{e^{b*(x+c)} + a1*e^{b1*(x+c1)} - d}" border="0"/>
+NOTE: New sigmoid-like equation used for data fitting: 
+<img src="http://latex.codecogs.com/svg.latex?\frac{a}{e^{b(x+c)} + a1*e^{b1(x+c1)} - d}" border="0"/>
 
 ---
 

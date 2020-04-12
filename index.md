@@ -1,5 +1,5 @@
 <!-- start -->
-### UPDATED TO 11/04/2020 - 18:25
+## LAST UPDATE 12/04/2020 - 16:45
 
                     Casi     Attualmente_positivi    Morti    Guariti    Terapia_intensiva    Ospedalizzati    Ricoverati_con_sintomi    Tamponi
                    ______    ____________________    _____    _______    _________________    _____________    ______________________    _______
@@ -13,7 +13,9 @@ Cases = Currently_positives + Recovered + Deaths
 
 ---
 
-#### Detailed Reports:
+### Detailed Reports:
+
+CHANGES: DATA FITTING - Now there are two distinghuished fitting chart reports for Total Cases and Currently positives.
 
 - [1 -Dati nazionali (National Data)](/RUN_11_04/RUN0/RUN.html)
 
@@ -25,12 +27,18 @@ Cases = Currently_positives + Recovered + Deaths
 
 - [5 -Confronti interregionali (Interregional comparisons)](/RUN_11_04/RUN4/RUN.html)
 
+#### DATA FITTING - NATIONAL/REGIONAL TRENDS
+
+- [6 -TOTAL CASES - Italy and Regions](/RUN_11_04/RUN1/RUN.html)
+
+- [7 -NEW POSITIVES - Italy and Regions](/RUN_11_04/RUN12/RUN.html)
+
 ---
 
-#### The general situation (preview - see detailed reports for all charts):
+### The general situation (preview - see detailed reports for all charts):
 
-Currently Positives Trend:
-<img src="https://marcelchiarello.github.io/showdata/RUN_11_04/RUN1/RUN_DATA_FIT_ITALIA_REGIONI_01.png">
+Total Cases Trend:
+<img src="https://marcelchiarello.github.io/showdata/RUN_DATA_FIT_TOTAL_CASES_ITALY_REGIONS.png">
 Daily Growth Factor:
 <img src="https://marcelchiarello.github.io/showdata/RUN_11_04/RUN6/RUN_FACTORS_01.png">
 Total cases by region:

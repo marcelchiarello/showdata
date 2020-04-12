@@ -1,0 +1,950 @@
+
+<!DOCTYPE html
+  PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html><head>
+      <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+   <!--
+This HTML was auto-generated from MATLAB code.
+To make changes, update the MATLAB code and republish this document.
+      --><title>RUN_DATA_PROVINCE</title><meta name="generator" content="MATLAB 9.4"><link rel="schema.DC" href="http://purl.org/dc/elements/1.1/"><meta name="DC.date" content="2020-04-12"><meta name="DC.source" content="RUN_DATA_PROVINCE.m"><style type="text/css">
+html,body,div,span,applet,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,a,abbr,acronym,address,big,cite,code,del,dfn,em,font,img,ins,kbd,q,s,samp,small,strike,strong,sub,sup,tt,var,b,u,i,center,dl,dt,dd,ol,ul,li,fieldset,form,label,legend,table,caption,tbody,tfoot,thead,tr,th,td{margin:0;padding:0;border:0;outline:0;font-size:100%;vertical-align:baseline;background:transparent}body{line-height:1}ol,ul{list-style:none}blockquote,q{quotes:none}blockquote:before,blockquote:after,q:before,q:after{content:'';content:none}:focus{outine:0}ins{text-decoration:none}del{text-decoration:line-through}table{border-collapse:collapse;border-spacing:0}
+
+html { min-height:100%; margin-bottom:1px; }
+html body { height:100%; margin:0px; font-family:Arial, Helvetica, sans-serif; font-size:10px; color:#000; line-height:140%; background:#fff none; overflow-y:scroll; }
+html body td { vertical-align:top; text-align:left; }
+
+h1 { padding:0px; margin:0px 0px 25px; font-family:Arial, Helvetica, sans-serif; font-size:1.5em; color:#d55000; line-height:100%; font-weight:normal; }
+h2 { padding:0px; margin:0px 0px 8px; font-family:Arial, Helvetica, sans-serif; font-size:1.2em; color:#000; font-weight:bold; line-height:140%; border-bottom:1px solid #d6d4d4; display:block; }
+h3 { padding:0px; margin:0px 0px 5px; font-family:Arial, Helvetica, sans-serif; font-size:1.1em; color:#000; font-weight:bold; line-height:140%; }
+
+a { color:#005fce; text-decoration:none; }
+a:hover { color:#005fce; text-decoration:underline; }
+a:visited { color:#004aa0; text-decoration:none; }
+
+p { padding:0px; margin:0px 0px 20px; }
+img { padding:0px; margin:0px 0px 20px; border:none; }
+p img, pre img, tt img, li img, h1 img, h2 img { margin-bottom:0px; } 
+
+ul { padding:0px; margin:0px 0px 20px 23px; list-style:square; }
+ul li { padding:0px; margin:0px 0px 7px 0px; }
+ul li ul { padding:5px 0px 0px; margin:0px 0px 7px 23px; }
+ul li ol li { list-style:decimal; }
+ol { padding:0px; margin:0px 0px 20px 0px; list-style:decimal; }
+ol li { padding:0px; margin:0px 0px 7px 23px; list-style-type:decimal; }
+ol li ol { padding:5px 0px 0px; margin:0px 0px 7px 0px; }
+ol li ol li { list-style-type:lower-alpha; }
+ol li ul { padding-top:7px; }
+ol li ul li { list-style:square; }
+
+.content { font-size:1.2em; line-height:140%; padding: 20px; }
+
+pre, code { font-size:12px; }
+tt { font-size: 1.2em; }
+pre { margin:0px 0px 20px; }
+pre.codeinput { padding:10px; border:1px solid #d3d3d3; background:#f7f7f7; }
+pre.codeoutput { padding:10px 11px; margin:0px 0px 20px; color:#4c4c4c; }
+pre.error { color:red; }
+
+@media print { pre.codeinput, pre.codeoutput { word-wrap:break-word; width:100%; } }
+
+span.keyword { color:#0000FF }
+span.comment { color:#228B22 }
+span.string { color:#A020F0 }
+span.untermstring { color:#B20000 }
+span.syscmd { color:#B28C00 }
+
+.footer { width:auto; padding:10px 0px; margin:25px 0px 0px; border-top:1px dotted #878787; font-size:0.8em; line-height:140%; font-style:italic; color:#878787; text-align:left; float:none; }
+.footer p { margin:0px; }
+.footer a { color:#878787; }
+.footer a:hover { color:#878787; text-decoration:underline; }
+.footer a:visited { color:#878787; }
+
+table th { padding:7px 5px; text-align:left; vertical-align:middle; border: 1px solid #d6d4d4; font-weight:bold; }
+table td { padding:7px 5px; text-align:left; vertical-align:top; border:1px solid #d6d4d4; }
+
+
+
+
+
+  </style></head><body><div class="content"><h1></h1><!--introduction--><p><a href="https://marcelchiarello.github.io/showdata/">GO BACK</a></p><p><b>COVID19 DATA PROVINCES AND REGIONS UPDATED TO APRIL 12 2020</b>.</p><p>This report is related to data processing on the spread of COVID-19 in Italy and single regions/provinces. Data are provided by the Italian Civil Protection:</p><p>"https://github.com/pcm-dpc/COVID-19"</p><p>See all reports and articles: <a href="https://marcelchiarello.github.io/showdata/">marcelchiarello.github.io/showdata</a></p><p>Author: Marcello Chiarello</p><p><a href="mailto:marcello.chiarello@outlook.com">marcello.chiarello@outlook.com</a></p><!--/introduction--><h2>Contents</h2><div><ul><li><a href="#2">DATA PUGLIA</a></li><li><a href="#3">DATA LOMBARDIA</a></li><li><a href="#4">DATA VENETO</a></li><li><a href="#5">DATA PIEMONTE</a></li><li><a href="#6">DATA EMILIA ROMAGNA</a></li><li><a href="#7">DATA CAMPANIA</a></li><li><a href="#8">DATA SICILIA</a></li><li><a href="#9">DATA ABRUZZO</a></li><li><a href="#10">DATA BASILICATA</a></li><li><a href="#11">DATA CALABRIA</a></li><li><a href="#12">DATA CAMPANIA</a></li><li><a href="#13">DATA VENEZIA GIULIA</a></li><li><a href="#14">DATA LAZIO</a></li><li><a href="#15">DATA LIGURIA</a></li><li><a href="#16">DATA MARCHE</a></li><li><a href="#17">DATA MOLISE</a></li><li><a href="#18">DATA P.A. Bolzano</a></li><li><a href="#19">DATA P.A. Trento</a></li><li><a href="#20">DATA SARDEGNA</a></li><li><a href="#21">DATA TOSCANA</a></li><li><a href="#22">DATA UMBRIA</a></li><li><a href="#23">DATA VALLE D' AOSTA</a></li></ul></div><h2 id="2">DATA PUGLIA</h2><pre class="codeoutput">RUN DATA: 12-Apr-2020
+Tabella casi giornalieri per la regione Puglia(Daily cases for the region)
+ 
+
+TABLE =
+
+  6&times;3 table
+
+           province            casiGiornalieri    casiTotali
+    _______________________    _______________    __________
+
+    "Bari"                            8              921    
+    "Barletta-Andria-Trani"          36              296    
+    "Brindisi"                       24              358    
+    "Foggia"                         15              739    
+    "Lecce"                           0              418    
+    "Taranto"                         3              221    
+
+    "Casi giornalieri totali:"    "86"    " (Region daily cases)"
+
+    "Casi regione totali:"    "2953"    " (Region total cases)"
+
+https://marcelchiarello.github.io/showdata/
+
+Summary =
+
+  2&times;8 table
+
+                   Casi    Attualmente_positivi    Morti    Guariti    Terapia_intensiva    Ospedalizzati    Ricoverati_con_sintomi    Tamponi
+                   ____    ____________________    _____    _______    _________________    _____________    ______________________    _______
+
+    Totali         2989            2452             260       277             71                 680                  609               30973 
+    Giornalieri      85              50               7        28             -2                 -20                  -18                1510 
+
+Nota: ci sono delle incongruenze tra la somma dei valori delle varie province
+      ed i valori regionali (provenienti da due diversi file dello stesso database)
+</pre><img vspace="5" hspace="5" src="RUN_DATA_PROVINCE_01.png" alt=""> <img vspace="5" hspace="5" src="RUN_DATA_PROVINCE_02.png" alt=""> <img vspace="5" hspace="5" src="RUN_DATA_PROVINCE_03.png" alt=""> <img vspace="5" hspace="5" src="RUN_DATA_PROVINCE_04.png" alt=""> <img vspace="5" hspace="5" src="RUN_DATA_PROVINCE_05.png" alt=""> <img vspace="5" hspace="5" src="RUN_DATA_PROVINCE_06.png" alt=""> <img vspace="5" hspace="5" src="RUN_DATA_PROVINCE_07.png" alt=""> <h2 id="3">DATA LOMBARDIA</h2><pre class="codeoutput">RUN DATA: 12-Apr-2020
+Tabella casi giornalieri per la regione Lombardia(Daily cases for the region)
+ 
+
+TABLE =
+
+  12&times;3 table
+
+           province            casiGiornalieri    casiTotali
+    _______________________    _______________    __________
+
+    "Bergamo"                         51            10309   
+    "Brescia"                        269            10868   
+    "Como"                            99             1924   
+    "Cremona"                         63             4721   
+    "Lecco"                           21             1881   
+    "Lodi"                            71             2543   
+    "Mantova"                         75             2486   
+    "Milano"                         412            13680   
+    "Monza e della Brianza"           64             3639   
+    "Pavia"                           84             3133   
+    "Sondrio"                         36              720   
+    "Varese"                          30             1663   
+
+    "Casi giornalieri totali:"    "1275"    " (Region daily cases)"
+
+    "Casi regione totali:"    "57567"    " (Region total cases)"
+
+https://marcelchiarello.github.io/showdata/
+
+Summary =
+
+  2&times;8 table
+
+                   Casi     Attualmente_positivi    Morti    Guariti    Terapia_intensiva    Ospedalizzati    Ricoverati_con_sintomi    Tamponi
+                   _____    ____________________    _____    _______    _________________    _____________    ______________________    _______
+
+    Totali         59052           31265            10621     17166           1176               13145                11969             205832 
+    Giornalieri     1460            1007              110       343              2                 -55                  -57               9530 
+
+Nota: ci sono delle incongruenze tra la somma dei valori delle varie province
+      ed i valori regionali (provenienti da due diversi file dello stesso database)
+</pre><img vspace="5" hspace="5" src="RUN_DATA_PROVINCE_08.png" alt=""> <img vspace="5" hspace="5" src="RUN_DATA_PROVINCE_09.png" alt=""> <img vspace="5" hspace="5" src="RUN_DATA_PROVINCE_10.png" alt=""> <img vspace="5" hspace="5" src="RUN_DATA_PROVINCE_11.png" alt=""> <img vspace="5" hspace="5" src="RUN_DATA_PROVINCE_12.png" alt=""> <img vspace="5" hspace="5" src="RUN_DATA_PROVINCE_13.png" alt=""> <img vspace="5" hspace="5" src="RUN_DATA_PROVINCE_14.png" alt=""> <h2 id="4">DATA VENETO</h2><pre class="codeoutput">RUN DATA: 12-Apr-2020
+Tabella casi giornalieri per la regione Veneto(Daily cases for the region)
+ 
+
+TABLE =
+
+  7&times;3 table
+
+    province     casiGiornalieri    casiTotali
+    _________    _______________    __________
+
+    "Belluno"          11               664   
+    "Padova"           60              3310   
+    "Rovigo"            6               280   
+    "Treviso"          10              1983   
+    "Venezia"          74              1957   
+    "Verona"           93              3495   
+    "Vicenza"          46              2055   
+
+    "Casi giornalieri totali:"    "300"    " (Region daily cases)"
+
+    "Casi regione totali:"    "13744"    " (Region total cases)"
+
+https://marcelchiarello.github.io/showdata/
+
+Summary =
+
+  2&times;8 table
+
+                   Casi     Attualmente_positivi    Morti    Guariti    Terapia_intensiva    Ospedalizzati    Ricoverati_con_sintomi    Tamponi
+                   _____    ____________________    _____    _______    _________________    _____________    ______________________    _______
+
+    Totali         14077           10729             856      2492             249               1677                  1428             198442 
+    Giornalieri      309             -20              25       304              -2                -39                   -37               7530 
+
+Nota: ci sono delle incongruenze tra la somma dei valori delle varie province
+      ed i valori regionali (provenienti da due diversi file dello stesso database)
+</pre><img vspace="5" hspace="5" src="RUN_DATA_PROVINCE_15.png" alt=""> <img vspace="5" hspace="5" src="RUN_DATA_PROVINCE_16.png" alt=""> <img vspace="5" hspace="5" src="RUN_DATA_PROVINCE_17.png" alt=""> <img vspace="5" hspace="5" src="RUN_DATA_PROVINCE_18.png" alt=""> <img vspace="5" hspace="5" src="RUN_DATA_PROVINCE_19.png" alt=""> <img vspace="5" hspace="5" src="RUN_DATA_PROVINCE_20.png" alt=""> <img vspace="5" hspace="5" src="RUN_DATA_PROVINCE_21.png" alt=""> <h2 id="5">DATA PIEMONTE</h2><pre class="codeoutput">RUN DATA: 12-Apr-2020
+Tabella casi giornalieri per la regione Piemonte(Daily cases for the region)
+ 
+
+TABLE =
+
+  8&times;3 table
+
+           province           casiGiornalieri    casiTotali
+    ______________________    _______________    __________
+
+    "Alessandria"                    57             2248   
+    "Asti"                           34              779   
+    "Biella"                          9              662   
+    "Cuneo"                         112             1462   
+    "Novara"                         65             1605   
+    "Torino"                        334             7939   
+    "Verbano-Cusio-Ossola"            6              865   
+    "Vercelli"                       28              817   
+
+    "Casi giornalieri totali:"    "645"    " (Region daily cases)"
+
+    "Casi regione totali:"    "16377"    " (Region total cases)"
+
+https://marcelchiarello.github.io/showdata/
+
+Summary =
+
+  2&times;8 table
+
+                   Casi     Attualmente_positivi    Morti    Guariti    Terapia_intensiva    Ospedalizzati    Ricoverati_con_sintomi    Tamponi
+                   _____    ____________________    _____    _______    _________________    _____________    ______________________    _______
+
+    Totali         16660           12505            1729      2426             381               3810                  3429              66555 
+    Giornalieri      652             335              96       221              -3                 -9                    -6               3978 
+
+Nota: ci sono delle incongruenze tra la somma dei valori delle varie province
+      ed i valori regionali (provenienti da due diversi file dello stesso database)
+</pre><img vspace="5" hspace="5" src="RUN_DATA_PROVINCE_22.png" alt=""> <img vspace="5" hspace="5" src="RUN_DATA_PROVINCE_23.png" alt=""> <img vspace="5" hspace="5" src="RUN_DATA_PROVINCE_24.png" alt=""> <img vspace="5" hspace="5" src="RUN_DATA_PROVINCE_25.png" alt=""> <img vspace="5" hspace="5" src="RUN_DATA_PROVINCE_26.png" alt=""> <img vspace="5" hspace="5" src="RUN_DATA_PROVINCE_27.png" alt=""> <img vspace="5" hspace="5" src="RUN_DATA_PROVINCE_28.png" alt=""> <h2 id="6">DATA EMILIA ROMAGNA</h2><pre class="codeoutput">RUN DATA: 12-Apr-2020
+Tabella casi giornalieri per la regione Emilia-Romagna(Daily cases for the region)
+ 
+
+TABLE =
+
+  9&times;3 table
+
+          province          casiGiornalieri    casiTotali
+    ____________________    _______________    __________
+
+    "Bologna"                     122             3197   
+    "Ferrara"                      36              616   
+    "Modena"                       76             3087   
+    "Parma"                        19             2531   
+    "Piacenza"                     37             3100   
+    "Ravenna"                      12              801   
+    "Reggio nell'Emilia"           84             3849   
+    "Rimini"                       29             1706   
+    "Forli-Cesena"                 48             1211   
+
+    "Casi giornalieri totali:"    "463"    " (Region daily cases)"
+
+    "Casi regione totali:"    "20098"    " (Region total cases)"
+
+https://marcelchiarello.github.io/showdata/
+
+Summary =
+
+  2&times;8 table
+
+                   Casi     Attualmente_positivi    Morti    Guariti    Terapia_intensiva    Ospedalizzati    Ricoverati_con_sintomi    Tamponi
+                   _____    ____________________    _____    _______    _________________    _____________    ______________________    _______
+
+    Totali         20098           13672            2564      3862             335               3826                  3491              96704 
+    Giornalieri      463             177              83       203              -6                -45                   -39               4945 
+
+Nota: ci sono delle incongruenze tra la somma dei valori delle varie province
+      ed i valori regionali (provenienti da due diversi file dello stesso database)
+</pre><img vspace="5" hspace="5" src="RUN_DATA_PROVINCE_29.png" alt=""> <img vspace="5" hspace="5" src="RUN_DATA_PROVINCE_30.png" alt=""> <img vspace="5" hspace="5" src="RUN_DATA_PROVINCE_31.png" alt=""> <img vspace="5" hspace="5" src="RUN_DATA_PROVINCE_32.png" alt=""> <img vspace="5" hspace="5" src="RUN_DATA_PROVINCE_33.png" alt=""> <img vspace="5" hspace="5" src="RUN_DATA_PROVINCE_34.png" alt=""> <img vspace="5" hspace="5" src="RUN_DATA_PROVINCE_35.png" alt=""> <h2 id="7">DATA CAMPANIA</h2><pre class="codeoutput">RUN DATA: 12-Apr-2020
+Tabella casi giornalieri per la regione Campania(Daily cases for the region)
+ 
+
+TABLE =
+
+  5&times;3 table
+
+     province      casiGiornalieri    casiTotali
+    ___________    _______________    __________
+
+    "Avellino"            1               400   
+    "Benevento"           4               156   
+    "Caserta"             7               375   
+    "Napoli"             62              1871   
+    "Salerno"             3               536   
+
+    "Casi giornalieri totali:"    "77"    " (Region daily cases)"
+
+    "Casi regione totali:"    "3338"    " (Region total cases)"
+
+https://marcelchiarello.github.io/showdata/
+
+Summary =
+
+  2&times;8 table
+
+                   Casi    Attualmente_positivi    Morti    Guariti    Terapia_intensiva    Ospedalizzati    Ricoverati_con_sintomi    Tamponi
+                   ____    ____________________    _____    _______    _________________    _____________    ______________________    _______
+
+    Totali         3604            3057             242       305             82                 608                  526               35448 
+    Giornalieri      87              55               4        28             -3                 -59                  -56                1667 
+
+Nota: ci sono delle incongruenze tra la somma dei valori delle varie province
+      ed i valori regionali (provenienti da due diversi file dello stesso database)
+</pre><img vspace="5" hspace="5" src="RUN_DATA_PROVINCE_36.png" alt=""> <img vspace="5" hspace="5" src="RUN_DATA_PROVINCE_37.png" alt=""> <img vspace="5" hspace="5" src="RUN_DATA_PROVINCE_38.png" alt=""> <img vspace="5" hspace="5" src="RUN_DATA_PROVINCE_39.png" alt=""> <img vspace="5" hspace="5" src="RUN_DATA_PROVINCE_40.png" alt=""> <img vspace="5" hspace="5" src="RUN_DATA_PROVINCE_41.png" alt=""> <img vspace="5" hspace="5" src="RUN_DATA_PROVINCE_42.png" alt=""> <h2 id="8">DATA SICILIA</h2><pre class="codeoutput">RUN DATA: 12-Apr-2020
+Tabella casi giornalieri per la regione Sicilia(Daily cases for the region)
+ 
+
+TABLE =
+
+  9&times;3 table
+
+       province        casiGiornalieri    casiTotali
+    _______________    _______________    __________
+
+    "Agrigento"               3              126    
+    "Caltanissetta"           6              128    
+    "Catania"                11              689    
+    "Enna"                    4              325    
+    "Messina"                 7              429    
+    "Palermo"                13              376    
+    "Ragusa"                  2               66    
+    "Siracusa"                2              148    
+    "Trapani"                 4              129    
+
+    "Casi giornalieri totali:"    "52"    " (Region daily cases)"
+
+    "Casi regione totali:"    "2416"    " (Region total cases)"
+
+https://marcelchiarello.github.io/showdata/
+
+Summary =
+
+  2&times;8 table
+
+                   Casi    Attualmente_positivi    Morti    Guariti    Terapia_intensiva    Ospedalizzati    Ricoverati_con_sintomi    Tamponi
+                   ____    ____________________    _____    _______    _________________    _____________    ______________________    _______
+
+    Totali         2416            2030             163       223             53                 605                  552               36098 
+    Giornalieri      52              29               9        14             -5                 -15                  -10                2311 
+
+Nota: ci sono delle incongruenze tra la somma dei valori delle varie province
+      ed i valori regionali (provenienti da due diversi file dello stesso database)
+</pre><img vspace="5" hspace="5" src="RUN_DATA_PROVINCE_43.png" alt=""> <img vspace="5" hspace="5" src="RUN_DATA_PROVINCE_44.png" alt=""> <img vspace="5" hspace="5" src="RUN_DATA_PROVINCE_45.png" alt=""> <img vspace="5" hspace="5" src="RUN_DATA_PROVINCE_46.png" alt=""> <img vspace="5" hspace="5" src="RUN_DATA_PROVINCE_47.png" alt=""> <img vspace="5" hspace="5" src="RUN_DATA_PROVINCE_48.png" alt=""> <img vspace="5" hspace="5" src="RUN_DATA_PROVINCE_49.png" alt=""> <h2 id="9">DATA ABRUZZO</h2><pre class="codeoutput">RUN DATA: 12-Apr-2020
+Tabella casi giornalieri per la regione Abruzzo(Daily cases for the region)
+ 
+
+TABLE =
+
+  4&times;3 table
+
+     province     casiGiornalieri    casiTotali
+    __________    _______________    __________
+
+    "Chieti"            11              452    
+    "L'Aquila"           2              220    
+    "Pescara"           20              889    
+    "Teramo"             7              599    
+
+    "Casi giornalieri totali:"    "40"    " (Region daily cases)"
+
+    "Casi regione totali:"    "2160"    " (Region total cases)"
+
+https://marcelchiarello.github.io/showdata/
+
+Summary =
+
+  2&times;8 table
+
+                   Casi    Attualmente_positivi    Morti    Guariti    Terapia_intensiva    Ospedalizzati    Ricoverati_con_sintomi    Tamponi
+                   ____    ____________________    _____    _______    _________________    _____________    ______________________    _______
+
+    Totali         2160            1742             212       206             54                 400                  346               20594 
+    Giornalieri      40              18               6        16              0                  31                   31                1153 
+
+Nota: ci sono delle incongruenze tra la somma dei valori delle varie province
+      ed i valori regionali (provenienti da due diversi file dello stesso database)
+</pre><img vspace="5" hspace="5" src="RUN_DATA_PROVINCE_50.png" alt=""> <img vspace="5" hspace="5" src="RUN_DATA_PROVINCE_51.png" alt=""> <img vspace="5" hspace="5" src="RUN_DATA_PROVINCE_52.png" alt=""> <img vspace="5" hspace="5" src="RUN_DATA_PROVINCE_53.png" alt=""> <img vspace="5" hspace="5" src="RUN_DATA_PROVINCE_54.png" alt=""> <img vspace="5" hspace="5" src="RUN_DATA_PROVINCE_55.png" alt=""> <img vspace="5" hspace="5" src="RUN_DATA_PROVINCE_56.png" alt=""> <h2 id="10">DATA BASILICATA</h2><pre class="codeoutput">RUN DATA: 12-Apr-2020
+Tabella casi giornalieri per la regione Basilicata(Daily cases for the region)
+ 
+
+TABLE =
+
+  2&times;3 table
+
+    province     casiGiornalieri    casiTotali
+    _________    _______________    __________
+
+    "Matera"            2              153    
+    "Potenza"           1              162    
+
+    "Casi giornalieri totali:"    "3"    " (Region daily cases)"
+
+    "Casi regione totali:"    "315"    " (Region total cases)"
+
+https://marcelchiarello.github.io/showdata/
+
+Summary =
+
+  2&times;8 table
+
+                   Casi    Attualmente_positivi    Morti    Guariti    Terapia_intensiva    Ospedalizzati    Ricoverati_con_sintomi    Tamponi
+                   ____    ____________________    _____    _______    _________________    _____________    ______________________    _______
+
+    Totali         315             277              18        20              12                 73                    61               4355  
+    Giornalieri      3              -4               1         6               0                  1                     1                305  
+
+Nota: ci sono delle incongruenze tra la somma dei valori delle varie province
+      ed i valori regionali (provenienti da due diversi file dello stesso database)
+</pre><img vspace="5" hspace="5" src="RUN_DATA_PROVINCE_57.png" alt=""> <img vspace="5" hspace="5" src="RUN_DATA_PROVINCE_58.png" alt=""> <img vspace="5" hspace="5" src="RUN_DATA_PROVINCE_59.png" alt=""> <img vspace="5" hspace="5" src="RUN_DATA_PROVINCE_60.png" alt=""> <img vspace="5" hspace="5" src="RUN_DATA_PROVINCE_61.png" alt=""> <img vspace="5" hspace="5" src="RUN_DATA_PROVINCE_62.png" alt=""> <img vspace="5" hspace="5" src="RUN_DATA_PROVINCE_63.png" alt=""> <h2 id="11">DATA CALABRIA</h2><pre class="codeoutput">RUN DATA: 12-Apr-2020
+Tabella casi giornalieri per la regione Calabria(Daily cases for the region)
+ 
+
+TABLE =
+
+  5&times;3 table
+
+          province          casiGiornalieri    casiTotali
+    ____________________    _______________    __________
+
+    "Catanzaro"                    1              182    
+    "Cosenza"                      0              291    
+    "Crotone"                      4              117    
+    "Reggio di Calabria"           3              263    
+    "Vibo Valentia"                0               68    
+
+    "Casi giornalieri totali:"    "8"    " (Region daily cases)"
+
+    "Casi regione totali:"    "921"    " (Region total cases)"
+
+https://marcelchiarello.github.io/showdata/
+
+Summary =
+
+  2&times;8 table
+
+                   Casi    Attualmente_positivi    Morti    Guariti    Terapia_intensiva    Ospedalizzati    Ricoverati_con_sintomi    Tamponi
+                   ____    ____________________    _____    _______    _________________    _____________    ______________________    _______
+
+    Totali         923             795              66        62              14                 179                  165               18211 
+    Giornalieri      8               3               0         5              -1                  -5                   -4                 718 
+
+Nota: ci sono delle incongruenze tra la somma dei valori delle varie province
+      ed i valori regionali (provenienti da due diversi file dello stesso database)
+</pre><img vspace="5" hspace="5" src="RUN_DATA_PROVINCE_64.png" alt=""> <img vspace="5" hspace="5" src="RUN_DATA_PROVINCE_65.png" alt=""> <img vspace="5" hspace="5" src="RUN_DATA_PROVINCE_66.png" alt=""> <img vspace="5" hspace="5" src="RUN_DATA_PROVINCE_67.png" alt=""> <img vspace="5" hspace="5" src="RUN_DATA_PROVINCE_68.png" alt=""> <img vspace="5" hspace="5" src="RUN_DATA_PROVINCE_69.png" alt=""> <img vspace="5" hspace="5" src="RUN_DATA_PROVINCE_70.png" alt=""> <h2 id="12">DATA CAMPANIA</h2><pre class="codeoutput">RUN DATA: 12-Apr-2020
+Tabella casi giornalieri per la regione Campania(Daily cases for the region)
+ 
+
+TABLE =
+
+  5&times;3 table
+
+     province      casiGiornalieri    casiTotali
+    ___________    _______________    __________
+
+    "Avellino"            1               400   
+    "Benevento"           4               156   
+    "Caserta"             7               375   
+    "Napoli"             62              1871   
+    "Salerno"             3               536   
+
+    "Casi giornalieri totali:"    "77"    " (Region daily cases)"
+
+    "Casi regione totali:"    "3338"    " (Region total cases)"
+
+https://marcelchiarello.github.io/showdata/
+
+Summary =
+
+  2&times;8 table
+
+                   Casi    Attualmente_positivi    Morti    Guariti    Terapia_intensiva    Ospedalizzati    Ricoverati_con_sintomi    Tamponi
+                   ____    ____________________    _____    _______    _________________    _____________    ______________________    _______
+
+    Totali         3604            3057             242       305             82                 608                  526               35448 
+    Giornalieri      87              55               4        28             -3                 -59                  -56                1667 
+
+Nota: ci sono delle incongruenze tra la somma dei valori delle varie province
+      ed i valori regionali (provenienti da due diversi file dello stesso database)
+</pre><img vspace="5" hspace="5" src="RUN_DATA_PROVINCE_71.png" alt=""> <img vspace="5" hspace="5" src="RUN_DATA_PROVINCE_72.png" alt=""> <img vspace="5" hspace="5" src="RUN_DATA_PROVINCE_73.png" alt=""> <img vspace="5" hspace="5" src="RUN_DATA_PROVINCE_74.png" alt=""> <img vspace="5" hspace="5" src="RUN_DATA_PROVINCE_75.png" alt=""> <img vspace="5" hspace="5" src="RUN_DATA_PROVINCE_76.png" alt=""> <img vspace="5" hspace="5" src="RUN_DATA_PROVINCE_77.png" alt=""> <h2 id="13">DATA VENEZIA GIULIA</h2><pre class="codeoutput">RUN DATA: 12-Apr-2020
+Tabella casi giornalieri per la regione Friuli Venezia Giulia(Daily cases for the region)
+ 
+
+TABLE =
+
+  4&times;3 table
+
+     province      casiGiornalieri    casiTotali
+    ___________    _______________    __________
+
+    "Gorizia"             2              123    
+    "Pordenone"          10              539    
+    "Trieste"            18              890    
+    "Udine"               8              873    
+
+    "Casi giornalieri totali:"    "38"    " (Region daily cases)"
+
+    "Casi regione totali:"    "2425"    " (Region total cases)"
+
+https://marcelchiarello.github.io/showdata/
+
+Summary =
+
+  2&times;8 table
+
+                   Casi    Attualmente_positivi    Morti    Guariti    Terapia_intensiva    Ospedalizzati    Ricoverati_con_sintomi    Tamponi
+                   ____    ____________________    _____    _______    _________________    _____________    ______________________    _______
+
+    Totali         2431            1326             195       910             28                 188                  160               29988 
+    Giornalieri      38             -56              10        84              0                 -12                  -12                 303 
+
+Nota: ci sono delle incongruenze tra la somma dei valori delle varie province
+      ed i valori regionali (provenienti da due diversi file dello stesso database)
+</pre><img vspace="5" hspace="5" src="RUN_DATA_PROVINCE_78.png" alt=""> <img vspace="5" hspace="5" src="RUN_DATA_PROVINCE_79.png" alt=""> <img vspace="5" hspace="5" src="RUN_DATA_PROVINCE_80.png" alt=""> <img vspace="5" hspace="5" src="RUN_DATA_PROVINCE_81.png" alt=""> <img vspace="5" hspace="5" src="RUN_DATA_PROVINCE_82.png" alt=""> <img vspace="5" hspace="5" src="RUN_DATA_PROVINCE_83.png" alt=""> <img vspace="5" hspace="5" src="RUN_DATA_PROVINCE_84.png" alt=""> <h2 id="14">DATA LAZIO</h2><pre class="codeoutput">RUN DATA: 12-Apr-2020
+Tabella casi giornalieri per la regione Lazio(Daily cases for the region)
+ 
+
+TABLE =
+
+  5&times;3 table
+
+     province      casiGiornalieri    casiTotali
+    ___________    _______________    __________
+
+    "Frosinone"           4               473   
+    "Latina"             11               398   
+    "Rieti"               3               276   
+    "Roma"               96              3315   
+    "Viterbo"             3               316   
+
+    "Casi giornalieri totali:"    "117"    " (Region daily cases)"
+
+    "Casi regione totali:"    "4778"    " (Region total cases)"
+
+https://marcelchiarello.github.io/showdata/
+
+Summary =
+
+  2&times;8 table
+
+                   Casi    Attualmente_positivi    Morti    Guariti    Terapia_intensiva    Ospedalizzati    Ricoverati_con_sintomi    Tamponi
+                   ____    ____________________    _____    _______    _________________    _____________    ______________________    _______
+
+    Totali         4845            3817             279       749             201               1469                  1268              68954 
+    Giornalieri     122              87               6        29              -2                  2                     4               3713 
+
+Nota: ci sono delle incongruenze tra la somma dei valori delle varie province
+      ed i valori regionali (provenienti da due diversi file dello stesso database)
+</pre><img vspace="5" hspace="5" src="RUN_DATA_PROVINCE_85.png" alt=""> <img vspace="5" hspace="5" src="RUN_DATA_PROVINCE_86.png" alt=""> <img vspace="5" hspace="5" src="RUN_DATA_PROVINCE_87.png" alt=""> <img vspace="5" hspace="5" src="RUN_DATA_PROVINCE_88.png" alt=""> <img vspace="5" hspace="5" src="RUN_DATA_PROVINCE_89.png" alt=""> <img vspace="5" hspace="5" src="RUN_DATA_PROVINCE_90.png" alt=""> <img vspace="5" hspace="5" src="RUN_DATA_PROVINCE_91.png" alt=""> <h2 id="15">DATA LIGURIA</h2><pre class="codeoutput">RUN DATA: 12-Apr-2020
+Tabella casi giornalieri per la regione Liguria(Daily cases for the region)
+ 
+
+TABLE =
+
+  4&times;3 table
+
+     province      casiGiornalieri    casiTotali
+    ___________    _______________    __________
+
+    "Genova"             154             3086   
+    "Imperia"              1              882   
+    "La Spezia"           41              670   
+    "Savona"              26              797   
+
+    "Casi giornalieri totali:"    "222"    " (Region daily cases)"
+
+    "Casi regione totali:"    "5435"    " (Region total cases)"
+
+https://marcelchiarello.github.io/showdata/
+
+Summary =
+
+  2&times;8 table
+
+                   Casi    Attualmente_positivi    Morti    Guariti    Terapia_intensiva    Ospedalizzati    Ricoverati_con_sintomi    Tamponi
+                   ____    ____________________    _____    _______    _________________    _____________    ______________________    _______
+
+    Totali         5494            3333             749      1412             144               1176                  1032              21983 
+    Giornalieri     118               0              15       103              -2                 27                    29               1095 
+
+Nota: ci sono delle incongruenze tra la somma dei valori delle varie province
+      ed i valori regionali (provenienti da due diversi file dello stesso database)
+</pre><img vspace="5" hspace="5" src="RUN_DATA_PROVINCE_92.png" alt=""> <img vspace="5" hspace="5" src="RUN_DATA_PROVINCE_93.png" alt=""> <img vspace="5" hspace="5" src="RUN_DATA_PROVINCE_94.png" alt=""> <img vspace="5" hspace="5" src="RUN_DATA_PROVINCE_95.png" alt=""> <img vspace="5" hspace="5" src="RUN_DATA_PROVINCE_96.png" alt=""> <img vspace="5" hspace="5" src="RUN_DATA_PROVINCE_97.png" alt=""> <img vspace="5" hspace="5" src="RUN_DATA_PROVINCE_98.png" alt=""> <h2 id="16">DATA MARCHE</h2><pre class="codeoutput">RUN DATA: 12-Apr-2020
+Tabella casi giornalieri per la regione Marche(Daily cases for the region)
+ 
+
+TABLE =
+
+  5&times;3 table
+
+        province         casiGiornalieri    casiTotali
+    _________________    _______________    __________
+
+    "Ancona"                   43              1590   
+    "Ascoli Piceno"             4               253   
+    "Fermo"                     7               361   
+    "Macerata"                 17               818   
+    "Pesaro e Urbino"          19              2140   
+
+    "Casi giornalieri totali:"    "90"    " (Region daily cases)"
+
+    "Casi regione totali:"    "5162"    " (Region total cases)"
+
+https://marcelchiarello.github.io/showdata/
+
+Summary =
+
+  2&times;8 table
+
+                   Casi    Attualmente_positivi    Morti    Guariti    Terapia_intensiva    Ospedalizzati    Ricoverati_con_sintomi    Tamponi
+                   ____    ____________________    _____    _______    _________________    _____________    ______________________    _______
+
+    Totali         5303            3114             700      1489             114               1063                  949               21057 
+    Giornalieri      92            -117              11       198              -4                -15                  -11                 997 
+
+Nota: ci sono delle incongruenze tra la somma dei valori delle varie province
+      ed i valori regionali (provenienti da due diversi file dello stesso database)
+</pre><img vspace="5" hspace="5" src="RUN_DATA_PROVINCE_99.png" alt=""> <img vspace="5" hspace="5" src="RUN_DATA_PROVINCE_100.png" alt=""> <img vspace="5" hspace="5" src="RUN_DATA_PROVINCE_101.png" alt=""> <img vspace="5" hspace="5" src="RUN_DATA_PROVINCE_102.png" alt=""> <img vspace="5" hspace="5" src="RUN_DATA_PROVINCE_103.png" alt=""> <img vspace="5" hspace="5" src="RUN_DATA_PROVINCE_104.png" alt=""> <img vspace="5" hspace="5" src="RUN_DATA_PROVINCE_105.png" alt=""> <h2 id="17">DATA MOLISE</h2><pre class="codeoutput">RUN DATA: 12-Apr-2020
+Tabella casi giornalieri per la regione Molise(Daily cases for the region)
+ 
+
+TABLE =
+
+  2&times;3 table
+
+      province      casiGiornalieri    casiTotali
+    ____________    _______________    __________
+
+    "Campobasso"           4              191    
+    "Isernia"              7               50    
+
+    "Casi giornalieri totali:"    "11"    " (Region daily cases)"
+
+    "Casi regione totali:"    "241"    " (Region total cases)"
+
+https://marcelchiarello.github.io/showdata/
+
+Summary =
+
+  2&times;8 table
+
+                   Casi    Attualmente_positivi    Morti    Guariti    Terapia_intensiva    Ospedalizzati    Ricoverati_con_sintomi    Tamponi
+                   ____    ____________________    _____    _______    _________________    _____________    ______________________    _______
+
+    Totali         257             202              15        40               4                 31                    27               2471  
+    Giornalieri     11               9               1         1               0                 -1                    -1                270  
+
+Nota: ci sono delle incongruenze tra la somma dei valori delle varie province
+      ed i valori regionali (provenienti da due diversi file dello stesso database)
+</pre><img vspace="5" hspace="5" src="RUN_DATA_PROVINCE_106.png" alt=""> <img vspace="5" hspace="5" src="RUN_DATA_PROVINCE_107.png" alt=""> <img vspace="5" hspace="5" src="RUN_DATA_PROVINCE_108.png" alt=""> <img vspace="5" hspace="5" src="RUN_DATA_PROVINCE_109.png" alt=""> <img vspace="5" hspace="5" src="RUN_DATA_PROVINCE_110.png" alt=""> <img vspace="5" hspace="5" src="RUN_DATA_PROVINCE_111.png" alt=""> <img vspace="5" hspace="5" src="RUN_DATA_PROVINCE_112.png" alt=""> <h2 id="18">DATA P.A. Bolzano</h2><pre class="codeoutput">RUN DATA: 12-Apr-2020
+Tabella casi giornalieri per la regione P.A. Bolzano(Daily cases for the region)
+ 
+
+TABLE =
+
+  1&times;3 table
+
+    province     casiGiornalieri    casiTotali
+    _________    _______________    __________
+
+    "Bolzano"          141             2098   
+
+    "Casi giornalieri totali:"    "141"    " (Region daily cases)"
+
+    "Casi regione totali:"    "2098"    " (Region total cases)"
+
+https://marcelchiarello.github.io/showdata/
+
+Summary =
+
+  2&times;8 table
+
+                   Casi    Attualmente_positivi    Morti    Guariti    Terapia_intensiva    Ospedalizzati    Ricoverati_con_sintomi    Tamponi
+                   ____    ____________________    _____    _______    _________________    _____________    ______________________    _______
+
+    Totali         2098            1515             205       378              45                228                  183               23246 
+    Giornalieri     141             246               5         0             -11                -74                  -63                1060 
+
+Nota: ci sono delle incongruenze tra la somma dei valori delle varie province
+      ed i valori regionali (provenienti da due diversi file dello stesso database)
+</pre><img vspace="5" hspace="5" src="RUN_DATA_PROVINCE_113.png" alt=""> <img vspace="5" hspace="5" src="RUN_DATA_PROVINCE_114.png" alt=""> <img vspace="5" hspace="5" src="RUN_DATA_PROVINCE_115.png" alt=""> <img vspace="5" hspace="5" src="RUN_DATA_PROVINCE_116.png" alt=""> <img vspace="5" hspace="5" src="RUN_DATA_PROVINCE_117.png" alt=""> <img vspace="5" hspace="5" src="RUN_DATA_PROVINCE_118.png" alt=""> <img vspace="5" hspace="5" src="RUN_DATA_PROVINCE_119.png" alt=""> <h2 id="19">DATA P.A. Trento</h2><pre class="codeoutput">RUN DATA: 12-Apr-2020
+Tabella casi giornalieri per la regione P.A. Trento(Daily cases for the region)
+ 
+
+TABLE =
+
+  1&times;3 table
+
+    province    casiGiornalieri    casiTotali
+    ________    _______________    __________
+
+    "Trento"          83              3053   
+
+    "Casi giornalieri totali:"    "83"    " (Region daily cases)"
+
+    "Casi regione totali:"    "3053"    " (Region total cases)"
+
+https://marcelchiarello.github.io/showdata/
+
+Summary =
+
+  2&times;8 table
+
+                   Casi    Attualmente_positivi    Morti    Guariti    Terapia_intensiva    Ospedalizzati    Ricoverati_con_sintomi    Tamponi
+                   ____    ____________________    _____    _______    _________________    _____________    ______________________    _______
+
+    Totali         3053            2082             293       678             61                 383                  322               17797 
+    Giornalieri      83              18               9        56             -1                 -14                  -13                1151 
+
+Nota: ci sono delle incongruenze tra la somma dei valori delle varie province
+      ed i valori regionali (provenienti da due diversi file dello stesso database)
+</pre><img vspace="5" hspace="5" src="RUN_DATA_PROVINCE_120.png" alt=""> <img vspace="5" hspace="5" src="RUN_DATA_PROVINCE_121.png" alt=""> <img vspace="5" hspace="5" src="RUN_DATA_PROVINCE_122.png" alt=""> <img vspace="5" hspace="5" src="RUN_DATA_PROVINCE_123.png" alt=""> <img vspace="5" hspace="5" src="RUN_DATA_PROVINCE_124.png" alt=""> <img vspace="5" hspace="5" src="RUN_DATA_PROVINCE_125.png" alt=""> <img vspace="5" hspace="5" src="RUN_DATA_PROVINCE_126.png" alt=""> <h2 id="20">DATA SARDEGNA</h2><pre class="codeoutput">RUN DATA: 12-Apr-2020
+Tabella casi giornalieri per la regione Sardegna(Daily cases for the region)
+ 
+
+TABLE =
+
+  5&times;3 table
+
+       province       casiGiornalieri    casiTotali
+    ______________    _______________    __________
+
+    "Cagliari"               6              191    
+    "Nuoro"                  0               67    
+    "Oristano"               1               34    
+    "Sassari"               13              737    
+    "Sud Sardegna"           2               84    
+
+    "Casi giornalieri totali:"    "22"    " (Region daily cases)"
+
+    "Casi regione totali:"    "1113"    " (Region total cases)"
+
+https://marcelchiarello.github.io/showdata/
+
+Summary =
+
+  2&times;8 table
+
+                   Casi    Attualmente_positivi    Morti    Guariti    Terapia_intensiva    Ospedalizzati    Ricoverati_con_sintomi    Tamponi
+                   ____    ____________________    _____    _______    _________________    _____________    ______________________    _______
+
+    Totali         1113            903              73        137             26                 135                  109               10663 
+    Giornalieri      22             15               0          7              2                  -2                   -4                 543 
+
+Nota: ci sono delle incongruenze tra la somma dei valori delle varie province
+      ed i valori regionali (provenienti da due diversi file dello stesso database)
+</pre><img vspace="5" hspace="5" src="RUN_DATA_PROVINCE_127.png" alt=""> <img vspace="5" hspace="5" src="RUN_DATA_PROVINCE_128.png" alt=""> <img vspace="5" hspace="5" src="RUN_DATA_PROVINCE_129.png" alt=""> <img vspace="5" hspace="5" src="RUN_DATA_PROVINCE_130.png" alt=""> <img vspace="5" hspace="5" src="RUN_DATA_PROVINCE_131.png" alt=""> <img vspace="5" hspace="5" src="RUN_DATA_PROVINCE_132.png" alt=""> <img vspace="5" hspace="5" src="RUN_DATA_PROVINCE_133.png" alt=""> <h2 id="21">DATA TOSCANA</h2><pre class="codeoutput">RUN DATA: 12-Apr-2020
+Tabella casi giornalieri per la regione Toscana(Daily cases for the region)
+ 
+
+TABLE =
+
+  10&times;3 table
+
+       province        casiGiornalieri    casiTotali
+    _______________    _______________    __________
+
+    "Arezzo"                  12              429   
+    "Firenze"                105             2259   
+    "Grosseto"                 4              327   
+    "Livorno"                 19              398   
+    "Lucca"                   14             1020   
+    "Massa Carrara"           41              855   
+    "Pisa"                    41              677   
+    "Pistoia"                 16              506   
+    "Prato"                   23              393   
+    "Siena"                    2              371   
+
+    "Casi giornalieri totali:"    "277"    " (Region daily cases)"
+
+    "Casi regione totali:"    "7235"    " (Region total cases)"
+
+https://marcelchiarello.github.io/showdata/
+
+Summary =
+
+  2&times;8 table
+
+                   Casi    Attualmente_positivi    Morti    Guariti    Terapia_intensiva    Ospedalizzati    Ricoverati_con_sintomi    Tamponi
+                   ____    ____________________    _____    _______    _________________    _____________    ______________________    _______
+
+    Totali         7235            6162             495       578             238               1221                  983               78640 
+    Giornalieri     277             170              28        79               1                -13                  -14                2884 
+
+Nota: ci sono delle incongruenze tra la somma dei valori delle varie province
+      ed i valori regionali (provenienti da due diversi file dello stesso database)
+</pre><img vspace="5" hspace="5" src="RUN_DATA_PROVINCE_134.png" alt=""> <img vspace="5" hspace="5" src="RUN_DATA_PROVINCE_135.png" alt=""> <img vspace="5" hspace="5" src="RUN_DATA_PROVINCE_136.png" alt=""> <img vspace="5" hspace="5" src="RUN_DATA_PROVINCE_137.png" alt=""> <img vspace="5" hspace="5" src="RUN_DATA_PROVINCE_138.png" alt=""> <img vspace="5" hspace="5" src="RUN_DATA_PROVINCE_139.png" alt=""> <img vspace="5" hspace="5" src="RUN_DATA_PROVINCE_140.png" alt=""> <h2 id="22">DATA UMBRIA</h2><pre class="codeoutput">RUN DATA: 12-Apr-2020
+Tabella casi giornalieri per la regione Umbria(Daily cases for the region)
+ 
+
+TABLE =
+
+  2&times;3 table
+
+    province     casiGiornalieri    casiTotali
+    _________    _______________    __________
+
+    "Perugia"           4              956    
+    "Terni"             6              316    
+
+    "Casi giornalieri totali:"    "10"    " (Region daily cases)"
+
+    "Casi regione totali:"    "1272"    " (Region total cases)"
+
+https://marcelchiarello.github.io/showdata/
+
+Summary =
+
+  2&times;8 table
+
+                   Casi    Attualmente_positivi    Morti    Guariti    Terapia_intensiva    Ospedalizzati    Ricoverati_con_sintomi    Tamponi
+                   ____    ____________________    _____    _______    _________________    _____________    ______________________    _______
+
+    Totali         1319            687              52        580             39                 168                  129               18672 
+    Giornalieri      10            -36               0         46              0                  -8                   -8                1011 
+
+Nota: ci sono delle incongruenze tra la somma dei valori delle varie province
+      ed i valori regionali (provenienti da due diversi file dello stesso database)
+</pre><img vspace="5" hspace="5" src="RUN_DATA_PROVINCE_141.png" alt=""> <img vspace="5" hspace="5" src="RUN_DATA_PROVINCE_142.png" alt=""> <img vspace="5" hspace="5" src="RUN_DATA_PROVINCE_143.png" alt=""> <img vspace="5" hspace="5" src="RUN_DATA_PROVINCE_144.png" alt=""> <img vspace="5" hspace="5" src="RUN_DATA_PROVINCE_145.png" alt=""> <img vspace="5" hspace="5" src="RUN_DATA_PROVINCE_146.png" alt=""> <img vspace="5" hspace="5" src="RUN_DATA_PROVINCE_147.png" alt=""> <h2 id="23">DATA VALLE D' AOSTA</h2><pre class="codeoutput">RUN DATA: 12-Apr-2020
+  Columns 1 through 2
+
+    "Tabella casi giornalieri per la regione "    "Valle d'Aosta"
+
+  Column 3
+
+    "(Daily cases for the region)"
+
+ 
+
+TABLE =
+
+  1&times;3 table
+
+    province    casiGiornalieri    casiTotali
+    ________    _______________    __________
+
+    "Aosta"           19              921    
+
+    "Casi giornalieri totali:"    "19"    " (Region daily cases)"
+
+    "Casi regione totali:"    "921"    " (Region total cases)"
+
+https://marcelchiarello.github.io/showdata/
+
+Summary =
+
+  2&times;8 table
+
+                   Casi    Attualmente_positivi    Morti    Guariti    Terapia_intensiva    Ospedalizzati    Ricoverati_con_sintomi    Tamponi
+                   ____    ____________________    _____    _______    _________________    _____________    ______________________    _______
+
+    Totali         921             588              112       221             16                 125                  109               3510  
+    Giornalieri     19              -2                5        16             -1                 -10                   -9                 46  
+
+Nota: ci sono delle incongruenze tra la somma dei valori delle varie province
+      ed i valori regionali (provenienti da due diversi file dello stesso database)
+</pre><img vspace="5" hspace="5" src="RUN_DATA_PROVINCE_148.png" alt=""> <img vspace="5" hspace="5" src="RUN_DATA_PROVINCE_149.png" alt=""> <img vspace="5" hspace="5" src="RUN_DATA_PROVINCE_150.png" alt=""> <img vspace="5" hspace="5" src="RUN_DATA_PROVINCE_151.png" alt=""> <img vspace="5" hspace="5" src="RUN_DATA_PROVINCE_152.png" alt=""> <img vspace="5" hspace="5" src="RUN_DATA_PROVINCE_153.png" alt=""> <img vspace="5" hspace="5" src="RUN_DATA_PROVINCE_154.png" alt=""> <p class="footer"><br><a href="https://www.mathworks.com/products/matlab/">Published with MATLAB&reg; R2018a</a><br></p></div><!--
+##### SOURCE BEGIN #####
+%%
+% <https://marcelchiarello.github.io/showdata/ GO BACK>
+%
+% *COVID19 DATA PROVINCES AND REGIONS UPDATED TO APRIL 12 2020*.
+%
+%      
+% This report is related to data processing on the spread of COVID-19 in Italy and single regions/provinces. 
+% Data are provided by the Italian Civil Protection:
+%
+% "https://github.com/pcm-dpc/COVID-19"
+%
+%
+% See all reports and articles:
+% <https://marcelchiarello.github.io/showdata/ marcelchiarello.github.io/showdata>
+%
+% Author: Marcello Chiarello
+%
+% marcello.chiarello@outlook.com
+
+%%
+format long
+
+evalc('NATIONALDATA = readItalia');
+evalc('ALLDATA = readCovidData');
+
+setGlobal(0,0); % 1 elemento  0 Italiano, 1 Inglese
+                % 2 elemento  0 fit province no  1 fit province si
+
+
+%% DATA PUGLIA
+RUN_REGIONE(ALLDATA,'Puglia',0);
+
+%% DATA LOMBARDIA
+RUN_REGIONE(ALLDATA,'Lombardia',0);
+
+%% DATA VENETO
+RUN_REGIONE(ALLDATA,'Veneto',0);
+
+%% DATA PIEMONTE
+RUN_REGIONE(ALLDATA,'Piemonte',0);
+
+%% DATA EMILIA ROMAGNA
+try
+    RUN_REGIONE(ALLDATA,'Emilia-Romagna',0);
+catch
+    disp('Database Error')
+end
+
+%% DATA CAMPANIA
+RUN_REGIONE(ALLDATA,'Campania',0);
+
+%% DATA SICILIA
+RUN_REGIONE(ALLDATA,'Sicilia',0);
+
+%% DATA ABRUZZO
+RUN_REGIONE(ALLDATA,'Abruzzo',0);
+
+%% DATA BASILICATA
+RUN_REGIONE(ALLDATA,'Basilicata',0);
+
+%% DATA CALABRIA
+RUN_REGIONE(ALLDATA,'Calabria',0);
+
+%% DATA CAMPANIA
+RUN_REGIONE(ALLDATA,'Campania',0);
+
+%% DATA VENEZIA GIULIA
+RUN_REGIONE(ALLDATA,'Friuli Venezia Giulia',0);
+
+%% DATA LAZIO
+RUN_REGIONE(ALLDATA,'Lazio',0);
+
+%% DATA LIGURIA
+RUN_REGIONE(ALLDATA,'Liguria',0);
+
+%% DATA MARCHE
+RUN_REGIONE(ALLDATA,'Marche',0);
+
+%% DATA MOLISE
+RUN_REGIONE(ALLDATA,'Molise',0);
+
+%% DATA P.A. Bolzano
+RUN_REGIONE(ALLDATA,'P.A. Bolzano',0);
+
+%% DATA P.A. Trento
+RUN_REGIONE(ALLDATA,'P.A. Trento',0);
+
+%% DATA SARDEGNA
+RUN_REGIONE(ALLDATA,'Sardegna',0);
+
+%% DATA TOSCANA
+RUN_REGIONE(ALLDATA,'Toscana',0);
+
+%% DATA UMBRIA
+RUN_REGIONE(ALLDATA,'Umbria',0);
+
+%% DATA VALLE D' AOSTA
+RUN_REGIONE(ALLDATA,"Valle d'Aosta",0);
+
+##### SOURCE END #####
+--></body></html>

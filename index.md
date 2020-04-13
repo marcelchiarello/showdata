@@ -46,8 +46,8 @@ NOTE: New sigmoid-like equation used for data fitting:
 
 ### The general situation (preview - see detailed reports for all charts):
 
-Total Cases Trend:
-<img src="https://marcelchiarello.github.io/showdata/RUN_13_04/RUN1/RUN_DATA_FIT_TOTAL_CASES_ITALY_REGIONS_01.png">
+Daily Positives Trend:
+<img src="https://marcelchiarello.github.io/showdata/RUN_13_04/RUN12/RUN_DATA_FIT_NEW_POSITIVES_ITALY_REGIONS_02.png">
 Daily Growth Factor:
 <img src="https://marcelchiarello.github.io/showdata/RUN_13_04/RUN6/RUN_FACTORS_01.png">
 Total cases by region:

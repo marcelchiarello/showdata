@@ -18,6 +18,7 @@ Cases = Currently_positives + Recovered + Deaths
 
 CHANGES: 
 1 - DATA FITTING - Now there are two distinghuished fitting chart reports for Total Cases and Currently positives.
+
 2 - Re-added Provinces fitting report.
 
 - [1 -Dati nazionali (National Data)](/RUN_12_04/RUN0/RUN.html)

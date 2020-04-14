@@ -1,0 +1,48 @@
+## Analisi al 29/03/2020
+
+**Il picco in Lombardia.** 
+**Ecco perchè serve analizzare e confrontare i dati regione per regione.**
+
+### I TREND SETTIMANALI
+
+Oltre al considerare i casi giorno per giorno, è utile fare una valutazione settimanale. Così facendo si attenuano le oscillazioni dovute agli eventuali accumuli di tamponi i cui risultati si fanno evidenti a giorni alterni (a causa dei tempi tecnici).
+
+Qui di seguito vediamo l'andamento settimanale per alcune regioni Italiane da Nord a Sud.
+Ogni giorno è riportata la somma dei casi nell'intervallo di 7 giorni (6 precedenti + 1 attuale)
+
+<img src="https://marcelchiarello.github.io/showdata/RUN_29_03/RUN5/RUN_NEWTRENDS_01.png"/>
+
+Qui uno "zoom" sulle regioni con "meno" casi:
+
+<img src="https://marcelchiarello.github.io/showdata/RUN_29_03/RUN5/RUN_NEWTRENDS_02.png"/>
+
+In questo modo, oltre ad un aumento della leggibilità, risultano evidenti le differenze tra le varie regioni. Si nota a colpo d'occhio soprattutto l' enorme impatto della Lombardia che possiamo osservare anche in questo altro grafico logaritmico (che riporta invece il rapporto tra Casi Settimanali e Casi Totali per ogni regione).
+
+<img src="https://marcelchiarello.github.io/showdata/RUN_29_03/RUN5/RUN_NEWTRENDS_03.png"/>
+
+Circolano in rete grafici in cui le regioni vengono etichettate con " N giorni dietro la Lombardia ", così come viene fatto tra i vari Stati Europei. Se per questi ultimi ha forse un senso perchè parliamo di zone geografiche molto estese, nel caso delle singole regioni forse non è molto corretto anche a seguito del Lockdown che ha mitigato l'effetto di una crescita esponenziale soprattutto al Centro/Sud.
+
+E' plausibile affermare che il picco in Lombardia sia già avvenuto durante la scorsa settimana, ma la Regione rappresenta attualmente il maggior contribuito trainante. Basti osservare il trend nazione e confrontarlo con il picco precedente:
+
+<img src="https://marcelchiarello.github.io/showdata/RUN_29_03/RUN5/RUN_NEWTRENDS_04.png"/>
+
+E' importante osservare quindi singolarmente le altre regioni.
+Anche loro iniziano ad avere / avranno dei picchi, con un plausibile prolungamento nel tempo piuttosto che un accelerazione. Tale prolungamento, porterebbe la fase di decrescita nazionale ad essere più lenta rispetto a quella di crescita (così come accadde in generale nelle crescite pandemiche).
+
+C'è un altro punto, secondo me fondamentale, ovvero l'effetto della divulgazione dei dati nazionali agglomerati che risulteranno più "confortanti" a causa della decrescita in Lombardia.
+Si spera che l'ottimismo derivato non inneschi una serie di comportamenti "pre-Covid" tra la popolazione Italiana. Questo rallenterebbe ancora di più la discesa alla normalità.
+
+---
+
+Per i report dettagliati sul territorio Italiano ed ogni singola regione/provincia, visita i seguenti link:
+
+[Trend settimanali](https://marcelchiarello.github.io/showdata/RUN_29_03/RUN5/RUN.html)
+
+[Confronto interregionale](https://marcelchiarello.github.io/showdata/RUN_29_03/RUN4/RUN.html)
+
+[Dati nazionali, andamenti nazionali/regionali](https://marcelchiarello.github.io/showdata/RUN_29_03/RUN1/RUN.html)
+
+[Dati regionali e provinciali](https://marcelchiarello.github.io/showdata/RUN_29_03/RUN2/RUN.html)
+ 
+ 
+<div class="fb-like" data-href="https://marcelchiarello.github.io/showdata/" data-width="" data-layout="button_count" data-action="recommend" data-size="large" data-share="true"></div>

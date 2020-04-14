@@ -26,7 +26,7 @@ Cases = Currently_positives + Recovered + Deaths
 
 - [5 -Confronti interregionali (Interregional comparisons)](/RUN_14_04/RUN4/RUN.html)
 
-#### DATA FITTING - NATIONAL/REGIONAL TRENDS (IN CORSO)
+#### DATA FITTING - NATIONAL/REGIONAL TRENDS
 
 - [6 -TOTAL CASES - Italy and Regions](/RUN_14_04/RUN1/RUN.html)
 

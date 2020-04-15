@@ -75,6 +75,26 @@ Weekly Trends:
 
 ### ARCHIVE
 
+### 14/04/2020:
+
+- [1 -Dati nazionali (National Data)](/RUN_14_04/RUN0/RUN.html)
+
+- [2 -Fattori di crescita e letalità nazionali/regionali (National and regional growth factor and lethality)](/RUN_15_04/RUN6/RUN.html)
+
+- [3 -Dati regionali e provinciali (Regional and Provincial Data)](/RUN_14_04/RUN2/RUN.html)
+
+- [4 -Andamenti settimanali regioni NORD/SUD (WEEKLY TRENDS)](/RUN_14_04/RUN5/RUN.html)
+
+- [5 -Confronti interregionali (Interregional comparisons)](/RUN_14_04/RUN4/RUN.html)
+
+#### DATA FITTING - NATIONAL/REGIONAL TRENDS
+
+- [6 -TOTAL CASES - Italy and Regions](/RUN_14_04/RUN1/RUN.html)
+
+- [7 -NEW POSITIVES - Italy and Regions](/RUN_14_04/RUN12/RUN.html)
+
+- [8 -NEW POSITIVES - Provinces](/RUN_14_04/RUN13/RUN.html)
+
 ### 13/04/2020:
 
 - [1 -Dati nazionali (National Data)](/RUN_13_04/RUN0/RUN.html)

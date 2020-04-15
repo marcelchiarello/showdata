@@ -28,11 +28,11 @@ Cases = Currently_positives + Recovered + Deaths
 
 #### DATA FITTING - NATIONAL/REGIONAL TRENDS
 
-- [6 -TOTAL CASES - Italy and Regions](/RUN_14_04/RUN1/RUN.html)
+- [6 -TOTAL CASES - Italy and Regions](/RUN_15_04/RUN1/RUN.html)
 
-- [7 -NEW POSITIVES - Italy and Regions](/RUN_14_04/RUN12/RUN.html)
+- [7 -NEW POSITIVES - Italy and Regions](/RUN_15_04/RUN12/RUN.html)
 
-- [8 -NEW POSITIVES - Provinces](/RUN_14_04/RUN13/RUN.html)
+- [8 -NEW POSITIVES - Provinces](/RUN_15_04/RUN13/RUN.html)
 
 NOTE: New sigmoid-like equation used for data fitting: 
 <img src="http://latex.codecogs.com/svg.latex?\frac{a}{e^{b(x+c)} + a1*e^{b1(x+c1)} - d}" border="0"/>
@@ -42,7 +42,7 @@ NOTE: New sigmoid-like equation used for data fitting:
 ### The general situation (preview - see detailed reports for all charts):
 
 Daily Positives Trend:
-<img src="https://marcelchiarello.github.io/showdata/RUN_14_04/RUN12/RUN_DATA_FIT_NEW_POSITIVES_ITALY_REGIONS_02.png">
+<img src="https://marcelchiarello.github.io/showdata/RUN_15_04/RUN12/RUN_DATA_FIT_NEW_POSITIVES_ITALY_REGIONS_02.png">
 Daily Growth Factor:
 <img src="https://marcelchiarello.github.io/showdata/RUN_15_04/RUN6/RUN_FACTORS_01.png">
 Total cases by region:

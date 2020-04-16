@@ -1,11 +1,11 @@
 <!-- start -->
-## LAST UPDATE 16/04/2020 - 18:30 - Link reports disponibili a breve
+## LAST UPDATE 16/04/2020 - 18:50 - Link reports disponibili
 ### LAST DATA: 16/04/2020
 
                     Casi     Attualmente_positivi    Morti    Guariti    Terapia_intensiva    Ospedalizzati    Ricoverati_con_sintomi    Tamponi
                    ______    ____________________    _____    _______    _________________    _____________    ______________________    _______
                    
-    Totali          168941          106607           22170     40164           2936               29829                26893             1178403
+    Totali         168941           106607           22170     40164           2936               29829                26893             1178403
     Giornalieri     +3786            +1189            +525     +2072           -143                -893                 -750              +60999
     
                     Cases     Currently_positives    Deaths   Recovered    Intensive_care    Hospitalized    Hospitalized_with_symptoms   Tests                

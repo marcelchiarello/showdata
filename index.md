@@ -1,12 +1,12 @@
 <!-- start -->
-## LAST UPDATE 17/04/2020 - 18:50 - Link reports disponibili
-### LAST DATA: 17/04/2020
+## LAST UPDATE 18/04/2020 - 18:40 - Link reports disponibili (se non si aprono, attendere qualche minuto e ricaricare la pagina)
+### LAST DATA: 18/04/2020
 
                     Casi     Attualmente_positivi    Morti    Guariti    Terapia_intensiva    Ospedalizzati    Ricoverati_con_sintomi    Tamponi
                    ______    ____________________    _____    _______    _________________    _____________    ______________________    _______
                    
-    Totali         172434           106962           22745     42727           2812               28598                25786             1244108
-    Giornalieri     +3493             +355            +575     +2563           -124               -1231                -1107              +65705
+      Totali       175925           107771           23227     44927           2733               27740                25007             1305833
+    Giornalieri     +3491             +809            +482     +2200            -79                -858                 -779              +61725
     
                     Cases     Currently_positives    Deaths   Recovered    Intensive_care    Hospitalized    Hospitalized_with_symptoms   Tests                
     
@@ -15,6 +15,67 @@ Cases = Currently_positives + Recovered + Deaths
 ---
 
 ### Detailed Reports:
+
+- [1 -Dati nazionali (National Data)](/RUN_18_04/RUN0/RUN.html)
+
+- [2 -Fattori di crescita e letalità nazionali/regionali (National and regional growth factor and lethality)](/RUN_18_04/RUN6/RUN.html)
+
+- [3 -Dati regionali e provinciali (Regional and Provincial Data)](/RUN_18_04/RUN2/RUN.html)
+
+- [4 -Andamenti settimanali regioni NORD/SUD (WEEKLY TRENDS)](/RUN_18_04/RUN5/RUN.html)
+
+- [5 -Confronti interregionali (Interregional comparisons)](/RUN_18_04/RUN4/RUN.html)
+
+#### DATA FITTING - NATIONAL/REGIONAL TRENDS
+
+- [6 -TOTAL CASES - Italy and Regions](/RUN_18_04/RUN1/RUN.html)
+
+- [7 -NEW POSITIVES - Italy and Regions](/RUN_18_04/RUN12/RUN.html)
+
+- [8 -NEW POSITIVES - Provinces](/RUN_18_04/RUN13/RUN.html)
+
+NOTE: New sigmoid-like equation used for data fitting: 
+<img src="http://latex.codecogs.com/svg.latex?\frac{a}{e^{b(x+c)} + a1*e^{b1(x+c1)} - d}" border="0"/>
+
+---
+
+### The general situation (preview - see detailed reports for all charts):
+
+Daily Positives Trend:
+<img src="https://marcelchiarello.github.io/showdata/RUN_18_04/RUN12/RUN_DATA_FIT_NEW_POSITIVES_ITALY_REGIONS_02.png">
+Daily Growth Factor:
+<img src="https://marcelchiarello.github.io/showdata/RUN_18_04/RUN6/RUN_FACTORS_01.png">
+Total cases by region:
+<img src="https://marcelchiarello.github.io/showdata/RUN_18_04/RUN4/RUN_INTEREGION_01.png">
+Total hospitalized with symptoms:
+<img src="https://marcelchiarello.github.io/showdata/RUN_18_04/RUN4/RUN_INTEREGION_05.png">
+Total Cases vs Hospitalized, Recovered, Deaths:
+<img src="https://marcelchiarello.github.io/showdata/RUN_18_04/RUN0/RUN_DATA_ITALIA_01.png">
+
+<img src="https://marcelchiarello.github.io/showdata/RUN_18_04/RUN0/RUN_DATA_ITALIA_04.png">
+Weekly Trends:
+<img src="https://marcelchiarello.github.io/showdata/RUN_18_04/RUN5/RUN_NEWTRENDS_01.png">
+
+<img src="https://marcelchiarello.github.io/showdata/RUN_18_04/RUN5/RUN_NEWTRENDS_03.png">
+
+
+## ARTICOLI E ANALISI (ARTICLES & ANALYSIS)
+
+- [del 29 Marzo - Il picco in Lombardia. Ecco perchè serve analizzare e confrontare i dati regione per regione.](/ARTICLES/DES_29_03.md)
+- [del 28 Marzo - Mancano gli standard nella comunicazione dei dati in Italia](/ARTICLES/DES_28_03.md)
+- [del 27 Marzo - La giornata di oggi è di difficile valutazione ma ci sono dei lati positivi](/ARTICLES/DES_27_03.md)
+
+---
+
+### Data Source
+
+- [PROTEZIONE CIVILE ITALIANA, GITHUB DATASET](https://github.com/pcm-dpc/COVID-19)
+
+---
+
+### ARCHIVE
+
+### 17/04/2020:
 
 - [1 -Dati nazionali (National Data)](/RUN_17_04/RUN0/RUN.html)
 
@@ -33,47 +94,6 @@ Cases = Currently_positives + Recovered + Deaths
 - [7 -NEW POSITIVES - Italy and Regions](/RUN_17_04/RUN12/RUN.html)
 
 - [8 -NEW POSITIVES - Provinces](/RUN_17_04/RUN13/RUN.html)
-
-NOTE: New sigmoid-like equation used for data fitting: 
-<img src="http://latex.codecogs.com/svg.latex?\frac{a}{e^{b(x+c)} + a1*e^{b1(x+c1)} - d}" border="0"/>
-
----
-
-### The general situation (preview - see detailed reports for all charts):
-
-Daily Positives Trend:
-<img src="https://marcelchiarello.github.io/showdata/RUN_17_04/RUN12/RUN_DATA_FIT_NEW_POSITIVES_ITALY_REGIONS_02.png">
-Daily Growth Factor:
-<img src="https://marcelchiarello.github.io/showdata/RUN_17_04/RUN6/RUN_FACTORS_01.png">
-Total cases by region:
-<img src="https://marcelchiarello.github.io/showdata/RUN_17_04/RUN4/RUN_INTEREGION_01.png">
-Total hospitalized with symptoms:
-<img src="https://marcelchiarello.github.io/showdata/RUN_17_04/RUN4/RUN_INTEREGION_05.png">
-Total Cases vs Hospitalized, Recovered, Deaths:
-<img src="https://marcelchiarello.github.io/showdata/RUN_17_04/RUN0/RUN_DATA_ITALIA_01.png">
-
-<img src="https://marcelchiarello.github.io/showdata/RUN_17_04/RUN0/RUN_DATA_ITALIA_04.png">
-Weekly Trends:
-<img src="https://marcelchiarello.github.io/showdata/RUN_17_04/RUN5/RUN_NEWTRENDS_01.png">
-
-<img src="https://marcelchiarello.github.io/showdata/RUN_17_04/RUN5/RUN_NEWTRENDS_03.png">
-
-
-## ARTICOLI E ANALISI (ARTICLES & ANALYSIS)
-
-- [del 29 Marzo - Il picco in Lombardia. Ecco perchè serve analizzare e confrontare i dati regione per regione.](/ARTICLES/DES_29_03.md)
-- [del 28 Marzo - Mancano gli standard nella comunicazione dei dati in Italia](/ARTICLES/DES_28_03.md)
-- [del 27 Marzo - La giornata di oggi è di difficile valutazione ma ci sono dei lati positivi](/ARTICLES/DES_27_03.md)
-
----
-
-### Data Source
-
-- [PROTEZIONE CIVILE ITALIANA, GITHUB DATASET](https://github.com/pcm-dpc/COVID-19)
-
----
-
-### ARCHIVE
 
 ### 16/04/2020:
 

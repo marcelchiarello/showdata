@@ -1,0 +1,313 @@
+
+<!DOCTYPE html
+  PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html><head>
+      <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+   <!--
+This HTML was auto-generated from MATLAB code.
+To make changes, update the MATLAB code and republish this document.
+      --><title>RUN_FACTORS</title><meta name="generator" content="MATLAB 9.4"><link rel="schema.DC" href="http://purl.org/dc/elements/1.1/"><meta name="DC.date" content="2020-04-19"><meta name="DC.source" content="RUN_FACTORS.m"><style type="text/css">
+html,body,div,span,applet,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,a,abbr,acronym,address,big,cite,code,del,dfn,em,font,img,ins,kbd,q,s,samp,small,strike,strong,sub,sup,tt,var,b,u,i,center,dl,dt,dd,ol,ul,li,fieldset,form,label,legend,table,caption,tbody,tfoot,thead,tr,th,td{margin:0;padding:0;border:0;outline:0;font-size:100%;vertical-align:baseline;background:transparent}body{line-height:1}ol,ul{list-style:none}blockquote,q{quotes:none}blockquote:before,blockquote:after,q:before,q:after{content:'';content:none}:focus{outine:0}ins{text-decoration:none}del{text-decoration:line-through}table{border-collapse:collapse;border-spacing:0}
+
+html { min-height:100%; margin-bottom:1px; }
+html body { height:100%; margin:0px; font-family:Arial, Helvetica, sans-serif; font-size:10px; color:#000; line-height:140%; background:#fff none; overflow-y:scroll; }
+html body td { vertical-align:top; text-align:left; }
+
+h1 { padding:0px; margin:0px 0px 25px; font-family:Arial, Helvetica, sans-serif; font-size:1.5em; color:#d55000; line-height:100%; font-weight:normal; }
+h2 { padding:0px; margin:0px 0px 8px; font-family:Arial, Helvetica, sans-serif; font-size:1.2em; color:#000; font-weight:bold; line-height:140%; border-bottom:1px solid #d6d4d4; display:block; }
+h3 { padding:0px; margin:0px 0px 5px; font-family:Arial, Helvetica, sans-serif; font-size:1.1em; color:#000; font-weight:bold; line-height:140%; }
+
+a { color:#005fce; text-decoration:none; }
+a:hover { color:#005fce; text-decoration:underline; }
+a:visited { color:#004aa0; text-decoration:none; }
+
+p { padding:0px; margin:0px 0px 20px; }
+img { padding:0px; margin:0px 0px 20px; border:none; }
+p img, pre img, tt img, li img, h1 img, h2 img { margin-bottom:0px; } 
+
+ul { padding:0px; margin:0px 0px 20px 23px; list-style:square; }
+ul li { padding:0px; margin:0px 0px 7px 0px; }
+ul li ul { padding:5px 0px 0px; margin:0px 0px 7px 23px; }
+ul li ol li { list-style:decimal; }
+ol { padding:0px; margin:0px 0px 20px 0px; list-style:decimal; }
+ol li { padding:0px; margin:0px 0px 7px 23px; list-style-type:decimal; }
+ol li ol { padding:5px 0px 0px; margin:0px 0px 7px 0px; }
+ol li ol li { list-style-type:lower-alpha; }
+ol li ul { padding-top:7px; }
+ol li ul li { list-style:square; }
+
+.content { font-size:1.2em; line-height:140%; padding: 20px; }
+
+pre, code { font-size:12px; }
+tt { font-size: 1.2em; }
+pre { margin:0px 0px 20px; }
+pre.codeinput { padding:10px; border:1px solid #d3d3d3; background:#f7f7f7; }
+pre.codeoutput { padding:10px 11px; margin:0px 0px 20px; color:#4c4c4c; }
+pre.error { color:red; }
+
+@media print { pre.codeinput, pre.codeoutput { word-wrap:break-word; width:100%; } }
+
+span.keyword { color:#0000FF }
+span.comment { color:#228B22 }
+span.string { color:#A020F0 }
+span.untermstring { color:#B20000 }
+span.syscmd { color:#B28C00 }
+
+.footer { width:auto; padding:10px 0px; margin:25px 0px 0px; border-top:1px dotted #878787; font-size:0.8em; line-height:140%; font-style:italic; color:#878787; text-align:left; float:none; }
+.footer p { margin:0px; }
+.footer a { color:#878787; }
+.footer a:hover { color:#878787; text-decoration:underline; }
+.footer a:visited { color:#878787; }
+
+table th { padding:7px 5px; text-align:left; vertical-align:middle; border: 1px solid #d6d4d4; font-weight:bold; }
+table td { padding:7px 5px; text-align:left; vertical-align:top; border:1px solid #d6d4d4; }
+
+
+
+
+
+  </style></head><body><div class="content"><h1></h1><!--introduction--><p><a href="https://marcelchiarello.github.io/showdata/">GO BACK</a></p><p><b>COVID19 GROWTH FACTORS AND LETHALITY REPORT</b>.</p><p>This report is related to data processing on the spread of COVID-19 in Italy and single regions/provinces. Data are provided by the Italian Civil Protection:</p><p>"https://github.com/pcm-dpc/COVID-19"</p><p>GROWTH FACTOR [%] = (TOTAL CASES (k) - TOTAL CASES (k-1)) / TOTAL CASES (k - 1)   | k = actual day; k - 1 = previuous day | for each day(k)</p><p>LETHALITY [%] = TOTAL DEATHS (k) / TOTAL CASES (k) | for each day(k)</p><p>See all reports and articles: <a href="https://marcelchiarello.github.io/showdata/">marcelchiarello.github.io/showdata</a></p><p>Author: Marcello Chiarello</p><p><a href="mailto:marcello.chiarello@outlook.com">marcello.chiarello@outlook.com</a></p><!--/introduction--><h2>Contents</h2><div><ul><li><a href="#2">ITALIA</a></li><li><a href="#3">REGIONS</a></li></ul></div><h2 id="2">ITALIA</h2><img vspace="5" hspace="5" src="RUN_FACTORS_01.png" alt=""> <img vspace="5" hspace="5" src="RUN_FACTORS_02.png" alt=""> <h2 id="3">REGIONS</h2><img vspace="5" hspace="5" src="RUN_FACTORS_03.png" alt=""> <img vspace="5" hspace="5" src="RUN_FACTORS_04.png" alt=""> <img vspace="5" hspace="5" src="RUN_FACTORS_05.png" alt=""> <p class="footer"><br><a href="https://www.mathworks.com/products/matlab/">Published with MATLAB&reg; R2018a</a><br></p></div><!--
+##### SOURCE BEGIN #####
+%%
+% <https://marcelchiarello.github.io/showdata/ GO BACK>
+%
+% *COVID19 GROWTH FACTORS AND LETHALITY REPORT*.
+%
+%       
+% This report is related to data processing on the spread of COVID-19 in Italy and single regions/provinces. 
+% Data are provided by the Italian Civil Protection:
+%
+% "https://github.com/pcm-dpc/COVID-19"
+%
+% GROWTH FACTOR [%] = (TOTAL CASES (k) - TOTAL CASES (k-1)) / TOTAL CASES (k - 1)   | k = actual day;
+% k - 1 = previuous day | for each day(k)
+%
+% LETHALITY [%] = TOTAL DEATHS (k) / TOTAL CASES (k) | for each day(k)
+%
+% See all reports and articles:
+% <https://marcelchiarello.github.io/showdata/ marcelchiarello.github.io/showdata>
+%
+% Author: Marcello Chiarello
+%
+% marcello.chiarello@outlook.com
+
+%%
+warning off
+clc
+close all
+format long
+
+evalc('NATIONALDATA = readItalia');
+
+setGlobal(0,0); % 1 elemento  0 Italiano, 1 Inglese
+                % 2 elemento  0 fit province no  1 fit province si
+
+%% ITALIA
+               
+%Giornalieri
+DATA = add_daily(NATIONALDATA);
+
+
+%PLOT
+globalFontSize = 16;
+% Date
+t1 = datetime(2020,2,24); t1.Format = 'dd-MMM';
+t2 = datetime('now'); t2.Format = 'dd-MMM';
+x = string(t1:t2);  % asse x -> date
+
+%Grow factor
+GW = [DATA.totale_casi - [DATA.totale_casi(1); DATA.totale_casi(1:end-1)]]...
+    ./[DATA.totale_casi(1); DATA.totale_casi(1:end-1)]*100;
+
+% GW = DATA.totale_casi ...
+%     ./[DATA.totale_casi(1); DATA.totale_casi(1:end-1)];
+
+GWfilt = moveMedian(GW);
+
+f = figure; hold on; grid on;
+set(f,'position',[202 170 1430 800]);
+
+plot(GW,'kREPLACE_WITH_DASH_DASH','LineWidth',1);
+p1 = scatter(1:length(GW),GW,'filled','LineWidth',2);
+p2 = plot(GWfilt, 'LineWidth',2);
+ylabel('GROWTH FACTOR [%]')
+
+%add last value
+textLast(x,GW,globalFontSize-2);
+
+%tick settings
+xp = x; xp(~mod(1:length(xp),2)>0) = ' ';
+
+xticks(1:length(xp))
+xtickangle(90)
+xticklabels(string(xp))
+
+%legend
+legend([p1 p2], 'Growth Factor','Growth Factor (median filtered - 3 samples moving window)','position','best')
+add_site;
+set(gca,'fontsize', globalFontSize)
+%
+%
+%
+%
+%
+%
+%Lethality
+LR = DATA.deceduti./DATA.totale_casi*100;
+LRfilt = moveMedian(LR);
+
+f = figure; hold on; grid on;
+set(f,'position',[202 170 1430 800]);
+
+plot(LR,'kREPLACE_WITH_DASH_DASH','LineWidth',1);
+p1 = scatter(1:length(LR),LR,'filled','LineWidth',2);
+p2 = plot(LRfilt, 'LineWidth',2);
+ylabel('LETHALITY [%]')
+
+%add last value
+textLast(x,LR,globalFontSize-2);
+
+%tick settings
+xp = x; xp(~mod(1:length(xp),2)>0) = ' ';
+
+xticks(1:length(xp))
+xtickangle(90)
+xticklabels(string(xp))
+
+%legend
+legend([p1 p2], 'Lethality','Lethality (median filtered - 3 samples moving window)','position','best')
+add_site;
+set(gca,'fontsize', globalFontSize)
+
+
+%% REGIONS
+clear GW GWfilt LR LRfilt
+
+DATA = readRegions;
+
+regionsList = { ...
+    "Lombardia"; ...
+    "Veneto"; ...
+    "Piemonte"; ...
+    "Emilia-Romagna"; ...
+    "Abruzzo"
+    "Campania"; ...
+    "Marche"; ...
+    "Puglia"; ...
+    "Sicilia"; ...
+    };
+
+
+for i = 1:length(regionsList)
+    
+    regionData = readRegionData(regionsList{i});
+    
+    GW(:,i) = [regionData.totale_casi - [regionData.totale_casi(1); regionData.totale_casi(1:end-1)]]...
+        ./[regionData.totale_casi(1); regionData.totale_casi(1:end-1)]*100;
+    
+    GWfilt(:,i) = moveMedian(GW(:,i));
+    
+    LR(:,i) = regionData.deceduti./regionData.totale_casi*100;
+    LRfilt(:,i) = moveMedian(LR(:,i));
+    
+end
+
+
+%Grow factor
+
+f = figure; hold on; grid on;
+set(f,'position',[202 170 1430 800]);
+
+%PLOT
+globalFontSize = 16;
+% Date
+t1 = datetime(2020,2,24); t1.Format = 'dd-MMM';
+t2 = datetime('now'); t2.Format = 'dd-MMM';
+x = string(t1:t2);  % asse x -> date
+ylabel('GROWTH FACTOR [%]')
+set(gca,'fontsize', globalFontSize)
+
+%tick settings
+xp = x; xp(~mod(1:length(xp),2)>0) = ' ';
+
+xticks(1:length(xp))
+xtickangle(90)
+xticklabels(string(xp))
+
+
+set(gca,'linestyleorder',{'REPLACE_WITH_DASH_DASH','-.','REPLACE_WITH_DASH_DASH','*','+'},...
+    'nextplot','add')
+
+for i = 1:length(regionsList)
+    
+    y = GWfilt(:,i);
+    
+    p(i) = plot(y, 'LineWidth',2);
+    hold on;
+    
+end
+
+%legend
+l=legend(p, regionsList ,'Location','best');
+add_site;
+
+%ZOOM
+a1 = gca;
+f2 = figure;
+a2 = copyobj([l,a1],f2);
+% l2 = copyobj(l,f2);
+set(gca,'Xlim',[21.801725532021724  42.178669060544195]);
+set(gca,'Ylim',[1.943619668708142  39.612519514392986]);
+set(gca,'fontsize', globalFontSize)
+set(f2,'position',[202 170 1430 800]);
+title('ZOOM');
+
+%
+%
+%
+%
+%
+%%
+%Lethality
+
+
+f = figure; hold on; grid on;
+set(f,'position',[202 170 1430 800]);
+
+%PLOT
+globalFontSize = 16;
+% Date
+t1 = datetime(2020,2,24); t1.Format = 'dd-MMM';
+t2 = datetime('now'); t2.Format = 'dd-MMM';
+x = string(t1:t2);  % asse x -> date
+ylabel('LETHALITY [%]')
+set(gca,'fontsize', globalFontSize)
+
+%tick settings
+xp = x; xp(~mod(1:length(xp),2)>0) = ' ';
+
+xticks(1:length(xp))
+xtickangle(90)
+xticklabels(string(xp))
+
+set(gca,'linestyleorder',{'REPLACE_WITH_DASH_DASH','-.','REPLACE_WITH_DASH_DASH','*','+'},...
+    'nextplot','add')
+
+for i = 1:length(regionsList)
+    
+    y = LRfilt(:,i);
+    
+    p(i) = plot(y, 'LineWidth',2);
+    hold on;
+    
+end
+yticks([1:25])
+add_site;
+
+%legend
+legend(p, regionsList ,'Location','best')
+
+
+
+##### SOURCE END #####
+--></body></html>

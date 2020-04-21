@@ -1,5 +1,5 @@
 <!-- start -->
-## LAST UPDATE 21/04/2020 - 18:50 - Link reports disponibili (se non si aprono, attendere qualche minuto e ricaricare la pagina)
+## LAST UPDATE 21/04/2020 - 18:45 - Link reports disponibili (se non si aprono, attendere qualche minuto e ricaricare la pagina)
 ### LAST DATA: 21/04/2020
 
                     Casi     Attualmente_positivi    Morti    Guariti    Terapia_intensiva    Ospedalizzati    Ricoverati_con_sintomi    Tamponi

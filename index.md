@@ -1,36 +1,38 @@
 <!-- start -->
-## LAST UPDATE 21/04/2020 - 18:45 - Link reports disponibili (se non si aprono, attendere qualche minuto e ricaricare la pagina)
-### LAST DATA: 21/04/2020
+## LAST UPDATE 22/04/2020 - 18:20 - Reports e plots in corso.
 
                     Casi     Attualmente_positivi    Morti    Guariti    Terapia_intensiva    Ospedalizzati    Ricoverati_con_sintomi    Tamponi
                    ______    ____________________    _____    _______    _________________    _____________    ______________________    _______
                    
-    Totali         183957           107709           24648     51600           2471               26605                24134             1450150
-    Giornalieri     +2729             -528            +534     +2723           -102                -874                 -772              +52126
+    Totali         187327           107699           25085     54543           2384               26189                23805             1513251
+    Giornalieri     +3370              -10            +437     +2943            -87                -416                 -329              +63101
 
                     Cases     Currently_positives    Deaths   Recovered    Intensive_care    Hospitalized    Hospitalized_with_symptoms   Tests                
     
 Cases = Currently_positives + Recovered + Deaths
 
+UPDATE: Le stime dei trend nazionali e regionali sono state aggiornate, ora sono calcolate sulla base dei dati che vanno dal 17/3 al 21/4.
+        I report dei trend (data fitting) sono 2, uno sui casi giornalieri/totali nazionali e regionali, l'altro sui casi giornalieri/totali regionali con annesse province.
+        
 ---
 
 ### Detailed Reports:
 
-- [1 -Dati nazionali (National Data)](/RUN_21_04/RUN0/RUN.html)
+- [1 -Dati nazionali (National Data)](/RUN_22_04/RUN0/RUN.html)
 
-- [2 -Fattori di crescita e letalità nazionali/regionali (National and regional growth factor and lethality)](/RUN_21_04/RUN6/RUN.html)
+- [2 -Fattori di crescita e letalità nazionali/regionali (National and regional growth factor and lethality)](/RUN_22_04/RUN6/RUN.html)
 
-- [3 -Dati regionali e provinciali (Regional and Provincial Data)](/RUN_21_04/RUN2/RUN.html)
+- [3 -Dati regionali e provinciali (Regional and Provincial Data)](/RUN_22_04/RUN2/RUN.html)
 
-- [4 -Andamenti settimanali regioni NORD/SUD (WEEKLY TRENDS)](/RUN_21_04/RUN5/RUN.html)
+- [4 -Andamenti settimanali regioni NORD/SUD (WEEKLY TRENDS)](/RUN_22_04/RUN5/RUN.html)
 
-- [5 -Confronti interregionali (Interregional comparisons)](/RUN_21_04/RUN4/RUN.html)
+- [5 -Confronti interregionali (Interregional comparisons)](/RUN_22_04/RUN4/RUN.html)
 
 #### DATA FITTING - NATIONAL/REGIONAL TRENDS
 
-- [6 -TOTAL CASES - Italy and Regions](/RUN_21_04/RUN1/RUN.html)
+- [6 -TOTAL CASES - Italy and Regions](/RUN_22_04/RUN1/RUN.html)
 
-- [7 -TOTAL CASES - Provinces](/RUN_21_04/RUN13/RUN.html)
+- [7 -TOTAL CASES - Provinces](/RUN_22_04/RUN13/RUN.html)
 
 NOTE: New sigmoid-like equation used for data fitting: 
 <img src="http://latex.codecogs.com/svg.latex?\frac{a}{e^{b(x+c)} + a1*e^{b1(x+c1)} - d}" border="0"/>
@@ -73,6 +75,40 @@ Weekly Trends:
 
 ### ARCHIVE
 
+### 21/04/2020:
+
+                    Casi     Attualmente_positivi    Morti    Guariti    Terapia_intensiva    Ospedalizzati    Ricoverati_con_sintomi    Tamponi
+                   ______    ____________________    _____    _______    _________________    _____________    ______________________    _______
+                   
+    Totali         183957           107709           24648     51600           2471               26605                24134             1450150
+    Giornalieri     +2729             -528            +534     +2723           -102                -874                 -772              +52126
+
+                    Cases     Currently_positives    Deaths   Recovered    Intensive_care    Hospitalized    Hospitalized_with_symptoms   Tests                
+    
+Cases = Currently_positives + Recovered + Deaths
+
+---
+
+### Detailed Reports:
+
+- [1 -Dati nazionali (National Data)](/RUN_21_04/RUN0/RUN.html)
+
+- [2 -Fattori di crescita e letalità nazionali/regionali (National and regional growth factor and lethality)](/RUN_21_04/RUN6/RUN.html)
+
+- [3 -Dati regionali e provinciali (Regional and Provincial Data)](/RUN_21_04/RUN2/RUN.html)
+
+- [4 -Andamenti settimanali regioni NORD/SUD (WEEKLY TRENDS)](/RUN_21_04/RUN5/RUN.html)
+
+- [5 -Confronti interregionali (Interregional comparisons)](/RUN_21_04/RUN4/RUN.html)
+
+#### DATA FITTING - NATIONAL/REGIONAL TRENDS
+
+- [6 -TOTAL CASES - Italy and Regions](/RUN_21_04/RUN1/RUN.html)
+
+- [7 -TOTAL CASES - Provinces](/RUN_21_04/RUN13/RUN.html)
+
+### 20/04/2020:
+
                   Casi     Attualmente_positivi    Morti    Guariti    Terapia_intensiva    Ospedalizzati    Ricoverati_con_sintomi    Tamponi
                    ______    ____________________    _____    _______    _________________    _____________    ______________________    _______
                    
@@ -84,8 +120,6 @@ Weekly Trends:
 Cases = Currently_positives + Recovered + Deaths
 
 ---
-
-### 19/04/2020:
 
 - [1 -Dati nazionali (National Data)](/RUN_20_04/RUN0/RUN.html)
 

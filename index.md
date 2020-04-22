@@ -42,21 +42,21 @@ NOTE: New sigmoid-like equation used for data fitting:
 ### The general situation (preview - see detailed reports for all charts):
 
 Daily Positives Trend:
-<img src="https://marcelchiarello.github.io/showdata/RUN_21_04/RUN1/RUN_DATA_FIT_TOTAL_CASES_ITALY_REGIONS_02.png">
+<img src="https://marcelchiarello.github.io/showdata/RUN_22_04/RUN1/RUN_DATA_FIT_TOTAL_CASES_ITALY_REGIONS_02.png">
 Daily Growth Factor:
-<img src="https://marcelchiarello.github.io/showdata/RUN_21_04/RUN6/RUN_FACTORS_01.png">
+<img src="https://marcelchiarello.github.io/showdata/RUN_22_04/RUN6/RUN_FACTORS_01.png">
 Total cases by region:
-<img src="https://marcelchiarello.github.io/showdata/RUN_21_04/RUN4/RUN_INTEREGION_01.png">
+<img src="https://marcelchiarello.github.io/showdata/RUN_22_04/RUN4/RUN_INTEREGION_01.png">
 Total hospitalized with symptoms:
-<img src="https://marcelchiarello.github.io/showdata/RUN_21_04/RUN4/RUN_INTEREGION_05.png">
+<img src="https://marcelchiarello.github.io/showdata/RUN_22_04/RUN4/RUN_INTEREGION_05.png">
 Total Cases vs Hospitalized, Recovered, Deaths:
-<img src="https://marcelchiarello.github.io/showdata/RUN_21_04/RUN0/RUN_DATA_ITALIA_01.png">
+<img src="https://marcelchiarello.github.io/showdata/RUN_22_04/RUN0/RUN_DATA_ITALIA_01.png">
 
-<img src="https://marcelchiarello.github.io/showdata/RUN_21_04/RUN0/RUN_DATA_ITALIA_04.png">
+<img src="https://marcelchiarello.github.io/showdata/RUN_22_04/RUN0/RUN_DATA_ITALIA_04.png">
 Weekly Trends:
-<img src="https://marcelchiarello.github.io/showdata/RUN_21_04/RUN5/RUN_NEWTRENDS_01.png">
+<img src="https://marcelchiarello.github.io/showdata/RUN_22_04/RUN5/RUN_NEWTRENDS_01.png">
 
-<img src="https://marcelchiarello.github.io/showdata/RUN_21_04/RUN5/RUN_NEWTRENDS_03.png">
+<img src="https://marcelchiarello.github.io/showdata/RUN_22_04/RUN5/RUN_NEWTRENDS_03.png">
 
 
 ## ARTICOLI E ANALISI (ARTICLES & ANALYSIS)

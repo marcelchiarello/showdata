@@ -1,5 +1,5 @@
 <!-- start -->
-## LAST UPDATE 22/04/2020 - 18:20 - Reports e plots in corso.
+## LAST UPDATE 22/04/2020 - 18:35 - Reports disponibili.
 
                     Casi     Attualmente_positivi    Morti    Guariti    Terapia_intensiva    Ospedalizzati    Ricoverati_con_sintomi    Tamponi
                    ______    ____________________    _____    _______    _________________    _____________    ______________________    _______

@@ -1,5 +1,5 @@
 <!-- start -->
-### For correct and optimal navigation, the use of a web browser from a PC or tablet is recommended
+### For correct and optimal navigation, the use of a web browser from a PC or tablet is recommended.
 
 ## LAST DATA 23/04/2020 - 18:35 - Reports disponibili.
 

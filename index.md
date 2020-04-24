@@ -1,4 +1,6 @@
 <!-- start -->
+### For correct and optimal navigation, the use of a web browser from a PC or tablet is recommended
+
 ## LAST DATA 23/04/2020 - 18:35 - Reports disponibili.
 
                     Casi     Attualmente_positivi    Morti    Guariti    Terapia_intensiva    Ospedalizzati    Ricoverati_con_sintomi    Tamponi

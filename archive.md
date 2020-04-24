@@ -1,5 +1,31 @@
-## COVID ANALYSIS: ARCHIVE
+## COVIDREPO: ARCHIVE
 
+### 23/04/2020
+
+                    Casi     Attualmente_positivi    Morti    Guariti    Terapia_intensiva    Ospedalizzati    Ricoverati_con_sintomi    Tamponi
+                   ______    ____________________    _____    _______    _________________    _____________    ______________________    _______
+                   
+    Totali         189973           106848           25549     57576           2267               25138                22871             1579909
+    Giornalieri     +2646             -851            +464     +3033           -117               -1051                 -934              +66658
+
+                    Cases     Currently_positives    Deaths   Recovered    Intensive_care    Hospitalized    Hospitalized_with_symptoms   Tests                
+    
+
+- [1 -Dati nazionali (National Data)](/RUN_23_04/RUN0/RUN.html)
+
+- [2 -Fattori di crescita e letalità nazionali/regionali (National and regional growth factor and lethality)](/RUN_23_04/RUN6/RUN.html)
+
+- [3 -Dati regionali e provinciali (Regional and Provincial Data)](/RUN_23_04/RUN2/RUN.html)
+
+- [4 -Andamenti settimanali regioni NORD/SUD (WEEKLY TRENDS)](/RUN_23_04/RUN5/RUN.html)
+
+- [5 -Confronti interregionali (Interregional comparisons)](/RUN_23_04/RUN4/RUN.html)
+
+#### DATA FITTING - NATIONAL/REGIONAL TRENDS
+
+- [6 -TOTAL CASES - Italy and Regions](/RUN_23_04/RUN1/RUN.html)
+
+- [7 -TOTAL CASES - Regions and Provinces](/RUN_23_04/RUN13/RUN.html)
 ### 22/04/2020:
 
 - [1 -Dati nazionali (National Data)](/RUN_22_04/RUN0/RUN.html)

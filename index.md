@@ -1,5 +1,5 @@
 <!-- start -->
-## LAST UPDATE 23/04/2020 - 18:35 - Reports disponibili.
+## LAST DATA 23/04/2020 - 18:35 - Reports disponibili.
 
                     Casi     Attualmente_positivi    Morti    Guariti    Terapia_intensiva    Ospedalizzati    Ricoverati_con_sintomi    Tamponi
                    ______    ____________________    _____    _______    _________________    _____________    ______________________    _______
@@ -11,7 +11,9 @@
     
 Cases = Currently_positives + Recovered + Deaths
 
-UPDATE: Le stime dei trend nazionali e regionali sono state aggiornate, ora sono calcolate sulla base dei dati che vanno dal 17/3 al 21/4.
+UPDATE 24/04: E' stata corretta la visualizzazione dei valori negativi nei bar plot che trovate anche in anteprima sotto per terapie intensive ed ospedalizzati con sintomi.
+
+UPDATE 21/04: Le stime dei trend nazionali e regionali sono state aggiornate, ora sono calcolate sulla base dei dati che vanno dal 17/3 al 21/4.
         I report dei trend (data fitting) sono 2, uno sui casi giornalieri/totali nazionali e regionali, l'altro sui casi giornalieri/totali regionali con annesse province.
         
 ---
@@ -34,8 +36,9 @@ UPDATE: Le stime dei trend nazionali e regionali sono state aggiornate, ora sono
 
 - [7 -TOTAL CASES - Regions and Provinces](/RUN_23_04/RUN13/RUN.html)
 
-NOTE: New sigmoid-like equation used for data fitting: 
-<img src="http://latex.codecogs.com/svg.latex?\frac{a}{e^{b(x+c)} + a1*e^{b1(x+c1)} - d}" border="0"/>
+NOTE: New sigmoid-like equation used for data fitting:
+
+<img src="http://latex.codecogs.com/svg.latex?Sig = \frac{a}{e^{b(x+c)} + a1e^{b1(x+c1)} - d}" border="0"/>
 
 ---
 
@@ -44,6 +47,10 @@ NOTE: New sigmoid-like equation used for data fitting:
 Daily and Total Positives Trend:
 <img src="https://marcelchiarello.github.io/showdata/RUN_23_04/RUN1/RUN_DATA_FIT_TOTAL_CASES_ITALY_REGIONS_01.png">
 <img src="https://marcelchiarello.github.io/showdata/RUN_23_04/RUN1/RUN_DATA_FIT_TOTAL_CASES_ITALY_REGIONS_02.png">
+Daily intensive care by region:
+<img src="https://marcelchiarello.github.io/showdata/RUN_23_04/RUN4/RUN_INTEREGION_13.png">
+Daily hospitalized with symphtoms by region:
+<img src="https://marcelchiarello.github.io/showdata/RUN_23_04/RUN4/RUN_INTEREGION_14.png">
 Daily Growth Factor:
 <img src="https://marcelchiarello.github.io/showdata/RUN_23_04/RUN6/RUN_FACTORS_01.png">
 Daily cases by region:

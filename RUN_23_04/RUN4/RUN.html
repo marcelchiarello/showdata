@@ -197,10 +197,6 @@ bar2(regionsList,totaleCasi,'Casi giornalieri(Daily cases)');
 set(f,'position',p);
 
 f = figure;
-bar2(regionsList,varAttPos,'Attualmente positivi giornalieri (Daily currently positives)');
-set(f,'position',p);
-
-f = figure;
 bar2(regionsList,tamponiTotali,'Tamponi giornalieri(Daily tests)');
 set(f,'position',p);
 f = figure;
@@ -211,6 +207,9 @@ f = figure;
 bar2(regionsList,ricoveratiConSintomiTotali,'Ricoverati con sintomi giornalieri(Daily hospitalized with symptoms)')
 set(f,'position',p);
 
+f = figure;
+bar2(regionsList,varAttPos,'Attualmente positivi giornalieri (Daily currently positives)');
+set(f,'position',p);
 
 % bar2(regionsList,percCasiTotaliTamponiTotali,'% Casi su tamponi giornalieri',0)
 

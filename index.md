@@ -32,6 +32,8 @@ UPDATE: Le stime dei trend nazionali e regionali sono state aggiornate, ora sono
 
 - [6 -TOTAL CASES - Italy and Regions](/RUN_23_04/RUN1/RUN.html)
 
+- [7 -TOTAL CASES - Regions and Provinces](/RUN_23_04/RUN13/RUN.html)
+
 NOTE: New sigmoid-like equation used for data fitting: 
 <img src="http://latex.codecogs.com/svg.latex?\frac{a}{e^{b(x+c)} + a1*e^{b1(x+c1)} - d}" border="0"/>
 
@@ -44,6 +46,10 @@ Daily and Total Positives Trend:
 <img src="https://marcelchiarello.github.io/showdata/RUN_23_04/RUN1/RUN_DATA_FIT_TOTAL_CASES_ITALY_REGIONS_02.png">
 Daily Growth Factor:
 <img src="https://marcelchiarello.github.io/showdata/RUN_23_04/RUN6/RUN_FACTORS_01.png">
+Daily cases by region:
+<img src="https://marcelchiarello.github.io/showdata/RUN_23_04/RUN4/RUN_INTEREGION_11.png">
+Daily tests by region:
+<img src="https://marcelchiarello.github.io/showdata/RUN_23_04/RUN4/RUN_INTEREGION_12.png">
 Total cases by region:
 <img src="https://marcelchiarello.github.io/showdata/RUN_23_04/RUN4/RUN_INTEREGION_01.png">
 Total hospitalized with symptoms:

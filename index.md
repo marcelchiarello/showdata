@@ -38,7 +38,7 @@ UPDATE 21/04: Le stime dei trend nazionali e regionali sono state aggiornate, or
 
 NOTE: New sigmoid-like equation used for data fitting:
 
-<img src="http://latex.codecogs.com/svg.latex?\frac{a}{e^{b(x+c)} + a1e^{b1(x+c1)} - d}" border="0"/>
+<img src="http://latex.codecogs.com/svg.latex?Sig = \frac{a}{e^{b(x+c)} + a1e^{b1(x+c1)} - d}" border="0"/>
 
 ---
 

@@ -47,7 +47,7 @@ Daily and Total Positives Trend:
 Daily Growth Factor:
 <img src="https://marcelchiarello.github.io/showdata/RUN_23_04/RUN6/RUN_FACTORS_01.png">
 Daily cases by region:
-<img src="https://marcelchiarello.github.io/showdata/RUN_23_04/RUN4/RUN_INTEREGION_10".png">
+<img src="https://marcelchiarello.github.io/showdata/RUN_23_04/RUN4/RUN_INTEREGION_10.png">
 Daily tests by region:
 <img src="https://marcelchiarello.github.io/showdata/RUN_23_04/RUN4/RUN_INTEREGION_11.png">
 Total cases by region:

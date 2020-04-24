@@ -46,6 +46,10 @@ Daily and Total Positives Trend:
 <img src="https://marcelchiarello.github.io/showdata/RUN_23_04/RUN1/RUN_DATA_FIT_TOTAL_CASES_ITALY_REGIONS_02.png">
 Daily Growth Factor:
 <img src="https://marcelchiarello.github.io/showdata/RUN_23_04/RUN6/RUN_FACTORS_01.png">
+Daily cases by region:
+<img src="https://marcelchiarello.github.io/showdata/RUN_23_04/RUN6/RUN_FACTORS_01.png">
+Daily tests by region:
+<img src="https://marcelchiarello.github.io/showdata/RUN_23_04/RUN6/RUN_FACTORS_02.png">
 Total cases by region:
 <img src="https://marcelchiarello.github.io/showdata/RUN_23_04/RUN4/RUN_INTEREGION_01.png">
 Total hospitalized with symptoms:

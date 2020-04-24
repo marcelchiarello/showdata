@@ -13,7 +13,7 @@
 Cases = Currently_positives + Recovered + Deaths
 
 UPDATE 24/04:
-- Nuovo dominio: <a href="http://www.covidrepo.com/">COVIDREPO.COM</a>
+- Nuovo dominio: <a href="https://www.covidrepo.com/">COVIDREPO.COM</a>
 - E' stata corretta la visualizzazione dei valori negativi nei bar plot che trovate anche in anteprima sotto per terapie intensive ed ospedalizzati con sintomi.
 
 UPDATE 21/04: 

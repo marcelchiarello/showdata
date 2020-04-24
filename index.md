@@ -69,9 +69,19 @@ Total Cases vs Hospitalized, Recovered, Deaths:
 <img src="https://marcelchiarello.github.io/showdata/RUN_23_04/RUN0/RUN_DATA_ITALIA_04.png">
 Weekly Trends:
 <img src="https://marcelchiarello.github.io/showdata/RUN_23_04/RUN5/RUN_NEWTRENDS_01.png">
-
 <img src="https://marcelchiarello.github.io/showdata/RUN_23_04/RUN5/RUN_NEWTRENDS_03.png">
 
+#### In Lombardia
+
+<img src="https://marcelchiarello.github.io/showdata/RUN_23_04/RUN1/RUN_DATA_FIT_TOTAL_CASES_ITALY_REGIONS_05.png">
+<img src="https://marcelchiarello.github.io/showdata/RUN_23_04/RUN1/RUN_DATA_FIT_TOTAL_CASES_ITALY_REGIONS_06.png">
+
+#### In Puglia
+
+<img src="https://marcelchiarello.github.io/showdata/RUN_23_04/RUN1/RUN_DATA_FIT_TOTAL_CASES_ITALY_REGIONS_03.png">
+<img src="https://marcelchiarello.github.io/showdata/RUN_23_04/RUN1/RUN_DATA_FIT_TOTAL_CASES_ITALY_REGIONS_04.png">
+
+See the report links above for all regions and provinces plot
 
 ## ARTICOLI E ANALISI (ARTICLES & ANALYSIS)
 

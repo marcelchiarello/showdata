@@ -36,8 +36,9 @@ UPDATE 21/04: Le stime dei trend nazionali e regionali sono state aggiornate, or
 
 - [7 -TOTAL CASES - Regions and Provinces](/RUN_23_04/RUN13/RUN.html)
 
-NOTE: New sigmoid-like equation used for data fitting: 
-<img src="http://latex.codecogs.com/svg.latex?\frac{a}{e^{b(x+c)} + a1*e^{b1(x+c1)} - d}" border="0"/>
+NOTE: New sigmoid-like equation used for data fitting:
+
+<img src="http://latex.codecogs.com/svg.latex?\frac{a}{e^{b(x+c)} + a1e^{b1(x+c1)} - d}" border="0"/>
 
 ---
 

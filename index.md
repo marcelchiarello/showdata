@@ -53,7 +53,7 @@ Daily Growth Factor:
 Daily cases by region:
 <img src="https://marcelchiarello.github.io/showdata/RUN_23_04/RUN4/RUN_INTEREGION_11.png">
 Daily tests by region:
-<img src="https://marcelchiarello.github.io/showdata/RUN_23_04/RUN4/RUN_INTEREGION_12.png"
+<img src="https://marcelchiarello.github.io/showdata/RUN_23_04/RUN4/RUN_INTEREGION_12.png">
 Total cases by region:
 <img src="https://marcelchiarello.github.io/showdata/RUN_23_04/RUN4/RUN_INTEREGION_01.png">
 Total hospitalized with symptoms:

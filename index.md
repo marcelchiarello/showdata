@@ -11,10 +11,13 @@
     
 Cases = Currently_positives + Recovered + Deaths
 
-UPDATE 24/04: E' stata corretta la visualizzazione dei valori negativi nei bar plot che trovate anche in anteprima sotto per terapie intensive ed ospedalizzati con sintomi.
+UPDATE 24/04:
+- Nuovo dominio: covidrepo.com
+- E' stata corretta la visualizzazione dei valori negativi nei bar plot che trovate anche in anteprima sotto per terapie intensive ed ospedalizzati con sintomi.
 
-UPDATE 21/04: Le stime dei trend nazionali e regionali sono state aggiornate, ora sono calcolate sulla base dei dati che vanno dal 17/3 al 21/4.
-        I report dei trend (data fitting) sono 2, uno sui casi giornalieri/totali nazionali e regionali, l'altro sui casi giornalieri/totali regionali con annesse province.
+UPDATE 21/04: 
+- Le stime dei trend nazionali e regionali sono state aggiornate, ora sono calcolate sulla base dei dati che vanno dal 17/3 al 21/4.
+- I report dei trend (data fitting) sono 2, uno sui casi giornalieri/totali nazionali e regionali, l'altro sui casi giornalieri/totali regionali con annesse province.
         
 ---
 
@@ -81,7 +84,7 @@ Weekly Trends:
 <img src="https://marcelchiarello.github.io/showdata/RUN_23_04/RUN1/RUN_DATA_FIT_TOTAL_CASES_ITALY_REGIONS_03.png">
 <img src="https://marcelchiarello.github.io/showdata/RUN_23_04/RUN1/RUN_DATA_FIT_TOTAL_CASES_ITALY_REGIONS_04.png">
 
-See the report links above for all regions and provinces plot
+See the report links above for all regions and provinces data charts.
 
 ## ARTICOLI E ANALISI (ARTICLES & ANALYSIS)
 

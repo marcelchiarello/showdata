@@ -214,8 +214,9 @@
 				<td align="right"> 2156</td>
 			</tr>
 </table>
-	
-- [All regions](/regionsTable.md)
+
+
+- [Tutte le regoni(All regions)](/regionsTable.md)
 
 ---
 

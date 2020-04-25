@@ -6,6 +6,36 @@
 - [del 28 Marzo - Mancano gli standard nella comunicazione dei dati in Italia](/ARTICLES/DES_28_03.md)
 - [del 27 Marzo - La giornata di oggi è di difficile valutazione ma ci sono dei lati positivi](/ARTICLES/DES_27_03.md)
 
+### 24/04/2020
+
+                    Casi     Attualmente_positivi    Morti    Guariti    Terapia_intensiva    Ospedalizzati    Ricoverati_con_sintomi    Tamponi
+                   ______    ____________________    _____    _______    _________________    _____________    ______________________    _______
+                   
+    Totali         192994           106527           25969     60498           2173               24241                22068             1642356
+    Giornalieri     +3021             -321            +420     +2922            -94                -897                 -803              +62447
+    
+                    Cases     Currently_positives    Deaths   Recovered    Intensive_care    Hospitalized    Hospitalized_with_symptoms   Tests                
+    
+---
+
+## ALL CHARTS
+
+- [1 -Dati nazionali (National Data)](/RUN_24_04/RUN0/RUN.html)
+
+- [2 -Fattori di crescita e letalità nazionali/regionali (National and regional growth factor and lethality)](/RUN_24_04/RUN6/RUN.html)
+
+- [3 -Dati regionali e provinciali (Regional and Provincial Data)](/RUN_24_04/RUN2/RUN.html)
+
+- [4 -Andamenti settimanali regioni NORD/SUD (WEEKLY TRENDS)](/RUN_24_04/RUN5/RUN.html)
+
+- [5 -Confronti interregionali (Interregional comparisons)](/RUN_24_04/RUN4/RUN.html)
+
+#### DATA FITTING - NATIONAL/REGIONAL TRENDS
+
+- [6 -TOTAL CASES - Italy and Regions](/RUN_24_04/RUN1/RUN.html)
+
+- [7 -TOTAL CASES - Regions and Provinces](/RUN_24_04/RUN13/RUN.html)
+
 ### 23/04/2020
 
                     Casi     Attualmente_positivi    Morti    Guariti    Terapia_intensiva    Ospedalizzati    Ricoverati_con_sintomi    Tamponi

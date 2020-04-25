@@ -87,12 +87,6 @@ Sigmoid-like equation used for data fitting:
 
 <img src="http://latex.codecogs.com/svg.latex?Sig = \frac{a}{e^{b(x+c)} + a1e^{b1(x+c1)} - d}" border="0"/>
 
-## ARTICOLI E ANALISI (ARTICLES & ANALYSIS)
-
-- [del 29 Marzo - Il picco in Lombardia. Ecco perchè serve analizzare e confrontare i dati regione per regione.](/ARTICLES/DES_29_03.md)
-- [del 28 Marzo - Mancano gli standard nella comunicazione dei dati in Italia](/ARTICLES/DES_28_03.md)
-- [del 27 Marzo - La giornata di oggi è di difficile valutazione ma ci sono dei lati positivi](/ARTICLES/DES_27_03.md)
-
 ---
 
 ### Data Source
@@ -102,6 +96,6 @@ Sigmoid-like equation used for data fitting:
 ---
 
 ### ARCHIVE
-[PREVIOUS DATA,PLOTS AND FITTING RESULTS](/archive.md)
+[PREVIOUS DATA,PLOTS, ARTICLES AND FITTING RESULTS](/archive.md)
 
 ---

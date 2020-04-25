@@ -3,6 +3,8 @@
 
 ## LAST DATA 24/04/2020 - 18:45
 
+<link href="https://marcelchiarello.github.io/showdata/Tables/tableSummaryIta.html" rel="import" />
+
 <link rel="import" href="https://marcelchiarello.github.io/showdata/Tables/tableSummaryIta.html">
     
 ---

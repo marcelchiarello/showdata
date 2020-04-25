@@ -6,6 +6,59 @@
 <link href="https://marcelchiarello.github.io/showdata/Tables/tableSummaryIta.html" rel="import" />
 
 <link rel="import" href="https://marcelchiarello.github.io/showdata/Tables/tableSummaryIta.html">
+
+
+<table style=" color:black; font-size:12; font-family:arial; text-align:center; " cellpadding="2.5" cellspacing="0" border="1" bordercolor="black" bgcolor="#FFFFFF">
+			<caption> </caption>
+			<tr style="color:#FFFFFF;background:#2E9061">
+				<th> </th>
+				<th>Casi</th>
+				<th>Attualmente positivi</th>
+				<th>Morti</th>
+				<th>Guariti</th>
+				<th>Terapia intensiva</th>
+				<th>Ospedalizzati</th>
+				<th>Ricoverati con sintomi</th>
+				<th>Isolamento domiciliare</th>
+				<th>Tamponi</th>
+			</tr>
+			<tr>
+				<th>Totali</th>
+				<td align="right"> 192994</td>
+				<td align="right"> 106527</td>
+				<td align="right"> 25969</td>
+				<td align="right"> 60498</td>
+				<td align="right"> 2173</td>
+				<td align="right"> 24241</td>
+				<td align="right"> 22068</td>
+				<td align="right"> 82286</td>
+				<td align="right"> 1642356</td>
+			</tr>
+			<tr>
+				<th>Giornalieri (Daily)</th>
+				<td align="right"> 3021</td>
+				<td align="right" style=" color:green; "> -321</td>
+				<td align="right"> 420</td>
+				<td align="right"> 2922</td>
+				<td align="right" style=" color:green; "> -94</td>
+				<td align="right" style=" color:green; "> -897</td>
+				<td align="right" style=" color:green; "> -803</td>
+				<td align="right"> 576</td>
+				<td align="right"> 62447</td>
+			</tr>
+			<tr>
+				<th> </th>
+				<td>Cases</td>
+				<td>Currently positives</td>
+				<td>Deaths</td>
+				<td>Recovered</td>
+				<td>Intensive care</td>
+				<td>Hospitalized</td>
+				<td>Hospitalized with symptoms</td>
+				<td>Home isolation</td>
+				<td>Tests</td>
+			</tr>
+		</table>
     
 ---
 

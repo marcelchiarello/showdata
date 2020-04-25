@@ -11,28 +11,6 @@
     
                     Cases     Currently_positives    Deaths   Recovered    Intensive_care    Hospitalized    Hospitalized_with_symptoms   Tests                
     
-### Detailed Reports:
-
-- [1 -Dati nazionali (National Data)](/RUN_24_04/RUN0/RUN.html)
-
-- [2 -Fattori di crescita e letalità nazionali/regionali (National and regional growth factor and lethality)](/RUN_24_04/RUN6/RUN.html)
-
-- [3 -Dati regionali e provinciali (Regional and Provincial Data)](/RUN_24_04/RUN2/RUN.html)
-
-- [4 -Andamenti settimanali regioni NORD/SUD (WEEKLY TRENDS)](/RUN_24_04/RUN5/RUN.html)
-
-- [5 -Confronti interregionali (Interregional comparisons)](/RUN_24_04/RUN4/RUN.html)
-
-#### DATA FITTING - NATIONAL/REGIONAL TRENDS
-
-- [6 -TOTAL CASES - Italy and Regions](/RUN_24_04/RUN1/RUN.html)
-
-- [7 -TOTAL CASES - Regions and Provinces](/RUN_24_04/RUN13/RUN.html)
-
-Sigmoid-like equation used for data fitting:
-
-<img src="http://latex.codecogs.com/svg.latex?Sig = \frac{a}{e^{b(x+c)} + a1e^{b1(x+c1)} - d}" border="0"/>
-
 ---
 
 Daily and Total Positives Trend:
@@ -74,6 +52,28 @@ Weekly Trends:
 <img src="https://marcelchiarello.github.io/showdata/RUN_24_04/RUN1/RUN_DATA_FIT_TOTAL_CASES_ITALY_REGIONS_04.png">
 
 See the report links above for all regions and provinces data charts.
+
+### Detailed Reports:
+
+- [1 -Dati nazionali (National Data)](/RUN_24_04/RUN0/RUN.html)
+
+- [2 -Fattori di crescita e letalità nazionali/regionali (National and regional growth factor and lethality)](/RUN_24_04/RUN6/RUN.html)
+
+- [3 -Dati regionali e provinciali (Regional and Provincial Data)](/RUN_24_04/RUN2/RUN.html)
+
+- [4 -Andamenti settimanali regioni NORD/SUD (WEEKLY TRENDS)](/RUN_24_04/RUN5/RUN.html)
+
+- [5 -Confronti interregionali (Interregional comparisons)](/RUN_24_04/RUN4/RUN.html)
+
+#### DATA FITTING - NATIONAL/REGIONAL TRENDS
+
+- [6 -TOTAL CASES - Italy and Regions](/RUN_24_04/RUN1/RUN.html)
+
+- [7 -TOTAL CASES - Regions and Provinces](/RUN_24_04/RUN13/RUN.html)
+
+Sigmoid-like equation used for data fitting:
+
+<img src="http://latex.codecogs.com/svg.latex?Sig = \frac{a}{e^{b(x+c)} + a1e^{b1(x+c1)} - d}" border="0"/>
 
 ## ARTICOLI E ANALISI (ARTICLES & ANALYSIS)
 

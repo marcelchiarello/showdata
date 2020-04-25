@@ -58,7 +58,7 @@
 ---
 
 <table style=" color:black; font-size:12; font-family:arial; text-align:center; " cellpadding="2.5" cellspacing="0" border="1" bordercolor="black" bgcolor="#FFFFFF">
-			<caption>COVIDREPO.COM</caption>
+			<caption> </caption>
 			<tr style="color:#FFFFFF;background:#2E9061">
 				<th>Piemonte 25-Apr</th>
 				<th>Casi</th>
@@ -112,7 +112,7 @@
 ---
 
 <table style=" color:black; font-size:12; font-family:arial; text-align:center; " cellpadding="2.5" cellspacing="0" border="1" bordercolor="black" bgcolor="#FFFFFF">
-			<caption>COVIDREPO.COM</caption>
+			<caption> </caption>
 			<tr style="color:#FFFFFF;background:#2E9061">
 				<th>Veneto 25-Apr</th>
 				<th>Casi</th>
@@ -165,7 +165,7 @@
 ---
 
 <table style=" color:black; font-size:12; font-family:arial; text-align:center; " cellpadding="2.5" cellspacing="0" border="1" bordercolor="black" bgcolor="#FFFFFF">
-			<caption>COVIDREPO.COM</caption>
+			<caption> </caption>
 			<tr style="color:#FFFFFF;background:#2E9061">
 				<th>Puglia 25-Apr</th>
 				<th>Casi</th>

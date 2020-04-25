@@ -55,7 +55,6 @@
 			</tr>
 		</table>
 		
----
 
 <table style=" color:black; font-size:12; font-family:arial; text-align:center; " cellpadding="2.5" cellspacing="0" border="1" bordercolor="black" bgcolor="#FFFFFF">
 			<caption> </caption>
@@ -95,21 +94,8 @@
 				<td align="right"> 111</td>
 				<td align="right"> 5807</td>
 			</tr>
-			<tr>
-				<th>EN</th>
-				<td>Cases</td>
-				<td>Currently positives</td>
-				<td>Deaths</td>
-				<td>Recovered</td>
-				<td>Intensive care</td>
-				<td>Hospitalized</td>
-				<td>Hospitalized with symptoms</td>
-				<td>Home isolation</td>
-				<td>Tests</td>
-			</tr>
 		</table>
     
----
 
 <table style=" color:black; font-size:12; font-family:arial; text-align:center; " cellpadding="2.5" cellspacing="0" border="1" bordercolor="black" bgcolor="#FFFFFF">
 			<caption> </caption>
@@ -149,20 +135,7 @@
 				<td align="right" style=" color:green; "> -192</td>
 				<td align="right"> 10081</td>
 			</tr>
-			<tr>
-				<th>EN</th>
-				<td>Cases</td>
-				<td>Currently positives</td>
-				<td>Deaths</td>
-				<td>Recovered</td>
-				<td>Intensive care</td>
-				<td>Hospitalized</td>
-				<td>Hospitalized with symptoms</td>
-				<td>Home isolation</td>
-				<td>Tests</td>
-			</tr>
 		</table>
----
 
 <table style=" color:black; font-size:12; font-family:arial; text-align:center; " cellpadding="2.5" cellspacing="0" border="1" bordercolor="black" bgcolor="#FFFFFF">
 			<caption> </caption>
@@ -201,18 +174,6 @@
 				<td align="right" style=" color:green; "> -27</td>
 				<td align="right"> 16</td>
 				<td align="right"> 2156</td>
-			</tr>
-			<tr>
-				<th>EN</th>
-				<td>Cases</td>
-				<td>Currently positives</td>
-				<td>Deaths</td>
-				<td>Recovered</td>
-				<td>Intensive care</td>
-				<td>Hospitalized</td>
-				<td>Hospitalized with symptoms</td>
-				<td>Home isolation</td>
-				<td>Tests</td>
 			</tr>
 		</table>
 		

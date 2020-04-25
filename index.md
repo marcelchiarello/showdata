@@ -1,5 +1,5 @@
 <!-- start -->
-### New domain: <a href="https://www.covidrepo.com/">COVIDREPO.COM</a>.
+### New domain: <a href="https://www.covidrepo.com/">COVIDREPO.COM</a>
 
 ## LAST DATA 24/04/2020 - 18:45
 

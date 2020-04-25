@@ -13,6 +13,28 @@
     
 ---
 
+## ALL CHARTS
+
+- [1 -Dati nazionali (National Data)](/RUN_24_04/RUN0/RUN.html)
+
+- [2 -Fattori di crescita e letalità nazionali/regionali (National and regional growth factor and lethality)](/RUN_24_04/RUN6/RUN.html)
+
+- [3 -Dati regionali e provinciali (Regional and Provincial Data)](/RUN_24_04/RUN2/RUN.html)
+
+- [4 -Andamenti settimanali regioni NORD/SUD (WEEKLY TRENDS)](/RUN_24_04/RUN5/RUN.html)
+
+- [5 -Confronti interregionali (Interregional comparisons)](/RUN_24_04/RUN4/RUN.html)
+
+#### DATA FITTING - NATIONAL/REGIONAL TRENDS
+
+- [6 -TOTAL CASES - Italy and Regions](/RUN_24_04/RUN1/RUN.html)
+
+- [7 -TOTAL CASES - Regions and Provinces](/RUN_24_04/RUN13/RUN.html)
+
+Sigmoid-like equation used for data fitting:
+
+<img src="http://latex.codecogs.com/svg.latex?Sig = \frac{a}{e^{b(x+c)} + a1e^{b1(x+c1)} - d}" border="0"/>
+
 #### Daily and Total Positives Trend:
 <img src="https://marcelchiarello.github.io/showdata/RUN_24_04/RUN1/RUN_DATA_FIT_TOTAL_CASES_ITALY_REGIONS_01.png">
 <img src="https://marcelchiarello.github.io/showdata/RUN_24_04/RUN1/RUN_DATA_FIT_TOTAL_CASES_ITALY_REGIONS_02.png">
@@ -57,35 +79,13 @@
 
 <img src="https://marcelchiarello.github.io/showdata/RUN_24_04/RUN1/RUN_DATA_FIT_TOTAL_CASES_ITALY_REGIONS_05.png">
 <img src="https://marcelchiarello.github.io/showdata/RUN_24_04/RUN1/RUN_DATA_FIT_TOTAL_CASES_ITALY_REGIONS_06.png">
-
+<img src="https://marcelchiarello.github.io/showdata/RUN_24_04/RUN13/RUN_DATA_FIT_TOTAL_CASES_PROVINCES_18.png">
+<img src="https://marcelchiarello.github.io/showdata/RUN_24_04/RUN13/RUN_DATA_FIT_TOTAL_CASES_PROVINCES_20.png">
 
 #### In Puglia
 
 <img src="https://marcelchiarello.github.io/showdata/RUN_24_04/RUN1/RUN_DATA_FIT_TOTAL_CASES_ITALY_REGIONS_03.png">
 <img src="https://marcelchiarello.github.io/showdata/RUN_24_04/RUN1/RUN_DATA_FIT_TOTAL_CASES_ITALY_REGIONS_04.png">
-
-
-## Click the report links below for all regions and provinces data charts
-
-- [1 -Dati nazionali (National Data)](/RUN_24_04/RUN0/RUN.html)
-
-- [2 -Fattori di crescita e letalità nazionali/regionali (National and regional growth factor and lethality)](/RUN_24_04/RUN6/RUN.html)
-
-- [3 -Dati regionali e provinciali (Regional and Provincial Data)](/RUN_24_04/RUN2/RUN.html)
-
-- [4 -Andamenti settimanali regioni NORD/SUD (WEEKLY TRENDS)](/RUN_24_04/RUN5/RUN.html)
-
-- [5 -Confronti interregionali (Interregional comparisons)](/RUN_24_04/RUN4/RUN.html)
-
-#### DATA FITTING - NATIONAL/REGIONAL TRENDS
-
-- [6 -TOTAL CASES - Italy and Regions](/RUN_24_04/RUN1/RUN.html)
-
-- [7 -TOTAL CASES - Regions and Provinces](/RUN_24_04/RUN13/RUN.html)
-
-Sigmoid-like equation used for data fitting:
-
-<img src="http://latex.codecogs.com/svg.latex?Sig = \frac{a}{e^{b(x+c)} + a1e^{b1(x+c1)} - d}" border="0"/>
 
 ---
 

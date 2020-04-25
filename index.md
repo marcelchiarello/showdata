@@ -3,15 +3,10 @@
 
 ## LAST DATA 24/04/2020 - 18:45
 
-<link href="https://marcelchiarello.github.io/showdata/Tables/tableSummaryIta.html" rel="import" />
-
-<link rel="import" href="https://marcelchiarello.github.io/showdata/Tables/tableSummaryIta.html">
-
-
 <table style=" color:black; font-size:12; font-family:arial; text-align:center; " cellpadding="2.5" cellspacing="0" border="1" bordercolor="black" bgcolor="#FFFFFF">
 			<caption> </caption>
 			<tr style="color:#FFFFFF;background:#2E9061">
-				<th> </th>
+				<th>ITALIA</th>
 				<th>Casi</th>
 				<th>Attualmente positivi</th>
 				<th>Morti</th>

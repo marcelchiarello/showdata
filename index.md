@@ -55,6 +55,46 @@
 			</tr>
 		</table>
 		
+<table style=" color:black; font-size:12; font-family:arial; text-align:center; " cellpadding="2.5" cellspacing="0" border="1" bordercolor="black" bgcolor="#FFFFFF">
+			<caption>COVIDREPO.COM</caption>
+			<tr style="color:#FFFFFF;background:#2E9061">
+				<th>Lombardia 25-Apr</th>
+				<th>Casi</th>
+				<th>Attualmente positivi</th>
+				<th>Morti</th>
+				<th>Guariti</th>
+				<th>Terapia intensiva</th>
+				<th>Ospedalizzati</th>
+				<th>Ricoverati con sintomi</th>
+				<th>Isolamento domiciliare</th>
+				<th>Tamponi</th>
+			</tr>
+			<tr>
+				<th>Totali</th>
+				<td align="right"> 71969</td>
+				<td align="right"> 34473</td>
+				<td align="right"> 13269</td>
+				<td align="right"> 24227</td>
+				<td align="right"> 724</td>
+				<td align="right"> 9213</td>
+				<td align="right"> 8489</td>
+				<td align="right"> 25260</td>
+				<td align="right"> 326940</td>
+			</tr>
+			<tr>
+				<th>Giornalieri (Daily)</th>
+				<td align="right"> 713</td>
+				<td align="right"> 105</td>
+				<td align="right"> 163</td>
+				<td align="right"> 445</td>
+				<td align="right" style=" color:green; "> -32</td>
+				<td align="right" style=" color:green; "> -334</td>
+				<td align="right" style=" color:green; "> -302</td>
+				<td align="right"> 439</td>
+				<td align="right"> 12642</td>
+			</tr>
+		</table>
+
 
 <table style=" color:black; font-size:12; font-family:arial; text-align:center; " cellpadding="2.5" cellspacing="0" border="1" bordercolor="black" bgcolor="#FFFFFF">
 			<caption> </caption>

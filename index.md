@@ -1,8 +1,9 @@
 <!-- start -->
-### For correct and optimal navigation, the use of a web browser from a PC or tablet is recommended.
+### New domain: <a href="https://www.covidrepo.com/">COVIDREPO.COM</a>.
 
 ## LAST DATA 24/04/2020 - 18:45
 
+Read more: https://html.com/tables/#ixzz6KcXJJauF
                     Casi     Attualmente_positivi    Morti    Guariti    Terapia_intensiva    Ospedalizzati    Ricoverati_con_sintomi    Tamponi
                    ______    ____________________    _____    _______    _________________    _____________    ______________________    _______
                    

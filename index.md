@@ -4,7 +4,7 @@
 ## LAST DATA 25/04/2020 - 18:20
 
 <table style=" color:black; font-size:12; font-family:arial; text-align:center; " cellpadding="2.5" cellspacing="0" border="1" bordercolor="black" bgcolor="#FFFFFF">
-			<caption>COVIDREPO.COM</caption>
+			<caption>ITALIA - COVIDREPO.COM</caption>
 			<tr style="color:#FFFFFF;background:#2E9061">
 				<th>ITALIA 25-Apr</th>
 				<th>Casi</th>
@@ -54,11 +54,11 @@
 				<td>Tests</td>
 			</tr>
 		</table>
-		
+
 <table style=" color:black; font-size:12; font-family:arial; text-align:center; " cellpadding="2.5" cellspacing="0" border="1" bordercolor="black" bgcolor="#FFFFFF">
-			<caption>COVIDREPO.COM</caption>
+			<caption>LOMBARDIA</caption>
 			<tr style="color:#FFFFFF;background:#2E9061">
-				<th>Lombardia 25-Apr</th>
+				<th>LOMBARDIA 25-Apr</th>
 				<th>Casi</th>
 				<th>Attualmente positivi</th>
 				<th>Morti</th>
@@ -95,11 +95,10 @@
 			</tr>
 		</table>
 
-
 <table style=" color:black; font-size:12; font-family:arial; text-align:center; " cellpadding="2.5" cellspacing="0" border="1" bordercolor="black" bgcolor="#FFFFFF">
-			<caption> </caption>
+			<caption>PIEMONTE</caption>
 			<tr style="color:#FFFFFF;background:#2E9061">
-				<th>Piemonte 25-Apr</th>
+				<th>PIEMONTE 25-Apr</th>
 				<th>Casi</th>
 				<th>Attualmente positivi</th>
 				<th>Morti</th>
@@ -135,12 +134,11 @@
 				<td align="right"> 5807</td>
 			</tr>
 		</table>
-    
 
 <table style=" color:black; font-size:12; font-family:arial; text-align:center; " cellpadding="2.5" cellspacing="0" border="1" bordercolor="black" bgcolor="#FFFFFF">
-			<caption> </caption>
+			<caption>VENETO</caption>
 			<tr style="color:#FFFFFF;background:#2E9061">
-				<th>Veneto 25-Apr</th>
+				<th>VENETO 25-Apr</th>
 				<th>Casi</th>
 				<th>Attualmente positivi</th>
 				<th>Morti</th>
@@ -178,9 +176,9 @@
 		</table>
 
 <table style=" color:black; font-size:12; font-family:arial; text-align:center; " cellpadding="2.5" cellspacing="0" border="1" bordercolor="black" bgcolor="#FFFFFF">
-			<caption> </caption>
+			<caption>PUGLIA</caption>
 			<tr style="color:#FFFFFF;background:#2E9061">
-				<th>Puglia 25-Apr</th>
+				<th>PUGLIA 25-Apr</th>
 				<th>Casi</th>
 				<th>Attualmente positivi</th>
 				<th>Morti</th>

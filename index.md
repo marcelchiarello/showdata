@@ -214,7 +214,9 @@
 				<td align="right"> 2156</td>
 			</tr>
 </table>
-		
+	
+- [All regions](/regionsTable.md)
+
 ---
 
 ## ALL CHARTS

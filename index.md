@@ -4,9 +4,9 @@
 ## LAST DATA 24/04/2020 - 18:45
 
 <table style=" color:black; font-size:12; font-family:arial; text-align:center; " cellpadding="2.5" cellspacing="0" border="1" bordercolor="black" bgcolor="#FFFFFF">
-			<caption> </caption>
+			<caption>COVIDREPO.COM</caption>
 			<tr style="color:#FFFFFF;background:#2E9061">
-				<th>ITALIA</th>
+				<th>Italia 25-Apr</th>
 				<th>Casi</th>
 				<th>Attualmente positivi</th>
 				<th>Morti</th>
@@ -42,7 +42,7 @@
 				<td align="right"> 62447</td>
 			</tr>
 			<tr>
-				<th> </th>
+				<th>EN</th>
 				<td>Cases</td>
 				<td>Currently positives</td>
 				<td>Deaths</td>

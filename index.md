@@ -3,7 +3,7 @@
 
 ## LAST DATA 24/04/2020 - 18:45
 
-Read more: https://html.com/tables/#ixzz6KcXJJauF
+
                     Casi     Attualmente_positivi    Morti    Guariti    Terapia_intensiva    Ospedalizzati    Ricoverati_con_sintomi    Tamponi
                    ______    ____________________    _____    _______    _________________    _____________    ______________________    _______
                    

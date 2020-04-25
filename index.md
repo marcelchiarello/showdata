@@ -35,8 +35,6 @@ Sigmoid-like equation used for data fitting:
 
 ---
 
-### The general situation (See detailed reports for all charts):
-
 Daily and Total Positives Trend:
 <img src="https://marcelchiarello.github.io/showdata/RUN_24_04/RUN1/RUN_DATA_FIT_TOTAL_CASES_ITALY_REGIONS_01.png">
 <img src="https://marcelchiarello.github.io/showdata/RUN_24_04/RUN1/RUN_DATA_FIT_TOTAL_CASES_ITALY_REGIONS_02.png">

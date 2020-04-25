@@ -289,7 +289,7 @@ Sigmoid-like equation used for data fitting:
 <img src="https://marcelchiarello.github.io/showdata/RUN_25_04/RUN13/RUN_DATA_FIT_TOTAL_CASES_PROVINCES_20.png">
 
 #### In Puglia
-<img src=https://marcelchiarello.github.io/showdata/RUN_25_04/RUN2/RUN_DATA_PROVINCE_01.png">
+<img src="https://marcelchiarello.github.io/showdata/RUN_25_04/RUN2/RUN_DATA_PROVINCE_01.png">
 <img src="https://marcelchiarello.github.io/showdata/RUN_25_04/RUN1/RUN_DATA_FIT_TOTAL_CASES_ITALY_REGIONS_03.png">
 <img src="https://marcelchiarello.github.io/showdata/RUN_25_04/RUN1/RUN_DATA_FIT_TOTAL_CASES_ITALY_REGIONS_04.png">
 

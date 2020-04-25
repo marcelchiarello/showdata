@@ -51,7 +51,7 @@ Weekly Trends:
 <img src="https://marcelchiarello.github.io/showdata/RUN_24_04/RUN1/RUN_DATA_FIT_TOTAL_CASES_ITALY_REGIONS_03.png">
 <img src="https://marcelchiarello.github.io/showdata/RUN_24_04/RUN1/RUN_DATA_FIT_TOTAL_CASES_ITALY_REGIONS_04.png">
 
-See the report links above for all regions and provinces data charts.
+See the report links below for all regions and provinces data charts.
 
 ### Detailed Reports:
 

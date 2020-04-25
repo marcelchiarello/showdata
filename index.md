@@ -53,7 +53,7 @@
 				<td>Home isolation</td>
 				<td>Tests</td>
 			</tr>
-		</table>
+</table>
 
 <table style=" color:black; font-size:12; font-family:arial; text-align:center; " cellpadding="2.5" cellspacing="0" border="1" bordercolor="black" bgcolor="#FFFFFF">
 			<caption>LOMBARDIA</caption>
@@ -93,7 +93,7 @@
 				<td align="right"> 439</td>
 				<td align="right"> 12642</td>
 			</tr>
-		</table>
+</table>
 
 <table style=" color:black; font-size:12; font-family:arial; text-align:center; " cellpadding="2.5" cellspacing="0" border="1" bordercolor="black" bgcolor="#FFFFFF">
 			<caption>PIEMONTE</caption>
@@ -133,7 +133,7 @@
 				<td align="right"> 111</td>
 				<td align="right"> 5807</td>
 			</tr>
-		</table>
+</table>
 
 <table style=" color:black; font-size:12; font-family:arial; text-align:center; " cellpadding="2.5" cellspacing="0" border="1" bordercolor="black" bgcolor="#FFFFFF">
 			<caption>VENETO</caption>
@@ -173,7 +173,7 @@
 				<td align="right" style=" color:green; "> -192</td>
 				<td align="right"> 10081</td>
 			</tr>
-		</table>
+</table>
 
 <table style=" color:black; font-size:12; font-family:arial; text-align:center; " cellpadding="2.5" cellspacing="0" border="1" bordercolor="black" bgcolor="#FFFFFF">
 			<caption>PUGLIA</caption>
@@ -213,7 +213,7 @@
 				<td align="right"> 16</td>
 				<td align="right"> 2156</td>
 			</tr>
-		</table>
+</table>
 		
 ---
 

@@ -3,14 +3,7 @@
 
 ## LAST DATA 24/04/2020 - 18:45
 
-
-                    Casi     Attualmente_positivi    Morti    Guariti    Terapia_intensiva    Ospedalizzati    Ricoverati_con_sintomi    Tamponi
-                   ______    ____________________    _____    _______    _________________    _____________    ______________________    _______
-                   
-    Totali         192994           106527           25969     60498           2173               24241                22068             1642356
-    Giornalieri     +3021             -321            +420     +2922            -94                -897                 -803              +62447
-    
-                    Cases     Currently_positives    Deaths   Recovered    Intensive_care    Hospitalized    Hospitalized_with_symptoms   Tests                
+<link rel="import" href="https://marcelchiarello.github.io/showdata/Tables/tableSummaryIta.html">
     
 ---
 

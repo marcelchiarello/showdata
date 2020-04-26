@@ -1,7 +1,7 @@
 <table style=" color:black; font-size:12; font-family:arial; text-align:center; " cellpadding="2.5" cellspacing="0" border="1" bordercolor="black" bgcolor="#FFFFFF">
 			<caption>Abruzzo</caption>
 			<tr style="color:#FFFFFF;background:#2E9061">
-				<th>Abruzzo 26-Apr</th>
+				<th>Abruzzo 25_04</th>
 				<th>Casi</th>
 				<th>Attualmente positivi</th>
 				<th>Morti</th>
@@ -41,7 +41,7 @@
 <table style=" color:black; font-size:12; font-family:arial; text-align:center; " cellpadding="2.5" cellspacing="0" border="1" bordercolor="black" bgcolor="#FFFFFF">
 			<caption>Basilicata</caption>
 			<tr style="color:#FFFFFF;background:#2E9061">
-				<th>Basilicata 26-Apr</th>
+				<th>Basilicata 25_04</th>
 				<th>Casi</th>
 				<th>Attualmente positivi</th>
 				<th>Morti</th>
@@ -81,7 +81,7 @@
 <table style=" color:black; font-size:12; font-family:arial; text-align:center; " cellpadding="2.5" cellspacing="0" border="1" bordercolor="black" bgcolor="#FFFFFF">
 			<caption>Calabria</caption>
 			<tr style="color:#FFFFFF;background:#2E9061">
-				<th>Calabria 26-Apr</th>
+				<th>Calabria 25_04</th>
 				<th>Casi</th>
 				<th>Attualmente positivi</th>
 				<th>Morti</th>
@@ -121,7 +121,7 @@
 <table style=" color:black; font-size:12; font-family:arial; text-align:center; " cellpadding="2.5" cellspacing="0" border="1" bordercolor="black" bgcolor="#FFFFFF">
 			<caption>Campania</caption>
 			<tr style="color:#FFFFFF;background:#2E9061">
-				<th>Campania 26-Apr</th>
+				<th>Campania 25_04</th>
 				<th>Casi</th>
 				<th>Attualmente positivi</th>
 				<th>Morti</th>
@@ -161,7 +161,7 @@
 <table style=" color:black; font-size:12; font-family:arial; text-align:center; " cellpadding="2.5" cellspacing="0" border="1" bordercolor="black" bgcolor="#FFFFFF">
 			<caption>Emilia-Romagna</caption>
 			<tr style="color:#FFFFFF;background:#2E9061">
-				<th>Emilia-Romagna 26-Apr</th>
+				<th>Emilia-Romagna 25_04</th>
 				<th>Casi</th>
 				<th>Attualmente positivi</th>
 				<th>Morti</th>
@@ -201,7 +201,7 @@
 <table style=" color:black; font-size:12; font-family:arial; text-align:center; " cellpadding="2.5" cellspacing="0" border="1" bordercolor="black" bgcolor="#FFFFFF">
 			<caption>Friuli Venezia Giulia</caption>
 			<tr style="color:#FFFFFF;background:#2E9061">
-				<th>Friuli Venezia Giulia 26-Apr</th>
+				<th>Friuli Venezia Giulia 25_04</th>
 				<th>Casi</th>
 				<th>Attualmente positivi</th>
 				<th>Morti</th>
@@ -241,7 +241,7 @@
 <table style=" color:black; font-size:12; font-family:arial; text-align:center; " cellpadding="2.5" cellspacing="0" border="1" bordercolor="black" bgcolor="#FFFFFF">
 			<caption>Lazio</caption>
 			<tr style="color:#FFFFFF;background:#2E9061">
-				<th>Lazio 26-Apr</th>
+				<th>Lazio 25_04</th>
 				<th>Casi</th>
 				<th>Attualmente positivi</th>
 				<th>Morti</th>
@@ -281,7 +281,7 @@
 <table style=" color:black; font-size:12; font-family:arial; text-align:center; " cellpadding="2.5" cellspacing="0" border="1" bordercolor="black" bgcolor="#FFFFFF">
 			<caption>Liguria</caption>
 			<tr style="color:#FFFFFF;background:#2E9061">
-				<th>Liguria 26-Apr</th>
+				<th>Liguria 25_04</th>
 				<th>Casi</th>
 				<th>Attualmente positivi</th>
 				<th>Morti</th>
@@ -321,7 +321,7 @@
 <table style=" color:black; font-size:12; font-family:arial; text-align:center; " cellpadding="2.5" cellspacing="0" border="1" bordercolor="black" bgcolor="#FFFFFF">
 			<caption>Lombardia</caption>
 			<tr style="color:#FFFFFF;background:#2E9061">
-				<th>Lombardia 26-Apr</th>
+				<th>Lombardia 25_04</th>
 				<th>Casi</th>
 				<th>Attualmente positivi</th>
 				<th>Morti</th>
@@ -361,7 +361,7 @@
 <table style=" color:black; font-size:12; font-family:arial; text-align:center; " cellpadding="2.5" cellspacing="0" border="1" bordercolor="black" bgcolor="#FFFFFF">
 			<caption>Marche</caption>
 			<tr style="color:#FFFFFF;background:#2E9061">
-				<th>Marche 26-Apr</th>
+				<th>Marche 25_04</th>
 				<th>Casi</th>
 				<th>Attualmente positivi</th>
 				<th>Morti</th>
@@ -401,7 +401,7 @@
 <table style=" color:black; font-size:12; font-family:arial; text-align:center; " cellpadding="2.5" cellspacing="0" border="1" bordercolor="black" bgcolor="#FFFFFF">
 			<caption>Molise</caption>
 			<tr style="color:#FFFFFF;background:#2E9061">
-				<th>Molise 26-Apr</th>
+				<th>Molise 25_04</th>
 				<th>Casi</th>
 				<th>Attualmente positivi</th>
 				<th>Morti</th>
@@ -441,7 +441,7 @@
 <table style=" color:black; font-size:12; font-family:arial; text-align:center; " cellpadding="2.5" cellspacing="0" border="1" bordercolor="black" bgcolor="#FFFFFF">
 			<caption>P.A. Bolzano</caption>
 			<tr style="color:#FFFFFF;background:#2E9061">
-				<th>P.A. Bolzano 26-Apr</th>
+				<th>P.A. Bolzano 25_04</th>
 				<th>Casi</th>
 				<th>Attualmente positivi</th>
 				<th>Morti</th>
@@ -481,7 +481,7 @@
 <table style=" color:black; font-size:12; font-family:arial; text-align:center; " cellpadding="2.5" cellspacing="0" border="1" bordercolor="black" bgcolor="#FFFFFF">
 			<caption>P.A. Trento</caption>
 			<tr style="color:#FFFFFF;background:#2E9061">
-				<th>P.A. Trento 26-Apr</th>
+				<th>P.A. Trento 25_04</th>
 				<th>Casi</th>
 				<th>Attualmente positivi</th>
 				<th>Morti</th>
@@ -521,7 +521,7 @@
 <table style=" color:black; font-size:12; font-family:arial; text-align:center; " cellpadding="2.5" cellspacing="0" border="1" bordercolor="black" bgcolor="#FFFFFF">
 			<caption>Piemonte</caption>
 			<tr style="color:#FFFFFF;background:#2E9061">
-				<th>Piemonte 26-Apr</th>
+				<th>Piemonte 25_04</th>
 				<th>Casi</th>
 				<th>Attualmente positivi</th>
 				<th>Morti</th>
@@ -561,7 +561,7 @@
 <table style=" color:black; font-size:12; font-family:arial; text-align:center; " cellpadding="2.5" cellspacing="0" border="1" bordercolor="black" bgcolor="#FFFFFF">
 			<caption>Puglia</caption>
 			<tr style="color:#FFFFFF;background:#2E9061">
-				<th>Puglia 26-Apr</th>
+				<th>Puglia 25_04</th>
 				<th>Casi</th>
 				<th>Attualmente positivi</th>
 				<th>Morti</th>
@@ -601,7 +601,7 @@
 <table style=" color:black; font-size:12; font-family:arial; text-align:center; " cellpadding="2.5" cellspacing="0" border="1" bordercolor="black" bgcolor="#FFFFFF">
 			<caption>Sardegna</caption>
 			<tr style="color:#FFFFFF;background:#2E9061">
-				<th>Sardegna 26-Apr</th>
+				<th>Sardegna 25_04</th>
 				<th>Casi</th>
 				<th>Attualmente positivi</th>
 				<th>Morti</th>
@@ -641,7 +641,7 @@
 <table style=" color:black; font-size:12; font-family:arial; text-align:center; " cellpadding="2.5" cellspacing="0" border="1" bordercolor="black" bgcolor="#FFFFFF">
 			<caption>Sicilia</caption>
 			<tr style="color:#FFFFFF;background:#2E9061">
-				<th>Sicilia 26-Apr</th>
+				<th>Sicilia 25_04</th>
 				<th>Casi</th>
 				<th>Attualmente positivi</th>
 				<th>Morti</th>
@@ -681,7 +681,7 @@
 <table style=" color:black; font-size:12; font-family:arial; text-align:center; " cellpadding="2.5" cellspacing="0" border="1" bordercolor="black" bgcolor="#FFFFFF">
 			<caption>Toscana</caption>
 			<tr style="color:#FFFFFF;background:#2E9061">
-				<th>Toscana 26-Apr</th>
+				<th>Toscana 25_04</th>
 				<th>Casi</th>
 				<th>Attualmente positivi</th>
 				<th>Morti</th>
@@ -721,7 +721,7 @@
 <table style=" color:black; font-size:12; font-family:arial; text-align:center; " cellpadding="2.5" cellspacing="0" border="1" bordercolor="black" bgcolor="#FFFFFF">
 			<caption>Umbria</caption>
 			<tr style="color:#FFFFFF;background:#2E9061">
-				<th>Umbria 26-Apr</th>
+				<th>Umbria 25_04</th>
 				<th>Casi</th>
 				<th>Attualmente positivi</th>
 				<th>Morti</th>
@@ -761,7 +761,7 @@
 <table style=" color:black; font-size:12; font-family:arial; text-align:center; " cellpadding="2.5" cellspacing="0" border="1" bordercolor="black" bgcolor="#FFFFFF">
 			<caption>Valle d'Aosta</caption>
 			<tr style="color:#FFFFFF;background:#2E9061">
-				<th>Valle d'Aosta 26-Apr</th>
+				<th>Valle d'Aosta 25_04</th>
 				<th>Casi</th>
 				<th>Attualmente positivi</th>
 				<th>Morti</th>
@@ -801,7 +801,7 @@
 <table style=" color:black; font-size:12; font-family:arial; text-align:center; " cellpadding="2.5" cellspacing="0" border="1" bordercolor="black" bgcolor="#FFFFFF">
 			<caption>Veneto</caption>
 			<tr style="color:#FFFFFF;background:#2E9061">
-				<th>Veneto 26-Apr</th>
+				<th>Veneto 25_04</th>
 				<th>Casi</th>
 				<th>Attualmente positivi</th>
 				<th>Morti</th>

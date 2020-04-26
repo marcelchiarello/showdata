@@ -1,6 +1,6 @@
 <!-- start -->
 ### New domain: <a href="https://www.covidrepo.com/">COVIDREPO.COM</a>
-
+[Previous Day](/Previous/index_25_04.md)
 ## LAST DATA 26/04/2020 - 18:14 -- Grafici e report disponibili
 
 <table style=" color:black; font-size:12; font-family:arial; text-align:center; " cellpadding="2.5" cellspacing="0" border="1" bordercolor="black" bgcolor="#FFFFFF">

@@ -1,7 +1,7 @@
 <!-- start -->
 ### New domain: <a href="https://www.covidrepo.com/">COVIDREPO.COM</a>
 
-## LAST DATA 25/04/2020 - 15:33
+## LAST DATA 25/04/2020 - 15:46 -- Reports and charts available
 
 <table style=" color:black; font-size:12; font-family:arial; text-align:center; " cellpadding="2.5" cellspacing="0" border="1" bordercolor="black" bgcolor="#FFFFFF">
 <caption>ITALIA - COVIDREPO.COM</caption>

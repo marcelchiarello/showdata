@@ -66,12 +66,20 @@ table td { padding:7px 5px; text-align:left; vertical-align:top; border:1px soli
 
 
 
-  </style></head><body><div class="content"><h1></h1><!--introduction--><p><a href="https://marcelchiarello.github.io/showdata/">GO BACK</a></p><p><b>COVID19 NATIONAL DATA</b>.</p><p>This report is related to data processing on the spread of COVID-19 in Italy and single regions/provinces. Data are provided by the Italian Civil Protection:</p><p>"https://github.com/pcm-dpc/COVID-19"</p><p>See all reports and articles: <a href="https://marcelchiarello.github.io/showdata/">COVIDREPO.COM</a></p><p>Author: Marcello Chiarello</p><p><a href="mailto:marcello.chiarello@outlook.com">marcello.chiarello@outlook.com</a></p><!--/introduction--><pre class="codeoutput error">Error using datetime/horzcat (line 1292)
-Unable to convert the text 'RUN DATE: ' to a datetime value because its format was not recognized.
+  </style></head><body><div class="content"><h1></h1><!--introduction--><p><a href="https://marcelchiarello.github.io/showdata/">GO BACK</a></p><p><b>COVID19 NATIONAL DATA</b>.</p><p>This report is related to data processing on the spread of COVID-19 in Italy and single regions/provinces. Data are provided by the Italian Civil Protection:</p><p>"https://github.com/pcm-dpc/COVID-19"</p><p>See all reports and articles: <a href="https://marcelchiarello.github.io/showdata/">COVIDREPO.COM</a></p><p>Author: Marcello Chiarello</p><p><a href="mailto:marcello.chiarello@outlook.com">marcello.chiarello@outlook.com</a></p><!--/introduction--><pre class="codeoutput">RUN DATE: 26_04
 
-Error in RUN_DATA_ITALIA (line 36)
-disp(['RUN DATE: ', date])
-</pre><p class="footer"><br><a href="https://www.mathworks.com/products/matlab/">Published with MATLAB&reg; R2018a</a><br></p></div><!--
+Summary =
+
+  2&times;8 table
+
+                    Casi     Attualmente_positivi    Morti    Guariti    Terapia_intensiva    Ospedalizzati    Ricoverati_con_sintomi    Tamponi
+                   ______    ____________________    _____    _______    _________________    _____________    ______________________    _______
+
+    Totali         197675           106103           26644     64928           2009               23381                21372             1757659
+    Giornalieri      2324              256             260      1808            -93                -254                 -161               49916
+
+https://marcelchiarello.github.io/showdata/
+</pre><img vspace="5" hspace="5" src="RUN_DATA_ITALIA_01.png" alt=""> <img vspace="5" hspace="5" src="RUN_DATA_ITALIA_02.png" alt=""> <img vspace="5" hspace="5" src="RUN_DATA_ITALIA_03.png" alt=""> <img vspace="5" hspace="5" src="RUN_DATA_ITALIA_04.png" alt=""> <img vspace="5" hspace="5" src="RUN_DATA_ITALIA_05.png" alt=""> <img vspace="5" hspace="5" src="RUN_DATA_ITALIA_06.png" alt=""> <p class="footer"><br><a href="https://www.mathworks.com/products/matlab/">Published with MATLAB&reg; R2018a</a><br></p></div><!--
 ##### SOURCE BEGIN #####
 %%
 % <https://marcelchiarello.github.io/showdata/ GO BACK>
@@ -108,7 +116,7 @@ DATA = add_daily(NATIONALDATA);
 
 dataPlot1(DATA,'Italia');
 
-disp(['RUN DATE: ', date])
+disp(['RUN DATE: ', dateS{:}])
 Summary = SummaryTable(DATA,0)
 disp('https://marcelchiarello.github.io/showdata/');
 

@@ -216,7 +216,7 @@
 </table>
 
 
-- [Tutte le regoni(All regions)](/Tables/regionsTable_26_04.md)
+- [Tutte le regoni(All regions)](/Tables/regionsTable_27_04.md)
 
 ---
 

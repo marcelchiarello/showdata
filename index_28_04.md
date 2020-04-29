@@ -1,12 +1,12 @@
 <!-- start -->
 ### New domain: <a href="https://www.covidrepo.com/">COVIDREPO.COM</a>
-[Previous Day](/index_28_04.md)
-## LAST DATA 29/04/2020 - 18:05 -- Valori tabelle aggiornati - Grafici e report presto disponibili
+[Previous Day](/index_27_04.md)
+## LAST DATA 28/04/2020 - 19:31 -- Grafici e report disponibili
 
 <table style=" color:black; font-size:12; font-family:arial; text-align:center; " cellpadding="2.5" cellspacing="0" border="1" bordercolor="black" bgcolor="#FFFFFF">
 <caption>ITALIA - COVIDREPO.COM</caption>
 <tr style="color:#FFFFFF;background:#2E9061">
-<th>ITALIA 29_04</th>
+<th>ITALIA 28_04</th>
 <th>Casi</th>
 <th>Attualmente positivi</th>
 <th>Morti</th>
@@ -19,27 +19,27 @@
 </tr>
 <tr>
 <th>Totali</th>
-<td align="right"> 203591</td>
-<td align="right"> 104657</td>
-<td align="right"> 27682</td>
-<td align="right"> 71252</td>
-<td align="right"> 1795</td>
-<td align="right"> 21005</td>
-<td align="right"> 19210</td>
-<td align="right"> 83652</td>
-<td align="right"> 1910761</td>
+<td align="right"> 201505</td>
+<td align="right"> 105205</td>
+<td align="right"> 27359</td>
+<td align="right"> 68941</td>
+<td align="right"> 1863</td>
+<td align="right"> 21586</td>
+<td align="right"> 19723</td>
+<td align="right"> 83619</td>
+<td align="right"> 1846934</td>
 </tr>
 <tr>
 <th>Giornalieri (Daily)</th>
-<td align="right"> 2086</td>
-<td align="right" style=" color:green; "> -548</td>
-<td align="right"> 323</td>
-<td align="right"> 2311</td>
-<td align="right" style=" color:green; "> -68</td>
-<td align="right" style=" color:green; "> -581</td>
-<td align="right" style=" color:green; "> -513</td>
-<td align="right"> 33</td>
-<td align="right"> 63827</td>
+<td align="right"> 2091</td>
+<td align="right" style=" color:green; "> -608</td>
+<td align="right"> 382</td>
+<td align="right"> 2317</td>
+<td align="right" style=" color:green; "> -93</td>
+<td align="right" style=" color:green; "> -723</td>
+<td align="right" style=" color:green; "> -630</td>
+<td align="right"> 115</td>
+<td align="right"> 57272</td>
 </tr>
 <tr>
 <th>EN</th>
@@ -58,7 +58,7 @@
 <table style=" color:black; font-size:12; font-family:arial; text-align:center; " cellpadding="2.5" cellspacing="0" border="1" bordercolor="black" bgcolor="#FFFFFF">
 <caption>LOMBARDIA</caption>
 <tr style="color:#FFFFFF;background:#2E9061">
-<th>LOMBARDIA 29_04</th>
+<th>LOMBARDIA 28_04</th>
 <th>Casi</th>
 <th>Attualmente positivi</th>
 <th>Morti</th>
@@ -71,34 +71,34 @@
 </tr>
 <tr>
 <th>Totali</th>
-<td align="right"> 75134</td>
-<td align="right"> 36122</td>
-<td align="right"> 13679</td>
-<td align="right"> 25333</td>
-<td align="right"> 634</td>
-<td align="right"> 7754</td>
-<td align="right"> 7120</td>
-<td align="right"> 28368</td>
-<td align="right"> 365895</td>
+<td align="right"> 74348</td>
+<td align="right"> 35744</td>
+<td align="right"> 13575</td>
+<td align="right"> 25029</td>
+<td align="right"> 655</td>
+<td align="right"> 7935</td>
+<td align="right"> 7280</td>
+<td align="right"> 27809</td>
+<td align="right"> 351423</td>
 </tr>
 <tr>
 <th>Giornalieri (Daily)</th>
-<td align="right"> 786</td>
-<td align="right"> 378</td>
-<td align="right"> 104</td>
-<td align="right"> 304</td>
-<td align="right" style=" color:green; "> -21</td>
-<td align="right" style=" color:green; "> -181</td>
-<td align="right" style=" color:green; "> -160</td>
-<td align="right"> 559</td>
-<td align="right"> 14472</td>
+<td align="right"> 869</td>
+<td align="right"> 303</td>
+<td align="right"> 126</td>
+<td align="right"> 440</td>
+<td align="right" style=" color:green; "> -25</td>
+<td align="right" style=" color:green; "> -270</td>
+<td align="right" style=" color:green; "> -245</td>
+<td align="right"> 573</td>
+<td align="right"> 8573</td>
 </tr>
 </table>
 
 <table style=" color:black; font-size:12; font-family:arial; text-align:center; " cellpadding="2.5" cellspacing="0" border="1" bordercolor="black" bgcolor="#FFFFFF">
 <caption>PIEMONTE</caption>
 <tr style="color:#FFFFFF;background:#2E9061">
-<th>PIEMONTE 29_04</th>
+<th>PIEMONTE 28_04</th>
 <th>Casi</th>
 <th>Attualmente positivi</th>
 <th>Morti</th>
@@ -111,34 +111,34 @@
 </tr>
 <tr>
 <th>Totali</th>
-<td align="right"> 25861</td>
-<td align="right"> 15521</td>
-<td align="right"> 3003</td>
-<td align="right"> 7337</td>
+<td align="right"> 25450</td>
+<td align="right"> 15506</td>
+<td align="right"> 2936</td>
+<td align="right"> 7008</td>
 <td align="right"> 202</td>
-<td align="right"> 2839</td>
-<td align="right"> 2637</td>
-<td align="right"> 12682</td>
-<td align="right"> 151266</td>
+<td align="right"> 2903</td>
+<td align="right"> 2701</td>
+<td align="right"> 12603</td>
+<td align="right"> 144531</td>
 </tr>
 <tr>
 <th>Giornalieri (Daily)</th>
-<td align="right"> 411</td>
-<td align="right"> 15</td>
-<td align="right"> 67</td>
-<td align="right"> 329</td>
-<td align="right"> 0</td>
-<td align="right" style=" color:green; "> -64</td>
-<td align="right" style=" color:green; "> -64</td>
-<td align="right"> 79</td>
-<td align="right"> 6735</td>
+<td align="right"> 352</td>
+<td align="right" style=" color:green; "> -2</td>
+<td align="right"> 58</td>
+<td align="right"> 296</td>
+<td align="right" style=" color:green; "> -12</td>
+<td align="right" style=" color:green; "> -141</td>
+<td align="right" style=" color:green; "> -129</td>
+<td align="right"> 139</td>
+<td align="right"> 5183</td>
 </tr>
 </table>
 
 <table style=" color:black; font-size:12; font-family:arial; text-align:center; " cellpadding="2.5" cellspacing="0" border="1" bordercolor="black" bgcolor="#FFFFFF">
 <caption>VENETO</caption>
 <tr style="color:#FFFFFF;background:#2E9061">
-<th>VENETO 29_04</th>
+<th>VENETO 28_04</th>
 <th>Casi</th>
 <th>Attualmente positivi</th>
 <th>Morti</th>
@@ -151,34 +151,34 @@
 </tr>
 <tr>
 <th>Totali</th>
-<td align="right"> 17825</td>
-<td align="right"> 8369</td>
-<td align="right"> 1437</td>
-<td align="right"> 8019</td>
-<td align="right"> 114</td>
-<td align="right"> 1156</td>
-<td align="right"> 1042</td>
-<td align="right"> 7213</td>
-<td align="right"> 337656</td>
+<td align="right"> 17708</td>
+<td align="right"> 8601</td>
+<td align="right"> 1408</td>
+<td align="right"> 7699</td>
+<td align="right"> 120</td>
+<td align="right"> 1187</td>
+<td align="right"> 1067</td>
+<td align="right"> 7414</td>
+<td align="right"> 328218</td>
 </tr>
 <tr>
 <th>Giornalieri (Daily)</th>
-<td align="right"> 117</td>
-<td align="right" style=" color:green; "> -232</td>
-<td align="right"> 29</td>
-<td align="right"> 320</td>
-<td align="right" style=" color:green; "> -6</td>
-<td align="right" style=" color:green; "> -31</td>
-<td align="right" style=" color:green; "> -25</td>
-<td align="right" style=" color:green; "> -201</td>
-<td align="right"> 9438</td>
+<td align="right"> 129</td>
+<td align="right" style=" color:green; "> -259</td>
+<td align="right"> 64</td>
+<td align="right"> 324</td>
+<td align="right" style=" color:green; "> -3</td>
+<td align="right" style=" color:green; "> -35</td>
+<td align="right" style=" color:green; "> -32</td>
+<td align="right" style=" color:green; "> -224</td>
+<td align="right"> 8191</td>
 </tr>
 </table>
 
 <table style=" color:black; font-size:12; font-family:arial; text-align:center; " cellpadding="2.5" cellspacing="0" border="1" bordercolor="black" bgcolor="#FFFFFF">
 <caption>PUGLIA</caption>
 <tr style="color:#FFFFFF;background:#2E9061">
-<th>PUGLIA 29_04</th>
+<th>PUGLIA 28_04</th>
 <th>Casi</th>
 <th>Attualmente positivi</th>
 <th>Morti</th>
@@ -191,32 +191,32 @@
 </tr>
 <tr>
 <th>Totali</th>
-<td align="right"> 4029</td>
-<td align="right"> 2927</td>
-<td align="right"> 410</td>
-<td align="right"> 692</td>
-<td align="right"> 47</td>
-<td align="right"> 496</td>
-<td align="right"> 449</td>
-<td align="right"> 2431</td>
-<td align="right"> 60334</td>
+<td align="right"> 3980</td>
+<td align="right"> 2919</td>
+<td align="right"> 407</td>
+<td align="right"> 654</td>
+<td align="right"> 51</td>
+<td align="right"> 499</td>
+<td align="right"> 448</td>
+<td align="right"> 2420</td>
+<td align="right"> 58496</td>
 </tr>
 <tr>
 <th>Giornalieri (Daily)</th>
-<td align="right"> 49</td>
+<td align="right"> 22</td>
+<td align="right"> 7</td>
+<td align="right"> 2</td>
+<td align="right"> 13</td>
+<td align="right"> 0</td>
+<td align="right" style=" color:green; "> -1</td>
+<td align="right" style=" color:green; "> -1</td>
 <td align="right"> 8</td>
-<td align="right"> 3</td>
-<td align="right"> 38</td>
-<td align="right" style=" color:green; "> -4</td>
-<td align="right" style=" color:green; "> -3</td>
-<td align="right"> 1</td>
-<td align="right"> 11</td>
-<td align="right"> 1838</td>
+<td align="right"> 1520</td>
 </tr>
 </table>
 
 
-- [Tutte le regoni(All regions)](/Tables/regionsTable_29_04.md)
+- [Tutte le regoni(All regions)](/Tables/regionsTable_28_04.md)
 
 ---
 

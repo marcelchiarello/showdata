@@ -1,0 +1,339 @@
+
+<!DOCTYPE html
+  PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html><head>
+      <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+   <!--
+This HTML was auto-generated from MATLAB code.
+To make changes, update the MATLAB code and republish this document.
+      --><title>RUN_DATA_FIT_TOTAL_CASES_PROVINCES</title><meta name="generator" content="MATLAB 9.4"><link rel="schema.DC" href="http://purl.org/dc/elements/1.1/"><meta name="DC.date" content="2020-04-29"><meta name="DC.source" content="RUN_DATA_FIT_TOTAL_CASES_PROVINCES.m"><style type="text/css">
+html,body,div,span,applet,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,a,abbr,acronym,address,big,cite,code,del,dfn,em,font,img,ins,kbd,q,s,samp,small,strike,strong,sub,sup,tt,var,b,u,i,center,dl,dt,dd,ol,ul,li,fieldset,form,label,legend,table,caption,tbody,tfoot,thead,tr,th,td{margin:0;padding:0;border:0;outline:0;font-size:100%;vertical-align:baseline;background:transparent}body{line-height:1}ol,ul{list-style:none}blockquote,q{quotes:none}blockquote:before,blockquote:after,q:before,q:after{content:'';content:none}:focus{outine:0}ins{text-decoration:none}del{text-decoration:line-through}table{border-collapse:collapse;border-spacing:0}
+
+html { min-height:100%; margin-bottom:1px; }
+html body { height:100%; margin:0px; font-family:Arial, Helvetica, sans-serif; font-size:10px; color:#000; line-height:140%; background:#fff none; overflow-y:scroll; }
+html body td { vertical-align:top; text-align:left; }
+
+h1 { padding:0px; margin:0px 0px 25px; font-family:Arial, Helvetica, sans-serif; font-size:1.5em; color:#d55000; line-height:100%; font-weight:normal; }
+h2 { padding:0px; margin:0px 0px 8px; font-family:Arial, Helvetica, sans-serif; font-size:1.2em; color:#000; font-weight:bold; line-height:140%; border-bottom:1px solid #d6d4d4; display:block; }
+h3 { padding:0px; margin:0px 0px 5px; font-family:Arial, Helvetica, sans-serif; font-size:1.1em; color:#000; font-weight:bold; line-height:140%; }
+
+a { color:#005fce; text-decoration:none; }
+a:hover { color:#005fce; text-decoration:underline; }
+a:visited { color:#004aa0; text-decoration:none; }
+
+p { padding:0px; margin:0px 0px 20px; }
+img { padding:0px; margin:0px 0px 20px; border:none; }
+p img, pre img, tt img, li img, h1 img, h2 img { margin-bottom:0px; } 
+
+ul { padding:0px; margin:0px 0px 20px 23px; list-style:square; }
+ul li { padding:0px; margin:0px 0px 7px 0px; }
+ul li ul { padding:5px 0px 0px; margin:0px 0px 7px 23px; }
+ul li ol li { list-style:decimal; }
+ol { padding:0px; margin:0px 0px 20px 0px; list-style:decimal; }
+ol li { padding:0px; margin:0px 0px 7px 23px; list-style-type:decimal; }
+ol li ol { padding:5px 0px 0px; margin:0px 0px 7px 0px; }
+ol li ol li { list-style-type:lower-alpha; }
+ol li ul { padding-top:7px; }
+ol li ul li { list-style:square; }
+
+.content { font-size:1.2em; line-height:140%; padding: 20px; }
+
+pre, code { font-size:12px; }
+tt { font-size: 1.2em; }
+pre { margin:0px 0px 20px; }
+pre.codeinput { padding:10px; border:1px solid #d3d3d3; background:#f7f7f7; }
+pre.codeoutput { padding:10px 11px; margin:0px 0px 20px; color:#4c4c4c; }
+pre.error { color:red; }
+
+@media print { pre.codeinput, pre.codeoutput { word-wrap:break-word; width:100%; } }
+
+span.keyword { color:#0000FF }
+span.comment { color:#228B22 }
+span.string { color:#A020F0 }
+span.untermstring { color:#B20000 }
+span.syscmd { color:#B28C00 }
+
+.footer { width:auto; padding:10px 0px; margin:25px 0px 0px; border-top:1px dotted #878787; font-size:0.8em; line-height:140%; font-style:italic; color:#878787; text-align:left; float:none; }
+.footer p { margin:0px; }
+.footer a { color:#878787; }
+.footer a:hover { color:#878787; text-decoration:underline; }
+.footer a:visited { color:#878787; }
+
+table th { padding:7px 5px; text-align:left; vertical-align:middle; border: 1px solid #d6d4d4; font-weight:bold; }
+table td { padding:7px 5px; text-align:left; vertical-align:top; border:1px solid #d6d4d4; }
+
+
+
+
+
+  </style></head><body><div class="content"><h1></h1><!--introduction--><p><a href="https://marcelchiarello.github.io/showdata/">GO BACK</a></p><p><b>COVID19 NATIONAL DATA,  NATIONAL/REGIONAL TRENDS AND ESTIMATIONS</b>.</p><p>FITTING DATA = TOTAL CASES</p><p>FITTING LOCATIONS: REGIONS AND PROVINCES</p><p>This report is related to data processing on the spread of COVID-19 in Italy and single regions/provinces. Data are provided by the Italian Civil Protection:</p><p>"https://github.com/pcm-dpc/COVID-19"</p><p>This report is not intended to be official or definitive in terms of the included estimation/forecasts. The models are not predictive-type, but rather equations describing the data available until this moment. Their purpose is to assess the current trend, so that any acceleration or deceleration of the infection can be deduced. In general, for each data sample a fixed time window is selected and used to estimate the model (fitting). After which results are compared with the previous and/or following days.</p><p>-The fit is exponential/linear (Curve 1 ) and logistic/sigmoidal (Curve 2). Estimations are performed with the aim of verifying near which curve the future points are placed in order to evaluate at a glance the possible variation of the spread speed.</p><p>Equations: Curve1 EXP(x) = a*exp(b*x) + c;</p><p>Curve2 SIG(x) = a/((exp(b*(c+x))) + a1*exp(b1*(c1 + x)) - d)</p><p>Algorithms: Non Linear Least Square or Least Absolute Residuals</p><p>Models and reports are under continuous review.</p><p>See all reports and articles: <a href="https://marcelchiarello.github.io/showdata/">COVIDREPO.COM</a></p><p>Author: Marcello Chiarello</p><p><a href="mailto:marcello.chiarello@outlook.com">marcello.chiarello@outlook.com</a></p><!--/introduction--><h2>Contents</h2><div><ul><li><a href="#2">PLOT PUGLIA</a></li><li><a href="#3">PLOT LOMBARDIA</a></li><li><a href="#4">PLOT VENETO</a></li><li><a href="#5">PLOT PIEMONTE</a></li><li><a href="#6">PLOT EMILIA ROMAGNA</a></li><li><a href="#7">PLOT CAMPANIA</a></li><li><a href="#8">PLOT SICILIA</a></li><li><a href="#9">PLOT ABRUZZO</a></li><li><a href="#10">PLOT BASILICATA</a></li><li><a href="#11">PLOT CALABRIA</a></li><li><a href="#12">PLOT CAMPANIA</a></li><li><a href="#13">PLOT FRIULI VENEZIA GIULIA</a></li><li><a href="#14">PLOT LAZIO</a></li><li><a href="#15">PLOT LIGURIA</a></li><li><a href="#16">PLOT MARCHE</a></li><li><a href="#17">PLOT MOLISE</a></li><li><a href="#18">PLOT P.A. Bolzano</a></li><li><a href="#19">PLOT P.A. Trento</a></li><li><a href="#20">PLOT SARDEGNA</a></li><li><a href="#21">PLOT TOSCANA</a></li><li><a href="#22">PLOT UMBRIA</a></li><li><a href="#23">PLOT VALLE D' AOSTA</a></li></ul></div><h2 id="2">PLOT PUGLIA</h2><pre class="codeoutput">RUN DATA: 29-Apr-2020
+https://marcelchiarello.github.io/showdata/
+***********************
+Stime regionali (Regional trend estimation)
+ 
+Intervallo dati utilizzati per la stima del modello (Data range used for equation fitting): 20-Mar :: 26-Apr
+ 
+</pre><img vspace="5" hspace="5" src="RUN_DATA_FIT_TOTAL_CASES_PROVINCES_01.png" alt=""> <img vspace="5" hspace="5" src="RUN_DATA_FIT_TOTAL_CASES_PROVINCES_02.png" alt=""> <img vspace="5" hspace="5" src="RUN_DATA_FIT_TOTAL_CASES_PROVINCES_03.png" alt=""> <img vspace="5" hspace="5" src="RUN_DATA_FIT_TOTAL_CASES_PROVINCES_04.png" alt=""> <img vspace="5" hspace="5" src="RUN_DATA_FIT_TOTAL_CASES_PROVINCES_05.png" alt=""> <img vspace="5" hspace="5" src="RUN_DATA_FIT_TOTAL_CASES_PROVINCES_06.png" alt=""> <img vspace="5" hspace="5" src="RUN_DATA_FIT_TOTAL_CASES_PROVINCES_07.png" alt=""> <img vspace="5" hspace="5" src="RUN_DATA_FIT_TOTAL_CASES_PROVINCES_08.png" alt=""> <img vspace="5" hspace="5" src="RUN_DATA_FIT_TOTAL_CASES_PROVINCES_09.png" alt=""> <img vspace="5" hspace="5" src="RUN_DATA_FIT_TOTAL_CASES_PROVINCES_10.png" alt=""> <img vspace="5" hspace="5" src="RUN_DATA_FIT_TOTAL_CASES_PROVINCES_11.png" alt=""> <img vspace="5" hspace="5" src="RUN_DATA_FIT_TOTAL_CASES_PROVINCES_12.png" alt=""> <img vspace="5" hspace="5" src="RUN_DATA_FIT_TOTAL_CASES_PROVINCES_13.png" alt=""> <img vspace="5" hspace="5" src="RUN_DATA_FIT_TOTAL_CASES_PROVINCES_14.png" alt=""> <h2 id="3">PLOT LOMBARDIA</h2><pre class="codeoutput">RUN DATA: 29-Apr-2020
+https://marcelchiarello.github.io/showdata/
+***********************
+Stime regionali (Regional trend estimation)
+ 
+Intervallo dati utilizzati per la stima del modello (Data range used for equation fitting): 20-Mar :: 26-Apr
+ 
+</pre><img vspace="5" hspace="5" src="RUN_DATA_FIT_TOTAL_CASES_PROVINCES_15.png" alt=""> <img vspace="5" hspace="5" src="RUN_DATA_FIT_TOTAL_CASES_PROVINCES_16.png" alt=""> <img vspace="5" hspace="5" src="RUN_DATA_FIT_TOTAL_CASES_PROVINCES_17.png" alt=""> <img vspace="5" hspace="5" src="RUN_DATA_FIT_TOTAL_CASES_PROVINCES_18.png" alt=""> <img vspace="5" hspace="5" src="RUN_DATA_FIT_TOTAL_CASES_PROVINCES_19.png" alt=""> <img vspace="5" hspace="5" src="RUN_DATA_FIT_TOTAL_CASES_PROVINCES_20.png" alt=""> <img vspace="5" hspace="5" src="RUN_DATA_FIT_TOTAL_CASES_PROVINCES_21.png" alt=""> <img vspace="5" hspace="5" src="RUN_DATA_FIT_TOTAL_CASES_PROVINCES_22.png" alt=""> <img vspace="5" hspace="5" src="RUN_DATA_FIT_TOTAL_CASES_PROVINCES_23.png" alt=""> <img vspace="5" hspace="5" src="RUN_DATA_FIT_TOTAL_CASES_PROVINCES_24.png" alt=""> <img vspace="5" hspace="5" src="RUN_DATA_FIT_TOTAL_CASES_PROVINCES_25.png" alt=""> <img vspace="5" hspace="5" src="RUN_DATA_FIT_TOTAL_CASES_PROVINCES_26.png" alt=""> <img vspace="5" hspace="5" src="RUN_DATA_FIT_TOTAL_CASES_PROVINCES_27.png" alt=""> <img vspace="5" hspace="5" src="RUN_DATA_FIT_TOTAL_CASES_PROVINCES_28.png" alt=""> <img vspace="5" hspace="5" src="RUN_DATA_FIT_TOTAL_CASES_PROVINCES_29.png" alt=""> <img vspace="5" hspace="5" src="RUN_DATA_FIT_TOTAL_CASES_PROVINCES_30.png" alt=""> <img vspace="5" hspace="5" src="RUN_DATA_FIT_TOTAL_CASES_PROVINCES_31.png" alt=""> <img vspace="5" hspace="5" src="RUN_DATA_FIT_TOTAL_CASES_PROVINCES_32.png" alt=""> <img vspace="5" hspace="5" src="RUN_DATA_FIT_TOTAL_CASES_PROVINCES_33.png" alt=""> <img vspace="5" hspace="5" src="RUN_DATA_FIT_TOTAL_CASES_PROVINCES_34.png" alt=""> <img vspace="5" hspace="5" src="RUN_DATA_FIT_TOTAL_CASES_PROVINCES_35.png" alt=""> <img vspace="5" hspace="5" src="RUN_DATA_FIT_TOTAL_CASES_PROVINCES_36.png" alt=""> <img vspace="5" hspace="5" src="RUN_DATA_FIT_TOTAL_CASES_PROVINCES_37.png" alt=""> <img vspace="5" hspace="5" src="RUN_DATA_FIT_TOTAL_CASES_PROVINCES_38.png" alt=""> <img vspace="5" hspace="5" src="RUN_DATA_FIT_TOTAL_CASES_PROVINCES_39.png" alt=""> <img vspace="5" hspace="5" src="RUN_DATA_FIT_TOTAL_CASES_PROVINCES_40.png" alt=""> <h2 id="4">PLOT VENETO</h2><pre class="codeoutput">RUN DATA: 29-Apr-2020
+https://marcelchiarello.github.io/showdata/
+***********************
+Stime regionali (Regional trend estimation)
+ 
+Intervallo dati utilizzati per la stima del modello (Data range used for equation fitting): 20-Mar :: 26-Apr
+ 
+</pre><img vspace="5" hspace="5" src="RUN_DATA_FIT_TOTAL_CASES_PROVINCES_41.png" alt=""> <img vspace="5" hspace="5" src="RUN_DATA_FIT_TOTAL_CASES_PROVINCES_42.png" alt=""> <img vspace="5" hspace="5" src="RUN_DATA_FIT_TOTAL_CASES_PROVINCES_43.png" alt=""> <img vspace="5" hspace="5" src="RUN_DATA_FIT_TOTAL_CASES_PROVINCES_44.png" alt=""> <img vspace="5" hspace="5" src="RUN_DATA_FIT_TOTAL_CASES_PROVINCES_45.png" alt=""> <img vspace="5" hspace="5" src="RUN_DATA_FIT_TOTAL_CASES_PROVINCES_46.png" alt=""> <img vspace="5" hspace="5" src="RUN_DATA_FIT_TOTAL_CASES_PROVINCES_47.png" alt=""> <img vspace="5" hspace="5" src="RUN_DATA_FIT_TOTAL_CASES_PROVINCES_48.png" alt=""> <img vspace="5" hspace="5" src="RUN_DATA_FIT_TOTAL_CASES_PROVINCES_49.png" alt=""> <img vspace="5" hspace="5" src="RUN_DATA_FIT_TOTAL_CASES_PROVINCES_50.png" alt=""> <img vspace="5" hspace="5" src="RUN_DATA_FIT_TOTAL_CASES_PROVINCES_51.png" alt=""> <img vspace="5" hspace="5" src="RUN_DATA_FIT_TOTAL_CASES_PROVINCES_52.png" alt=""> <img vspace="5" hspace="5" src="RUN_DATA_FIT_TOTAL_CASES_PROVINCES_53.png" alt=""> <img vspace="5" hspace="5" src="RUN_DATA_FIT_TOTAL_CASES_PROVINCES_54.png" alt=""> <img vspace="5" hspace="5" src="RUN_DATA_FIT_TOTAL_CASES_PROVINCES_55.png" alt=""> <img vspace="5" hspace="5" src="RUN_DATA_FIT_TOTAL_CASES_PROVINCES_56.png" alt=""> <h2 id="5">PLOT PIEMONTE</h2><pre class="codeoutput">RUN DATA: 29-Apr-2020
+https://marcelchiarello.github.io/showdata/
+***********************
+Stime regionali (Regional trend estimation)
+ 
+Intervallo dati utilizzati per la stima del modello (Data range used for equation fitting): 20-Mar :: 26-Apr
+ 
+</pre><img vspace="5" hspace="5" src="RUN_DATA_FIT_TOTAL_CASES_PROVINCES_57.png" alt=""> <img vspace="5" hspace="5" src="RUN_DATA_FIT_TOTAL_CASES_PROVINCES_58.png" alt=""> <img vspace="5" hspace="5" src="RUN_DATA_FIT_TOTAL_CASES_PROVINCES_59.png" alt=""> <img vspace="5" hspace="5" src="RUN_DATA_FIT_TOTAL_CASES_PROVINCES_60.png" alt=""> <img vspace="5" hspace="5" src="RUN_DATA_FIT_TOTAL_CASES_PROVINCES_61.png" alt=""> <img vspace="5" hspace="5" src="RUN_DATA_FIT_TOTAL_CASES_PROVINCES_62.png" alt=""> <img vspace="5" hspace="5" src="RUN_DATA_FIT_TOTAL_CASES_PROVINCES_63.png" alt=""> <img vspace="5" hspace="5" src="RUN_DATA_FIT_TOTAL_CASES_PROVINCES_64.png" alt=""> <img vspace="5" hspace="5" src="RUN_DATA_FIT_TOTAL_CASES_PROVINCES_65.png" alt=""> <img vspace="5" hspace="5" src="RUN_DATA_FIT_TOTAL_CASES_PROVINCES_66.png" alt=""> <img vspace="5" hspace="5" src="RUN_DATA_FIT_TOTAL_CASES_PROVINCES_67.png" alt=""> <img vspace="5" hspace="5" src="RUN_DATA_FIT_TOTAL_CASES_PROVINCES_68.png" alt=""> <img vspace="5" hspace="5" src="RUN_DATA_FIT_TOTAL_CASES_PROVINCES_69.png" alt=""> <img vspace="5" hspace="5" src="RUN_DATA_FIT_TOTAL_CASES_PROVINCES_70.png" alt=""> <img vspace="5" hspace="5" src="RUN_DATA_FIT_TOTAL_CASES_PROVINCES_71.png" alt=""> <img vspace="5" hspace="5" src="RUN_DATA_FIT_TOTAL_CASES_PROVINCES_72.png" alt=""> <img vspace="5" hspace="5" src="RUN_DATA_FIT_TOTAL_CASES_PROVINCES_73.png" alt=""> <img vspace="5" hspace="5" src="RUN_DATA_FIT_TOTAL_CASES_PROVINCES_74.png" alt=""> <h2 id="6">PLOT EMILIA ROMAGNA</h2><pre class="codeoutput">RUN DATA: 29-Apr-2020
+https://marcelchiarello.github.io/showdata/
+***********************
+Stime regionali (Regional trend estimation)
+ 
+Intervallo dati utilizzati per la stima del modello (Data range used for equation fitting): 20-Mar :: 26-Apr
+ 
+</pre><img vspace="5" hspace="5" src="RUN_DATA_FIT_TOTAL_CASES_PROVINCES_75.png" alt=""> <img vspace="5" hspace="5" src="RUN_DATA_FIT_TOTAL_CASES_PROVINCES_76.png" alt=""> <img vspace="5" hspace="5" src="RUN_DATA_FIT_TOTAL_CASES_PROVINCES_77.png" alt=""> <img vspace="5" hspace="5" src="RUN_DATA_FIT_TOTAL_CASES_PROVINCES_78.png" alt=""> <img vspace="5" hspace="5" src="RUN_DATA_FIT_TOTAL_CASES_PROVINCES_79.png" alt=""> <img vspace="5" hspace="5" src="RUN_DATA_FIT_TOTAL_CASES_PROVINCES_80.png" alt=""> <img vspace="5" hspace="5" src="RUN_DATA_FIT_TOTAL_CASES_PROVINCES_81.png" alt=""> <img vspace="5" hspace="5" src="RUN_DATA_FIT_TOTAL_CASES_PROVINCES_82.png" alt=""> <img vspace="5" hspace="5" src="RUN_DATA_FIT_TOTAL_CASES_PROVINCES_83.png" alt=""> <img vspace="5" hspace="5" src="RUN_DATA_FIT_TOTAL_CASES_PROVINCES_84.png" alt=""> <img vspace="5" hspace="5" src="RUN_DATA_FIT_TOTAL_CASES_PROVINCES_85.png" alt=""> <img vspace="5" hspace="5" src="RUN_DATA_FIT_TOTAL_CASES_PROVINCES_86.png" alt=""> <img vspace="5" hspace="5" src="RUN_DATA_FIT_TOTAL_CASES_PROVINCES_87.png" alt=""> <img vspace="5" hspace="5" src="RUN_DATA_FIT_TOTAL_CASES_PROVINCES_88.png" alt=""> <img vspace="5" hspace="5" src="RUN_DATA_FIT_TOTAL_CASES_PROVINCES_89.png" alt=""> <img vspace="5" hspace="5" src="RUN_DATA_FIT_TOTAL_CASES_PROVINCES_90.png" alt=""> <img vspace="5" hspace="5" src="RUN_DATA_FIT_TOTAL_CASES_PROVINCES_91.png" alt=""> <img vspace="5" hspace="5" src="RUN_DATA_FIT_TOTAL_CASES_PROVINCES_92.png" alt=""> <img vspace="5" hspace="5" src="RUN_DATA_FIT_TOTAL_CASES_PROVINCES_93.png" alt=""> <img vspace="5" hspace="5" src="RUN_DATA_FIT_TOTAL_CASES_PROVINCES_94.png" alt=""> <h2 id="7">PLOT CAMPANIA</h2><pre class="codeoutput">RUN DATA: 29-Apr-2020
+https://marcelchiarello.github.io/showdata/
+***********************
+Stime regionali (Regional trend estimation)
+ 
+Intervallo dati utilizzati per la stima del modello (Data range used for equation fitting): 20-Mar :: 26-Apr
+ 
+</pre><img vspace="5" hspace="5" src="RUN_DATA_FIT_TOTAL_CASES_PROVINCES_95.png" alt=""> <img vspace="5" hspace="5" src="RUN_DATA_FIT_TOTAL_CASES_PROVINCES_96.png" alt=""> <img vspace="5" hspace="5" src="RUN_DATA_FIT_TOTAL_CASES_PROVINCES_97.png" alt=""> <img vspace="5" hspace="5" src="RUN_DATA_FIT_TOTAL_CASES_PROVINCES_98.png" alt=""> <img vspace="5" hspace="5" src="RUN_DATA_FIT_TOTAL_CASES_PROVINCES_99.png" alt=""> <img vspace="5" hspace="5" src="RUN_DATA_FIT_TOTAL_CASES_PROVINCES_100.png" alt=""> <img vspace="5" hspace="5" src="RUN_DATA_FIT_TOTAL_CASES_PROVINCES_101.png" alt=""> <img vspace="5" hspace="5" src="RUN_DATA_FIT_TOTAL_CASES_PROVINCES_102.png" alt=""> <img vspace="5" hspace="5" src="RUN_DATA_FIT_TOTAL_CASES_PROVINCES_103.png" alt=""> <img vspace="5" hspace="5" src="RUN_DATA_FIT_TOTAL_CASES_PROVINCES_104.png" alt=""> <img vspace="5" hspace="5" src="RUN_DATA_FIT_TOTAL_CASES_PROVINCES_105.png" alt=""> <img vspace="5" hspace="5" src="RUN_DATA_FIT_TOTAL_CASES_PROVINCES_106.png" alt=""> <h2 id="8">PLOT SICILIA</h2><pre class="codeoutput">RUN DATA: 29-Apr-2020
+https://marcelchiarello.github.io/showdata/
+***********************
+Stime regionali (Regional trend estimation)
+ 
+Intervallo dati utilizzati per la stima del modello (Data range used for equation fitting): 20-Mar :: 26-Apr
+ 
+</pre><img vspace="5" hspace="5" src="RUN_DATA_FIT_TOTAL_CASES_PROVINCES_107.png" alt=""> <img vspace="5" hspace="5" src="RUN_DATA_FIT_TOTAL_CASES_PROVINCES_108.png" alt=""> <img vspace="5" hspace="5" src="RUN_DATA_FIT_TOTAL_CASES_PROVINCES_109.png" alt=""> <img vspace="5" hspace="5" src="RUN_DATA_FIT_TOTAL_CASES_PROVINCES_110.png" alt=""> <img vspace="5" hspace="5" src="RUN_DATA_FIT_TOTAL_CASES_PROVINCES_111.png" alt=""> <img vspace="5" hspace="5" src="RUN_DATA_FIT_TOTAL_CASES_PROVINCES_112.png" alt=""> <img vspace="5" hspace="5" src="RUN_DATA_FIT_TOTAL_CASES_PROVINCES_113.png" alt=""> <img vspace="5" hspace="5" src="RUN_DATA_FIT_TOTAL_CASES_PROVINCES_114.png" alt=""> <img vspace="5" hspace="5" src="RUN_DATA_FIT_TOTAL_CASES_PROVINCES_115.png" alt=""> <img vspace="5" hspace="5" src="RUN_DATA_FIT_TOTAL_CASES_PROVINCES_116.png" alt=""> <img vspace="5" hspace="5" src="RUN_DATA_FIT_TOTAL_CASES_PROVINCES_117.png" alt=""> <img vspace="5" hspace="5" src="RUN_DATA_FIT_TOTAL_CASES_PROVINCES_118.png" alt=""> <img vspace="5" hspace="5" src="RUN_DATA_FIT_TOTAL_CASES_PROVINCES_119.png" alt=""> <img vspace="5" hspace="5" src="RUN_DATA_FIT_TOTAL_CASES_PROVINCES_120.png" alt=""> <img vspace="5" hspace="5" src="RUN_DATA_FIT_TOTAL_CASES_PROVINCES_121.png" alt=""> <img vspace="5" hspace="5" src="RUN_DATA_FIT_TOTAL_CASES_PROVINCES_122.png" alt=""> <img vspace="5" hspace="5" src="RUN_DATA_FIT_TOTAL_CASES_PROVINCES_123.png" alt=""> <img vspace="5" hspace="5" src="RUN_DATA_FIT_TOTAL_CASES_PROVINCES_124.png" alt=""> <img vspace="5" hspace="5" src="RUN_DATA_FIT_TOTAL_CASES_PROVINCES_125.png" alt=""> <img vspace="5" hspace="5" src="RUN_DATA_FIT_TOTAL_CASES_PROVINCES_126.png" alt=""> <h2 id="9">PLOT ABRUZZO</h2><pre class="codeoutput">RUN DATA: 29-Apr-2020
+https://marcelchiarello.github.io/showdata/
+***********************
+Stime regionali (Regional trend estimation)
+ 
+Intervallo dati utilizzati per la stima del modello (Data range used for equation fitting): 20-Mar :: 26-Apr
+ 
+</pre><img vspace="5" hspace="5" src="RUN_DATA_FIT_TOTAL_CASES_PROVINCES_127.png" alt=""> <img vspace="5" hspace="5" src="RUN_DATA_FIT_TOTAL_CASES_PROVINCES_128.png" alt=""> <img vspace="5" hspace="5" src="RUN_DATA_FIT_TOTAL_CASES_PROVINCES_129.png" alt=""> <img vspace="5" hspace="5" src="RUN_DATA_FIT_TOTAL_CASES_PROVINCES_130.png" alt=""> <img vspace="5" hspace="5" src="RUN_DATA_FIT_TOTAL_CASES_PROVINCES_131.png" alt=""> <img vspace="5" hspace="5" src="RUN_DATA_FIT_TOTAL_CASES_PROVINCES_132.png" alt=""> <img vspace="5" hspace="5" src="RUN_DATA_FIT_TOTAL_CASES_PROVINCES_133.png" alt=""> <img vspace="5" hspace="5" src="RUN_DATA_FIT_TOTAL_CASES_PROVINCES_134.png" alt=""> <img vspace="5" hspace="5" src="RUN_DATA_FIT_TOTAL_CASES_PROVINCES_135.png" alt=""> <img vspace="5" hspace="5" src="RUN_DATA_FIT_TOTAL_CASES_PROVINCES_136.png" alt=""> <h2 id="10">PLOT BASILICATA</h2><pre class="codeoutput">RUN DATA: 29-Apr-2020
+https://marcelchiarello.github.io/showdata/
+***********************
+Stime regionali (Regional trend estimation)
+ 
+Intervallo dati utilizzati per la stima del modello (Data range used for equation fitting): 20-Mar :: 26-Apr
+ 
+</pre><img vspace="5" hspace="5" src="RUN_DATA_FIT_TOTAL_CASES_PROVINCES_137.png" alt=""> <img vspace="5" hspace="5" src="RUN_DATA_FIT_TOTAL_CASES_PROVINCES_138.png" alt=""> <img vspace="5" hspace="5" src="RUN_DATA_FIT_TOTAL_CASES_PROVINCES_139.png" alt=""> <img vspace="5" hspace="5" src="RUN_DATA_FIT_TOTAL_CASES_PROVINCES_140.png" alt=""> <img vspace="5" hspace="5" src="RUN_DATA_FIT_TOTAL_CASES_PROVINCES_141.png" alt=""> <img vspace="5" hspace="5" src="RUN_DATA_FIT_TOTAL_CASES_PROVINCES_142.png" alt=""> <h2 id="11">PLOT CALABRIA</h2><pre class="codeoutput">RUN DATA: 29-Apr-2020
+https://marcelchiarello.github.io/showdata/
+***********************
+Stime regionali (Regional trend estimation)
+ 
+Intervallo dati utilizzati per la stima del modello (Data range used for equation fitting): 20-Mar :: 26-Apr
+ 
+</pre><img vspace="5" hspace="5" src="RUN_DATA_FIT_TOTAL_CASES_PROVINCES_143.png" alt=""> <img vspace="5" hspace="5" src="RUN_DATA_FIT_TOTAL_CASES_PROVINCES_144.png" alt=""> <img vspace="5" hspace="5" src="RUN_DATA_FIT_TOTAL_CASES_PROVINCES_145.png" alt=""> <img vspace="5" hspace="5" src="RUN_DATA_FIT_TOTAL_CASES_PROVINCES_146.png" alt=""> <img vspace="5" hspace="5" src="RUN_DATA_FIT_TOTAL_CASES_PROVINCES_147.png" alt=""> <img vspace="5" hspace="5" src="RUN_DATA_FIT_TOTAL_CASES_PROVINCES_148.png" alt=""> <img vspace="5" hspace="5" src="RUN_DATA_FIT_TOTAL_CASES_PROVINCES_149.png" alt=""> <img vspace="5" hspace="5" src="RUN_DATA_FIT_TOTAL_CASES_PROVINCES_150.png" alt=""> <img vspace="5" hspace="5" src="RUN_DATA_FIT_TOTAL_CASES_PROVINCES_151.png" alt=""> <img vspace="5" hspace="5" src="RUN_DATA_FIT_TOTAL_CASES_PROVINCES_152.png" alt=""> <img vspace="5" hspace="5" src="RUN_DATA_FIT_TOTAL_CASES_PROVINCES_153.png" alt=""> <img vspace="5" hspace="5" src="RUN_DATA_FIT_TOTAL_CASES_PROVINCES_154.png" alt=""> <h2 id="12">PLOT CAMPANIA</h2><pre class="codeoutput">RUN DATA: 29-Apr-2020
+https://marcelchiarello.github.io/showdata/
+***********************
+Stime regionali (Regional trend estimation)
+ 
+Intervallo dati utilizzati per la stima del modello (Data range used for equation fitting): 20-Mar :: 26-Apr
+ 
+</pre><img vspace="5" hspace="5" src="RUN_DATA_FIT_TOTAL_CASES_PROVINCES_155.png" alt=""> <img vspace="5" hspace="5" src="RUN_DATA_FIT_TOTAL_CASES_PROVINCES_156.png" alt=""> <img vspace="5" hspace="5" src="RUN_DATA_FIT_TOTAL_CASES_PROVINCES_157.png" alt=""> <img vspace="5" hspace="5" src="RUN_DATA_FIT_TOTAL_CASES_PROVINCES_158.png" alt=""> <img vspace="5" hspace="5" src="RUN_DATA_FIT_TOTAL_CASES_PROVINCES_159.png" alt=""> <img vspace="5" hspace="5" src="RUN_DATA_FIT_TOTAL_CASES_PROVINCES_160.png" alt=""> <img vspace="5" hspace="5" src="RUN_DATA_FIT_TOTAL_CASES_PROVINCES_161.png" alt=""> <img vspace="5" hspace="5" src="RUN_DATA_FIT_TOTAL_CASES_PROVINCES_162.png" alt=""> <img vspace="5" hspace="5" src="RUN_DATA_FIT_TOTAL_CASES_PROVINCES_163.png" alt=""> <img vspace="5" hspace="5" src="RUN_DATA_FIT_TOTAL_CASES_PROVINCES_164.png" alt=""> <img vspace="5" hspace="5" src="RUN_DATA_FIT_TOTAL_CASES_PROVINCES_165.png" alt=""> <img vspace="5" hspace="5" src="RUN_DATA_FIT_TOTAL_CASES_PROVINCES_166.png" alt=""> <h2 id="13">PLOT FRIULI VENEZIA GIULIA</h2><pre class="codeoutput">RUN DATA: 29-Apr-2020
+https://marcelchiarello.github.io/showdata/
+***********************
+Stime regionali (Regional trend estimation)
+ 
+Intervallo dati utilizzati per la stima del modello (Data range used for equation fitting): 20-Mar :: 26-Apr
+ 
+</pre><img vspace="5" hspace="5" src="RUN_DATA_FIT_TOTAL_CASES_PROVINCES_167.png" alt=""> <img vspace="5" hspace="5" src="RUN_DATA_FIT_TOTAL_CASES_PROVINCES_168.png" alt=""> <img vspace="5" hspace="5" src="RUN_DATA_FIT_TOTAL_CASES_PROVINCES_169.png" alt=""> <img vspace="5" hspace="5" src="RUN_DATA_FIT_TOTAL_CASES_PROVINCES_170.png" alt=""> <img vspace="5" hspace="5" src="RUN_DATA_FIT_TOTAL_CASES_PROVINCES_171.png" alt=""> <img vspace="5" hspace="5" src="RUN_DATA_FIT_TOTAL_CASES_PROVINCES_172.png" alt=""> <img vspace="5" hspace="5" src="RUN_DATA_FIT_TOTAL_CASES_PROVINCES_173.png" alt=""> <img vspace="5" hspace="5" src="RUN_DATA_FIT_TOTAL_CASES_PROVINCES_174.png" alt=""> <img vspace="5" hspace="5" src="RUN_DATA_FIT_TOTAL_CASES_PROVINCES_175.png" alt=""> <img vspace="5" hspace="5" src="RUN_DATA_FIT_TOTAL_CASES_PROVINCES_176.png" alt=""> <h2 id="14">PLOT LAZIO</h2><pre class="codeoutput">RUN DATA: 29-Apr-2020
+https://marcelchiarello.github.io/showdata/
+***********************
+Stime regionali (Regional trend estimation)
+ 
+Intervallo dati utilizzati per la stima del modello (Data range used for equation fitting): 20-Mar :: 26-Apr
+ 
+</pre><img vspace="5" hspace="5" src="RUN_DATA_FIT_TOTAL_CASES_PROVINCES_177.png" alt=""> <img vspace="5" hspace="5" src="RUN_DATA_FIT_TOTAL_CASES_PROVINCES_178.png" alt=""> <img vspace="5" hspace="5" src="RUN_DATA_FIT_TOTAL_CASES_PROVINCES_179.png" alt=""> <img vspace="5" hspace="5" src="RUN_DATA_FIT_TOTAL_CASES_PROVINCES_180.png" alt=""> <img vspace="5" hspace="5" src="RUN_DATA_FIT_TOTAL_CASES_PROVINCES_181.png" alt=""> <img vspace="5" hspace="5" src="RUN_DATA_FIT_TOTAL_CASES_PROVINCES_182.png" alt=""> <img vspace="5" hspace="5" src="RUN_DATA_FIT_TOTAL_CASES_PROVINCES_183.png" alt=""> <img vspace="5" hspace="5" src="RUN_DATA_FIT_TOTAL_CASES_PROVINCES_184.png" alt=""> <img vspace="5" hspace="5" src="RUN_DATA_FIT_TOTAL_CASES_PROVINCES_185.png" alt=""> <img vspace="5" hspace="5" src="RUN_DATA_FIT_TOTAL_CASES_PROVINCES_186.png" alt=""> <img vspace="5" hspace="5" src="RUN_DATA_FIT_TOTAL_CASES_PROVINCES_187.png" alt=""> <img vspace="5" hspace="5" src="RUN_DATA_FIT_TOTAL_CASES_PROVINCES_188.png" alt=""> <h2 id="15">PLOT LIGURIA</h2><pre class="codeoutput">RUN DATA: 29-Apr-2020
+https://marcelchiarello.github.io/showdata/
+***********************
+Stime regionali (Regional trend estimation)
+ 
+Intervallo dati utilizzati per la stima del modello (Data range used for equation fitting): 20-Mar :: 26-Apr
+ 
+</pre><img vspace="5" hspace="5" src="RUN_DATA_FIT_TOTAL_CASES_PROVINCES_189.png" alt=""> <img vspace="5" hspace="5" src="RUN_DATA_FIT_TOTAL_CASES_PROVINCES_190.png" alt=""> <img vspace="5" hspace="5" src="RUN_DATA_FIT_TOTAL_CASES_PROVINCES_191.png" alt=""> <img vspace="5" hspace="5" src="RUN_DATA_FIT_TOTAL_CASES_PROVINCES_192.png" alt=""> <img vspace="5" hspace="5" src="RUN_DATA_FIT_TOTAL_CASES_PROVINCES_193.png" alt=""> <img vspace="5" hspace="5" src="RUN_DATA_FIT_TOTAL_CASES_PROVINCES_194.png" alt=""> <img vspace="5" hspace="5" src="RUN_DATA_FIT_TOTAL_CASES_PROVINCES_195.png" alt=""> <img vspace="5" hspace="5" src="RUN_DATA_FIT_TOTAL_CASES_PROVINCES_196.png" alt=""> <img vspace="5" hspace="5" src="RUN_DATA_FIT_TOTAL_CASES_PROVINCES_197.png" alt=""> <img vspace="5" hspace="5" src="RUN_DATA_FIT_TOTAL_CASES_PROVINCES_198.png" alt=""> <h2 id="16">PLOT MARCHE</h2><pre class="codeoutput">RUN DATA: 29-Apr-2020
+https://marcelchiarello.github.io/showdata/
+***********************
+Stime regionali (Regional trend estimation)
+ 
+Intervallo dati utilizzati per la stima del modello (Data range used for equation fitting): 20-Mar :: 26-Apr
+ 
+</pre><img vspace="5" hspace="5" src="RUN_DATA_FIT_TOTAL_CASES_PROVINCES_199.png" alt=""> <img vspace="5" hspace="5" src="RUN_DATA_FIT_TOTAL_CASES_PROVINCES_200.png" alt=""> <img vspace="5" hspace="5" src="RUN_DATA_FIT_TOTAL_CASES_PROVINCES_201.png" alt=""> <img vspace="5" hspace="5" src="RUN_DATA_FIT_TOTAL_CASES_PROVINCES_202.png" alt=""> <img vspace="5" hspace="5" src="RUN_DATA_FIT_TOTAL_CASES_PROVINCES_203.png" alt=""> <img vspace="5" hspace="5" src="RUN_DATA_FIT_TOTAL_CASES_PROVINCES_204.png" alt=""> <img vspace="5" hspace="5" src="RUN_DATA_FIT_TOTAL_CASES_PROVINCES_205.png" alt=""> <img vspace="5" hspace="5" src="RUN_DATA_FIT_TOTAL_CASES_PROVINCES_206.png" alt=""> <img vspace="5" hspace="5" src="RUN_DATA_FIT_TOTAL_CASES_PROVINCES_207.png" alt=""> <img vspace="5" hspace="5" src="RUN_DATA_FIT_TOTAL_CASES_PROVINCES_208.png" alt=""> <img vspace="5" hspace="5" src="RUN_DATA_FIT_TOTAL_CASES_PROVINCES_209.png" alt=""> <img vspace="5" hspace="5" src="RUN_DATA_FIT_TOTAL_CASES_PROVINCES_210.png" alt=""> <h2 id="17">PLOT MOLISE</h2><p>RUN_REGIONE(ALLDATA,'Molise',1);</p><h2 id="18">PLOT P.A. Bolzano</h2><pre class="codeoutput">RUN DATA: 29-Apr-2020
+https://marcelchiarello.github.io/showdata/
+***********************
+Stime regionali (Regional trend estimation)
+ 
+Intervallo dati utilizzati per la stima del modello (Data range used for equation fitting): 20-Mar :: 26-Apr
+ 
+</pre><img vspace="5" hspace="5" src="RUN_DATA_FIT_TOTAL_CASES_PROVINCES_211.png" alt=""> <img vspace="5" hspace="5" src="RUN_DATA_FIT_TOTAL_CASES_PROVINCES_212.png" alt=""> <img vspace="5" hspace="5" src="RUN_DATA_FIT_TOTAL_CASES_PROVINCES_213.png" alt=""> <img vspace="5" hspace="5" src="RUN_DATA_FIT_TOTAL_CASES_PROVINCES_214.png" alt=""> <h2 id="19">PLOT P.A. Trento</h2><pre class="codeoutput">RUN DATA: 29-Apr-2020
+https://marcelchiarello.github.io/showdata/
+***********************
+Stime regionali (Regional trend estimation)
+ 
+Intervallo dati utilizzati per la stima del modello (Data range used for equation fitting): 20-Mar :: 26-Apr
+ 
+</pre><img vspace="5" hspace="5" src="RUN_DATA_FIT_TOTAL_CASES_PROVINCES_215.png" alt=""> <img vspace="5" hspace="5" src="RUN_DATA_FIT_TOTAL_CASES_PROVINCES_216.png" alt=""> <img vspace="5" hspace="5" src="RUN_DATA_FIT_TOTAL_CASES_PROVINCES_217.png" alt=""> <img vspace="5" hspace="5" src="RUN_DATA_FIT_TOTAL_CASES_PROVINCES_218.png" alt=""> <h2 id="20">PLOT SARDEGNA</h2><pre class="codeoutput">RUN DATA: 29-Apr-2020
+https://marcelchiarello.github.io/showdata/
+***********************
+Stime regionali (Regional trend estimation)
+ 
+Intervallo dati utilizzati per la stima del modello (Data range used for equation fitting): 20-Mar :: 26-Apr
+ 
+</pre><img vspace="5" hspace="5" src="RUN_DATA_FIT_TOTAL_CASES_PROVINCES_219.png" alt=""> <img vspace="5" hspace="5" src="RUN_DATA_FIT_TOTAL_CASES_PROVINCES_220.png" alt=""> <img vspace="5" hspace="5" src="RUN_DATA_FIT_TOTAL_CASES_PROVINCES_221.png" alt=""> <img vspace="5" hspace="5" src="RUN_DATA_FIT_TOTAL_CASES_PROVINCES_222.png" alt=""> <img vspace="5" hspace="5" src="RUN_DATA_FIT_TOTAL_CASES_PROVINCES_223.png" alt=""> <img vspace="5" hspace="5" src="RUN_DATA_FIT_TOTAL_CASES_PROVINCES_224.png" alt=""> <img vspace="5" hspace="5" src="RUN_DATA_FIT_TOTAL_CASES_PROVINCES_225.png" alt=""> <img vspace="5" hspace="5" src="RUN_DATA_FIT_TOTAL_CASES_PROVINCES_226.png" alt=""> <img vspace="5" hspace="5" src="RUN_DATA_FIT_TOTAL_CASES_PROVINCES_227.png" alt=""> <img vspace="5" hspace="5" src="RUN_DATA_FIT_TOTAL_CASES_PROVINCES_228.png" alt=""> <img vspace="5" hspace="5" src="RUN_DATA_FIT_TOTAL_CASES_PROVINCES_229.png" alt=""> <img vspace="5" hspace="5" src="RUN_DATA_FIT_TOTAL_CASES_PROVINCES_230.png" alt=""> <h2 id="21">PLOT TOSCANA</h2><pre class="codeoutput">RUN DATA: 29-Apr-2020
+https://marcelchiarello.github.io/showdata/
+***********************
+Stime regionali (Regional trend estimation)
+ 
+Intervallo dati utilizzati per la stima del modello (Data range used for equation fitting): 20-Mar :: 26-Apr
+ 
+</pre><img vspace="5" hspace="5" src="RUN_DATA_FIT_TOTAL_CASES_PROVINCES_231.png" alt=""> <img vspace="5" hspace="5" src="RUN_DATA_FIT_TOTAL_CASES_PROVINCES_232.png" alt=""> <img vspace="5" hspace="5" src="RUN_DATA_FIT_TOTAL_CASES_PROVINCES_233.png" alt=""> <img vspace="5" hspace="5" src="RUN_DATA_FIT_TOTAL_CASES_PROVINCES_234.png" alt=""> <img vspace="5" hspace="5" src="RUN_DATA_FIT_TOTAL_CASES_PROVINCES_235.png" alt=""> <img vspace="5" hspace="5" src="RUN_DATA_FIT_TOTAL_CASES_PROVINCES_236.png" alt=""> <img vspace="5" hspace="5" src="RUN_DATA_FIT_TOTAL_CASES_PROVINCES_237.png" alt=""> <img vspace="5" hspace="5" src="RUN_DATA_FIT_TOTAL_CASES_PROVINCES_238.png" alt=""> <img vspace="5" hspace="5" src="RUN_DATA_FIT_TOTAL_CASES_PROVINCES_239.png" alt=""> <img vspace="5" hspace="5" src="RUN_DATA_FIT_TOTAL_CASES_PROVINCES_240.png" alt=""> <img vspace="5" hspace="5" src="RUN_DATA_FIT_TOTAL_CASES_PROVINCES_241.png" alt=""> <img vspace="5" hspace="5" src="RUN_DATA_FIT_TOTAL_CASES_PROVINCES_242.png" alt=""> <img vspace="5" hspace="5" src="RUN_DATA_FIT_TOTAL_CASES_PROVINCES_243.png" alt=""> <img vspace="5" hspace="5" src="RUN_DATA_FIT_TOTAL_CASES_PROVINCES_244.png" alt=""> <img vspace="5" hspace="5" src="RUN_DATA_FIT_TOTAL_CASES_PROVINCES_245.png" alt=""> <img vspace="5" hspace="5" src="RUN_DATA_FIT_TOTAL_CASES_PROVINCES_246.png" alt=""> <img vspace="5" hspace="5" src="RUN_DATA_FIT_TOTAL_CASES_PROVINCES_247.png" alt=""> <img vspace="5" hspace="5" src="RUN_DATA_FIT_TOTAL_CASES_PROVINCES_248.png" alt=""> <img vspace="5" hspace="5" src="RUN_DATA_FIT_TOTAL_CASES_PROVINCES_249.png" alt=""> <img vspace="5" hspace="5" src="RUN_DATA_FIT_TOTAL_CASES_PROVINCES_250.png" alt=""> <img vspace="5" hspace="5" src="RUN_DATA_FIT_TOTAL_CASES_PROVINCES_251.png" alt=""> <img vspace="5" hspace="5" src="RUN_DATA_FIT_TOTAL_CASES_PROVINCES_252.png" alt=""> <h2 id="22">PLOT UMBRIA</h2><pre class="codeoutput">RUN DATA: 29-Apr-2020
+https://marcelchiarello.github.io/showdata/
+***********************
+Stime regionali (Regional trend estimation)
+ 
+Intervallo dati utilizzati per la stima del modello (Data range used for equation fitting): 20-Mar :: 26-Apr
+ 
+</pre><img vspace="5" hspace="5" src="RUN_DATA_FIT_TOTAL_CASES_PROVINCES_253.png" alt=""> <img vspace="5" hspace="5" src="RUN_DATA_FIT_TOTAL_CASES_PROVINCES_254.png" alt=""> <img vspace="5" hspace="5" src="RUN_DATA_FIT_TOTAL_CASES_PROVINCES_255.png" alt=""> <img vspace="5" hspace="5" src="RUN_DATA_FIT_TOTAL_CASES_PROVINCES_256.png" alt=""> <img vspace="5" hspace="5" src="RUN_DATA_FIT_TOTAL_CASES_PROVINCES_257.png" alt=""> <img vspace="5" hspace="5" src="RUN_DATA_FIT_TOTAL_CASES_PROVINCES_258.png" alt=""> <h2 id="23">PLOT VALLE D' AOSTA</h2><pre class="codeoutput">RUN DATA: 29-Apr-2020
+https://marcelchiarello.github.io/showdata/
+***********************
+Stime regionali (Regional trend estimation)
+ 
+Intervallo dati utilizzati per la stima del modello (Data range used for equation fitting): 20-Mar :: 26-Apr
+ 
+</pre><img vspace="5" hspace="5" src="RUN_DATA_FIT_TOTAL_CASES_PROVINCES_259.png" alt=""> <img vspace="5" hspace="5" src="RUN_DATA_FIT_TOTAL_CASES_PROVINCES_260.png" alt=""> <img vspace="5" hspace="5" src="RUN_DATA_FIT_TOTAL_CASES_PROVINCES_261.png" alt=""> <img vspace="5" hspace="5" src="RUN_DATA_FIT_TOTAL_CASES_PROVINCES_262.png" alt=""> <p class="footer"><br><a href="https://www.mathworks.com/products/matlab/">Published with MATLAB&reg; R2018a</a><br></p></div><!--
+##### SOURCE BEGIN #####
+%%
+% <https://marcelchiarello.github.io/showdata/ GO BACK>
+%
+% *COVID19 NATIONAL DATA,  NATIONAL/REGIONAL TRENDS AND ESTIMATIONS*.
+%
+% FITTING DATA = TOTAL CASES
+%
+% FITTING LOCATIONS: REGIONS AND PROVINCES
+%       
+% This report is related to data processing on the spread of COVID-19 in Italy and single regions/provinces. 
+% Data are provided by the Italian Civil Protection:
+%
+% "https://github.com/pcm-dpc/COVID-19"
+%
+% This report is not intended to be official or definitive in terms of the included estimation/forecasts. The models are not 
+% predictive-type, but rather equations describing the data available until this moment. Their purpose is to assess the current trend,
+% so that any acceleration or deceleration of the infection can be deduced. In general, for each data sample
+% a fixed time window is selected and used to estimate the model (fitting). After which results are compared with the previous and/or following days. 
+%
+% -The fit is exponential/linear (Curve 1 ) and logistic/sigmoidal (Curve 2). Estimations are performed with the aim of verifying
+% near which curve the future points are placed in order to evaluate at a glance the possible variation of the spread speed.
+%
+%
+% Equations:
+% Curve1 EXP(x) = a*exp(b*x) + c;
+%
+% Curve2 SIG(x) = a/((exp(b*(c+x))) + a1*exp(b1*(c1 + x)) - d)
+%
+% Algorithms: Non Linear Least Square or Least Absolute Residuals
+%
+% Models and reports are under continuous review.
+%
+% See all reports and articles:
+% <https://marcelchiarello.github.io/showdata/ COVIDREPO.COM>
+%
+% Author: Marcello Chiarello
+%
+% marcello.chiarello@outlook.com
+%%
+format long
+
+evalc('NATIONALDATA = readItalia');
+evalc('ALLDATA = readCovidData');
+
+setGlobal(0,1); % 1 elemento  0 fit casi totali, 1 fit nuovi positivi
+                % 2 elemento  0 fit province no  1 fit province si
+                
+%% PLOT PUGLIA
+RUN_REGIONE(ALLDATA,'Puglia',1);
+
+%% PLOT LOMBARDIA
+RUN_REGIONE(ALLDATA,'Lombardia',1);
+
+%% PLOT VENETO
+RUN_REGIONE(ALLDATA,'Veneto',1);
+
+%% PLOT PIEMONTE
+RUN_REGIONE(ALLDATA,'Piemonte',1);
+
+%% PLOT EMILIA ROMAGNA
+try
+    RUN_REGIONE(ALLDATA,'Emilia-Romagna',1);
+catch
+    disp('Database Error')
+end
+
+%% PLOT CAMPANIA
+RUN_REGIONE(ALLDATA,'Campania',1);
+
+%% PLOT SICILIA
+RUN_REGIONE(ALLDATA,'Sicilia',1);
+
+%% PLOT ABRUZZO
+RUN_REGIONE(ALLDATA,'Abruzzo',1);
+
+%% PLOT BASILICATA
+RUN_REGIONE(ALLDATA,'Basilicata',1);
+
+%% PLOT CALABRIA
+RUN_REGIONE(ALLDATA,'Calabria',1);
+
+%% PLOT CAMPANIA
+RUN_REGIONE(ALLDATA,'Campania',1);
+
+%% PLOT FRIULI VENEZIA GIULIA
+RUN_REGIONE(ALLDATA,'Friuli Venezia Giulia',1);
+
+%% PLOT LAZIO
+RUN_REGIONE(ALLDATA,'Lazio',1);
+
+%% PLOT LIGURIA
+RUN_REGIONE(ALLDATA,'Liguria',1);
+
+%% PLOT MARCHE
+RUN_REGIONE(ALLDATA,'Marche',1);
+
+%% PLOT MOLISE
+% RUN_REGIONE(ALLDATA,'Molise',1);
+
+%% PLOT P.A. Bolzano
+RUN_REGIONE(ALLDATA,'P.A. Bolzano',1);
+
+%% PLOT P.A. Trento
+RUN_REGIONE(ALLDATA,'P.A. Trento',1);
+
+%% PLOT SARDEGNA
+RUN_REGIONE(ALLDATA,'Sardegna',1);
+
+%% PLOT TOSCANA
+RUN_REGIONE(ALLDATA,'Toscana',1);
+
+%% PLOT UMBRIA
+RUN_REGIONE(ALLDATA,'Umbria',1);
+
+%% PLOT VALLE D' AOSTA
+RUN_REGIONE(ALLDATA,"Valle d'Aosta",1);
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+##### SOURCE END #####
+--></body></html>

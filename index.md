@@ -236,7 +236,7 @@
 
 - [6 -TOTAL CASES - Italy and Regions](/RUN_30_04/RUN1/RUN.html)
 
-- [7 -TOTAL CASES - Regions and Provinces](/RUN_30_04/RUN13/RUN.html)
+- [7 -TOTAL CASES - Regions and Provinces](/RUN_30_04/RUN13/RUN.html) - Not available
 
 Sigmoid-like equation used for data fitting:
 
@@ -286,8 +286,6 @@ Sigmoid-like equation used for data fitting:
 <img src="https://marcelchiarello.github.io/showdata/RUN_30_04/RUN2/RUN_DATA_PROVINCE_08.png">
 <img src="https://marcelchiarello.github.io/showdata/RUN_30_04/RUN1/RUN_DATA_FIT_TOTAL_CASES_ITALY_REGIONS_05.png">
 <img src="https://marcelchiarello.github.io/showdata/RUN_30_04/RUN1/RUN_DATA_FIT_TOTAL_CASES_ITALY_REGIONS_06.png">
-<img src="https://marcelchiarello.github.io/showdata/RUN_30_04/RUN13/RUN_DATA_FIT_TOTAL_CASES_PROVINCES_18.png">
-<img src="https://marcelchiarello.github.io/showdata/RUN_30_04/RUN13/RUN_DATA_FIT_TOTAL_CASES_PROVINCES_20.png">
 
 #### In Puglia
 <img src="https://marcelchiarello.github.io/showdata/RUN_30_04/RUN2/RUN_DATA_PROVINCE_01.png">

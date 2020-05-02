@@ -236,8 +236,6 @@
 
 - [6 -TOTAL CASES - Italy and Regions](/RUN_01_05/RUN1/RUN.html)
 
-- [7 -TOTAL CASES - Regions and Provinces](/RUN_01_05/RUN13/RUN.html) - Not available
-
 Sigmoid-like equation used for data fitting:
 
 <img src="http://latex.codecogs.com/svg.latex?Sig = \frac{a}{e^{b(x+c)} + a1e^{b1(x+c1)} - d}" border="0"/>

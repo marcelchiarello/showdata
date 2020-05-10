@@ -239,7 +239,7 @@
 
 Sigmoid-like equation used for data fitting:
 
-<img src="http://latex.codecogs.com/svg.latex?Sig = \frac{a}{e^{b(x+c)} + a_1e^{b1(x+c1)} - d}" border="0"/>
+<img src="http://latex.codecogs.com/svg.latex?Sig = \frac{a}{e^{b(x+c)} + a_1e^{b_1(x+c_1)} - d}" border="0"/>
 
 #### Daily and Total Positives Trend:
 <img src="https://marcelchiarello.github.io/showdata/RUN_10_05/RUN1/RUN_DATA_FIT_TOTAL_CASES_ITALY_REGIONS_01.png">

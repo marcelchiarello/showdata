@@ -1,6 +1,6 @@
 <!-- start -->
-### New domain: <a href="http://www.covidrepo.com/">COVIDREPO.COM</a>
-[Previous Day](/index_09_05.md)
+### [Previous Day](/index_09_05.md) | <a href="http://www.covidrepo.com/">COVIDREPO.COM</a>
+
 ## LAST DATA 10/05/2020 - 18:15 -- Grafici e report disponibili
 <img src="https://marcelchiarello.github.io/showdata/RUN_10_05/RUN0/RUN_DATA_ITALIA_01.png">
 
@@ -239,7 +239,7 @@
 
 Sigmoid-like equation used for data fitting:
 
-<img src="http://latex.codecogs.com/svg.latex?Sig = \frac{a}{e^{b(x+c)} + a1e^{b1(x+c1)} - d}" border="0"/>
+<img src="http://latex.codecogs.com/svg.latex?Sig = \frac{a}{e^{b(x+c)} + a_1e^{b_1(x+c_1)} - d}" border="0"/>
 
 #### Daily and Total Positives Trend:
 <img src="https://marcelchiarello.github.io/showdata/RUN_10_05/RUN1/RUN_DATA_FIT_TOTAL_CASES_ITALY_REGIONS_01.png">
@@ -292,6 +292,12 @@ Sigmoid-like equation used for data fitting:
 <img src="https://marcelchiarello.github.io/showdata/RUN_10_05/RUN1/RUN_DATA_FIT_TOTAL_CASES_ITALY_REGIONS_04.png">
 
 ---
+
+### Reach me
+
+For any question or clarification regarding the data or graphs reported, <a href="mailto:marcello.chiarello@outlook.com">send me an email</a>
+
+
 
 ### Data Source
 

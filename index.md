@@ -245,6 +245,9 @@ Sigmoid-like equation used for data fitting:
 <img src="https://marcelchiarello.github.io/showdata/RUN_10_05/RUN1/RUN_DATA_FIT_TOTAL_CASES_ITALY_REGIONS_01.png">
 <img src="https://marcelchiarello.github.io/showdata/RUN_10_05/RUN1/RUN_DATA_FIT_TOTAL_CASES_ITALY_REGIONS_02.png">
 
+#### Total tests by region:
+<img src="https://marcelchiarello.github.io/showdata/RUN_10_05/RUN4/RUN_INTEREGION_02.png">
+
 #### Daily intensive care by region:
 <img src="https://marcelchiarello.github.io/showdata/RUN_10_05/RUN4/RUN_INTEREGION_13.png">
 

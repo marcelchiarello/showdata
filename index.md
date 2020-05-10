@@ -296,9 +296,29 @@ Sigmoid-like equation used for data fitting:
 
 ---
 
-### Reach me
+### Contact and notification
 
-For any question or clarification regarding the data or graphs reported, <a href="mailto:marcello.chiarello@outlook.com">send me an email</a>
+<!-- modify this form HTML and place wherever you want your form -->
+
+<form
+  action="https://formspree.io/mgenvwep"
+  method="POST"
+>
+  <label>
+    Your email:
+    <input type="text" name="_replyto">
+  </label>
+  <label>
+    Your message:
+    <textarea name="message"></textarea>
+  </label>
+
+  <!-- your other form fields go here -->
+
+  <button type="submit">Send</button>
+</form>
+
+For any question or clarification regarding the data or graphs reported, <a href="mailto:marcello.chiarello@outlook.com">send me an email.</a>
 
 
 

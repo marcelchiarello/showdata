@@ -2,20 +2,6 @@
 ### [Previous Day](/index_09_05.md) | <a href="http://www.covidrepo.com/">COVIDREPO.COM</a>
 
 ## LAST DATA 10/05/2020 - 18:15 -- Grafici e report disponibili
-Ricevi le notfiche sugli aggiornamenti / Receive update notifications
-<form
-  action="https://formspree.io/mgenvwep"
-  method="POST"
->
-  <label>
-    email:
-    <input type="text" name="_replyto">
-  </label>
-
-  <!-- your other form fields go here -->
-
-  <button type="submit">Send</button>
-</form>
 
 <img src="https://marcelchiarello.github.io/showdata/RUN_10_05/RUN0/RUN_DATA_ITALIA_01.png">
 
@@ -234,6 +220,20 @@ Ricevi le notfiche sugli aggiornamenti / Receive update notifications
 
 - [Tutte le regoni(All regions)](/Tables/regionsTable_10_05.md)
 
+Ricevi le notfiche sugli aggiornamenti / Receive update notifications
+<form
+  action="https://formspree.io/mgenvwep"
+  method="POST"
+>
+  <label>
+    email:
+    <input type="text" name="_replyto">
+  </label>
+
+  <!-- your other form fields go here -->
+
+  <button type="submit">Send</button>
+</form>
 ---
 
 ## ALL CHARTS

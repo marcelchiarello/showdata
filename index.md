@@ -293,7 +293,7 @@ Sigmoid-like equation used for data fitting:
 
 ---
 
-### Write me
+### Reach me
 
 For any question or clarification regarding the data or graphs reported, <a href="mailto:marcello.chiarello@outlook.com">send me and email</a>
 

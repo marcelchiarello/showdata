@@ -295,7 +295,7 @@ Sigmoid-like equation used for data fitting:
 
 ### Reach me
 
-For any question or clarification regarding the data or graphs reported, <a href="mailto:marcello.chiarello@outlook.com">send me and email</a>
+For any question or clarification regarding the data or graphs reported, <a href="mailto:marcello.chiarello@outlook.com">send me an email</a>
 
 
 

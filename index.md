@@ -234,7 +234,7 @@ Ricevi le notfiche sugli aggiornamenti / Receive update notifications
 </form>
 ---
 
-## ALL CHARTS
+## REPORTS WITH DETAILED CHARTS
 
 - [1 -Dati nazionali (National Data)](/RUN_10_05/RUN0/RUN.html)
 
@@ -306,6 +306,8 @@ Sigmoid-like equation used for data fitting:
 <img src="https://marcelchiarello.github.io/showdata/RUN_10_05/RUN2/RUN_DATA_PROVINCE_01.png">
 <img src="https://marcelchiarello.github.io/showdata/RUN_10_05/RUN1/RUN_DATA_FIT_TOTAL_CASES_ITALY_REGIONS_03.png">
 <img src="https://marcelchiarello.github.io/showdata/RUN_10_05/RUN1/RUN_DATA_FIT_TOTAL_CASES_ITALY_REGIONS_04.png">
+
+For all plots see detailed reposts above.
 
 ---
 

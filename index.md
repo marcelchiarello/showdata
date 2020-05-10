@@ -1,10 +1,11 @@
 <!-- start -->
+Ricevi le notfiche sugli aggiornamenti / Receive update notifications
 <form
   action="https://formspree.io/mgenvwep"
   method="POST"
 >
   <label>
-    Enter your email to be notified as soon as new data and reports are available:
+    email:
     <input type="text" name="_replyto">
   </label>
 
@@ -12,7 +13,6 @@
 
   <button type="submit">Send</button>
 </form>
-
 ### [Previous Day](/index_09_05.md) | <a href="http://www.covidrepo.com/">COVIDREPO.COM</a>
 
 ## LAST DATA 10/05/2020 - 18:15 -- Grafici e report disponibili

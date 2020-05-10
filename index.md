@@ -298,7 +298,8 @@ Sigmoid-like equation used for data fitting:
 
 ### Contact and notification
 
-<!-- modify this form HTML and place wherever you want your form -->
+<!--modify this form HTML and place wherever you want your form -->
+
 
 <form
   action="https://formspree.io/mgenvwep"

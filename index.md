@@ -1,4 +1,18 @@
 <!-- start -->
+<form
+  action="https://formspree.io/mgenvwep"
+  method="POST"
+>
+  <label>
+    Enter your email to be notified as soon as new data and reports are available:
+    <input type="text" name="_replyto">
+  </label>
+
+  <!-- your other form fields go here -->
+
+  <button type="submit">Send</button>
+</form>
+
 ### [Previous Day](/index_09_05.md) | <a href="http://www.covidrepo.com/">COVIDREPO.COM</a>
 
 ## LAST DATA 10/05/2020 - 18:15 -- Grafici e report disponibili
@@ -296,28 +310,7 @@ Sigmoid-like equation used for data fitting:
 
 ---
 
-### Contact and notification
-
-<!--modify this form HTML and place wherever you want your form -->
-
-
-<form
-  action="https://formspree.io/mgenvwep"
-  method="POST"
->
-  <label>
-    Your email:
-    <input type="text" name="_replyto">
-  </label>
-  <label>
-    Your message:
-    <textarea name="message"></textarea>
-  </label>
-
-  <!-- your other form fields go here -->
-
-  <button type="submit">Send</button>
-</form>
+### Reache me
 
 For any question or clarification regarding the data or graphs reported, <a href="mailto:marcello.chiarello@outlook.com">send me an email.</a>
 

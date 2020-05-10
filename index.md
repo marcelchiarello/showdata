@@ -1,5 +1,5 @@
 <!-- start -->
-### [Previous Day](/index_09_05.md)  New domain: <a href="http://www.covidrepo.com/">COVIDREPO.COM</a>
+### [Previous Day](/index_09_05.md) | New domain: <a href="http://www.covidrepo.com/">COVIDREPO.COM</a>
 
 ## LAST DATA 10/05/2020 - 18:15 -- Grafici e report disponibili
 <img src="https://marcelchiarello.github.io/showdata/RUN_10_05/RUN0/RUN_DATA_ITALIA_01.png">

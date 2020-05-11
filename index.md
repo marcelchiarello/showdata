@@ -1,6 +1,6 @@
 <!-- start -->
 ### [Previous Day](/index_10_05.md) | <a href="https://marcelchiarello.github.io/showdata/">COVIDREPO.COM</a>
-## LAST DATA 11/05/2020 - 18:35 -- Grafici e report aggiornati
+## LAST DATA 11/05/2020 - 18:15 -- Grafici e report aggiornati
 <img src="https://marcelchiarello.github.io/showdata/RUN_11_05/RUN0/RUN_DATA_ITALIA_01.png">
 
 <table style=" color:black; font-size:12; font-family:arial; text-align:center; " cellpadding="2.5" cellspacing="0" border="1" bordercolor="black" bgcolor="#FFFFFF">

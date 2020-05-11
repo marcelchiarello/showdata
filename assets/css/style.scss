@@ -1,8 +1,8 @@
 ---
 ---
 
-@import "{{ site.theme }}";
+@import 'jekyll-theme-cayman';
 
 .inner {
-  max-width: 110%;
+  max-width: 75%;
 }

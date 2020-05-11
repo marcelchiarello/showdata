@@ -1,66 +1,66 @@
 <!DOCTYPE html>
 <html lang="{{ site.lang | default: "en-US" }}">
-  <head>
+<head>
 
-  <!-- Global site tag (gtag.js) - Google Analytics -->
+<!-- Global site tag (gtag.js) - Google Analytics -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=UA-162108198-1"></script>
 <script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
+window.dataLayer = window.dataLayer || [];
+function gtag(){dataLayer.push(arguments);}
+gtag('js', new Date());
 
-  gtag('config', 'UA-162108198-1');
+gtag('config', 'UA-162108198-1');
 </script>
 
-    <meta charset="UTF-8">
+<meta charset="UTF-8">
 
 {% seo %}
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="theme-color" content="#157878">
-    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
-    <link rel="stylesheet" href="{{ '/assets/css/style.css?v=' | append: site.github.build_revision | relative_url }}">
-  </head>
-  <body>
-     <!-- <a id="skip-to-content" href="#content">Skip to the content.</a> -->
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="theme-color" content="#157878">
+<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+<link rel="stylesheet" href="{{ '/assets/css/style.css?v=' | append: site.github.build_revision | relative_url }}">
+</head>
+<body>
+<!-- <a id="skip-to-content" href="#content">Skip to the content.</a> -->
 
-   <header class="page-header" role="banner">
-      <h1 class="project-name">{{ page.title | default: site.title | default: site.github.repository_name }}</h1>
-      <h2 class="project-tagline">{{ page.description | default: site.description | default: site.github.project_tagline }}</h2>
-      {% if site.github.is_project_page %}
-        <a href="https://marcelchiarello.github.io/showdata/" class="btn">HOME/SUMMARY</a>
-        <a href="https://covidrepo.com/RUN_10_05/RUN5/RUN.html" class="btn">WEEKLY TRENDS</a>
-        <a href="https://covidrepo.com/RUN_10_05/RUN0/RUN.html" class="btn">NATIONAL</a>
-        <a href="https://covidrepo.com/RUN_10_05/RUN2/RUN.html" class="btn">REGIONAL</a>
-        <a href="https://covidrepo.com/RUN_10_05/RUN4/RUN.html" class="btn">INTERREGIONAL</a>
-        <a href="https://covidrepo.com/RUN_10_05/RUN1/RUN.html" class="btn">FITTING</a>
-
-
+<header class="page-header" role="banner">
+<h1 class="project-name">{{ page.title | default: site.title | default: site.github.repository_name }}</h1>
+<h2 class="project-tagline">{{ page.description | default: site.description | default: site.github.project_tagline }}</h2>
+{% if site.github.is_project_page %}
+<a href="https://marcelchiarello.github.io/showdata/" class="btn">HOME/SUMMARY</a>
+<a href="https://covidrepo.com/RUN_11_05/RUN5/RUN.html" class="btn">WEEKLY TRENDS</a>
+<a href="https://covidrepo.com/RUN_11_05/RUN0/RUN.html" class="btn">NATIONAL</a>
+<a href="https://covidrepo.com/RUN_11_05/RUN2/RUN.html" class="btn">REGIONAL</a>
+<a href="https://covidrepo.com/RUN_11_05/RUN4/RUN.html" class="btn">INTERREGIONAL</a>
+<a href="https://covidrepo.com/RUN_11_05/RUN1/RUN.html" class="btn">FITTING</a>
 
 
-       <!-- <a href="{{ site.github.repository_url }}" class="btn">View on GitHub</a> -->
-     
-     <!--
-     <div class="fb-like" data-href="https://marcelchiarello.github.io/showdata/" data-width="" data-layout="button_count" data-action="recommend" data-size="large" data-share="true"></div>
-     -->
-     
-      {% endif %}
-      {% if site.show_downloads %}
-        <a href="{{ site.github.zip_url }}" class="btn">Download .zip</a>
-        <a href="{{ site.github.tar_url }}" class="btn">Download .tar.gz</a>
-      {% endif %}
-    </header> 
 
-    <main id="content" class="main-content" role="main">
-      {{ content }}
 
-      <footer class="site-footer">
-        {% if site.github.is_project_page %}
-          COVIDREPO is based on: <span class="site-footer-owner"><a href="{{ site.github.repository_url }}">{{ site.github.repository_name }}</a> github repository created by <a href="{{ site.github.owner_url }}">{{ site.github.owner_name }}</a>.</span>
-        {% endif %}
-          <span class="site-footer-credits">Marcello Chiarello</a></span>
-      </footer>
-    </main>
-  </body>
+<!-- <a href="{{ site.github.repository_url }}" class="btn">View on GitHub</a> -->
+
+<!--
+<div class="fb-like" data-href="https://marcelchiarello.github.io/showdata/" data-width="" data-layout="button_count" data-action="recommend" data-size="large" data-share="true"></div>
+-->
+
+{% endif %}
+{% if site.show_downloads %}
+<a href="{{ site.github.zip_url }}" class="btn">Download .zip</a>
+<a href="{{ site.github.tar_url }}" class="btn">Download .tar.gz</a>
+{% endif %}
+</header> 
+
+<main id="content" class="main-content" role="main">
+{{ content }}
+
+<footer class="site-footer">
+{% if site.github.is_project_page %}
+COVIDREPO is based on: <span class="site-footer-owner"><a href="{{ site.github.repository_url }}">{{ site.github.repository_name }}</a> github repository created by <a href="{{ site.github.owner_url }}">{{ site.github.owner_name }}</a>.</span>
+{% endif %}
+<span class="site-footer-credits">Marcello Chiarello</a></span>
+</footer>
+</main>
+</body>
 
 <!-- Facebook -->
 <div id="fb-root"></div>

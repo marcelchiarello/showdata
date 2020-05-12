@@ -8,6 +8,7 @@
 <th>ITALIA 11_05</th>
 <th>Casi</th>
 <th>Attualmente positivi</th>
+<th>Positivi ogni 1000 abitanti</th>
 <th>Morti</th>
 <th>Guariti</th>
 <th>Terapia intensiva</th>
@@ -20,6 +21,7 @@
 <th>Totali</th>
 <td align="right"> 219814</td>
 <td align="right"> 82488</td>
+<td align="right"> 1.37</td>
 <td align="right"> 30739</td>
 <td align="right"> 106587</td>
 <td align="right"> 999</td>
@@ -29,9 +31,10 @@
 <td align="right"> 2606652</td>
 </tr>
 <tr>
-<th>Giornalieri (Daily)</th>
+<th>Giornalieri (Daily) / Variazione (Delta)</th>
 <td align="right"> 744</td>
 <td align="right" style=" color:green; "> -836</td>
+<td align="right" style=" color:green; "> -0.01</td>
 <td align="right"> 179</td>
 <td align="right"> 1401</td>
 <td align="right" style=" color:green; "> -28</td>
@@ -44,6 +47,7 @@
 <th>EN</th>
 <td>Cases</td>
 <td>Currently positives</td>
+<td>Positive for every 1000 inhabitants</td>
 <td>Deaths</td>
 <td>Recovered</td>
 <td>Intensive care</td>
@@ -60,6 +64,7 @@
 <th>LOMBARDIA 11_05</th>
 <th>Casi</th>
 <th>Attualmente positivi</th>
+<th>Positivi ogni 1000 abitanti</th>
 <th>Morti</th>
 <th>Guariti</th>
 <th>Terapia intensiva</th>
@@ -72,6 +77,7 @@
 <th>Totali</th>
 <td align="right"> 81871</td>
 <td align="right"> 30411</td>
+<td align="right"> 3.02</td>
 <td align="right"> 15054</td>
 <td align="right"> 36406</td>
 <td align="right"> 341</td>
@@ -81,9 +87,10 @@
 <td align="right"> 492642</td>
 </tr>
 <tr>
-<th>Giornalieri (Daily)</th>
+<th>Giornalieri (Daily) / Variazione (Delta)</th>
 <td align="right"> 364</td>
 <td align="right"> 221</td>
+<td align="right"> 0.02</td>
 <td align="right"> 68</td>
 <td align="right"> 75</td>
 <td align="right" style=" color:green; "> -7</td>
@@ -100,6 +107,7 @@
 <th>PIEMONTE 11_05</th>
 <th>Casi</th>
 <th>Attualmente positivi</th>
+<th>Positivi ogni 1000 abitanti</th>
 <th>Morti</th>
 <th>Guariti</th>
 <th>Terapia intensiva</th>
@@ -112,6 +120,7 @@
 <th>Totali</th>
 <td align="right"> 28776</td>
 <td align="right"> 13338</td>
+<td align="right"> 3.06</td>
 <td align="right"> 3400</td>
 <td align="right"> 12038</td>
 <td align="right"> 135</td>
@@ -121,9 +130,10 @@
 <td align="right"> 213783</td>
 </tr>
 <tr>
-<th>Giornalieri (Daily)</th>
+<th>Giornalieri (Daily) / Variazione (Delta)</th>
 <td align="right"> 111</td>
 <td align="right" style=" color:green; "> -312</td>
+<td align="right" style=" color:green; "> -0.07</td>
 <td align="right"> 33</td>
 <td align="right"> 390</td>
 <td align="right" style=" color:green; "> -2</td>
@@ -140,6 +150,7 @@
 <th>VENETO 11_05</th>
 <th>Casi</th>
 <th>Attualmente positivi</th>
+<th>Positivi ogni 1000 abitanti</th>
 <th>Morti</th>
 <th>Guariti</th>
 <th>Terapia intensiva</th>
@@ -152,6 +163,7 @@
 <th>Totali</th>
 <td align="right"> 18741</td>
 <td align="right"> 5460</td>
+<td align="right"> 1.11</td>
 <td align="right"> 1666</td>
 <td align="right"> 11615</td>
 <td align="right"> 38</td>
@@ -161,9 +173,10 @@
 <td align="right"> 445905</td>
 </tr>
 <tr>
-<th>Giornalieri (Daily)</th>
+<th>Giornalieri (Daily) / Variazione (Delta)</th>
 <td align="right"> 19</td>
 <td align="right" style=" color:green; "> -131</td>
+<td align="right" style=" color:green; "> -0.03</td>
 <td align="right"> 9</td>
 <td align="right"> 141</td>
 <td align="right"> 1</td>
@@ -180,6 +193,7 @@
 <th>PUGLIA 11_05</th>
 <th>Casi</th>
 <th>Attualmente positivi</th>
+<th>Positivi ogni 1000 abitanti</th>
 <th>Morti</th>
 <th>Guariti</th>
 <th>Terapia intensiva</th>
@@ -192,27 +206,13 @@
 <th>Totali</th>
 <td align="right"> 4327</td>
 <td align="right"> 2544</td>
+<td align="right"> 0.63</td>
 <td align="right"> 451</td>
 <td align="right"> 1332</td>
 <td align="right"> 32</td>
 <td align="right"> 372</td>
 <td align="right"> 340</td>
 <td align="right"> 2172</td>
-<td align="right"> 79737</td>
-</tr>
-<tr>
-<th>Giornalieri (Daily)</th>
-<td align="right"> 14</td>
-<td align="right" style=" color:green; "> -125</td>
-<td align="right"> 3</td>
-<td align="right"> 136</td>
-<td align="right" style=" color:green; "> -2</td>
-<td align="right" style=" color:green; "> -5</td>
-<td align="right" style=" color:green; "> -3</td>
-<td align="right" style=" color:green; "> -120</td>
-<td align="right"> 1338</td>
-</tr>
-</table>
 
 
 - [Tutte le regoni(All regions)](/Tables/regionsTable_11_05.md)
@@ -223,7 +223,7 @@
 <img src="https://covidrepo.com/RUN_11_05/RUN4/RUN_INTEREGION_16.png">
 <img src="https://covidrepo.com/RUN_11_05/RUN4/RUN_INTEREGION_17.png">
 <img src="https://covidrepo.com/RUN_11_05/RUN4/RUN_INTEREGION_18.png">
- 
+
 <img src="https://marcelchiarello.github.io/showdata/RUN_11_05/RUN0/RUN_DATA_ITALIA_01.png">
 
 ### Casi giornalieri e totali - Daily and total cases Trend:

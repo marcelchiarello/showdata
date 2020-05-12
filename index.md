@@ -285,17 +285,6 @@ Full Reports at the bottom.
 <img src="https://marcelchiarello.github.io/showdata/RUN_11_05/RUN5/RUN_NEWTRENDS_02.png">
 <img src="https://marcelchiarello.github.io/showdata/RUN_11_05/RUN5/RUN_NEWTRENDS_03.png">
 
-
-#### In Lombardia
-<img src="https://marcelchiarello.github.io/showdata/RUN_11_05/RUN2/RUN_DATA_PROVINCE_08.png">
-<img src="https://marcelchiarello.github.io/showdata/RUN_11_05/RUN1/RUN_DATA_FIT_TOTAL_CASES_ITALY_REGIONS_05.png">
-<img src="https://marcelchiarello.github.io/showdata/RUN_11_05/RUN1/RUN_DATA_FIT_TOTAL_CASES_ITALY_REGIONS_06.png">
-
-#### In Puglia
-<img src="https://marcelchiarello.github.io/showdata/RUN_11_05/RUN2/RUN_DATA_PROVINCE_01.png">
-<img src="https://marcelchiarello.github.io/showdata/RUN_11_05/RUN1/RUN_DATA_FIT_TOTAL_CASES_ITALY_REGIONS_03.png">
-<img src="https://marcelchiarello.github.io/showdata/RUN_11_05/RUN1/RUN_DATA_FIT_TOTAL_CASES_ITALY_REGIONS_04.png">
-
 ## FULL REPORTS
 
 - [1 -Dati nazionali (National Data)](/RUN_11_05/RUN0/RUN.html)

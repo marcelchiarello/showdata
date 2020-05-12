@@ -233,12 +233,11 @@ email:
 </form>
 ---
 
-#### Attualmente positivi - currently positives trend by region
+#### Attualmente positivi - Currently positives trend by region
 <img src="https://covidrepo.com/RUN_11_05/RUN4/RUN_INTEREGION_16.png">
 <img src="https://covidrepo.com/RUN_11_05/RUN4/RUN_INTEREGION_17.png">
 <img src="https://covidrepo.com/RUN_11_05/RUN4/RUN_INTEREGION_18.png">
  
-#### La situazione generale - General situation
 <img src="https://marcelchiarello.github.io/showdata/RUN_11_05/RUN0/RUN_DATA_ITALIA_01.png">
 
 #### Casi giornalieri e totali - Daily and total cases Trend:
@@ -272,7 +271,7 @@ email:
 #### Totale ospedalizzati con sintomi - Total hospitalized with symptoms by region:
 <img src="https://marcelchiarello.github.io/showdata/RUN_11_05/RUN4/RUN_INTEREGION_05.png">
 
-#### Casi totali, Ospedalizzati, Dimessi e deceduti a confronto - Total Cases vs Hospitalized, Recovered, Deaths:
+#### Casi totali, ospedalizzati, dimessi, deceduti - Total Cases vs Hospitalized, Recovered, Deaths:
 <img src="https://marcelchiarello.github.io/showdata/RUN_11_05/RUN0/RUN_DATA_ITALIA_02.png">
 
 #### Trend settimanali - Weekly Trends:

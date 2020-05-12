@@ -1,7 +1,6 @@
 <!-- start -->
 ### [Previous Day](/index_10_05.md) | <a href="https://marcelchiarello.github.io/showdata/">COVIDREPO.COM</a>
 ## LAST DATA 11/05/2020 - 18:15 -- Grafici e report aggiornati
-<img src="https://marcelchiarello.github.io/showdata/RUN_11_05/RUN0/RUN_DATA_ITALIA_01.png">
 
 <table style=" color:black; font-size:12; font-family:arial; text-align:center; " cellpadding="2.5" cellspacing="0" border="1" bordercolor="black" bgcolor="#FFFFFF">
 <caption>ITALIA - COVIDREPO.COM</caption>
@@ -233,26 +232,9 @@ email:
 <button type="submit">Send</button>
 </form>
 ---
+<img src="https://marcelchiarello.github.io/showdata/RUN_11_05/RUN0/RUN_DATA_ITALIA_01.png">
 
-## REPORTS WITH DETAILED CHARTS
-
-- [1 -Dati nazionali (National Data)](/RUN_11_05/RUN0/RUN.html)
-
-- [2 -Fattori di crescita e letalità nazionali/regionali (National and regional growth factor and lethality)](/RUN_11_05/RUN6/RUN.html)
-
-- [3 -Dati regionali e provinciali (Regional and Provincial Data)](/RUN_11_05/RUN2/RUN.html)
-
-- [4 -Andamenti settimanali regioni NORD/SUD (WEEKLY TRENDS)](/RUN_11_05/RUN5/RUN.html)
-
-- [5 -Confronti interregionali (Interregional comparisons)](/RUN_11_05/RUN4/RUN.html)
-
-#### DATA FITTING - NATIONAL/REGIONAL TRENDS
-
-- [6 -TOTAL CASES - Italy and Regions](/RUN_11_05/RUN1/RUN.html)
-
-Sigmoid-like equation used for data fitting:
-
-<img src="https://latex.codecogs.com/svg.latex?Sig = \frac{a}{e^{b(x+c)} + a_1e^{b_1(x+c_1)} - d}" border="0"/>
+Full Reports at the bottom.
 
 #### Daily and Total Positives Trend:
 <img src="https://marcelchiarello.github.io/showdata/RUN_11_05/RUN1/RUN_DATA_FIT_TOTAL_CASES_ITALY_REGIONS_01.png">
@@ -307,7 +289,25 @@ Sigmoid-like equation used for data fitting:
 <img src="https://marcelchiarello.github.io/showdata/RUN_11_05/RUN1/RUN_DATA_FIT_TOTAL_CASES_ITALY_REGIONS_03.png">
 <img src="https://marcelchiarello.github.io/showdata/RUN_11_05/RUN1/RUN_DATA_FIT_TOTAL_CASES_ITALY_REGIONS_04.png">
 
-For all plots see detailed reposts above.
+## FULL REPORTS
+
+- [1 -Dati nazionali (National Data)](/RUN_11_05/RUN0/RUN.html)
+
+- [2 -Fattori di crescita e letalità nazionali/regionali (National and regional growth factor and lethality)](/RUN_11_05/RUN6/RUN.html)
+
+- [3 -Dati regionali e provinciali (Regional and Provincial Data)](/RUN_11_05/RUN2/RUN.html)
+
+- [4 -Andamenti settimanali regioni NORD/SUD (WEEKLY TRENDS)](/RUN_11_05/RUN5/RUN.html)
+
+- [5 -Confronti interregionali (Interregional comparisons)](/RUN_11_05/RUN4/RUN.html)
+
+#### DATA FITTING - NATIONAL/REGIONAL TRENDS
+
+- [6 -TOTAL CASES - Italy and Regions](/RUN_11_05/RUN1/RUN.html)
+
+Sigmoid-like equation used for data fitting:
+
+<img src="https://latex.codecogs.com/svg.latex?Sig = \frac{a}{e^{b(x+c)} + a_1e^{b_1(x+c_1)} - d}" border="0"/>
 
 ---
 

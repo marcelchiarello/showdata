@@ -233,59 +233,58 @@ email:
 </form>
 ---
 
-#### Currently Positives Trend by Region
+#### Attualmente positivi - currently positives trend by region
 <img src="https://covidrepo.com/RUN_11_05/RUN4/RUN_INTEREGION_16.png">
 <img src="https://covidrepo.com/RUN_11_05/RUN4/RUN_INTEREGION_17.png">
 <img src="https://covidrepo.com/RUN_11_05/RUN4/RUN_INTEREGION_18.png">
                                                                     
-
 <img src="https://marcelchiarello.github.io/showdata/RUN_11_05/RUN0/RUN_DATA_ITALIA_01.png">
 
 Full Reports at the bottom.
 
-#### Daily and Total Positives Trend:
+#### Casi giornalieri e totali - Daily and total cases Trend:
 <img src="https://marcelchiarello.github.io/showdata/RUN_11_05/RUN1/RUN_DATA_FIT_TOTAL_CASES_ITALY_REGIONS_01.png">
 <img src="https://marcelchiarello.github.io/showdata/RUN_11_05/RUN1/RUN_DATA_FIT_TOTAL_CASES_ITALY_REGIONS_02.png">
 
-#### Total tests by region:
+#### Tamponi totali - Total tests by region:
 <img src="https://marcelchiarello.github.io/showdata/RUN_11_05/RUN4/RUN_INTEREGION_02.png">
 
-#### Daily intensive care by region:
+#### Terapie intensive - Daily intensive care by region:
 <img src="https://marcelchiarello.github.io/showdata/RUN_11_05/RUN4/RUN_INTEREGION_13.png">
 
-#### Daily hospitalized with symphtoms by region:
+#### Ospedalizzati - Daily hospitalized with symphtoms by region:
 <img src="https://marcelchiarello.github.io/showdata/RUN_11_05/RUN4/RUN_INTEREGION_14.png">
 
-#### Daily currently positives:
+#### Variazione positivi giornalieri - Daily currently positives:
 <img src="https://marcelchiarello.github.io/showdata/RUN_11_05/RUN4/RUN_INTEREGION_15.png">
 
-#### Daily Growth Factor:
+#### Fattore di crescita giornaliero - Daily Growth Factor:
 <img src="https://marcelchiarello.github.io/showdata/RUN_11_05/RUN6/RUN_FACTORS_01.png">
 
-#### Daily cases by region:
+#### Casi giornalieri - Daily cases by region:
 <img src="https://marcelchiarello.github.io/showdata/RUN_11_05/RUN4/RUN_INTEREGION_11.png">
 
-#### Daily tests by region:
+#### Tamponi giornalieri - Daily tests by region:
 <img src="https://marcelchiarello.github.io/showdata/RUN_11_05/RUN4/RUN_INTEREGION_12.png">
 
-#### Total cases by region:
+#### Casi totali - Total cases by region:
 <img src="https://marcelchiarello.github.io/showdata/RUN_11_05/RUN4/RUN_INTEREGION_01.png">
 
-#### Total hospitalized with symptoms by region:
+#### Totale ospedalizzati con sintomi - Total hospitalized with symptoms by region:
 <img src="https://marcelchiarello.github.io/showdata/RUN_11_05/RUN4/RUN_INTEREGION_05.png">
 
-#### Total Cases vs Hospitalized, Recovered, Deaths:
+#### Casi totali, Ospedalizzati, Dimessi e deceduti a confronto - Total Cases vs Hospitalized, Recovered, Deaths:
 <img src="https://marcelchiarello.github.io/showdata/RUN_11_05/RUN0/RUN_DATA_ITALIA_02.png">
 
 
 <img src="https://marcelchiarello.github.io/showdata/RUN_11_05/RUN0/RUN_DATA_ITALIA_04.png">
 
-#### Weekly Trends:
+#### Trend settimanali - Weekly Trends:
 <img src="https://marcelchiarello.github.io/showdata/RUN_11_05/RUN5/RUN_NEWTRENDS_01.png">
 <img src="https://marcelchiarello.github.io/showdata/RUN_11_05/RUN5/RUN_NEWTRENDS_02.png">
 <img src="https://marcelchiarello.github.io/showdata/RUN_11_05/RUN5/RUN_NEWTRENDS_03.png">
 
-## FULL REPORTS
+## I Reports completi - FULL REPORTS
 
 - [1 -Dati nazionali (National Data)](/RUN_11_05/RUN0/RUN.html)
 

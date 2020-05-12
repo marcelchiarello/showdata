@@ -245,11 +245,11 @@
 ### Casi totali, ospedalizzati, dimessi, deceduti - Total Cases vs Hospitalized, Recovered, Deaths:
 <img src="https://marcelchiarello.github.io/showdata/RUN_11_05/RUN0/RUN_DATA_ITALIA_02.png">
 
-### Casi giornalieri e totali - Daily and total cases:
+### Casi giornalieri e totali con stime degli andamenti - Daily and total cases with trends estimation:
 <img src="https://marcelchiarello.github.io/showdata/RUN_11_05/RUN1/RUN_DATA_FIT_TOTAL_CASES_ITALY_REGIONS_01.png">
 <img src="https://marcelchiarello.github.io/showdata/RUN_11_05/RUN1/RUN_DATA_FIT_TOTAL_CASES_ITALY_REGIONS_02.png">
 
-### Fattore di crescita giornaliero - Daily Growth Factor:
+### Fattore di crescita giornaliero - Daily growth factor:
 <img src="https://marcelchiarello.github.io/showdata/RUN_11_05/RUN6/RUN_FACTORS_01.png">
 
 ## I dati per regione - Regional data
@@ -283,7 +283,7 @@
 <img src="https://marcelchiarello.github.io/showdata/RUN_11_05/RUN5/RUN_NEWTRENDS_02.png">
 <img src="https://marcelchiarello.github.io/showdata/RUN_11_05/RUN5/RUN_NEWTRENDS_03.png">
 
-## I Reports completi - FULL REPORTS
+## I Reports completi - Full reports:
 
 - [1 -Dati nazionali (National Data)](/RUN_11_05/RUN0/RUN.html)
 
@@ -295,7 +295,7 @@
 
 - [5 -Confronti interregionali (Interregional comparisons)](/RUN_11_05/RUN4/RUN.html)
 
-#### Stime sui casi totali e giornalieri per ogni regione - Daily/total cases trends estimation
+#### Stime andamenti casi totali e giornalieri per ogni regione - Daily/total cases trends estimation
 
 - [6 -TOTAL CASES - Italy and Regions](/RUN_11_05/RUN1/RUN.html)
 

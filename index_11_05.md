@@ -1,11 +1,11 @@
 <!-- start -->
-### [Previous Day](/index_11_05.md) | <a href="https://marcelchiarello.github.io/showdata/">COVIDREPO.COM</a>
-## LAST DATA 12/05/2020 - 18:48 -- Valori tabelle aggiornati - Grafici e report in aggiornamento
+### [Previous Day](/index_10_05.md) | <a href="https://marcelchiarello.github.io/showdata/">COVIDREPO.COM</a>
+## LAST DATA 11/05/2020 - 18:15 -- Grafici e report aggiornati 
 
 <table style=" color:black; font-size:12; font-family:arial; text-align:center; " cellpadding="2.5" cellspacing="0" border="1" bordercolor="black" bgcolor="#FFFFFF">
 <caption>ITALIA - COVIDREPO.COM</caption>
 <tr style="color:#FFFFFF;background:#2E9061">
-<th>ITALIA 12_05</th>
+<th>ITALIA 11_05</th>
 <th>Casi</th>
 <th>Attualmente positivi</th>
 <th>Positivi ogni 1000 abitanti</th>
@@ -19,29 +19,29 @@
 </tr>
 <tr>
 <th>Totali</th>
-<td align="right"> 178972</td>
-<td align="right"> 108257</td>
-<td align="right"> 1.79</td>
-<td align="right"> 23660</td>
-<td align="right"> 47055</td>
-<td align="right"> 2635</td>
-<td align="right"> 27668</td>
-<td align="right"> 25033</td>
-<td align="right"> 80589</td>
-<td align="right"> 1356541</td>
+<td align="right"> 219814</td>
+<td align="right"> 82488</td>
+<td align="right"> 1.37</td>
+<td align="right"> 30739</td>
+<td align="right"> 106587</td>
+<td align="right"> 999</td>
+<td align="right"> 14538</td>
+<td align="right"> 13539</td>
+<td align="right"> 67950</td>
+<td align="right"> 2606652</td>
 </tr>
 <tr>
 <th>Giornalieri (Daily) / Variazione (Delta)</th>
-<td align="right" style=" color:green; "> -40842</td>
-<td align="right"> 486</td>
-<td align="right"> 0.43</td>
-<td align="right"> 0</td>
-<td align="right" style=" color:green; "> -59532</td>
-<td align="right"> 1636</td>
-<td align="right"> 13130</td>
-<td align="right"> 11494</td>
-<td align="right"> 12639</td>
-<td align="right" style=" color:green; "> -1250111</td>
+<td align="right"> 744</td>
+<td align="right" style=" color:green; "> -836</td>
+<td align="right" style=" color:green; "> -0.01</td>
+<td align="right"> 179</td>
+<td align="right"> 1401</td>
+<td align="right" style=" color:green; "> -28</td>
+<td align="right" style=" color:green; "> -107</td>
+<td align="right" style=" color:green; "> -79</td>
+<td align="right" style=" color:green; "> -729</td>
+<td align="right"> 40740</td>
 </tr>
 <tr>
 <th>EN</th>
@@ -61,7 +61,7 @@
 <table style=" color:black; font-size:12; font-family:arial; text-align:center; " cellpadding="2.5" cellspacing="0" border="1" bordercolor="black" bgcolor="#FFFFFF">
 <caption>LOMBARDIA</caption>
 <tr style="color:#FFFFFF;background:#2E9061">
-<th>LOMBARDIA 12_05</th>
+<th>LOMBARDIA 11_05</th>
 <th>Casi</th>
 <th>Attualmente positivi</th>
 <th>Positivi ogni 1000 abitanti</th>
@@ -75,36 +75,36 @@
 </tr>
 <tr>
 <th>Totali</th>
-<td align="right"> 66236</td>
-<td align="right"> 34497</td>
-<td align="right"> 3.43</td>
-<td align="right"> 12213</td>
-<td align="right"> 19526</td>
-<td align="right"> 922</td>
-<td align="right"> 11264</td>
-<td align="right"> 10342</td>
-<td align="right"> 23233</td>
-<td align="right"> 264155</td>
+<td align="right"> 81871</td>
+<td align="right"> 30411</td>
+<td align="right"> 3.02</td>
+<td align="right"> 15054</td>
+<td align="right"> 36406</td>
+<td align="right"> 341</td>
+<td align="right"> 5738</td>
+<td align="right"> 5397</td>
+<td align="right"> 24673</td>
+<td align="right"> 492642</td>
 </tr>
 <tr>
 <th>Giornalieri (Daily) / Variazione (Delta)</th>
-<td align="right" style=" color:green; "> -15635</td>
-<td align="right"> 302</td>
-<td align="right"> 0.41</td>
-<td align="right"> 0</td>
-<td align="right" style=" color:green; "> -16880</td>
-<td align="right"> 581</td>
-<td align="right"> 5526</td>
-<td align="right"> 4945</td>
-<td align="right" style=" color:green; "> -1440</td>
-<td align="right" style=" color:green; "> -228487</td>
+<td align="right"> 364</td>
+<td align="right"> 221</td>
+<td align="right"> 0.02</td>
+<td align="right"> 68</td>
+<td align="right"> 75</td>
+<td align="right" style=" color:green; "> -7</td>
+<td align="right" style=" color:green; "> -38</td>
+<td align="right" style=" color:green; "> -31</td>
+<td align="right"> 259</td>
+<td align="right"> 7508</td>
 </tr>
 </table>
 
 <table style=" color:black; font-size:12; font-family:arial; text-align:center; " cellpadding="2.5" cellspacing="0" border="1" bordercolor="black" bgcolor="#FFFFFF">
 <caption>PIEMONTE</caption>
 <tr style="color:#FFFFFF;background:#2E9061">
-<th>PIEMONTE 12_05</th>
+<th>PIEMONTE 11_05</th>
 <th>Casi</th>
 <th>Attualmente positivi</th>
 <th>Positivi ogni 1000 abitanti</th>
@@ -118,36 +118,36 @@
 </tr>
 <tr>
 <th>Totali</th>
-<td align="right"> 21057</td>
-<td align="right"> 14470</td>
-<td align="right"> 3.32</td>
-<td align="right"> 2331</td>
-<td align="right"> 4256</td>
-<td align="right"> 305</td>
-<td align="right"> 3506</td>
-<td align="right"> 3201</td>
-<td align="right"> 10964</td>
-<td align="right"> 96569</td>
+<td align="right"> 28776</td>
+<td align="right"> 13338</td>
+<td align="right"> 3.06</td>
+<td align="right"> 3400</td>
+<td align="right"> 12038</td>
+<td align="right"> 135</td>
+<td align="right"> 2156</td>
+<td align="right"> 2021</td>
+<td align="right"> 11182</td>
+<td align="right"> 213783</td>
 </tr>
 <tr>
 <th>Giornalieri (Daily) / Variazione (Delta)</th>
-<td align="right" style=" color:green; "> -7719</td>
-<td align="right"> 247</td>
-<td align="right"> 0.26</td>
-<td align="right"> 0</td>
-<td align="right" style=" color:green; "> -7782</td>
-<td align="right"> 170</td>
-<td align="right"> 1350</td>
-<td align="right"> 1180</td>
-<td align="right" style=" color:green; "> -218</td>
-<td align="right" style=" color:green; "> -117214</td>
+<td align="right"> 111</td>
+<td align="right" style=" color:green; "> -312</td>
+<td align="right" style=" color:green; "> -0.07</td>
+<td align="right"> 33</td>
+<td align="right"> 390</td>
+<td align="right" style=" color:green; "> -2</td>
+<td align="right" style=" color:green; "> -5</td>
+<td align="right" style=" color:green; "> -3</td>
+<td align="right" style=" color:green; "> -307</td>
+<td align="right"> 3413</td>
 </tr>
 </table>
 
 <table style=" color:black; font-size:12; font-family:arial; text-align:center; " cellpadding="2.5" cellspacing="0" border="1" bordercolor="black" bgcolor="#FFFFFF">
 <caption>VENETO</caption>
 <tr style="color:#FFFFFF;background:#2E9061">
-<th>VENETO 12_05</th>
+<th>VENETO 11_05</th>
 <th>Casi</th>
 <th>Attualmente positivi</th>
 <th>Positivi ogni 1000 abitanti</th>
@@ -161,36 +161,36 @@
 </tr>
 <tr>
 <th>Totali</th>
-<td align="right"> 15935</td>
-<td align="right"> 10210</td>
-<td align="right"> 2.08</td>
-<td align="right"> 1087</td>
-<td align="right"> 4638</td>
-<td align="right"> 184</td>
-<td align="right"> 1448</td>
-<td align="right"> 1264</td>
-<td align="right"> 8762</td>
-<td align="right"> 255797</td>
+<td align="right"> 18741</td>
+<td align="right"> 5460</td>
+<td align="right"> 1.11</td>
+<td align="right"> 1666</td>
+<td align="right"> 11615</td>
+<td align="right"> 38</td>
+<td align="right"> 438</td>
+<td align="right"> 400</td>
+<td align="right"> 5022</td>
+<td align="right"> 445905</td>
 </tr>
 <tr>
 <th>Giornalieri (Daily) / Variazione (Delta)</th>
-<td align="right" style=" color:green; "> -2787</td>
-<td align="right" style=" color:green; "> -234</td>
-<td align="right"> 0.94</td>
-<td align="right"> 0</td>
-<td align="right" style=" color:green; "> -6836</td>
-<td align="right"> 147</td>
-<td align="right"> 1003</td>
-<td align="right"> 856</td>
-<td align="right"> 3616</td>
-<td align="right" style=" color:green; "> -183725</td>
+<td align="right"> 19</td>
+<td align="right" style=" color:green; "> -131</td>
+<td align="right" style=" color:green; "> -0.03</td>
+<td align="right"> 9</td>
+<td align="right"> 141</td>
+<td align="right"> 1</td>
+<td align="right" style=" color:green; "> -7</td>
+<td align="right" style=" color:green; "> -8</td>
+<td align="right" style=" color:green; "> -124</td>
+<td align="right"> 6383</td>
 </tr>
 </table>
 
 <table style=" color:black; font-size:12; font-family:arial; text-align:center; " cellpadding="2.5" cellspacing="0" border="1" bordercolor="black" bgcolor="#FFFFFF">
 <caption>PUGLIA</caption>
 <tr style="color:#FFFFFF;background:#2E9061">
-<th>PUGLIA 12_05</th>
+<th>PUGLIA 11_05</th>
 <th>Casi</th>
 <th>Attualmente positivi</th>
 <th>Positivi ogni 1000 abitanti</th>
@@ -204,33 +204,33 @@
 </tr>
 <tr>
 <th>Totali</th>
-<td align="right"> 3529</td>
-<td align="right"> 2786</td>
-<td align="right"> 0.69</td>
-<td align="right"> 316</td>
-<td align="right"> 427</td>
-<td align="right"> 60</td>
-<td align="right"> 650</td>
-<td align="right"> 590</td>
-<td align="right"> 2136</td>
-<td align="right"> 42598</td>
+<td align="right"> 4327</td>
+<td align="right"> 2544</td>
+<td align="right"> 0.63</td>
+<td align="right"> 451</td>
+<td align="right"> 1332</td>
+<td align="right"> 32</td>
+<td align="right"> 372</td>
+<td align="right"> 340</td>
+<td align="right"> 2172</td>
+<td align="right"> 79737</td>
 </tr>
 <tr>
 <th>Giornalieri (Daily) / Variazione (Delta)</th>
-<td align="right" style=" color:green; "> -798</td>
-<td align="right"> 92</td>
-<td align="right"> 0.06</td>
-<td align="right"> 0</td>
-<td align="right" style=" color:green; "> -905</td>
-<td align="right"> 28</td>
-<td align="right"> 278</td>
-<td align="right"> 250</td>
-<td align="right" style=" color:green; "> -36</td>
-<td align="right" style=" color:green; "> -37139</td>
+<td align="right"> 14</td>
+<td align="right" style=" color:green; "> -125</td>
+<td align="right" style=" color:green; "> -0.03</td>
+<td align="right"> 3</td>
+<td align="right"> 136</td>
+<td align="right" style=" color:green; "> -2</td>
+<td align="right" style=" color:green; "> -5</td>
+<td align="right" style=" color:green; "> -3</td>
+<td align="right" style=" color:green; "> -120</td>
+<td align="right"> 1338</td>
 </tr>
 </table>
 
-- [Tutte le regoni(All regions)](/Tables/regionsTable_12_05.md)
+- [Tutte le regoni(All regions)](/Tables/regionsTable_11_05.md)
 
 ---
 

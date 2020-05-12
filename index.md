@@ -275,9 +275,6 @@ email:
 #### Casi totali, Ospedalizzati, Dimessi e deceduti a confronto - Total Cases vs Hospitalized, Recovered, Deaths:
 <img src="https://marcelchiarello.github.io/showdata/RUN_11_05/RUN0/RUN_DATA_ITALIA_02.png">
 
-
-<img src="https://marcelchiarello.github.io/showdata/RUN_11_05/RUN0/RUN_DATA_ITALIA_04.png">
-
 #### Trend settimanali - Weekly Trends:
 <img src="https://marcelchiarello.github.io/showdata/RUN_11_05/RUN5/RUN_NEWTRENDS_01.png">
 <img src="https://marcelchiarello.github.io/showdata/RUN_11_05/RUN5/RUN_NEWTRENDS_02.png">

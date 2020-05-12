@@ -217,20 +217,6 @@
 
 - [Tutte le regoni(All regions)](/Tables/regionsTable_11_05.md)
 
-Ricevi le notfiche sugli aggiornamenti / Receive update notifications
-<form
-action="https://formspree.io/mgenvwep"
-method="POST"
->
-<label>
-email:
-<input type="text" name="_replyto">
-</label>
-
-<!-- your other form fields go here -->
-
-<button type="submit">Send</button>
-</form>
 ---
 
 #### Attualmente positivi - Currently positives trend by region
@@ -299,6 +285,20 @@ Sigmoid-like equation used for data fitting:
 
 <img src="https://latex.codecogs.com/svg.latex?Sig = \frac{a}{e^{b(x+c)} + a_1e^{b_1(x+c_1)} - d}" border="0"/>
 
+Ricevi le notfiche sugli aggiornamenti / Receive update notifications
+<form
+action="https://formspree.io/mgenvwep"
+method="POST"
+>
+<label>
+email:
+<input type="text" name="_replyto">
+</label>
+
+<!-- your other form fields go here -->
+
+<button type="submit">Send</button>
+</form>
 ---
 
 ### Reache me

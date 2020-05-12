@@ -237,10 +237,9 @@ email:
 <img src="https://covidrepo.com/RUN_11_05/RUN4/RUN_INTEREGION_16.png">
 <img src="https://covidrepo.com/RUN_11_05/RUN4/RUN_INTEREGION_17.png">
 <img src="https://covidrepo.com/RUN_11_05/RUN4/RUN_INTEREGION_18.png">
-                                                                    
+ 
+#### La situazione generale - General situation
 <img src="https://marcelchiarello.github.io/showdata/RUN_11_05/RUN0/RUN_DATA_ITALIA_01.png">
-
-Full Reports at the bottom.
 
 #### Casi giornalieri e totali - Daily and total cases Trend:
 <img src="https://marcelchiarello.github.io/showdata/RUN_11_05/RUN1/RUN_DATA_FIT_TOTAL_CASES_ITALY_REGIONS_01.png">

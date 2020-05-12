@@ -234,9 +234,9 @@ email:
 ---
 
 #### Currently Positives Trend by Region
-<img src=https://covidrepo.com/RUN_11_05/RUN4/RUN_INTEREGION_16.png">
-<img src=https://covidrepo.com/RUN_11_05/RUN4/RUN_INTEREGION_17.png">
-<img src=https://covidrepo.com/RUN_11_05/RUN4/RUN_INTEREGION_18.png">
+<img src="https://covidrepo.com/RUN_11_05/RUN4/RUN_INTEREGION_16.png">
+<img src="https://covidrepo.com/RUN_11_05/RUN4/RUN_INTEREGION_17.png">
+<img src="https://covidrepo.com/RUN_11_05/RUN4/RUN_INTEREGION_18.png">
                                                                     
 
 <img src="https://marcelchiarello.github.io/showdata/RUN_11_05/RUN0/RUN_DATA_ITALIA_01.png">

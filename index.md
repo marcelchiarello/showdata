@@ -234,7 +234,7 @@
 
 ---
 
-## Attualmente positivi - Currently positives trend by region
+## Attualmente positivi - Currently positives trends by region
 <img src="https://covidrepo.com/RUN_11_05/RUN4/RUN_INTEREGION_16.png">
 <img src="https://covidrepo.com/RUN_11_05/RUN4/RUN_INTEREGION_17.png">
 <img src="https://covidrepo.com/RUN_11_05/RUN4/RUN_INTEREGION_18.png">

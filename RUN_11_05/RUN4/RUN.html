@@ -241,7 +241,7 @@ set(gcf,'position',[1  41  1920 963])
 n = 0;
 for i = [1 7 10 18 19]
     n = n+1;
-    evalc(['subplot(33' num2str(n) ')']);
+    evalc(['subplot(23' num2str(n) ')']);
     plotBasic(regionsList{i});
 end
 
@@ -250,7 +250,5 @@ p1=mtit('CENTRO',...
     'xoff',0,'yoff',0.05);
 % refine title using its handle <p.th>
 set(p1.th,'edgecolor',.5*[1 1 1]);
-add_site;
-
 ##### SOURCE END #####
 --></body></html>

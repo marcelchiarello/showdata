@@ -4,7 +4,6 @@
 				<th>Abruzzo 11_05</th>
 				<th>Casi</th>
 				<th>Attualmente positivi</th>
-				<th>Positivi ogni 1000 abitanti</th>
 				<th>Morti</th>
 				<th>Guariti</th>
 				<th>Terapia intensiva</th>
@@ -17,7 +16,6 @@
 				<th>Totali</th>
 				<td align="right"> 3107</td>
 				<td align="right"> 1609</td>
-				<td align="right"> 1.23</td>
 				<td align="right"> 366</td>
 				<td align="right"> 1132</td>
 				<td align="right"> 9</td>
@@ -27,10 +25,9 @@
 				<td align="right"> 48903</td>
 			</tr>
 			<tr>
-				<th>Giornalieri (Daily) / Variazione (Delta)</th>
+				<th>Giornalieri (Daily)</th>
 				<td align="right"> 4</td>
 				<td align="right" style=" color:green; "> -62</td>
-				<td align="right" style=" color:green; "> -0.05</td>
 				<td align="right"> 7</td>
 				<td align="right"> 59</td>
 				<td align="right" style=" color:green; "> -1</td>
@@ -47,7 +44,6 @@
 				<th>Basilicata 11_05</th>
 				<th>Casi</th>
 				<th>Attualmente positivi</th>
-				<th>Positivi ogni 1000 abitanti</th>
 				<th>Morti</th>
 				<th>Guariti</th>
 				<th>Terapia intensiva</th>
@@ -60,7 +56,6 @@
 				<th>Totali</th>
 				<td align="right"> 386</td>
 				<td align="right"> 142</td>
-				<td align="right"> 0.25</td>
 				<td align="right"> 27</td>
 				<td align="right"> 217</td>
 				<td align="right"> 1</td>
@@ -70,10 +65,9 @@
 				<td align="right"> 18266</td>
 			</tr>
 			<tr>
-				<th>Giornalieri (Daily) / Variazione (Delta)</th>
+				<th>Giornalieri (Daily)</th>
 				<td align="right"> 1</td>
 				<td align="right" style=" color:green; "> -1</td>
-				<td align="right" style=" color:green; "> -0.00</td>
 				<td align="right"> 0</td>
 				<td align="right"> 2</td>
 				<td align="right"> 0</td>
@@ -90,7 +84,6 @@
 				<th>Calabria 11_05</th>
 				<th>Casi</th>
 				<th>Attualmente positivi</th>
-				<th>Positivi ogni 1000 abitanti</th>
 				<th>Morti</th>
 				<th>Guariti</th>
 				<th>Terapia intensiva</th>
@@ -103,7 +96,6 @@
 				<th>Totali</th>
 				<td align="right"> 1134</td>
 				<td align="right"> 568</td>
-				<td align="right"> 0.29</td>
 				<td align="right"> 93</td>
 				<td align="right"> 473</td>
 				<td align="right"> 1</td>
@@ -113,10 +105,9 @@
 				<td align="right"> 47265</td>
 			</tr>
 			<tr>
-				<th>Giornalieri (Daily) / Variazione (Delta)</th>
+				<th>Giornalieri (Daily)</th>
 				<td align="right"> 2</td>
 				<td align="right" style=" color:green; "> -28</td>
-				<td align="right" style=" color:green; "> -0.01</td>
 				<td align="right"> 2</td>
 				<td align="right"> 28</td>
 				<td align="right" style=" color:green; "> -1</td>
@@ -133,7 +124,6 @@
 				<th>Campania 11_05</th>
 				<th>Casi</th>
 				<th>Attualmente positivi</th>
-				<th>Positivi ogni 1000 abitanti</th>
 				<th>Morti</th>
 				<th>Guariti</th>
 				<th>Terapia intensiva</th>
@@ -146,7 +136,6 @@
 				<th>Totali</th>
 				<td align="right"> 4602</td>
 				<td align="right"> 1909</td>
-				<td align="right"> 0.33</td>
 				<td align="right"> 392</td>
 				<td align="right"> 2301</td>
 				<td align="right"> 23</td>
@@ -156,10 +145,9 @@
 				<td align="right"> 119042</td>
 			</tr>
 			<tr>
-				<th>Giornalieri (Daily) / Variazione (Delta)</th>
+				<th>Giornalieri (Daily)</th>
 				<td align="right"> 14</td>
 				<td align="right" style=" color:green; "> -6</td>
-				<td align="right" style=" color:green; "> -0.00</td>
 				<td align="right"> 1</td>
 				<td align="right"> 19</td>
 				<td align="right"> 3</td>
@@ -176,7 +164,6 @@
 				<th>Emilia-Romagna 11_05</th>
 				<th>Casi</th>
 				<th>Attualmente positivi</th>
-				<th>Positivi ogni 1000 abitanti</th>
 				<th>Morti</th>
 				<th>Guariti</th>
 				<th>Terapia intensiva</th>
@@ -189,7 +176,6 @@
 				<th>Totali</th>
 				<td align="right"> 26876</td>
 				<td align="right"> 7040</td>
-				<td align="right"> 1.58</td>
 				<td align="right"> 3867</td>
 				<td align="right"> 15969</td>
 				<td align="right"> 141</td>
@@ -199,10 +185,9 @@
 				<td align="right"> 234619</td>
 			</tr>
 			<tr>
-				<th>Giornalieri (Daily) / Variazione (Delta)</th>
+				<th>Giornalieri (Daily)</th>
 				<td align="right"> 80</td>
 				<td align="right" style=" color:green; "> -151</td>
-				<td align="right" style=" color:green; "> -0.03</td>
 				<td align="right"> 22</td>
 				<td align="right"> 209</td>
 				<td align="right" style=" color:green; "> -9</td>
@@ -219,7 +204,6 @@
 				<th>Friuli Venezia Giulia 11_05</th>
 				<th>Casi</th>
 				<th>Attualmente positivi</th>
-				<th>Positivi ogni 1000 abitanti</th>
 				<th>Morti</th>
 				<th>Guariti</th>
 				<th>Terapia intensiva</th>
@@ -232,7 +216,6 @@
 				<th>Totali</th>
 				<td align="right"> 3138</td>
 				<td align="right"> 830</td>
-				<td align="right"> 0.68</td>
 				<td align="right"> 312</td>
 				<td align="right"> 1996</td>
 				<td align="right"> 3</td>
@@ -242,10 +225,9 @@
 				<td align="right"> 90860</td>
 			</tr>
 			<tr>
-				<th>Giornalieri (Daily) / Variazione (Delta)</th>
+				<th>Giornalieri (Daily)</th>
 				<td align="right"> 8</td>
 				<td align="right" style=" color:green; "> -21</td>
-				<td align="right" style=" color:green; "> -0.02</td>
 				<td align="right"> 2</td>
 				<td align="right"> 27</td>
 				<td align="right"> 0</td>
@@ -262,7 +244,6 @@
 				<th>Lazio 11_05</th>
 				<th>Casi</th>
 				<th>Attualmente positivi</th>
-				<th>Positivi ogni 1000 abitanti</th>
 				<th>Morti</th>
 				<th>Guariti</th>
 				<th>Terapia intensiva</th>
@@ -275,7 +256,6 @@
 				<th>Totali</th>
 				<td align="right"> 7190</td>
 				<td align="right"> 4294</td>
-				<td align="right"> 0.73</td>
 				<td align="right"> 562</td>
 				<td align="right"> 2334</td>
 				<td align="right"> 83</td>
@@ -285,10 +265,9 @@
 				<td align="right"> 181398</td>
 			</tr>
 			<tr>
-				<th>Giornalieri (Daily) / Variazione (Delta)</th>
+				<th>Giornalieri (Daily)</th>
 				<td align="right"> 25</td>
 				<td align="right"> 8</td>
-				<td align="right"> 0.00</td>
 				<td align="right"> 5</td>
 				<td align="right"> 12</td>
 				<td align="right" style=" color:green; "> -1</td>
@@ -305,7 +284,6 @@
 				<th>Liguria 11_05</th>
 				<th>Casi</th>
 				<th>Attualmente positivi</th>
-				<th>Positivi ogni 1000 abitanti</th>
 				<th>Morti</th>
 				<th>Guariti</th>
 				<th>Terapia intensiva</th>
@@ -318,7 +296,6 @@
 				<th>Totali</th>
 				<td align="right"> 8832</td>
 				<td align="right"> 2844</td>
-				<td align="right"> 1.83</td>
 				<td align="right"> 1293</td>
 				<td align="right"> 4695</td>
 				<td align="right"> 38</td>
@@ -328,10 +305,9 @@
 				<td align="right"> 68814</td>
 			</tr>
 			<tr>
-				<th>Giornalieri (Daily) / Variazione (Delta)</th>
+				<th>Giornalieri (Daily)</th>
 				<td align="right"> 44</td>
 				<td align="right" style=" color:green; "> -56</td>
-				<td align="right" style=" color:green; "> -0.04</td>
 				<td align="right"> 12</td>
 				<td align="right"> 88</td>
 				<td align="right" style=" color:green; "> -3</td>
@@ -348,7 +324,6 @@
 				<th>Lombardia 11_05</th>
 				<th>Casi</th>
 				<th>Attualmente positivi</th>
-				<th>Positivi ogni 1000 abitanti</th>
 				<th>Morti</th>
 				<th>Guariti</th>
 				<th>Terapia intensiva</th>
@@ -361,7 +336,6 @@
 				<th>Totali</th>
 				<td align="right"> 81871</td>
 				<td align="right"> 30411</td>
-				<td align="right"> 3.02</td>
 				<td align="right"> 15054</td>
 				<td align="right"> 36406</td>
 				<td align="right"> 341</td>
@@ -371,10 +345,9 @@
 				<td align="right"> 492642</td>
 			</tr>
 			<tr>
-				<th>Giornalieri (Daily) / Variazione (Delta)</th>
+				<th>Giornalieri (Daily)</th>
 				<td align="right"> 364</td>
 				<td align="right"> 221</td>
-				<td align="right"> 0.02</td>
 				<td align="right"> 68</td>
 				<td align="right"> 75</td>
 				<td align="right" style=" color:green; "> -7</td>
@@ -391,7 +364,6 @@
 				<th>Marche 11_05</th>
 				<th>Casi</th>
 				<th>Attualmente positivi</th>
-				<th>Positivi ogni 1000 abitanti</th>
 				<th>Morti</th>
 				<th>Guariti</th>
 				<th>Terapia intensiva</th>
@@ -404,7 +376,6 @@
 				<th>Totali</th>
 				<td align="right"> 6543</td>
 				<td align="right"> 3227</td>
-				<td align="right"> 2.12</td>
 				<td align="right"> 964</td>
 				<td align="right"> 2352</td>
 				<td align="right"> 28</td>
@@ -414,10 +385,9 @@
 				<td align="right"> 77830</td>
 			</tr>
 			<tr>
-				<th>Giornalieri (Daily) / Variazione (Delta)</th>
+				<th>Giornalieri (Daily)</th>
 				<td align="right"> 10</td>
 				<td align="right" style=" color:green; "> -24</td>
-				<td align="right" style=" color:green; "> -0.02</td>
 				<td align="right"> 4</td>
 				<td align="right"> 30</td>
 				<td align="right" style=" color:green; "> -2</td>
@@ -434,7 +404,6 @@
 				<th>Molise 11_05</th>
 				<th>Casi</th>
 				<th>Attualmente positivi</th>
-				<th>Positivi ogni 1000 abitanti</th>
 				<th>Morti</th>
 				<th>Guariti</th>
 				<th>Terapia intensiva</th>
@@ -447,7 +416,6 @@
 				<th>Totali</th>
 				<td align="right"> 383</td>
 				<td align="right"> 229</td>
-				<td align="right"> 0.75</td>
 				<td align="right"> 22</td>
 				<td align="right"> 132</td>
 				<td align="right"> 0</td>
@@ -457,10 +425,9 @@
 				<td align="right"> 9390</td>
 			</tr>
 			<tr>
-				<th>Giornalieri (Daily) / Variazione (Delta)</th>
+				<th>Giornalieri (Daily)</th>
 				<td align="right"> 13</td>
 				<td align="right"> 11</td>
-				<td align="right"> 0.04</td>
 				<td align="right"> 0</td>
 				<td align="right"> 2</td>
 				<td align="right"> 0</td>
@@ -477,7 +444,6 @@
 				<th>P.A. Bolzano 11_05</th>
 				<th>Casi</th>
 				<th>Attualmente positivi</th>
-				<th>Positivi ogni 1000 abitanti</th>
 				<th>Morti</th>
 				<th>Guariti</th>
 				<th>Terapia intensiva</th>
@@ -490,7 +456,6 @@
 				<th>Totali</th>
 				<td align="right"> 2572</td>
 				<td align="right"> 447</td>
-				<td align="right"> 0.84</td>
 				<td align="right"> 290</td>
 				<td align="right"> 1835</td>
 				<td align="right"> 7</td>
@@ -500,10 +465,9 @@
 				<td align="right"> 50019</td>
 			</tr>
 			<tr>
-				<th>Giornalieri (Daily) / Variazione (Delta)</th>
+				<th>Giornalieri (Daily)</th>
 				<td align="right"> 3</td>
 				<td align="right" style=" color:green; "> -12</td>
-				<td align="right" style=" color:green; "> -0.02</td>
 				<td align="right"> 0</td>
 				<td align="right"> 15</td>
 				<td align="right" style=" color:green; "> -1</td>
@@ -520,7 +484,6 @@
 				<th>P.A. Trento 11_05</th>
 				<th>Casi</th>
 				<th>Attualmente positivi</th>
-				<th>Positivi ogni 1000 abitanti</th>
 				<th>Morti</th>
 				<th>Guariti</th>
 				<th>Terapia intensiva</th>
@@ -533,7 +496,6 @@
 				<th>Totali</th>
 				<td align="right"> 4297</td>
 				<td align="right"> 735</td>
-				<td align="right"> 1.36</td>
 				<td align="right"> 443</td>
 				<td align="right"> 3119</td>
 				<td align="right"> 11</td>
@@ -543,10 +505,9 @@
 				<td align="right"> 53398</td>
 			</tr>
 			<tr>
-				<th>Giornalieri (Daily) / Variazione (Delta)</th>
+				<th>Giornalieri (Daily)</th>
 				<td align="right"> 2</td>
 				<td align="right" style=" color:green; "> -51</td>
-				<td align="right" style=" color:green; "> -0.09</td>
 				<td align="right"> 2</td>
 				<td align="right"> 51</td>
 				<td align="right"> 1</td>
@@ -563,7 +524,6 @@
 				<th>Piemonte 11_05</th>
 				<th>Casi</th>
 				<th>Attualmente positivi</th>
-				<th>Positivi ogni 1000 abitanti</th>
 				<th>Morti</th>
 				<th>Guariti</th>
 				<th>Terapia intensiva</th>
@@ -576,7 +536,6 @@
 				<th>Totali</th>
 				<td align="right"> 28776</td>
 				<td align="right"> 13338</td>
-				<td align="right"> 3.06</td>
 				<td align="right"> 3400</td>
 				<td align="right"> 12038</td>
 				<td align="right"> 135</td>
@@ -586,10 +545,9 @@
 				<td align="right"> 213783</td>
 			</tr>
 			<tr>
-				<th>Giornalieri (Daily) / Variazione (Delta)</th>
+				<th>Giornalieri (Daily)</th>
 				<td align="right"> 111</td>
 				<td align="right" style=" color:green; "> -312</td>
-				<td align="right" style=" color:green; "> -0.07</td>
 				<td align="right"> 33</td>
 				<td align="right"> 390</td>
 				<td align="right" style=" color:green; "> -2</td>
@@ -606,7 +564,6 @@
 				<th>Puglia 11_05</th>
 				<th>Casi</th>
 				<th>Attualmente positivi</th>
-				<th>Positivi ogni 1000 abitanti</th>
 				<th>Morti</th>
 				<th>Guariti</th>
 				<th>Terapia intensiva</th>
@@ -619,7 +576,6 @@
 				<th>Totali</th>
 				<td align="right"> 4327</td>
 				<td align="right"> 2544</td>
-				<td align="right"> 0.63</td>
 				<td align="right"> 451</td>
 				<td align="right"> 1332</td>
 				<td align="right"> 32</td>
@@ -629,10 +585,9 @@
 				<td align="right"> 79737</td>
 			</tr>
 			<tr>
-				<th>Giornalieri (Daily) / Variazione (Delta)</th>
+				<th>Giornalieri (Daily)</th>
 				<td align="right"> 14</td>
 				<td align="right" style=" color:green; "> -125</td>
-				<td align="right" style=" color:green; "> -0.03</td>
 				<td align="right"> 3</td>
 				<td align="right"> 136</td>
 				<td align="right" style=" color:green; "> -2</td>
@@ -649,7 +604,6 @@
 				<th>Sardegna 11_05</th>
 				<th>Casi</th>
 				<th>Attualmente positivi</th>
-				<th>Positivi ogni 1000 abitanti</th>
 				<th>Morti</th>
 				<th>Guariti</th>
 				<th>Terapia intensiva</th>
@@ -662,7 +616,6 @@
 				<th>Totali</th>
 				<td align="right"> 1343</td>
 				<td align="right"> 511</td>
-				<td align="right"> 0.31</td>
 				<td align="right"> 120</td>
 				<td align="right"> 712</td>
 				<td align="right"> 10</td>
@@ -672,10 +625,9 @@
 				<td align="right"> 34641</td>
 			</tr>
 			<tr>
-				<th>Giornalieri (Daily) / Variazione (Delta)</th>
+				<th>Giornalieri (Daily)</th>
 				<td align="right"> 3</td>
 				<td align="right" style=" color:green; "> -4</td>
-				<td align="right" style=" color:green; "> -0.00</td>
 				<td align="right"> 0</td>
 				<td align="right"> 7</td>
 				<td align="right"> 0</td>
@@ -692,7 +644,6 @@
 				<th>Sicilia 11_05</th>
 				<th>Casi</th>
 				<th>Attualmente positivi</th>
-				<th>Positivi ogni 1000 abitanti</th>
 				<th>Morti</th>
 				<th>Guariti</th>
 				<th>Terapia intensiva</th>
@@ -705,7 +656,6 @@
 				<th>Totali</th>
 				<td align="right"> 3339</td>
 				<td align="right"> 2062</td>
-				<td align="right"> 0.41</td>
 				<td align="right"> 257</td>
 				<td align="right"> 1020</td>
 				<td align="right"> 16</td>
@@ -715,10 +665,9 @@
 				<td align="right"> 103134</td>
 			</tr>
 			<tr>
-				<th>Giornalieri (Daily) / Variazione (Delta)</th>
+				<th>Giornalieri (Daily)</th>
 				<td align="right"> 12</td>
 				<td align="right" style=" color:green; "> -7</td>
-				<td align="right" style=" color:green; "> -0.00</td>
 				<td align="right"> 1</td>
 				<td align="right"> 18</td>
 				<td align="right"> 0</td>
@@ -735,7 +684,6 @@
 				<th>Toscana 11_05</th>
 				<th>Casi</th>
 				<th>Attualmente positivi</th>
-				<th>Positivi ogni 1000 abitanti</th>
 				<th>Morti</th>
 				<th>Guariti</th>
 				<th>Terapia intensiva</th>
@@ -748,7 +696,6 @@
 				<th>Totali</th>
 				<td align="right"> 9787</td>
 				<td align="right"> 4073</td>
-				<td align="right"> 1.09</td>
 				<td align="right"> 950</td>
 				<td align="right"> 4764</td>
 				<td align="right"> 77</td>
@@ -758,10 +705,9 @@
 				<td align="right"> 179469</td>
 			</tr>
 			<tr>
-				<th>Giornalieri (Daily) / Variazione (Delta)</th>
+				<th>Giornalieri (Daily)</th>
 				<td align="right"> 13</td>
 				<td align="right" style=" color:green; "> -74</td>
-				<td align="right" style=" color:green; "> -0.02</td>
 				<td align="right"> 8</td>
 				<td align="right"> 79</td>
 				<td align="right" style=" color:green; "> -1</td>
@@ -778,7 +724,6 @@
 				<th>Umbria 11_05</th>
 				<th>Casi</th>
 				<th>Attualmente positivi</th>
-				<th>Positivi ogni 1000 abitanti</th>
 				<th>Morti</th>
 				<th>Guariti</th>
 				<th>Terapia intensiva</th>
@@ -791,7 +736,6 @@
 				<th>Totali</th>
 				<td align="right"> 1412</td>
 				<td align="right"> 108</td>
-				<td align="right"> 0.12</td>
 				<td align="right"> 71</td>
 				<td align="right"> 1233</td>
 				<td align="right"> 4</td>
@@ -801,10 +745,9 @@
 				<td align="right"> 47474</td>
 			</tr>
 			<tr>
-				<th>Giornalieri (Daily) / Variazione (Delta)</th>
+				<th>Giornalieri (Daily)</th>
 				<td align="right"> 1</td>
 				<td align="right" style=" color:green; "> -5</td>
-				<td align="right" style=" color:green; "> -0.01</td>
 				<td align="right"> 0</td>
 				<td align="right"> 6</td>
 				<td align="right" style=" color:green; "> -2</td>
@@ -821,7 +764,6 @@
 				<th>Valle d'Aosta 11_05</th>
 				<th>Casi</th>
 				<th>Attualmente positivi</th>
-				<th>Positivi ogni 1000 abitanti</th>
 				<th>Morti</th>
 				<th>Guariti</th>
 				<th>Terapia intensiva</th>
@@ -834,7 +776,6 @@
 				<th>Totali</th>
 				<td align="right"> 1158</td>
 				<td align="right"> 107</td>
-				<td align="right"> 0.85</td>
 				<td align="right"> 139</td>
 				<td align="right"> 912</td>
 				<td align="right"> 1</td>
@@ -844,10 +785,9 @@
 				<td align="right"> 10063</td>
 			</tr>
 			<tr>
-				<th>Giornalieri (Daily) / Variazione (Delta)</th>
+				<th>Giornalieri (Daily)</th>
 				<td align="right"> 1</td>
 				<td align="right" style=" color:green; "> -6</td>
-				<td align="right" style=" color:green; "> -0.05</td>
 				<td align="right"> 0</td>
 				<td align="right"> 7</td>
 				<td align="right" style=" color:green; "> -1</td>
@@ -864,7 +804,6 @@
 				<th>Veneto 11_05</th>
 				<th>Casi</th>
 				<th>Attualmente positivi</th>
-				<th>Positivi ogni 1000 abitanti</th>
 				<th>Morti</th>
 				<th>Guariti</th>
 				<th>Terapia intensiva</th>
@@ -877,7 +816,6 @@
 				<th>Totali</th>
 				<td align="right"> 18741</td>
 				<td align="right"> 5460</td>
-				<td align="right"> 1.11</td>
 				<td align="right"> 1666</td>
 				<td align="right"> 11615</td>
 				<td align="right"> 38</td>
@@ -887,10 +825,9 @@
 				<td align="right"> 445905</td>
 			</tr>
 			<tr>
-				<th>Giornalieri (Daily) / Variazione (Delta)</th>
+				<th>Giornalieri (Daily)</th>
 				<td align="right"> 19</td>
 				<td align="right" style=" color:green; "> -131</td>
-				<td align="right" style=" color:green; "> -0.03</td>
 				<td align="right"> 9</td>
 				<td align="right"> 141</td>
 				<td align="right"> 1</td>

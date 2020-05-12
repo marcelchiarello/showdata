@@ -239,11 +239,20 @@
 <img src="https://covidrepo.com/RUN_11_05/RUN4/RUN_INTEREGION_17.png">
 <img src="https://covidrepo.com/RUN_11_05/RUN4/RUN_INTEREGION_18.png">
 
+## Gli andamenti nazionali - National trends
 <img src="https://marcelchiarello.github.io/showdata/RUN_11_05/RUN0/RUN_DATA_ITALIA_01.png">
 
-### Casi giornalieri e totali - Daily and total cases Trend:
+### Casi totali, ospedalizzati, dimessi, deceduti - Total Cases vs Hospitalized, Recovered, Deaths:
+<img src="https://marcelchiarello.github.io/showdata/RUN_11_05/RUN0/RUN_DATA_ITALIA_02.png">
+
+### Casi giornalieri e totali - Daily and total cases:
 <img src="https://marcelchiarello.github.io/showdata/RUN_11_05/RUN1/RUN_DATA_FIT_TOTAL_CASES_ITALY_REGIONS_01.png">
 <img src="https://marcelchiarello.github.io/showdata/RUN_11_05/RUN1/RUN_DATA_FIT_TOTAL_CASES_ITALY_REGIONS_02.png">
+
+### Fattore di crescita giornaliero - Daily Growth Factor:
+<img src="https://marcelchiarello.github.io/showdata/RUN_11_05/RUN6/RUN_FACTORS_01.png">
+
+## I dati per regione - Regional data
 
 ### Tamponi totali - Total tests by region:
 <img src="https://marcelchiarello.github.io/showdata/RUN_11_05/RUN4/RUN_INTEREGION_02.png">
@@ -254,11 +263,8 @@
 ### Ospedalizzati - Daily hospitalized with symphtoms by region:
 <img src="https://marcelchiarello.github.io/showdata/RUN_11_05/RUN4/RUN_INTEREGION_14.png">
 
-### Variazione positivi giornalieri - Daily currently positives:
+### Variazione positivi giornalieri - Daily currently positives by region:
 <img src="https://marcelchiarello.github.io/showdata/RUN_11_05/RUN4/RUN_INTEREGION_15.png">
-
-### Fattore di crescita giornaliero - Daily Growth Factor:
-<img src="https://marcelchiarello.github.io/showdata/RUN_11_05/RUN6/RUN_FACTORS_01.png">
 
 ### Casi giornalieri - Daily cases by region:
 <img src="https://marcelchiarello.github.io/showdata/RUN_11_05/RUN4/RUN_INTEREGION_11.png">
@@ -272,10 +278,7 @@
 ### Totale ospedalizzati con sintomi - Total hospitalized with symptoms by region:
 <img src="https://marcelchiarello.github.io/showdata/RUN_11_05/RUN4/RUN_INTEREGION_05.png">
 
-### Casi totali, ospedalizzati, dimessi, deceduti - Total Cases vs Hospitalized, Recovered, Deaths:
-<img src="https://marcelchiarello.github.io/showdata/RUN_11_05/RUN0/RUN_DATA_ITALIA_02.png">
-
-### Trend settimanali - Weekly Trends:
+## Andamenti dei casi settimanali - Weekly trends:
 <img src="https://marcelchiarello.github.io/showdata/RUN_11_05/RUN5/RUN_NEWTRENDS_01.png">
 <img src="https://marcelchiarello.github.io/showdata/RUN_11_05/RUN5/RUN_NEWTRENDS_02.png">
 <img src="https://marcelchiarello.github.io/showdata/RUN_11_05/RUN5/RUN_NEWTRENDS_03.png">
@@ -292,7 +295,7 @@
 
 - [5 -Confronti interregionali (Interregional comparisons)](/RUN_11_05/RUN4/RUN.html)
 
-#### DATA FITTING - NATIONAL/REGIONAL TRENDS
+#### Stime sui casi totali e giornalieri per ogni regione - Daily/total cases trends estimation
 
 - [6 -TOTAL CASES - Italy and Regions](/RUN_11_05/RUN1/RUN.html)
 

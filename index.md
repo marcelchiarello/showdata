@@ -2,8 +2,6 @@
 ### [Previous Day](/index_12_05.md) | <a href="https://marcelchiarello.github.io/showdata/">COVIDREPO.COM</a>
 ## LAST DATA 13/05/2020 - 18:09 -- Grafici e report aggiornati
 
-NOTA: Ritardo dovuto ad errori nei dati sul server.
-
 <table style=" color:black; font-size:12; font-family:arial; text-align:center; " cellpadding="2.5" cellspacing="0" border="1" bordercolor="black" bgcolor="#FFFFFF">
 <caption>ITALIA - COVIDREPO.COM</caption>
 <tr style="color:#FFFFFF;background:#2E9061">

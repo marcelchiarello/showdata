@@ -242,10 +242,6 @@ NOTA: Ritardo dovuto ad errori nei dati sul server.
 <img src="https://covidrepo.com/RUN_12_05/RUN4/RUN_INTEREGION_18.png">
 
 ## Gli andamenti nazionali - National trends
- <div id="rightImage">
- <a href="https://marcelchiarello.github.io/showdata/RUN_12_05/RUN0/RUN_DATA_ITALIA_01.png" target="_blank"> <img src="https://marcelchiarello.github.io/showdata/RUN_12_05/RUN0/RUN_DATA_ITALIA_01.png" alt="image"/></a>
- </div>
-
 <img src="https://marcelchiarello.github.io/showdata/RUN_12_05/RUN0/RUN_DATA_ITALIA_01.png">
 
 ### Casi totali, ospedalizzati, dimessi, deceduti - Total Cases vs Hospitalized, Recovered, Deaths:

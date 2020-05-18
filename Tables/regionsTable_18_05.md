@@ -15,29 +15,29 @@
 			</tr>
 			<tr>
 				<th>Totali</th>
-				<td align="right"> 3186</td>
-				<td align="right"> 1422</td>
+				<td align="right"> 3193</td>
+				<td align="right"> 1413</td>
 				<td align="right"> 1.08</td>
-				<td align="right"> 385</td>
-				<td align="right"> 1379</td>
+				<td align="right"> 388</td>
+				<td align="right"> 1392</td>
 				<td align="right"> 6</td>
-				<td align="right"> 199</td>
-				<td align="right"> 193</td>
-				<td align="right"> 1223</td>
-				<td align="right"> 57217</td>
+				<td align="right"> 197</td>
+				<td align="right"> 191</td>
+				<td align="right"> 1216</td>
+				<td align="right"> 57897</td>
 			</tr>
 			<tr>
 				<th>Giornalieri (Daily) / Variazione (Delta)</th>
-				<td align="right"> 8</td>
-				<td align="right" style=" color:green; "> -1</td>
-				<td align="right" style=" color:green; "> -0.00</td>
-				<td align="right"> 2</td>
 				<td align="right"> 7</td>
-				<td align="right" style=" color:green; "> -1</td>
-				<td align="right" style=" color:green; "> -3</td>
+				<td align="right" style=" color:green; "> -9</td>
+				<td align="right" style=" color:green; "> -0.01</td>
+				<td align="right"> 3</td>
+				<td align="right"> 13</td>
+				<td align="right"> 0</td>
 				<td align="right" style=" color:green; "> -2</td>
-				<td align="right"> 2</td>
-				<td align="right"> 1545</td>
+				<td align="right" style=" color:green; "> -2</td>
+				<td align="right" style=" color:green; "> -7</td>
+				<td align="right"> 680</td>
 			</tr>
 </table>
 
@@ -59,28 +59,28 @@
 			<tr>
 				<th>Totali</th>
 				<td align="right"> 392</td>
-				<td align="right"> 104</td>
-				<td align="right"> 0.18</td>
+				<td align="right"> 93</td>
+				<td align="right"> 0.17</td>
 				<td align="right"> 27</td>
-				<td align="right"> 261</td>
+				<td align="right"> 272</td>
 				<td align="right"> 1</td>
 				<td align="right"> 30</td>
 				<td align="right"> 29</td>
-				<td align="right"> 74</td>
-				<td align="right"> 22167</td>
+				<td align="right"> 63</td>
+				<td align="right"> 22581</td>
 			</tr>
 			<tr>
 				<th>Giornalieri (Daily) / Variazione (Delta)</th>
-				<td align="right"> 2</td>
-				<td align="right" style=" color:green; "> -9</td>
+				<td align="right"> 0</td>
+				<td align="right" style=" color:green; "> -11</td>
 				<td align="right" style=" color:green; "> -0.02</td>
 				<td align="right"> 0</td>
 				<td align="right"> 11</td>
 				<td align="right"> 0</td>
 				<td align="right"> 0</td>
 				<td align="right"> 0</td>
-				<td align="right" style=" color:green; "> -9</td>
-				<td align="right"> 671</td>
+				<td align="right" style=" color:green; "> -11</td>
+				<td align="right"> 414</td>
 			</tr>
 </table>
 
@@ -102,28 +102,28 @@
 			<tr>
 				<th>Totali</th>
 				<td align="right"> 1151</td>
-				<td align="right"> 422</td>
-				<td align="right"> 0.22</td>
+				<td align="right"> 401</td>
+				<td align="right"> 0.21</td>
 				<td align="right"> 95</td>
-				<td align="right"> 634</td>
+				<td align="right"> 655</td>
 				<td align="right"> 2</td>
-				<td align="right"> 58</td>
-				<td align="right"> 56</td>
-				<td align="right"> 364</td>
-				<td align="right"> 55304</td>
+				<td align="right"> 55</td>
+				<td align="right"> 53</td>
+				<td align="right"> 346</td>
+				<td align="right"> 56167</td>
 			</tr>
 			<tr>
 				<th>Giornalieri (Daily) / Variazione (Delta)</th>
 				<td align="right"> 0</td>
-				<td align="right" style=" color:green; "> -52</td>
-				<td align="right" style=" color:green; "> -0.03</td>
+				<td align="right" style=" color:green; "> -21</td>
+				<td align="right" style=" color:green; "> -0.01</td>
 				<td align="right"> 0</td>
-				<td align="right"> 52</td>
+				<td align="right"> 21</td>
 				<td align="right"> 0</td>
-				<td align="right"> 0</td>
-				<td align="right"> 0</td>
-				<td align="right" style=" color:green; "> -52</td>
-				<td align="right"> 1213</td>
+				<td align="right" style=" color:green; "> -3</td>
+				<td align="right" style=" color:green; "> -3</td>
+				<td align="right" style=" color:green; "> -18</td>
+				<td align="right"> 863</td>
 			</tr>
 </table>
 
@@ -144,29 +144,29 @@
 			</tr>
 			<tr>
 				<th>Totali</th>
-				<td align="right"> 4684</td>
-				<td align="right"> 1696</td>
+				<td align="right"> 4695</td>
+				<td align="right"> 1673</td>
 				<td align="right"> 0.29</td>
-				<td align="right"> 396</td>
-				<td align="right"> 2592</td>
+				<td align="right"> 399</td>
+				<td align="right"> 2623</td>
 				<td align="right"> 17</td>
 				<td align="right"> 359</td>
 				<td align="right"> 342</td>
-				<td align="right"> 1337</td>
-				<td align="right"> 139787</td>
+				<td align="right"> 1314</td>
+				<td align="right"> 143478</td>
 			</tr>
 			<tr>
 				<th>Giornalieri (Daily) / Variazione (Delta)</th>
-				<td align="right"> 16</td>
-				<td align="right" style=" color:green; "> -14</td>
+				<td align="right"> 11</td>
+				<td align="right" style=" color:green; "> -23</td>
 				<td align="right" style=" color:green; "> -0.00</td>
+				<td align="right"> 3</td>
+				<td align="right"> 31</td>
 				<td align="right"> 0</td>
-				<td align="right"> 30</td>
-				<td align="right"> 1</td>
-				<td align="right" style=" color:green; "> -8</td>
-				<td align="right" style=" color:green; "> -9</td>
-				<td align="right" style=" color:green; "> -6</td>
-				<td align="right"> 3526</td>
+				<td align="right"> 0</td>
+				<td align="right"> 0</td>
+				<td align="right" style=" color:green; "> -23</td>
+				<td align="right"> 3691</td>
 			</tr>
 </table>
 
@@ -187,29 +187,29 @@
 			</tr>
 			<tr>
 				<th>Totali</th>
-				<td align="right"> 27232</td>
-				<td align="right"> 5656</td>
-				<td align="right"> 1.27</td>
-				<td align="right"> 3973</td>
-				<td align="right"> 17603</td>
-				<td align="right"> 111</td>
-				<td align="right"> 832</td>
-				<td align="right"> 721</td>
-				<td align="right"> 4824</td>
-				<td align="right"> 261106</td>
+				<td align="right"> 27267</td>
+				<td align="right"> 5525</td>
+				<td align="right"> 1.24</td>
+				<td align="right"> 3986</td>
+				<td align="right"> 17756</td>
+				<td align="right"> 105</td>
+				<td align="right"> 813</td>
+				<td align="right"> 708</td>
+				<td align="right"> 4712</td>
+				<td align="right"> 263888</td>
 			</tr>
 			<tr>
 				<th>Giornalieri (Daily) / Variazione (Delta)</th>
-				<td align="right"> 50</td>
-				<td align="right" style=" color:green; "> -196</td>
-				<td align="right" style=" color:green; "> -0.04</td>
+				<td align="right"> 35</td>
+				<td align="right" style=" color:green; "> -131</td>
+				<td align="right" style=" color:green; "> -0.03</td>
 				<td align="right"> 13</td>
-				<td align="right"> 233</td>
-				<td align="right" style=" color:green; "> -1</td>
-				<td align="right" style=" color:green; "> -20</td>
+				<td align="right"> 153</td>
+				<td align="right" style=" color:green; "> -6</td>
 				<td align="right" style=" color:green; "> -19</td>
-				<td align="right" style=" color:green; "> -176</td>
-				<td align="right"> 2832</td>
+				<td align="right" style=" color:green; "> -13</td>
+				<td align="right" style=" color:green; "> -112</td>
+				<td align="right"> 2782</td>
 			</tr>
 </table>
 
@@ -230,29 +230,29 @@
 			</tr>
 			<tr>
 				<th>Totali</th>
-				<td align="right"> 3191</td>
-				<td align="right"> 654</td>
-				<td align="right"> 0.54</td>
-				<td align="right"> 319</td>
-				<td align="right"> 2218</td>
+				<td align="right"> 3198</td>
+				<td align="right"> 621</td>
+				<td align="right"> 0.51</td>
+				<td align="right"> 320</td>
+				<td align="right"> 2257</td>
 				<td align="right"> 3</td>
-				<td align="right"> 83</td>
-				<td align="right"> 80</td>
-				<td align="right"> 571</td>
-				<td align="right"> 104056</td>
+				<td align="right"> 84</td>
+				<td align="right"> 81</td>
+				<td align="right"> 537</td>
+				<td align="right"> 104874</td>
 			</tr>
 			<tr>
 				<th>Giornalieri (Daily) / Variazione (Delta)</th>
-				<td align="right"> 8</td>
-				<td align="right" style=" color:green; "> -26</td>
-				<td align="right" style=" color:green; "> -0.02</td>
-				<td align="right"> 0</td>
-				<td align="right"> 34</td>
+				<td align="right"> 7</td>
+				<td align="right" style=" color:green; "> -33</td>
+				<td align="right" style=" color:green; "> -0.03</td>
+				<td align="right"> 1</td>
+				<td align="right"> 39</td>
 				<td align="right"> 0</td>
 				<td align="right"> 1</td>
 				<td align="right"> 1</td>
-				<td align="right" style=" color:green; "> -27</td>
-				<td align="right"> 2362</td>
+				<td align="right" style=" color:green; "> -34</td>
+				<td align="right"> 818</td>
 			</tr>
 </table>
 
@@ -273,29 +273,29 @@
 			</tr>
 			<tr>
 				<th>Totali</th>
-				<td align="right"> 7446</td>
-				<td align="right"> 3910</td>
-				<td align="right"> 0.67</td>
-				<td align="right"> 622</td>
-				<td align="right"> 2914</td>
-				<td align="right"> 74</td>
-				<td align="right"> 1224</td>
-				<td align="right"> 1150</td>
-				<td align="right"> 2686</td>
-				<td align="right"> 206166</td>
+				<td align="right"> 7485</td>
+				<td align="right"> 3826</td>
+				<td align="right"> 0.65</td>
+				<td align="right"> 628</td>
+				<td align="right"> 3031</td>
+				<td align="right"> 73</td>
+				<td align="right"> 1210</td>
+				<td align="right"> 1137</td>
+				<td align="right"> 2616</td>
+				<td align="right"> 209472</td>
 			</tr>
 			<tr>
 				<th>Giornalieri (Daily) / Variazione (Delta)</th>
-				<td align="right"> 50</td>
-				<td align="right" style=" color:green; "> -112</td>
-				<td align="right" style=" color:green; "> -0.02</td>
+				<td align="right"> 39</td>
+				<td align="right" style=" color:green; "> -84</td>
+				<td align="right" style=" color:green; "> -0.01</td>
 				<td align="right"> 6</td>
-				<td align="right"> 156</td>
-				<td align="right" style=" color:green; "> -2</td>
-				<td align="right" style=" color:green; "> -8</td>
-				<td align="right" style=" color:green; "> -6</td>
-				<td align="right" style=" color:green; "> -104</td>
-				<td align="right"> 4228</td>
+				<td align="right"> 117</td>
+				<td align="right" style=" color:green; "> -1</td>
+				<td align="right" style=" color:green; "> -14</td>
+				<td align="right" style=" color:green; "> -13</td>
+				<td align="right" style=" color:green; "> -70</td>
+				<td align="right"> 3306</td>
 			</tr>
 </table>
 
@@ -316,29 +316,29 @@
 			</tr>
 			<tr>
 				<th>Totali</th>
-				<td align="right"> 9159</td>
-				<td align="right"> 2456</td>
-				<td align="right"> 1.58</td>
-				<td align="right"> 1355</td>
-				<td align="right"> 5348</td>
-				<td align="right"> 24</td>
-				<td align="right"> 384</td>
+				<td align="right"> 9191</td>
+				<td align="right"> 2339</td>
+				<td align="right"> 1.51</td>
+				<td align="right"> 1367</td>
+				<td align="right"> 5485</td>
+				<td align="right"> 23</td>
+				<td align="right"> 383</td>
 				<td align="right"> 360</td>
-				<td align="right"> 2072</td>
-				<td align="right"> 80154</td>
+				<td align="right"> 1956</td>
+				<td align="right"> 81485</td>
 			</tr>
 			<tr>
 				<th>Giornalieri (Daily) / Variazione (Delta)</th>
-				<td align="right"> 48</td>
-				<td align="right" style=" color:green; "> -77</td>
-				<td align="right" style=" color:green; "> -0.05</td>
-				<td align="right"> 9</td>
-				<td align="right"> 116</td>
-				<td align="right" style=" color:green; "> -2</td>
-				<td align="right" style=" color:green; "> -11</td>
-				<td align="right" style=" color:green; "> -9</td>
-				<td align="right" style=" color:green; "> -66</td>
-				<td align="right"> 2086</td>
+				<td align="right"> 32</td>
+				<td align="right" style=" color:green; "> -117</td>
+				<td align="right" style=" color:green; "> -0.08</td>
+				<td align="right"> 12</td>
+				<td align="right"> 137</td>
+				<td align="right" style=" color:green; "> -1</td>
+				<td align="right" style=" color:green; "> -1</td>
+				<td align="right"> 0</td>
+				<td align="right" style=" color:green; "> -116</td>
+				<td align="right"> 1331</td>
 			</tr>
 </table>
 
@@ -359,29 +359,29 @@
 			</tr>
 			<tr>
 				<th>Totali</th>
-				<td align="right"> 84844</td>
-				<td align="right"> 27430</td>
-				<td align="right"> 2.73</td>
-				<td align="right"> 15519</td>
-				<td align="right"> 41895</td>
-				<td align="right"> 255</td>
-				<td align="right"> 4735</td>
-				<td align="right"> 4480</td>
-				<td align="right"> 22695</td>
-				<td align="right"> 576359</td>
+				<td align="right"> 85019</td>
+				<td align="right"> 27073</td>
+				<td align="right"> 2.69</td>
+				<td align="right"> 15543</td>
+				<td align="right"> 42403</td>
+				<td align="right"> 252</td>
+				<td align="right"> 4734</td>
+				<td align="right"> 4482</td>
+				<td align="right"> 22339</td>
+				<td align="right"> 581437</td>
 			</tr>
 			<tr>
 				<th>Giornalieri (Daily) / Variazione (Delta)</th>
-				<td align="right"> 326</td>
-				<td align="right" style=" color:green; "> -249</td>
-				<td align="right" style=" color:green; "> -0.02</td>
-				<td align="right"> 69</td>
-				<td align="right"> 506</td>
-				<td align="right" style=" color:green; "> -13</td>
-				<td align="right" style=" color:green; "> -54</td>
-				<td align="right" style=" color:green; "> -41</td>
-				<td align="right" style=" color:green; "> -195</td>
-				<td align="right"> 11809</td>
+				<td align="right"> 175</td>
+				<td align="right" style=" color:green; "> -357</td>
+				<td align="right" style=" color:green; "> -0.04</td>
+				<td align="right"> 24</td>
+				<td align="right"> 508</td>
+				<td align="right" style=" color:green; "> -3</td>
+				<td align="right" style=" color:green; "> -1</td>
+				<td align="right"> 2</td>
+				<td align="right" style=" color:green; "> -356</td>
+				<td align="right"> 5078</td>
 			</tr>
 </table>
 
@@ -402,29 +402,29 @@
 			</tr>
 			<tr>
 				<th>Totali</th>
-				<td align="right"> 6667</td>
-				<td align="right"> 2565</td>
-				<td align="right"> 1.68</td>
+				<td align="right"> 6678</td>
+				<td align="right"> 2315</td>
+				<td align="right"> 1.52</td>
 				<td align="right"> 984</td>
-				<td align="right"> 3118</td>
-				<td align="right"> 18</td>
-				<td align="right"> 169</td>
-				<td align="right"> 151</td>
-				<td align="right"> 2396</td>
-				<td align="right"> 88656</td>
+				<td align="right"> 3379</td>
+				<td align="right"> 17</td>
+				<td align="right"> 173</td>
+				<td align="right"> 156</td>
+				<td align="right"> 2142</td>
+				<td align="right"> 89085</td>
 			</tr>
 			<tr>
 				<th>Giornalieri (Daily) / Variazione (Delta)</th>
-				<td align="right"> 25</td>
-				<td align="right" style=" color:green; "> -92</td>
-				<td align="right" style=" color:green; "> -0.06</td>
-				<td align="right"> 2</td>
-				<td align="right"> 115</td>
-				<td align="right"> 1</td>
-				<td align="right" style=" color:green; "> -2</td>
-				<td align="right" style=" color:green; "> -3</td>
-				<td align="right" style=" color:green; "> -90</td>
-				<td align="right"> 1445</td>
+				<td align="right"> 11</td>
+				<td align="right" style=" color:green; "> -250</td>
+				<td align="right" style=" color:green; "> -0.16</td>
+				<td align="right"> 0</td>
+				<td align="right"> 261</td>
+				<td align="right" style=" color:green; "> -1</td>
+				<td align="right"> 4</td>
+				<td align="right"> 5</td>
+				<td align="right" style=" color:green; "> -254</td>
+				<td align="right"> 429</td>
 			</tr>
 </table>
 
@@ -445,29 +445,29 @@
 			</tr>
 			<tr>
 				<th>Totali</th>
-				<td align="right"> 411</td>
-				<td align="right"> 216</td>
+				<td align="right"> 422</td>
+				<td align="right"> 217</td>
 				<td align="right"> 0.71</td>
 				<td align="right"> 22</td>
-				<td align="right"> 173</td>
+				<td align="right"> 183</td>
 				<td align="right"> 2</td>
-				<td align="right"> 13</td>
 				<td align="right"> 11</td>
-				<td align="right"> 203</td>
-				<td align="right"> 11085</td>
+				<td align="right"> 9</td>
+				<td align="right"> 206</td>
+				<td align="right"> 11514</td>
 			</tr>
 			<tr>
 				<th>Giornalieri (Daily) / Variazione (Delta)</th>
-				<td align="right"> 1</td>
+				<td align="right"> 11</td>
 				<td align="right"> 1</td>
 				<td align="right"> 0.00</td>
 				<td align="right"> 0</td>
+				<td align="right"> 10</td>
 				<td align="right"> 0</td>
-				<td align="right"> 0</td>
-				<td align="right"> 3</td>
-				<td align="right"> 3</td>
 				<td align="right" style=" color:green; "> -2</td>
-				<td align="right"> 226</td>
+				<td align="right" style=" color:green; "> -2</td>
+				<td align="right"> 3</td>
+				<td align="right"> 429</td>
 			</tr>
 </table>
 
@@ -488,29 +488,29 @@
 			</tr>
 			<tr>
 				<th>Totali</th>
-				<td align="right"> 2581</td>
-				<td align="right"> 314</td>
-				<td align="right"> 0.59</td>
-				<td align="right"> 290</td>
-				<td align="right"> 1977</td>
-				<td align="right"> 5</td>
-				<td align="right"> 55</td>
-				<td align="right"> 50</td>
-				<td align="right"> 259</td>
-				<td align="right"> 54428</td>
+				<td align="right"> 2582</td>
+				<td align="right"> 307</td>
+				<td align="right"> 0.58</td>
+				<td align="right"> 291</td>
+				<td align="right"> 1984</td>
+				<td align="right"> 6</td>
+				<td align="right"> 58</td>
+				<td align="right"> 52</td>
+				<td align="right"> 249</td>
+				<td align="right"> 54861</td>
 			</tr>
 			<tr>
 				<th>Giornalieri (Daily) / Variazione (Delta)</th>
+				<td align="right"> 1</td>
+				<td align="right" style=" color:green; "> -7</td>
+				<td align="right" style=" color:green; "> -0.01</td>
+				<td align="right"> 1</td>
+				<td align="right"> 7</td>
+				<td align="right"> 1</td>
 				<td align="right"> 3</td>
-				<td align="right" style=" color:green; "> -29</td>
-				<td align="right" style=" color:green; "> -0.05</td>
-				<td align="right"> 0</td>
-				<td align="right"> 32</td>
-				<td align="right"> 0</td>
 				<td align="right"> 2</td>
-				<td align="right"> 2</td>
-				<td align="right" style=" color:green; "> -31</td>
-				<td align="right"> 725</td>
+				<td align="right" style=" color:green; "> -10</td>
+				<td align="right"> 433</td>
 			</tr>
 </table>
 
@@ -531,29 +531,29 @@
 			</tr>
 			<tr>
 				<th>Totali</th>
-				<td align="right"> 4338</td>
-				<td align="right"> 301</td>
-				<td align="right"> 0.56</td>
+				<td align="right"> 4351</td>
+				<td align="right"> 248</td>
+				<td align="right"> 0.46</td>
 				<td align="right"> 453</td>
-				<td align="right"> 3584</td>
+				<td align="right"> 3650</td>
 				<td align="right"> 8</td>
 				<td align="right"> 49</td>
 				<td align="right"> 41</td>
-				<td align="right"> 252</td>
-				<td align="right"> 69659</td>
+				<td align="right"> 199</td>
+				<td align="right"> 70173</td>
 			</tr>
 			<tr>
 				<th>Giornalieri (Daily) / Variazione (Delta)</th>
-				<td align="right"> 12</td>
-				<td align="right" style=" color:green; "> -44</td>
-				<td align="right" style=" color:green; "> -0.08</td>
+				<td align="right"> 13</td>
+				<td align="right" style=" color:green; "> -53</td>
+				<td align="right" style=" color:green; "> -0.10</td>
 				<td align="right"> 0</td>
-				<td align="right"> 56</td>
+				<td align="right"> 66</td>
 				<td align="right"> 0</td>
-				<td align="right" style=" color:green; "> -3</td>
-				<td align="right" style=" color:green; "> -3</td>
-				<td align="right" style=" color:green; "> -41</td>
-				<td align="right"> 4276</td>
+				<td align="right"> 0</td>
+				<td align="right"> 0</td>
+				<td align="right" style=" color:green; "> -53</td>
+				<td align="right"> 514</td>
 			</tr>
 </table>
 
@@ -574,29 +574,29 @@
 			</tr>
 			<tr>
 				<th>Totali</th>
-				<td align="right"> 29547</td>
-				<td align="right"> 10239</td>
-				<td align="right"> 2.35</td>
-				<td align="right"> 3612</td>
-				<td align="right"> 15696</td>
-				<td align="right"> 101</td>
-				<td align="right"> 1721</td>
-				<td align="right"> 1620</td>
-				<td align="right"> 8518</td>
-				<td align="right"> 249371</td>
+				<td align="right"> 29619</td>
+				<td align="right"> 9874</td>
+				<td align="right"> 2.27</td>
+				<td align="right"> 3632</td>
+				<td align="right"> 16113</td>
+				<td align="right"> 99</td>
+				<td align="right"> 1688</td>
+				<td align="right"> 1589</td>
+				<td align="right"> 8186</td>
+				<td align="right"> 253479</td>
 			</tr>
 			<tr>
 				<th>Giornalieri (Daily) / Variazione (Delta)</th>
-				<td align="right"> 64</td>
-				<td align="right" style=" color:green; "> -463</td>
-				<td align="right" style=" color:green; "> -0.11</td>
-				<td align="right"> 18</td>
-				<td align="right"> 509</td>
-				<td align="right"> 1</td>
-				<td align="right"> 59</td>
-				<td align="right"> 58</td>
-				<td align="right" style=" color:green; "> -522</td>
-				<td align="right"> 4296</td>
+				<td align="right"> 72</td>
+				<td align="right" style=" color:green; "> -365</td>
+				<td align="right" style=" color:green; "> -0.08</td>
+				<td align="right"> 20</td>
+				<td align="right"> 417</td>
+				<td align="right" style=" color:green; "> -2</td>
+				<td align="right" style=" color:green; "> -33</td>
+				<td align="right" style=" color:green; "> -31</td>
+				<td align="right" style=" color:green; "> -332</td>
+				<td align="right"> 4108</td>
 			</tr>
 </table>
 
@@ -617,29 +617,29 @@
 			</tr>
 			<tr>
 				<th>Totali</th>
-				<td align="right"> 4379</td>
-				<td align="right"> 2017</td>
+				<td align="right"> 4386</td>
+				<td align="right"> 1995</td>
 				<td align="right"> 0.50</td>
-				<td align="right"> 470</td>
-				<td align="right"> 1892</td>
-				<td align="right"> 21</td>
-				<td align="right"> 284</td>
-				<td align="right"> 263</td>
-				<td align="right"> 1733</td>
-				<td align="right"> 91035</td>
+				<td align="right"> 471</td>
+				<td align="right"> 1920</td>
+				<td align="right"> 22</td>
+				<td align="right"> 276</td>
+				<td align="right"> 254</td>
+				<td align="right"> 1719</td>
+				<td align="right"> 91901</td>
 			</tr>
 			<tr>
 				<th>Giornalieri (Daily) / Variazione (Delta)</th>
-				<td align="right"> 5</td>
-				<td align="right" style=" color:green; "> -87</td>
-				<td align="right" style=" color:green; "> -0.02</td>
 				<td align="right"> 7</td>
-				<td align="right"> 85</td>
-				<td align="right" style=" color:green; "> -1</td>
-				<td align="right" style=" color:green; "> -10</td>
+				<td align="right" style=" color:green; "> -22</td>
+				<td align="right" style=" color:green; "> -0.01</td>
+				<td align="right"> 1</td>
+				<td align="right"> 28</td>
+				<td align="right"> 1</td>
+				<td align="right" style=" color:green; "> -8</td>
 				<td align="right" style=" color:green; "> -9</td>
-				<td align="right" style=" color:green; "> -77</td>
-				<td align="right"> 1424</td>
+				<td align="right" style=" color:green; "> -14</td>
+				<td align="right"> 866</td>
 			</tr>
 </table>
 
@@ -661,28 +661,28 @@
 			<tr>
 				<th>Totali</th>
 				<td align="right"> 1353</td>
-				<td align="right"> 405</td>
-				<td align="right"> 0.25</td>
-				<td align="right"> 125</td>
-				<td align="right"> 823</td>
+				<td align="right"> 380</td>
+				<td align="right"> 0.23</td>
+				<td align="right"> 126</td>
+				<td align="right"> 847</td>
 				<td align="right"> 10</td>
-				<td align="right"> 86</td>
-				<td align="right"> 76</td>
-				<td align="right"> 319</td>
-				<td align="right"> 42249</td>
+				<td align="right"> 82</td>
+				<td align="right"> 72</td>
+				<td align="right"> 298</td>
+				<td align="right"> 43387</td>
 			</tr>
 			<tr>
 				<th>Giornalieri (Daily) / Variazione (Delta)</th>
-				<td align="right"> 1</td>
-				<td align="right" style=" color:green; "> -10</td>
-				<td align="right" style=" color:green; "> -0.01</td>
 				<td align="right"> 0</td>
-				<td align="right"> 11</td>
+				<td align="right" style=" color:green; "> -25</td>
+				<td align="right" style=" color:green; "> -0.02</td>
+				<td align="right"> 1</td>
+				<td align="right"> 24</td>
 				<td align="right"> 0</td>
-				<td align="right"> 1</td>
-				<td align="right"> 1</td>
-				<td align="right" style=" color:green; "> -11</td>
-				<td align="right"> 992</td>
+				<td align="right" style=" color:green; "> -4</td>
+				<td align="right" style=" color:green; "> -4</td>
+				<td align="right" style=" color:green; "> -21</td>
+				<td align="right"> 1138</td>
 			</tr>
 </table>
 
@@ -703,29 +703,29 @@
 			</tr>
 			<tr>
 				<th>Totali</th>
-				<td align="right"> 3388</td>
-				<td align="right"> 1555</td>
+				<td align="right"> 3395</td>
+				<td align="right"> 1539</td>
 				<td align="right"> 0.31</td>
 				<td align="right"> 267</td>
-				<td align="right"> 1566</td>
+				<td align="right"> 1589</td>
 				<td align="right"> 13</td>
-				<td align="right"> 158</td>
-				<td align="right"> 145</td>
-				<td align="right"> 1397</td>
-				<td align="right"> 117426</td>
+				<td align="right"> 150</td>
+				<td align="right"> 137</td>
+				<td align="right"> 1389</td>
+				<td align="right"> 118859</td>
 			</tr>
 			<tr>
 				<th>Giornalieri (Daily) / Variazione (Delta)</th>
-				<td align="right"> 6</td>
-				<td align="right" style=" color:green; "> -104</td>
-				<td align="right" style=" color:green; "> -0.02</td>
-				<td align="right"> 2</td>
-				<td align="right"> 108</td>
-				<td align="right"> 1</td>
-				<td align="right" style=" color:green; "> -13</td>
-				<td align="right" style=" color:green; "> -14</td>
-				<td align="right" style=" color:green; "> -91</td>
-				<td align="right"> 2463</td>
+				<td align="right"> 7</td>
+				<td align="right" style=" color:green; "> -16</td>
+				<td align="right" style=" color:green; "> -0.00</td>
+				<td align="right"> 0</td>
+				<td align="right"> 23</td>
+				<td align="right"> 0</td>
+				<td align="right" style=" color:green; "> -8</td>
+				<td align="right" style=" color:green; "> -8</td>
+				<td align="right" style=" color:green; "> -8</td>
+				<td align="right"> 1433</td>
 			</tr>
 </table>
 
@@ -746,29 +746,29 @@
 			</tr>
 			<tr>
 				<th>Totali</th>
-				<td align="right"> 9948</td>
-				<td align="right"> 2802</td>
-				<td align="right"> 0.75</td>
-				<td align="right"> 984</td>
-				<td align="right"> 6162</td>
-				<td align="right"> 67</td>
-				<td align="right"> 281</td>
-				<td align="right"> 214</td>
-				<td align="right"> 2521</td>
-				<td align="right"> 204022</td>
+				<td align="right"> 9961</td>
+				<td align="right"> 2573</td>
+				<td align="right"> 0.69</td>
+				<td align="right"> 989</td>
+				<td align="right"> 6399</td>
+				<td align="right"> 66</td>
+				<td align="right"> 263</td>
+				<td align="right"> 197</td>
+				<td align="right"> 2310</td>
+				<td align="right"> 205201</td>
 			</tr>
 			<tr>
 				<th>Giornalieri (Daily) / Variazione (Delta)</th>
-				<td align="right"> 35</td>
-				<td align="right" style=" color:green; "> -141</td>
-				<td align="right" style=" color:green; "> -0.04</td>
+				<td align="right"> 13</td>
+				<td align="right" style=" color:green; "> -229</td>
+				<td align="right" style=" color:green; "> -0.06</td>
 				<td align="right"> 5</td>
-				<td align="right"> 171</td>
-				<td align="right"> 1</td>
-				<td align="right" style=" color:green; "> -19</td>
-				<td align="right" style=" color:green; "> -20</td>
-				<td align="right" style=" color:green; "> -122</td>
-				<td align="right"> 3319</td>
+				<td align="right"> 237</td>
+				<td align="right" style=" color:green; "> -1</td>
+				<td align="right" style=" color:green; "> -18</td>
+				<td align="right" style=" color:green; "> -17</td>
+				<td align="right" style=" color:green; "> -211</td>
+				<td align="right"> 1179</td>
 			</tr>
 </table>
 
@@ -790,28 +790,28 @@
 			<tr>
 				<th>Totali</th>
 				<td align="right"> 1424</td>
-				<td align="right"> 78</td>
+				<td align="right"> 77</td>
 				<td align="right"> 0.09</td>
 				<td align="right"> 73</td>
-				<td align="right"> 1273</td>
+				<td align="right"> 1274</td>
 				<td align="right"> 2</td>
-				<td align="right"> 27</td>
-				<td align="right"> 25</td>
+				<td align="right"> 26</td>
+				<td align="right"> 24</td>
 				<td align="right"> 51</td>
-				<td align="right"> 55956</td>
+				<td align="right"> 56279</td>
 			</tr>
 			<tr>
 				<th>Giornalieri (Daily) / Variazione (Delta)</th>
-				<td align="right"> 2</td>
-				<td align="right" style=" color:green; "> -3</td>
+				<td align="right"> 0</td>
+				<td align="right" style=" color:green; "> -1</td>
 				<td align="right" style=" color:green; "> -0.00</td>
 				<td align="right"> 0</td>
-				<td align="right"> 5</td>
+				<td align="right"> 1</td>
 				<td align="right"> 0</td>
+				<td align="right" style=" color:green; "> -1</td>
+				<td align="right" style=" color:green; "> -1</td>
 				<td align="right"> 0</td>
-				<td align="right"> 0</td>
-				<td align="right" style=" color:green; "> -3</td>
-				<td align="right"> 786</td>
+				<td align="right"> 323</td>
 			</tr>
 </table>
 
@@ -832,29 +832,29 @@
 			</tr>
 			<tr>
 				<th>Totali</th>
-				<td align="right"> 1173</td>
-				<td align="right"> 68</td>
-				<td align="right"> 0.54</td>
+				<td align="right"> 1174</td>
+				<td align="right"> 60</td>
+				<td align="right"> 0.48</td>
 				<td align="right"> 143</td>
-				<td align="right"> 962</td>
+				<td align="right"> 971</td>
 				<td align="right"> 0</td>
-				<td align="right"> 31</td>
-				<td align="right"> 31</td>
-				<td align="right"> 37</td>
-				<td align="right"> 12169</td>
+				<td align="right"> 30</td>
+				<td align="right"> 30</td>
+				<td align="right"> 30</td>
+				<td align="right"> 12327</td>
 			</tr>
 			<tr>
 				<th>Giornalieri (Daily) / Variazione (Delta)</th>
-				<td align="right"> 0</td>
-				<td align="right" style=" color:green; "> -7</td>
-				<td align="right" style=" color:green; "> -0.06</td>
 				<td align="right"> 1</td>
-				<td align="right"> 6</td>
+				<td align="right" style=" color:green; "> -8</td>
+				<td align="right" style=" color:green; "> -0.06</td>
 				<td align="right"> 0</td>
-				<td align="right" style=" color:green; "> -2</td>
-				<td align="right" style=" color:green; "> -2</td>
-				<td align="right" style=" color:green; "> -5</td>
-				<td align="right"> 334</td>
+				<td align="right"> 9</td>
+				<td align="right"> 0</td>
+				<td align="right" style=" color:green; "> -1</td>
+				<td align="right" style=" color:green; "> -1</td>
+				<td align="right" style=" color:green; "> -7</td>
+				<td align="right"> 158</td>
 			</tr>
 </table>
 
@@ -875,29 +875,29 @@
 			</tr>
 			<tr>
 				<th>Totali</th>
-				<td align="right"> 18941</td>
-				<td align="right"> 4041</td>
+				<td align="right"> 18950</td>
+				<td align="right"> 4004</td>
 				<td align="right"> 0.82</td>
-				<td align="right"> 1794</td>
-				<td align="right"> 13106</td>
+				<td align="right"> 1803</td>
+				<td align="right"> 13143</td>
 				<td align="right"> 22</td>
-				<td align="right"> 295</td>
-				<td align="right"> 273</td>
-				<td align="right"> 3746</td>
-				<td align="right"> 506588</td>
+				<td align="right"> 285</td>
+				<td align="right"> 263</td>
+				<td align="right"> 3719</td>
+				<td align="right"> 513021</td>
 			</tr>
 			<tr>
 				<th>Giornalieri (Daily) / Variazione (Delta)</th>
-				<td align="right"> 13</td>
-				<td align="right" style=" color:green; "> -121</td>
-				<td align="right" style=" color:green; "> -0.02</td>
-				<td align="right"> 11</td>
-				<td align="right"> 123</td>
-				<td align="right"> 2</td>
-				<td align="right" style=" color:green; "> -15</td>
-				<td align="right" style=" color:green; "> -17</td>
-				<td align="right" style=" color:green; "> -106</td>
-				<td align="right"> 9543</td>
+				<td align="right"> 9</td>
+				<td align="right" style=" color:green; "> -37</td>
+				<td align="right" style=" color:green; "> -0.01</td>
+				<td align="right"> 9</td>
+				<td align="right"> 37</td>
+				<td align="right"> 0</td>
+				<td align="right" style=" color:green; "> -10</td>
+				<td align="right" style=" color:green; "> -10</td>
+				<td align="right" style=" color:green; "> -27</td>
+				<td align="right"> 6433</td>
 			</tr>
 </table>
 

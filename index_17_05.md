@@ -1,11 +1,11 @@
 <!-- start -->
-### [Previous Day](/index_17_05.md) | <a href="https://marcelchiarello.github.io/showdata/">COVIDREPO.COM</a>
-## LAST DATA 18/05/2020 - 18:17 -- Valori tabelle aggiornati - Grafici e report in aggiornamento
+### [Previous Day](/index_16_05.md) | <a href="https://marcelchiarello.github.io/showdata/">COVIDREPO.COM</a>
+## LAST DATA 17/05/2020 - 17:58 -- Grafici e report aggiornati
 
 <table style=" color:black; font-size:12; font-family:arial; text-align:center; " cellpadding="2.5" cellspacing="0" border="1" bordercolor="black" bgcolor="#FFFFFF">
 <caption>ITALIA - COVIDREPO.COM</caption>
 <tr style="color:#FFFFFF;background:#2E9061">
-<th>ITALIA 18_05</th>
+<th>ITALIA 17_05</th>
 <th>Casi</th>
 <th>Attualmente positivi</th>
 <th>Positivi ogni 1000 abitanti</th>
@@ -61,7 +61,7 @@
 <table style=" color:black; font-size:12; font-family:arial; text-align:center; " cellpadding="2.5" cellspacing="0" border="1" bordercolor="black" bgcolor="#FFFFFF">
 <caption>LOMBARDIA</caption>
 <tr style="color:#FFFFFF;background:#2E9061">
-<th>LOMBARDIA 18_05</th>
+<th>LOMBARDIA 17_05</th>
 <th>Casi</th>
 <th>Attualmente positivi</th>
 <th>Positivi ogni 1000 abitanti</th>
@@ -104,7 +104,7 @@
 <table style=" color:black; font-size:12; font-family:arial; text-align:center; " cellpadding="2.5" cellspacing="0" border="1" bordercolor="black" bgcolor="#FFFFFF">
 <caption>PIEMONTE</caption>
 <tr style="color:#FFFFFF;background:#2E9061">
-<th>PIEMONTE 18_05</th>
+<th>PIEMONTE 17_05</th>
 <th>Casi</th>
 <th>Attualmente positivi</th>
 <th>Positivi ogni 1000 abitanti</th>
@@ -147,7 +147,7 @@
 <table style=" color:black; font-size:12; font-family:arial; text-align:center; " cellpadding="2.5" cellspacing="0" border="1" bordercolor="black" bgcolor="#FFFFFF">
 <caption>VENETO</caption>
 <tr style="color:#FFFFFF;background:#2E9061">
-<th>VENETO 18_05</th>
+<th>VENETO 17_05</th>
 <th>Casi</th>
 <th>Attualmente positivi</th>
 <th>Positivi ogni 1000 abitanti</th>
@@ -190,7 +190,7 @@
 <table style=" color:black; font-size:12; font-family:arial; text-align:center; " cellpadding="2.5" cellspacing="0" border="1" bordercolor="black" bgcolor="#FFFFFF">
 <caption>PUGLIA</caption>
 <tr style="color:#FFFFFF;background:#2E9061">
-<th>PUGLIA 18_05</th>
+<th>PUGLIA 17_05</th>
 <th>Casi</th>
 <th>Attualmente positivi</th>
 <th>Positivi ogni 1000 abitanti</th>
@@ -230,7 +230,7 @@
 </tr>
 </table>
 
-- [Tutte le regoni(All regions)](/Tables/regionsTable_18_05.md)
+- [Tutte le regoni(All regions)](/Tables/regionsTable_17_05.md)
 
 ---
 

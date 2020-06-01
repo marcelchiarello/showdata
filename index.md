@@ -324,7 +324,6 @@ email:
 For any question or clarification regarding the data or graphs reported, <a href="mailto:marcello.chiarello@outlook.com">send me an email.</a>
 
 
-
 ### Data Source
 
 - [PROTEZIONE CIVILE ITALIANA, GITHUB DATASET](https://github.com/pcm-dpc/COVID-19)

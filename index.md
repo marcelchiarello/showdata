@@ -1,5 +1,5 @@
 <!-- start -->
-# Temporarily suspended updates
+# Temporarily suspended updates 
 ### [Previous Day](/index_14_06.md) | <a href="https://marcelchiarello.github.io/showdata/">COVIDREPO.COM</a>
 ## LAST DATA 16/06/2020 - 20:15 -- Grafici e report aggiornati
 
